@@ -1,0 +1,37 @@
+# Navigation menu
+---
+- title: Digital Service Standard
+  linkto: /digital-standard
+  alt: Digital Service Standard
+
+- title: Service Design Guide
+  linkto: /service-design
+  alt: Service Design Guide
+  subitems:
+    - title: Overview
+      linkto: /service-design/
+      alt: Overview
+    - title: Discovery
+      linkto: /service-design/discovery
+      alt: Discovery
+    - title: Alpha
+      linkto: /service-design/alpha
+      alt: Alpha
+    - title: Beta
+      linkto: /service-design/beta
+      alt: Beta
+    - title: Live
+      linkto: /service-design/live
+      alt: Live
+    - title: Retirement
+      linkto: /service-design/retirement
+      alt: Retirement
+
+- title: Veteran Tools APIs
+  linkto: /apis
+  alt: Veteran Tools APIs
+  title-short: APIs
+
+- title: Contact
+  linkto: /contact
+  alt: Get in touch

@@ -1,0 +1,35 @@
+<footer class="usa-footer usa-footer-medium" role="contentinfo">
+
+  <!--div class="usa-grid usa-footer-return-to-top">
+    <a href="#">Return to top</a>
+  </div-->
+
+  <div class="usa-footer-secondary_section">
+    <div class="usa-grid">
+
+      <div class="footer-half usa-footer-logo">
+        <a href="http://department-of-veterans-affairs.github.io/dsva/"
+          title="Go to {{ site.footer.org-title }}"
+          aria-label="Go to {{ site.footer.org-title }}"
+          class="footer-logo-text"
+          target="_blank">
+          <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="Go to {{ site.footer.org-title }}" /> {{ site.footer.org-title }}
+        </a>
+      </div>
+
+      <div class="footer-half">
+        <ul class="usa-unstyled-list usa-nav-secondary-links">
+
+{% for item in site.data.footer %}
+
+          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ site.baseurl }}{{ item.linkto }}"{% endif %}{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a></li>
+
+          
+
+{% endfor %}      
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</footer>

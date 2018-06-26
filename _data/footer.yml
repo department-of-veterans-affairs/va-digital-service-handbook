@@ -1,0 +1,19 @@
+# Footer menu
+---
+- title: Help
+  linkto: /help
+  alt: Get help
+
+- title: Contact
+  linkto: /contact
+  alt: Contact us
+
+- title: Github
+  linkto: https://github.com/department-of-veterans-affairs/va-digital-service-handbook
+  alt: See the Handbook on Github
+  target: _blank
+
+- title: Privacy
+  linkto: https://www.va.gov/privacy/
+  alt: Go to VA Privacy Policy
+  target: _blank

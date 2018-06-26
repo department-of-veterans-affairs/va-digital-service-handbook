@@ -1,0 +1,532 @@
+@charset "UTF-8";
+
+@import '_variables.scss';
+@import 'node_modules/uswds/src/stylesheets/uswds.scss';
+//@import '_list-group.scss';
+
+
+/* ===================================
+   Reset mobile headings
+====================================== */
+h1 {
+  font-size: 2.5rem;
+  @include media($medium-screen) {
+    font-size: 3rem;
+  }
+}
+h2 {
+  font-size: 2.25rem;
+  @include media($medium-screen) {
+    font-size: 2.5rem;
+  }
+}
+h3 {
+  font-size: 1.8rem;
+  @include media($medium-screen) {
+    font-size: 2rem;
+  }
+}
+h4 {
+  font-size: 1.7rem;
+  font-family: $font-sans;
+}
+
+
+/* ===================================
+   Updated USWDS header to use a logo image.
+   Used part of solution from this issue: https://github.com/uswds/uswds/issues/1594
+====================================== */
+
+// Vertically align .usa-nav-secondary with lockup
+.usa-header-extended {
+  border-bottom: none;
+}
+.usa-header-extended .usa-nav {
+  border-top: none;
+}
+.usa-header-extended .usa-nav-secondary {
+  @include media($nav-width) {
+    position: absolute;
+    top: -6.8rem;
+  }
+}
+.usa-logo a {
+  color: $color-blue-darkest;
+  font-size: 1.65rem;
+  display: flex;
+  align-items: center;
+  @include media($nav-width) {
+    font-size: 2rem;
+  }
+}
+.usa-logo img {
+  width: 2.25rem;
+  margin-right: 1rem;
+  @include media($nav-width) {
+    width: 2.75rem;
+    margin: 0 1rem 0 0;
+  }
+}
+
+// Menus - increase font size of menu + submenus
+.usa-nav-primary>li>a,
+.usa-nav-primary button,
+.usa-nav-submenu>li {
+  font-size: 1.6rem;
+}
+
+// Menus - change font color for non-mobile
+.usa-nav-primary>li>a,
+.usa-nav-primary button {
+  @include media($nav-width) {
+    color: $color-blue-darker;
+    //letter-spacing: .2px;
+  }
+}
+
+// Menus - change arrow colors for non-mobile
+.usa-nav-primary button[aria-expanded=false] {
+  @include media($nav-width) {
+    background-image: url(../img/angle-arrow-down-primary.png);
+    background-image: url(../img/angle-arrow-down-primary.svg);
+  }
+}
+// TODO - create arrow up white
+.usa-nav-primary button[aria-expanded=true] {
+  @include media($nav-width) {
+    background-image: url(../img/angle-arrow-up-primary.png);
+    background-image: url(../img/angle-arrow-up-primary.svg);
+  }
+}
+
+// Menus - change color of dropdown button states + reduce border height
+.usa-nav-primary .usa-nav-link:hover span {
+  @include media($nav-width) {
+    color: $color-blue-darker;
+    border-bottom: 0.5rem solid $color-blue-darker;
+    padding-bottom: 0.8rem;;
+  }
+}
+.usa-header-extended .usa-nav-primary button[aria-expanded=true] span {
+  @include media($nav-width) {
+    color: $color-white;
+    border-bottom-width: 0.5rem;
+    padding-bottom: 0.8rem;
+  }
+}
+
+// Menus - change active state color + mobile weight
+// TODO - view selected state on mobile
+.usa-header-extended .usa-nav-link span.active {
+  font-weight: bold;
+  @include media($nav-width) {
+    border-bottom: 0.5rem solid $color-red;
+    padding-bottom: 0.8rem;
+  }
+}
+/* submenu selected state
+.usa-nav-submenu span.active {
+  font-weight: bold;
+  @include media($nav-width) {
+    font-weight: normal;
+  }
+}
+*/
+
+// Menu button - change color and weight
+.usa-menu-btn {
+  //background-color: $color-blue-darker;
+  background-color: $color-cool-blue-light;
+  font-weight: bold;
+  color: $color-white;
+  //color: $color-blue-darkest;
+}
+
+.usa-nav-submenu {
+  //border: 3px solid red;
+  //https://www.cssmatic.com/box-shadow
+}
+
+
+
+/* ===================================
+   Update USWDS footer
+====================================== */
+
+.usa-footer-secondary_section {
+  background-color: $color-blue-darkest;
+  padding: 3rem 0 3rem 0;
+  @include media($medium-screen) {
+    padding: 2.25rem 0 1.75rem 0;
+  }
+}
+.footer-half {
+  float: left;
+  display: block;
+  width: 100%;
+  @include media($medium-screen) {
+    margin-right: 4.82916%;
+    width: 47.58542%;
+  }
+}
+.footer-half:last-child {
+  margin-right: 0;
+}
+.usa-footer-medium .usa-footer-logo {
+   padding-top: 0;
+   padding-bottom: 0;
+}
+.usa-footer-logo {
+  img {
+    width: 3.75rem;
+    margin-right: .5rem;
+    @include media($medium-screen) {
+      width: 4.75rem;
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+.usa-nav-secondary-links {
+  margin-top: 0;
+  @include media($medium-screen) {
+    float: right;
+  }
+}
+.usa-nav-secondary-links li {
+  display: block;
+  line-height: 2.25rem;
+  padding-top: 2rem;
+  padding-left: 0;
+  @include media($medium-screen) {
+    display: inline;
+    padding-top: 0;
+    padding-left: 3rem;
+  }
+}
+// Remove USWDS pipe
+.usa-nav-secondary-links li:not(:last-child)::after {
+  content: none;
+  padding-left: 0;
+}
+.usa-footer-secondary_section {
+  a {
+    font-size: 1.5rem;
+    color: $color-white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $color-white;
+    text-decoration: underline;
+  }
+}
+
+
+
+/* ===================================
+   Home page
+====================================== */
+// Update USWDS hero styles
+.usa-hero {
+  background-color: #112e51;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  background-image: url(../../assets/img/hero.png);
+  background-position: center;
+  background-size: cover;
+
+  @include media($medium-screen) {
+    background-position: 10% 50%;
+    background-size: 25%;
+    background-repeat: no-repeat;
+  }
+}
+.usa-hero-callout {
+  max-width: 100%;
+  @include media($medium-screen) {
+    max-width: 70%;
+    float: right;
+  }
+}
+.hero-text {
+  p {
+    font-size: 1.9rem;
+    margin-bottom: 0;
+  }
+  a {
+    color: $color-primary-alt;
+  }
+}
+
+// Home grid
+.home-block-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.home-block {
+  width: 100%;
+  margin-bottom: 3rem;
+  @include media($medium-screen) {
+    float: left;
+    width: 33.33333%;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    margin-bottom: 0;
+  }
+}
+.home-block h2 {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2.25rem;
+  border-bottom: 1px solid $color-gray-lighter;
+  letter-spacing: .5px;
+  a {
+    color: $color-black-light;
+    text-decoration: none;
+  }
+}
+.home-block p {
+  margin-bottom: 0;
+}
+.home-secondary {
+  background-color: $color-gray-lightest;
+}
+
+
+
+/* ===================================
+   Pages
+====================================== */
+.pages-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.page-hero-text h1,
+.subpage-hero-text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  //line-height: 1;
+  color: $color-white;
+  @include media($nav-width) {
+    line-height: 100px;
+    font-size: 4rem;
+  }
+}
+.subpage-hero-text h1 {
+  line-height: 1;
+}
+.page-hero-image {
+  height: 100px;
+  text-align: center;
+  display: none;
+  @include media($nav-width) {
+    display: block;
+  }
+}
+
+
+
+/* ===================================
+   Content
+====================================== */
+.content-wrapper {
+  padding: 1.5rem;
+  @include media($medium-screen) {
+    padding: 3rem 3rem 4rem 3rem;
+  }
+}
+.column-reading {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.page-intro {
+  font-size: 130%;
+  line-height: 140%;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid $color-silver;
+}
+.page-markdown {
+  //margin-top: 3rem;
+}
+.page-sources {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid $color-silver;
+  border-bottom: 1px solid $color-silver;
+}
+
+.jump-section {
+  margin-top: 3.5rem;
+}
+
+// dont display jumpdown menu for smaller screens
+.jump-menu {
+  display: none;
+  @include media($medium-screen) {
+    display: block;
+  }
+}
+.jump-menu-header {
+  margin-left: 1.8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: 600;
+  color: $color-red;
+}
+.jump-menu-items {
+  margin-top: .5rem;
+  li {
+    list-style-image: url('../img/bullet-red.png');
+  }
+  a {
+    font-size: 90%;
+    color: $color-blue;
+    text-decoration: none;
+  }
+}
+
+.jump-content {
+  counter-reset: step-counter;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.jump-items h3 {
+  position: relative;
+  margin-top: 0;
+}
+.jump-items h3:before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  position: absolute;
+  left: 0;
+  top: 3rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  font-family: $font-sans;
+  font-size: 130%;
+  background-color: $color-red;
+  color: $color-white;
+}
+.jump-items h3 {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  border-top: 1px solid $color-silver;
+}
+
+.jump-items h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.jump-items h3:first-child:before {
+  top: 0; 
+}
+.jump-items p {
+  padding-right: 4rem;
+}
+.jump-items h3,
+.jump-items h4,
+.jump-items p {
+  padding-left: 8rem;
+}
+.jump-items ul {
+  margin-left: 8rem;
+}
+.jump-items ul ul {
+  margin-left: 0;
+}
+.jump-items blockquote {
+  margin-left: 8rem;
+  p {
+    padding-left: 0;
+  }
+  ul {
+    margin-left: 0;
+  }
+}
+.jump-items h4+p {
+  margin-left: 1.5rem;
+}
+
+/* 
+TODO - This solution is bizarre. 
+At sizes above 1201, why doesn't the one-fourth column resize smaller so it doesn't push the three-fourths column below it?
+*/
+.one-fourth-sidebar {
+  // dont display menu for small screens
+  @include media($small-screen) {
+    display: none;
+  }
+  @include media($medium-screen) {
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+  }
+}
+.three-fourths-with-sidebar {
+  @include media($small-screen) {
+    margin-right: 0;
+    width: 100%;
+  }
+  @include media($medium-screen) {
+    margin-right: 0;
+    width: 70%;
+  }
+}
+.usa-sidenav-list {
+  margin-top: .8rem;
+  border-top: 1px solid $color-silver;
+  border-bottom: 1px solid $color-silver;
+}
+.usa-sidenav-list>li {
+  border-top: none;
+}
+.usa-sidenav-list a.usa-current {
+  border-left: none;
+  color: $color-black-light;
+}
+.usa-current-sidenav-li {
+  list-style-image: url('../img/bullet-red.png'); 
+}
+
+
+/* ===================================
+   Utilities
+====================================== */
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .3px;
+}
+.align-middle {
+  vertical-align: middle;
+}
+blockquote {
+  background-color: $color-gray-lightest;
+  border-left: .8rem solid $color-red;
+  border-right: .8rem solid $color-red;
+  margin: 1.5rem 0 1.5rem 0;
+  padding: 1.5rem;
+}
+blockquote p {
+  display: inline;
+}
+.todo {
+  color: $color-red;
+}

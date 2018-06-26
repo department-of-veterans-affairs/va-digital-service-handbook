@@ -1,0 +1,20 @@
+# Resources for Digital Service Standard
+---
+- intro: In writing this <i>Digital Service Standard</i>, we sought inspiration from the experiences and expertise of several government teams. In particular, we were inspired by
+- links:
+  - title: USDS
+    linkto: https://playbook.cio.gov/
+    alt: USDS Playbook
+    target: _blank
+  - title: Gov.UK
+    linkto: https://www.gov.uk/service-manual/service-standard
+    alt: Gov.UK Service Service Standard
+    target: _blank
+  - title: Ontario Digital Service
+    linkto: https://www.ontario.ca/page/digital-service-standard
+    alt: Ontario Digital Service Standard
+    target: _blank
+  - title: 18F
+    linkto: https://18f.gsa.gov/
+    alt: 18F
+    target: _blank

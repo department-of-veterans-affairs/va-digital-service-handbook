@@ -1,0 +1,43 @@
+<nav role="navigation" class="usa-nav">
+  <div class="usa-nav-inner">
+
+    <button class="usa-nav-close">
+      <img src="{{ '/assets/img/close.svg' | relative_url }}" alt="close">
+    </button>
+
+    <div class="usa-nav-secondary">
+      <ul class="usa-nav-primary usa-accordion">
+        {% assign count = 0 %}
+        {% for navitem in site.data.navigation %}
+          {% assign count = count | plus:1 %}
+          {% if navitem.subitems %}
+          <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="extended-nav-section-{{count}}">
+              <span class="{% if page.url contains {{navitem.linkto}} %}active{% endif %}">{{navitem.title}}</span>
+            </button>
+            <ul id="extended-nav-section-{{count}}" class="usa-nav-submenu">
+              {% for subitem in navitem.subitems %}
+              <li>
+                <a title="{{ navitem.alt}}" href="{{ subitem.linkto | relative_url }}">
+                  <span class="{% if page.url == subitem.linkto %}active{% endif %}">{{subitem.title}}</span>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+
+          {% else %}
+          <li>
+            <a title="{{ navitem.alt}}" class="usa-nav-link" href="{{ navitem.linkto | relative_url }}">
+              <span class="{% if page.url == navitem.linkto %}active{% endif %}">{% if navitem.title-short %}{{navitem.title-short}}{% else %}{{navitem.title}}{% endif %}</span>
+            </a>
+          </li>
+          {% endif %}
+
+        {% endfor %}
+
+      </ul>
+    </div>
+
+  </div>
+</nav>

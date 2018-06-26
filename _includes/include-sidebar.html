@@ -1,0 +1,24 @@
+<nav>
+  <ul class="usa-sidenav-list">
+
+{% assign count = 0 %}
+
+{% for navitem in site.data.navigation %}
+
+  {% if (navitem.subitems and navitem.linkto == include.data) %}
+
+    {% for subitem in navitem.subitems %}
+
+    <li class="{% if subitem.linkto == page.url %}usa-current-sidenav-li{% endif %}">
+      <a title="{{ subitem.title}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
+    </li>
+
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}
+
+  </ul>
+
+</nav>

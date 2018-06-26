@@ -1,0 +1,28 @@
+<!DOCTYPE html><!--[if lt IE 7 ]> <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="ie6"> <![endif]--><!--[if IE 7 ]> <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="ie7"> <![endif]--><!--[if IE 8 ]> <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="ie8"> <![endif]--><!--[if IE 9 ]> <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html lang="{{ page.lang | default: site.lang | default: 'en-US' }}"><!--<![endif]-->
+
+<head>
+
+{% include meta.html %}
+
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/stylesheets/styles.min.css">
+</head>
+
+<body class="layout-{{ page.layout }} page-{{ page.title | downcase | replace: ' ', '-'}} site-lang-{{ site.lang }}">
+
+  {% include skip_nav.html %}
+
+  {% include banner.html %}
+
+  {% include header.html %}
+
+<div class="usa-overlay"></div>
+
+{{ content }}
+
+{% include footer.html %}
+
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/build/bundle.js"></script>
+
+</body>
+
+</html>

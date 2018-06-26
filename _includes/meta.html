@@ -1,0 +1,65 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="Vets.gov" property="og:site_name">
+<meta content="website" property="og:type">
+
+<!-- Twitter Card -->
+<meta name="twitter:site" content="DeptVetAffairs">
+<!-- description, title tags added below-->
+<meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/logo/og-twitter-image.jpg' | relative_url }}">
+{% if page.twitter_card == "large" %}
+<meta name="twitter:card" content="summary_large_image">
+{% else %}
+<meta name="twitter:card" content="summary">
+{% endif %}
+<!-- end Twitter Card -->
+
+<!-- Title -->
+{% capture site_title_rendered %}{{ site.title }}{% endcapture %}{% capture page_title_rendered %}{{ page.title }}{% endcapture %}{% if page.title %}
+<title>{{ site_title_rendered | xml_escape }} | {{ page_title_rendered | xml_escape }}</title>
+<meta property="og:title" content="{{ site_title_rendered | xml_escape }} | {{ page_title_rendered | xml_escape }}" />
+<meta name="twitter:title" content="{{ site_title_rendered | xml_escape }} | {{ page_title_rendered | xml_escape }}">
+{% else %}
+<title>{{ site_title_rendered | xml_escape }} | {{ site_description_rendered | xml_escape }}</title>
+<meta property="og:title" content="{{ site_title_rendered | xml_escape }} | {{ site_description_rendered | xml_escape }}" />
+<meta property="twitter:title" content="{{ site_title_rendered | xml_escape }} | {{ site_description_rendered | xml_escape }}" />
+{% endif %}
+
+<!-- Description -->
+{% capture page_description_rendered %}{{ page.description | strip_html }}{% endcapture %}{% capture site_description_rendered %}{{ site.description | strip_html }}{% endcapture %}{% if page.description %}
+<meta name="description" content="{{ page_description_rendered | xml_escape }}">
+<meta property="og:description" content="{{ page_description_rendered | xml_escape }}" />
+<meta property="twitter:description" content="{{ page_description_rendered | xml_escape }}" />
+{% else %}
+<meta name="description" content="{{ site_description_rendered | xml_escape }}">
+<meta property="og:description" content="{{ site_description_rendered | xml_escape }}" />
+<meta property="twitter:description" content="{{ site_description_rendered | xml_escape }}" />
+{% endif %}
+
+<!-- Image -->
+<link rel="image_src" href="{{ site.image | absolute_url }}">
+<meta name="image" content="{{ site.image | absolute_url }}">
+<meta property="og:image" content="{{ site.image | absolute_url }}" />
+
+<!--link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.canonical_domain | replace: '//', '/' | prepend: 'https://' }}"-->
+
+<!-- Icons -->
+<link href="{{ '/assets/img/logo/apple-touch-icon.png' | relative_url }}" rel="apple-touch-icon-precomposed">
+<link href="{{ '/assets/img/logo/apple-touch-icon-72x72.png' | relative_url }}" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="{{ '/assets/img/logo/apple-touch-icon-114x114.png' | relative_url }}" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="{{ '/assets/img/logo/apple-touch-icon-152x152.png' | relative_url }}" rel="apple-touch-icon-precomposed" sizes="144x144">
+
+<link rel="shortcut icon" href="{{ '/assets/img/logo/favicon.ico' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/assets/img/logo/favicon-16x16.png' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/assets/img/logo/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/assets/img/logo/favicon-96x96.png' | relative_url }}">
+
+<meta name="msapplication-TileImage" content="{{ '/assets/img/logo/apple-touch-icon-114x114.png' | relative_url }}">
+<meta name="msapplication-TileColor" content="#2b5797">
+
+<link rel="manifest" href="{{ 'manifest.json' | relative_url }}">
+<link rel="mask-icon" href="{{ '/assets/img/logo/safari-pinned-tab.svg' | relative_url }}" color="#2b5797"><!--red e21c3d-->
+<meta name="theme-color" content="#ffffff">

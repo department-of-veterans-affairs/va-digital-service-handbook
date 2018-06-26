@@ -1,0 +1,73 @@
+---
+layout: page
+---
+
+<div class="usa-width-one-whole jump-section">
+
+  <div class="usa-width-two-thirds">
+
+
+    <div class="jump-content">
+
+      <div class="jump-items">
+
+        {{ content }}
+
+      </div>
+
+    </div>
+
+{% if page.resources == true %}
+    <div class="page-sources">     
+      
+      <b>Resources</b><br/>
+
+    {% for item in site.data[page.resources-file] %}
+
+      {{ item.intro }}
+
+      {% for link in item.links %}
+        {% if forloop.last %} and <a {% if link.target %}target="{{ link.target }}" {% endif %}href="{{ link.linkto }}" title="{{ link.alt }}">{{ link.title }}</a>.
+
+        {% else %}
+        <a {% if link.target %}target="{{ link.target }}" {% endif %}href="{{ link.linkto }}" title="{{ link.alt }}">{{ link.title }}</a>,
+        {% endif %}
+      
+      {% endfor %}
+
+    {% endfor %}
+
+    </div>
+{% endif %}
+
+  </div>
+
+
+  <nav role="navigation">
+
+    <div class="usa-width-one-third jump-menu">
+
+      <div class="jump-menu-header">
+        Jump to
+      </div>
+
+      <ul class="jump-menu-items">
+    
+      {% for item in page.jump-menu %}
+
+        <li>
+          <a href="#{{ item  | replace: ' ', '-' | replace: ',', '' | downcase }}">
+            {{ item }}
+          </a>
+        </li>
+
+      {% endfor %}
+      
+      </ul>
+
+    </div>
+
+  </nav>
+
+
+</div>

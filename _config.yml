@@ -1,0 +1,78 @@
+# ----------------------------------
+# TABLE OF CONTENTS
+#
+# 1. Site Settings - Controls the content that appears in the html metadata Title and Description attributes for site pages. The title attribute is used as the first part of the browser page title, i.e., "VA Digital Service Handbook - Page Title Here"
+#
+# 2. Ignore Everything Below This Line - content that follows control Jekyll and Github. Content Writers and Editors can ignore all of this.
+#
+# ----------------------------------
+
+# 1. Site Settings
+title: VA Digital Service Handbook
+title_short: Digital Service Handbook
+description: The VA Digital Service Handbook helps Veteran Affairs (VA) teams create great digital services that meet the Digital Service Standard for the Veteran Tools Platform.
+tagline: Helping Veterans Affairs teams design, build, and launch great digital services that meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> for the Veteran Tools Platform.
+
+
+# ----------------------------------
+# 2. IGNORE EVERYTHING BELOW THIS LINE
+# ----------------------------------
+
+# Navigation Menu
+nav:
+  menu-button: Menu
+  skip_nav: Skip to main content
+
+footer:
+  org-title: Digital Service at VA
+
+# Additional Site Settings
+image: /assets/img/logo/og-image.jpg
+canonical_domain: department-of-veterans-affairs.github.io
+baseurl: /va-digital-service-handbook
+
+# i18n
+languages:
+  - en
+
+# Pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Scripts
+scripts:
+  - /assets/js/build/bundle.js
+
+# Styles
+styles:
+  - /assets/stylesheets/styles.min.css
+
+# Build settings
+kramdown:
+  hard_wrap: true
+
+# Defaults
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: base
+
+exclude:
+  - Gemfile*
+  - Makefile*
+  - node_modules
+  - package.json
+  - scripts
+  - spec
+  - webpack.config.js
+  - vendor
+
+keep_files:
+  - /assets/js/build/*
+  - /assets/stylesheets/*
+
+gems:
+  - jekyll-redirect-from

@@ -1,0 +1,75 @@
+---
+layout: base
+---
+
+<section class="usa-section-dark pages-section">
+  <div class="usa-grid">
+{% if page.page-type != "subpage" %}    
+    <div class="usa-width-two-thirds page-hero-text">
+{% else %}
+    <div class="usa-width-two-thirds subpage-hero-text">
+{% endif %}      
+      <h1>
+        {{ page.title }}
+      </h1>
+
+    </div>
+
+{% if page.page-type != "subpage" %}
+    <div class="usa-width-one-third page-hero-image">
+
+      <img alt="{{ page.header-image-alt }}" src="{{ page.header-image | relative_url }}">
+
+    </div>
+{% endif %}
+
+  </div>
+</section>
+
+
+<main class="usa-grid-full content-wrapper" id="main-content">
+
+  <div class="usa-width-full">
+
+{% if page.page-type == "jump-menu" %}
+  
+    <div class="usa-width-two-thirds">
+
+      <div class="page-intro">
+        {{ page.description }}
+      </div>
+
+    </div>
+
+    {{ content }}
+
+{% else %}
+
+  {% if page.sidebar-type %}
+    <div class="usa-width-one-fourth usa-layout-docs-sidenav one-fourth-sidebar">
+      {% include include-sidebar.html data=page.sidebar-type %}
+    </div>
+
+    <div class="usa-width-three-fourths usa-layout-docs-main_content three-fourths-with-sidebar">
+
+  {% else %}  
+    <div class="usa-width-three-fourths usa-layout-docs-main_content">
+  {% endif %} 
+    
+
+  {% if page.page-description == true %}      
+      <div class="page-intro">
+        {{ page.description }}
+      </div>
+  {% endif %}     
+
+    {{ content }}
+
+    </div>
+
+{% endif %}
+
+
+  </div>
+
+</main>

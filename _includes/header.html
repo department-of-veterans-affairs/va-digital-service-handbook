@@ -1,0 +1,20 @@
+<header class="usa-header usa-header-extended" role="banner">
+
+  <div class="usa-navbar">
+
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo-text">
+        <a href="{{ "/" | relative_url }}"
+          title="Home"
+          aria-label="Home">
+          <img src="{{ '/assets/img/logo/logo-va.png' | relative_url }}" alt="{{ site.title }}" /> {{ site.title_short }}
+        </a>
+      </em>
+    </div>
+
+    <button class="usa-menu-btn">{{ site.nav.menu-button}}</button>
+  </div>
+
+  {% include nav.html %}
+
+</header>
