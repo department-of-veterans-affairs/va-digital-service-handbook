@@ -1,0 +1,16 @@
+_site/
+.sass-cache/
+node_modules/
+.jekyll-metadata
+.python-version
+*.log
+.DS_Store
+_plugins
+spec
+
+# Temporary
+assets/img/logingov
+assets/img/uswds
+_i18n
+scripts/
+assets/js/vendor
