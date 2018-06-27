@@ -31,23 +31,11 @@ image: /assets/img/logo/og-image.jpg
 canonical_domain: department-of-veterans-affairs.github.io
 baseurl: /va-digital-service-handbook
 
-# i18n
-languages:
-  - en
-
 # Pages
 collections:
   pages:
     output: true
     permalink: /:path/
-
-# Scripts
-scripts:
-  - /assets/js/build/bundle.js
-
-# Styles
-styles:
-  - /assets/stylesheets/styles.min.css
 
 # Build settings
 kramdown:
@@ -61,18 +49,16 @@ defaults:
     layout: base
 
 exclude:
-  - Gemfile*
-  - Makefile*
-  - node_modules
+  - Gemfile
+  - Gemfile.lock
   - package.json
-  - scripts
-  - spec
-  - webpack.config.js
-  - vendor
+  - package-lock.json
+  - node_modules
+  - LICENSE
+  - CONTRIBUTING
+  - README
 
-keep_files:
-  - /assets/js/build/*
-  - /assets/stylesheets/*
-
-gems:
-  - jekyll-redirect-from
+sass:
+    # Either :compressed or :expanded
+    style: :compressed
+    sass_dir: _sass

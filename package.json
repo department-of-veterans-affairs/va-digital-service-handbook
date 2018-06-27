@@ -1,41 +1,18 @@
 {
-  "name": "VA-Digital-Service-Handbook",
+  "name": "va-digital-service-handbook",
   "version": "1.0.0",
-  "description": "description goes here",
-  "scripts": {
-    "build-css": "`npm bin`/node-sass --include-path node_modules --include-path _sass --output-style compressed _sass/all.scss assets/stylesheets/styles.min.css",
-    "build-js": "webpack --config --progress --colors",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "watch-js": "webpack -w --config --progress --colors"
-  },
+  "description": "VA Digital Service Handbook",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/department-of-veterans-affairs/va-digital-service-handbook"
+    "url": "git+https://github.com/department-of-veterans-affairs/va-digital-service-handbook.git"
   },
-  "author": "Digital Service at VA",
-  "license": "SEE LICENSE IN LICENSE",
+  "author": "VA",
+  "license": "See LICENSE in Github repository",
   "bugs": {
     "url": "https://github.com/department-of-veterans-affairs/va-digital-service-handbook/issues"
   },
-  "engines": {
-    "node": "5.x.x",
-    "npm": "3.x.x"
-  },
   "homepage": "https://department-of-veterans-affairs.github.io/va-digital-service-handbook",
-  "main": "webpack.config.js",
-  "keywords": [],
-  "devDependencies": {
-    "nodemon": "^1.15.1"
-  },
   "dependencies": {
-    "babel-core": "^6.14.0",
-    "babel-loader": "^6.2.5",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
-    "babel-preset-es2015": "^6.14.0",
-    "hint.css": "^2.5.0",
-    "jquery": "^3.3.1",
-    "node-sass": "^4.9.0",
-    "uswds": "^1.6.3",
-    "webpack": "^1.13.2"
+    "uswds": "^1.6.6"
   }
 }

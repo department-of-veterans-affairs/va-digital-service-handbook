@@ -1,26 +1,12 @@
-// Override variables in USWDS
+/* ===================================
+   Override USWDS variables
+====================================== */
 
-//$small-screen:  481px !default;
-//$medium-screen: 600px !default;
-//$large-screen:  1201px !default;
-
-// Colors
 $color-fuchsia:             #f012be !default;
 $color-maroon:              #85144b !default;
 $color-pink:                #eb4d67 !default;
 $color-silver:              #d9dadb !default;
 $color-white:               #fff !default;
-
-// updated uswds
-//$color-blue:                #0071bc !default;
-//$color-blue-darker:         #205493 !default;
-//$color-blue-darkest:        #112e51 !default;
-
-//$color-aqua:                #7fdbff !default;
-//$color-aqua-dark:           #65afcc !default;
-//$color-aqua-darkest:        #4c8399 !default;
-//$color-aqua-light:          #98e2ff !default;
-//$color-aqua-lightest:       #b2e9ff !default;
 
 $color-red:                 #e21c3d !default;
 $color-red-dark:            #b41630 !default;
@@ -30,30 +16,3 @@ $color-red-lightest:        #ed768a !default;
 
 $color-black-light:          #5B616A !default;
 //uswds body color = #212121
-// login gov #5b616a
-
-// Functional colors
-/*
-$color-primary:              $color-blue !default;
-$color-primary-darker:       $color-blue-darker !default;
-$color-primary-darkest:      $color-blue-darkest !default;
-
-$color-primary-alt:          $color-aqua !default;
-$color-primary-alt-dark:     $color-aqua-dark !default;
-$color-primary-alt-darkest:  $color-aqua-darkest !default;
-$color-primary-alt-light:    $color-aqua-light !default;
-$color-primary-alt-lightest: $color-aqua-lightest !default;
-
-$color-secondary:            $color-red !default;
-$color-secondary-dark:       $color-red-dark !default;
-$color-secondary-darkest:    $color-red-darkest !default;
-$color-secondary-light:      $color-red-light !default;
-$color-secondary-lightest:   $color-red-lightest !default;
-
-$color-base:                 $color-black-light !default;
-$color-focus:                $color-gray-light !default;
-$color-visited:              $color-purple !default;
-
-$color-shadow:               rgba(#000, 0.3) !default;
-$color-transparent:          rgba(#000, 0) !default;
-*/

@@ -1,17 +1,9 @@
 _site/
-.sass-cache/
-node_modules/
+.sass-cache
 .jekyll-metadata
-.python-version
-*.log
+node_modules/
 .DS_Store
-_plugins
-spec
-.rspec
 
 # Temporary
 assets/img/logingov
 assets/img/uswds
-_i18n
-scripts/
-assets/js/vendor

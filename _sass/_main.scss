@@ -1,12 +1,5 @@
-@charset "UTF-8";
-
-@import '_variables.scss';
-@import 'node_modules/uswds/src/stylesheets/uswds.scss';
-//@import '_list-group.scss';
-
-
 /* ===================================
-   Reset mobile headings
+   Reset USWDS mobile headings
 ====================================== */
 h1 {
   font-size: 2.5rem;
@@ -435,7 +428,7 @@ h4 {
   border-top: none;
 }
 .jump-items h3:first-child:before {
-  top: 0; 
+  top: 0;
 }
 .jump-items p {
   padding-right: 4rem;
@@ -464,8 +457,8 @@ h4 {
   margin-left: 1.5rem;
 }
 
-/* 
-TODO - This solution is bizarre. 
+/*
+TODO - This solution is bizarre.
 At sizes above 1201, why doesn't the one-fourth column resize smaller so it doesn't push the three-fourths column below it?
 */
 .one-fourth-sidebar {
@@ -502,7 +495,7 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
   color: $color-black-light;
 }
 .usa-current-sidenav-li {
-  list-style-image: url('../img/bullet-red.png'); 
+  list-style-image: url('../img/bullet-red.png');
 }
 
 

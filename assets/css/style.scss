@@ -1,0 +1,8 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@charset "UTF-8";
+@import '_variables.scss';
+@import '../node_modules/uswds/src/stylesheets/uswds.scss';
+@import '_main.scss';
