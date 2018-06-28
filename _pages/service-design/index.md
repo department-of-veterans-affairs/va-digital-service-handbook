@@ -18,6 +18,7 @@ header-image-alt: Service Design Guide icon
 #
 #
 ---
+disclaimer re passing CD1 and CD2 and having funding
 
 ### What is Service Design?
 
@@ -35,10 +36,11 @@ Using these methods ensures that we make decisions based on observations about u
 
 ### Using the Service Design Guide
 
-Intro copy
+Intro copy - explain the overall process with visual aid
 
 1. [Discovery](discovery)
 2. [Alpha](alpha)
 3. [Beta](beta)
 4. [Live](live)
 5. [Retirement](retirement)
+6. [Resources](resources)

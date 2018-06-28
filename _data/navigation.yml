@@ -26,6 +26,9 @@
     - title: Retirement
       linkto: /service-design/retirement
       alt: Retirement
+    - title: Resources
+      linkto: /service-design/resources
+      alt: Resources
 
 - title: Veteran Tools APIs
   linkto: /apis
