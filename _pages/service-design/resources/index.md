@@ -21,6 +21,8 @@ sidebar-type: /service-design
 permalink: /service-design/resources
 #
 ---
+### In progress !
+
 ### Introduction
 
 Be sure to read through the Service Design Guide to understand how you to use these resources in each project phase.

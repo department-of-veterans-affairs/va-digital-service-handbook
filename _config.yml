@@ -12,7 +12,9 @@ title: VA Digital Service Handbook
 title_short: Digital Service Handbook
 description: The VA Digital Service Handbook helps Veteran Affairs (VA) teams create great digital services that meet the Digital Service Standard for the Veteran Tools Platform.
 tagline: Helping Veterans Affairs teams design, build, and launch great digital services that meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> for the Veteran Tools Platform.
-
+contact-handbook:
+  name: Elizabeth Hunt
+  email: elizabeth.hunt@va.gov
 
 # ----------------------------------
 # 2. IGNORE EVERYTHING BELOW THIS LINE

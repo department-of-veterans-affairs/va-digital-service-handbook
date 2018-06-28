@@ -147,7 +147,7 @@ Below you'll find example deliverables other teams have made in order to answer 
 
 #### How to get help during discovery
 
-* If you have a question about something in the Handbook, or need help in a specific subject area or discipline, contact [{{site.data.resources.contact-handbook.email}}](mailto:{{site.data.resources.contact-handbook.email}}).
+* If you have a question about something in the Handbook, or need help in a specific subject area or discipline, contact [{{site.contact-handbook.email}}](mailto:{{site.contact-handbook.email}}).
 
 
 #### How discovery aligns with Veteran Integrated Process (VIP)
