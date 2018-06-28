@@ -20,15 +20,10 @@ See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
 This is a Jekyll-built static site.
 
 1. Clone/fork this repo.
-2. Install dependencies:
+2. Run locally at 127.0.0.1:4000/va-digital-service-handbook/
 
     ```
-    make setup
-    ```
-3. Run locally at 0.0.0.0:4000/va-digital-service-handbook/
-
-    ```
-    make run
+    jekyll serve
     ```
 
 
