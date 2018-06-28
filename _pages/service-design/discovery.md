@@ -5,14 +5,14 @@
 #
 # Title and Description display on page and in meta
 title: Discovery
-description: Discovery is not about solutions; it’s about problems. Before you start desiging or building a service, you need to find out who the potential users are and what problems your service could solve for them.
+description: Discovery is not about solutions; it’s about problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
   - Planning for discovery
   - During discovery
   - Completing discovery
-  - Tools and resources
+  - Resources and help
 #
 # Don't edit items below - they control the page layout
 layout: page
@@ -59,6 +59,10 @@ For discovery, you'll need people dedicated to the following roles
 * Content writer
 * Project manager
 * <span class="todo">these could be made more specific to VA ?</span>
+
+#### Project Management
+
+Make sure to use your team's Github "Product" folder to share your discovery materials.
 
 #### At the end of discovery
 
@@ -121,14 +125,15 @@ At least a week before discovery ends, schedule a **Next Steps workshop** to sha
 
 <hr>
 
-### Tools and resources
+### Resources and help
 
+<!--
 #### Tools
-Your team needs access to these tools during discovery. [Request access](emailhere) to these discovery tools as soon as possible
-* Github
-* Slack
-* <span class="todo">others ?</span>
 
+* Github - how to use
+* Slack - how to use
+* <span class="todo">others ?</span>
+-->
 
 #### Resources
 
@@ -136,14 +141,13 @@ During the discovery phase, focus on answering questions (rather than focusing o
 
 Below you'll find example deliverables other teams have made in order to answer the discovery questions (along with blank templates you can use). Feel free to use these!
 
-* [User research resources]()
-* [Technical resources]()
+* [User research resources](resources/research)
+* [Technical resources](resources/technical-ex)
 
 
 #### How to get help during discovery
 
-* If you have a question about something in the Handbook, contact [name](emailhere).
-* If you need help in a specific subject area or discipline, contact [name](emailhere), and we'll connect you to the right person.
+* If you have a question about something in the Handbook, or need help in a specific subject area or discipline, contact [{{site.data.resources.contact-handbook.email}}](mailto:{{site.data.resources.contact-handbook.email}}).
 
 
 #### How discovery aligns with Veteran Integrated Process (VIP)

@@ -5,17 +5,16 @@
 #
 # Title and Description display on page and in meta
 title: User Research
-description: The goal of user research is to learn about the people who will use your service and what they need and want.
+description: The goal of user research is to learn about the people who will use your service and what they need and want, so you can design and build a service your users will use. You'll do research in every phase of the service lifecycle.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
-  - Key questions to answer
-  - What to do in discovery
-  - The team you need
-  - How long discovery takes
-  - Completing discovery
-  - Stopping after discovery
-  - Resources
+  - Planning for research
+  - During the discovery phase
+  - During the alpha phase
+  - During the beta phase
+  - During the live phase
+  - Tools, resources, and examples
 #
 # Don't edit items below - they control the page layout
 layout: page
@@ -28,77 +27,115 @@ permalink: /service-design/resources/research
 
 ### Planning for user research
 
-There are a wide variety of methods to help you understand your users and what they need and want. And there are lots of great resources online if you want to learn more about the broad category of user research (see [More resources]()).
+There are a wide variety of methods to help you understand your users and what they need and want. And there are lots of great resources online if you want to learn about the broad category of user research (see [Resources](#tools-resources-and-examples)).
 
 > User research is only valuable if it helps you answer questions that are blocking your team from moving forward.
-<br/>So no matter what method you choose, your first step is to clearly define what you want to get out of the research.
+<br/>No matter what method you choose, your first step is to clearly define what you want to get out of the research.
 
-#### Step 1: Start by asking these questions
+#### Create your research plan
 
-**Given the phase you're at, what new information do you need in order for your team to move forward?**
-* Do you need information about your users' pain points?
-* Do you need information about what motivates (or triggers) your users use your service or to complete a task?
-* Do you need information about what your users think a successful experience is?
-* Do you need more information about what your users think, feel, see, hear, or say while they try to complete a task your service would offer?
-* Do you need to know something specific about user pr
+Work with your team to define your research objectives and decide how you’ll approach the research.
 
-#### Step 2: Decide how you could learn the answers to those questions
+You can document your research plan [using this template]({{site.data.resources.research-plan-template}}). See [an example]({{site.data.resources.research-plan-ex}}).
 
-There are lots of methods [you can use](externallink). We've found the following useful in our work on the Veteran Tools Platform.
+1. Agree on your research questions
 
-[User interviews](externallink)
-[Ethnographic research](externallink)
-[Usability testing](externallink)
-[Diary studies](externallink)
-[Card sorting](externallink)
+    Run a [team workshop]({{site.data.resources.workshop-research-questions}}) to capture and prioritize your research questions. Knowing the questions you need to answer &mdash; and the assumptions you need to test &mdash; will help you focus on the most important things your team needs to know.
 
+    In discovery, your research questions are likely to be broad and evolve quickly as you learn. They should become more specific in later development phases, as you focus on particular user groups and parts of your service.
 
-#### Step 3:
+  * Example here
 
+2. Identify user groups and research methods
+  Decide who you need to research with. Depending on what you need to learn, this could include all the different users of your service, or just specific groups.
 
-#### Planning for user research
+  In the discovery phase for a new service, you may not have a clear idea of who your potential users will be. Research this as a priority.
 
-Recruit users: decide what channels and messaging to use when looking for Veterans, their family members, VSOs, or other potential users to talk to.
+  As you learn about your users, you can create personas or profiles to capture and present what you’ve learned.
 
-doing research
+  You also need to decide which research methods to use. Your choices will depend on what you want to learn and the development phase you’re in.
 
-synthesis
+  Choose research activities that will provide strong evidence and reliable answers to your questions, for the least time, effort and cost.
 
-insights
+  If the team doesn’t have much experience with user research, choose simple methods like interviews and usability testing that your team can easily understand and join in with.
 
-Draft a research plan: think through what you want to validate and learn in this research, so you’re prepared to make the most of your research sessions.
+3. Map out research sprints
+  Once you’ve decided on your research questions, user groups and research methods, start planning your research sprints.
 
+  Each research sprint should answer specific research questions with specific user groups. A sprint usually lasts about two weeks, beginning from when you recruit users to when you complete your research findings.
 
+  **Tips**:
+    * Aim to do at least one round of research every 2-3 weeks.
+    * Be flexible. As you learn more from each research sprint, revise your later research sprints accordingly. For example, a question answered in Sprint #1 may mean that Sprint #2 should answer different questions than you originally planned.
 
+4. Focus on your most important questions
+  Prepare just the research sprints you need to answer your highest priority questions. You can arrange more research sprints as you learn more about your users and your service.
 
-* Even if you have a defined scope or solution in mind, you need to validate that with potential users before you design or build anything.
-* Discovery is not about operating within an established scope. User research is a fluid process that often leads to unanticipated insights. Be flexible and open to changing your course along the way.
+  As you prepare more research sprints, make sure they're scheduled so that the findings feed into the appropriate design or development sprints. We generally use the "sprint-ahead" model, in which research sprints happen 1 sprint before a design sprint, and 2 sprints before a development sprint.
 
+  aligned with your team's roadmap/schedule and that research sprints are designed to answer questions that the team has per the schedule.
 
-General
+  **Tips**:
+    * Focus your research sprints on the most immediate questions to be answered. Don’t do lots of research that the team can’t respond to, or get left behind if they’re making quick progress.
 
-Choose a research method: browse 18F’s recommended Discovery methods to find a tactic that suits your projects needs, as well as instructions for how to perform that activity.
+5. Recruit participants
+  The number of people you need to research with in each research sprint will depend on the method you’re using.
 
+  For qualitative research methods like contextual research, user interviews, and usability testing, we generally aim for 4-8 participants.
 
+  For quantitative methods like card sorting or A/B testing, you'll need hundreds of participants to produce clear findings.
 
-Recruit users: decide what channels and messaging to use when looking for Veterans, their family members, VSOs, or other potential users to talk to.
+  If you need more participants to get clear findings, do more rounds rather than one big round. That way you can adjust after each round.
 
-doing research
+6. Document your research sprint plans.
 
-synthesis
+7. Be inclusive
+  Whenever you recruit participants from a user group, make sure you include a good variety of the users within that group.
 
-insights
+  If your service has a broad audience, you should aim to include users with disabilities and people who may need support to use your service in every round of research.
 
+  This may not be possible for smaller or more specialist user groups. In this case, plan specific rounds of research to:
 
-Specific phases
+  * look at the most significant barriers that users with disabilities are likely to face
+  * identify support needs and test your support model
 
-Discovery
-Discovery is not about operating within an established scope. User research is a fluid process that often leads to unanticipated insights. Be flexible and open to changing your course along the way.
-Goal is to learn about the people who will use the service and what they need/want
-how impairments might affect your users - for example, visual, hearing, motor and cognitive (memory and thinking) impairments
-how many of your users need assisted digital support and what their needs are
+7. Plan ahead
+  Recruiting users can take longer than you think, so start recruiting as soon as you've defined your research plan for a specific research sprint.
 
+  **Tips**:
+    * research plan link
+    * recruiting call template
+    * who we recruit with - decide what channels and messaging to use when looking for Veterans, their family members, VSOs, or other potential users to talk to.
 
-#### Tips
-* Even if you have a defined scope or solution in mind, you need to validate that with potential users before you design or build anything.
-* Discovery is not about operating within an established scope. User research is a fluid process that often leads to unanticipated insights. Be flexible and open to changing your course along the way.
+8. Involve your whole team to help them stay focused on user needs
+  Record your plan in a shared document or collaboration tool. Be clear what research questions each research sprint will aim to answer and how it will help the team make decisions.
+
+  To help members get the most from your research, involve them in:
+
+  * observing research sessions - we encourage everyone on the team to observe at least 2 hours of research every 6 weeks
+  * helping with user research activities (for example, note-taking, pairing on site visits, running workshops)
+  * making prototypes and other materials - like letters, leaflets or posters
+  * analyzing and synthesizing results
+
+9. Share your findings
+  Agree how to feed research findings into your team’s agile tools and practices (like planning and prioritization meetings, story backlogs, and any other ways that design decisions are made).
+
+  Make sure you have space for research on your team wall. Use it to highlight questions the team is exploring and share information about your research activities and findings.
+
+  Store your research findings and other research outputs in your team’s collaboration tool or shared folders so it’s easy for everyone to use and share them.
+
+  You should also make sure you have regular opportunities at show and tells and other events to share research findings with your team and with wider stakeholders.
+
+### During the discovery phase
+
+### During the alpha phase
+
+### During the beta phase
+
+### During the live phase
+
+### Tools, resources, and examples
+
+#### Additional user research resources
+
+* here
