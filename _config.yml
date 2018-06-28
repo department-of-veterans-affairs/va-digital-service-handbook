@@ -63,4 +63,10 @@ exclude:
 sass:
     # Either :compressed or :expanded
     style: :compressed
+    # Where you keep your scss files
     sass_dir: _sass
+    # Where sass should look for other scss
+    #load_paths:
+      #- node_modules/uswds/src/stylesheets
+      #- _sass/_variables.scss
+      #- _sass/_main.scss
