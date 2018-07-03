@@ -80,7 +80,7 @@ A design sprint takes 1-2 weeks and is designed to solve important design or bus
 
 #### 2. Create an alpha plan
 
-Before you start your design sprints, map out your work over the course of the alpha phase. Start by identifying your team's goals for the alpha phase.
+Before you start your design sprints, map out your work over the course of the alpha phase. Start by identifying your team's goals for the alpha phase. Consider these questions:
 
 * Based on your discovery research and findings, what kinds of solutions make the most sense in terms of meeting your users' needs?
 * Which of those would you like to move forward with and test?
@@ -109,20 +109,20 @@ Using the goals, solutions, risks, and hypotheses you've identified, map out you
 
 #### 4. Conduct design sprints
 
-Use the following steps for each design sprint.
+Use the following steps for each design sprint:
 
 1. Review the current goals, hypotheses, and solution concepts with your team.
 2. Sketch &mdash; use individual and group brainstorming activities to explore design solutions that will test your hypotheses.
 3. Decide &mdash; select a single option to move on to testing.
 4. Prototype &mdash; [create a simple prototype](#tips-for-building-prototypes) that tests the solution.
 5. Test &mdash; test the prototype with real users and collect their feedback.
-  **Tip**: Your goal is to iterate quickly. So make sure you plan far enough in advance to recruit participants for each design sprint.
+    * **Tip**: Your goal is to iterate quickly. So make sure you plan far enough in advance to recruit participants for each design sprint.
 6. Analyze &mdash; assess the user feedback and decide how it impacts your solution concept.
 7. Plan &mdash; plan your next design sprint incorporating what you've just learned into the next prototype.
 
-* **Tips**:
-  * Involve all team members in alpha prototyping. This leads to better design outcomes and helps the team create a common understanding of the service.
-  * You can learn more about design sprints at <a title="Go to google ventures" href="http://www.gv.com/sprint/" target="_blank">Google Ventures</a>, as well as <a title="Go to design sprint kit" href="https://designsprintkit.withgoogle.com" target="_blank">Google's Design Sprint Kit</a> (a slight variation on the first link)
+    * **Tips**:
+      * Involve all team members in alpha prototyping. This leads to better design outcomes and helps the team create a common understanding of the service.
+      * You can learn more about design sprints at <a title="Go to google ventures" href="http://www.gv.com/sprint/" target="_blank">Google Ventures</a>, as well as <a title="Go to design sprint kit" href="https://designsprintkit.withgoogle.com" target="_blank">Google's Design Sprint Kit</a> (a slight variation on the first link)
 
 Keep iterating with your design sprints until your team can demonstrate you’ve met the user needs with the prototypes and the team is confident about moving on.
 
