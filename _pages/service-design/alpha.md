@@ -54,11 +54,11 @@ Different services will spend different amounts of time in alpha, depending on t
 
 #### The team you need
 
-See [team structure](resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
+See [team structure](related/other-resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
 
 #### At the end of alpha
 
-At least a week before alpha ends, schedule a [Next Steps checkpoint](resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
+At least a week before alpha ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
 
 <a href="#">Return to top</a>
 
@@ -101,7 +101,7 @@ Using the goals, solutions, risks, and hypotheses you've identified, map out you
 * Test the most risky hypotheses first &mdash; the ones that, if your hypothesis is proven wrong, will derail your solution concept.
 * Test your design/user experience hypotheses &mdash; for example, a single-page vs multi-page user flow.
 * Test your technical hypotheses &mdash; for example, whether a specific Vets-API provides data in the format you need.
-* Be sure to leave enough time at the end of your alpha phase to prepare for the [Next Steps checkpoint](resources/next-steps-checkpoint).
+* Be sure to leave enough time at the end of your alpha phase to prepare for the [Next Steps checkpoint](related/other-resources/next-steps-checkpoint).
 <br/>
 
 <hr>
@@ -213,15 +213,15 @@ In the beta phase, you'll need to nail down answers to the following questions. 
 
 ### Resources and help
 
-* Review [Next Steps checkpoint](resources/next-steps-checkpoint) to understand how to document your discovery findings and prepare for your Next Steps meeting.
+* Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to document your discovery findings and prepare for your Next Steps meeting.
 
 * Review the following for information, examples, and templates you can use in the discovery phase:
 
-  * [User research guide](guides/user-research)
-  * [Design guide](guides/design)
+  * [User research guide](related/user-research)
+  * [Design guide](related/design)
   * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
-  * [Technical guide](guides/technical)
-  * [Team management guide](guides/team-mgmt)
+  * [Technical guide](related/technical)
+  * [Team management guide](related/team-mgmt)
 
 * If you have a question about something in the Handbook, or need help in a specific subject area, [email us](mailto:{{site.contact-handbook.email}}). Or, post your question in the #dsva-platform-project Slack channel.
 

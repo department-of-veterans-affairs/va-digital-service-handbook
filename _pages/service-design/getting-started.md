@@ -58,11 +58,9 @@ We use <a title="Go to Slack" href="https://slack.com" target="_blank">Slack</a>
 
 The Veteran Tools Platform design system based on the <a title="Go to USWDS" href="https://designsystem.digital.gov/" target="_blank">United States Web Design System (USWDS)</a> with some additional specifications to meet the needs of VA’s particular audiences.
 
-Designers should review our [design guide](guides/design) in order to effectively design for the Veteran Tools Platform.
-
 > **Our design files use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.**
 <br/>Although you can use other platforms/tools, we strongly recommend using Sketch to ensure your designers are working with our latest templates.
-<br/>See the [design guide](guides/design) to download all the design files.
+<br/>Designers should download the design files from the [design guide](related/design) so they can effectively design for the Veteran Tools Platform.
 
 <a href="#">Return to top</a>
 
@@ -72,7 +70,7 @@ Designers should review our [design guide](guides/design) in order to effectivel
 
 Once a developer's Github account is added to the VA Github organization and their SSH public key is set up, they will be given access to Veteran Tools Platform code repositories, credentials for shared testing environments, and internal tools.
 
-Developers should review the [technical guide](guides/technical) to complete the onboarding steps and confirm that they have access to all the tools.
+Developers should review the [technical guide](related/technical) to complete the onboarding steps and confirm that they have access to all the tools.
 
 <a href="#">Return to top</a>
 

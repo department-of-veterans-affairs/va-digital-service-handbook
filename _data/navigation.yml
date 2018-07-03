@@ -3,10 +3,12 @@
 - title: Digital Service Standard
   linkto: /digital-standard
   alt: Digital Service Standard
+  show-subitems: no
 
 - title: Service Design Guide
   linkto: /service-design
   alt: Service Design Guide
+  show-subitems: yes
   subitems:
     - title: Overview
       linkto: /service-design/
@@ -33,80 +35,88 @@
       alt: Live
 
     - title: Related guides
-      linkto: /service-design/guides
+      linkto: /service-design/related
       alt: Related guides
+      show-tertitems: yes
       tertitems:
-        - title: User research guide
-          linkto: /service-design/guides/user-research
-          alt: User research guide
-          description: Creating a research plan, planning a research sprint, and more resources
+      - title: User research guide
+        linkto: /service-design/related/user-research
+        alt: User research guide
+        description: Creating a research plan, planning a research sprint, and more resources
 
-        - title: Design guide
-          linkto: /service-design/guides/design
-          alt: Design guide
-          description: Design philosophy, content guidelines, designing for accessibility, and design tools
+      - title: Design guide
+        linkto: /service-design/related/design
+        alt: Design guide
+        description: Design philosophy, content guidelines, designing for accessibility, and design tools
 
-        - title: Content guide
-          linkto: https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide
-          alt: Content guide
-          description: Guidelines for word choice and terms, voice and tone, and best practices for well-written plain language content
-          target: yes
+      - title: Content guide
+        linkto: https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide
+        alt: Content guide
+        description: Guidelines for word choice and terms, voice and tone, and best practices for well-written plain language content
+        target: yes
 
-        - title: Technical guide
-          linkto: /service-design/guides/technical
-          alt: Technical guide
-          description: Resources and tools for developers
+      - title: Technical guide
+        linkto: /service-design/related/technical
+        alt: Technical guide
+        description: Resources and tools for developers
 
-        - title: Team management guide
-          linkto: /service-design/guides/team-mgmt
-          alt: Team management guide
-          description: Guidelines for team structure and resources and tools for managing your team
+      - title: Team management guide
+        linkto: /service-design/related/team-mgmt
+        alt: Team management guide
+        description: Guidelines for team structure and resources and tools for managing your team
 
-    - title: Related resources
-      linkto: /service-design/resources
-      alt: Related resources
-      tertitems:
-      - title: Team structure
-        linkto: /service-design/resources/team-structure
-        alt: Team structure
+      - title: Other resources
+        linkto: /service-design/related/other-resources/
+        alt: Other resources
+        description: The Service Design Guide refers to the following resources. They're collected here for easy reference.
+        show-quaditems: no
+        quaditems:
+        - title: Team structure
+          linkto: /service-design/related/other-resources/team-structure
+          alt: Team structure
+          phase: work
 
-      - title: Next Steps checkpoint
-        linkto: /service-design/resources/next-steps-checkpoint
-        alt: Next Steps checkpoint
+        - title: Next Steps checkpoint
+          linkto: /service-design/related/other-resources/next-steps-checkpoint
+          alt: Next Steps checkpoint
+          phase: work
 
-      - title: Problem statement
-        linkto: /service-design/resources/problem-statement
-        alt: Problem statement
+        - title: Problem statement
+          linkto: /service-design/related/other-resources/problem-statement
+          alt: Problem statement
+          phase: research
 
-      - title: Research questions
-        linkto: /service-design/resources/research-questions
-        alt: Research questions
+        - title: Research questions
+          linkto: /service-design/related/other-resources/research-questions
+          alt: Research questions
+          phase: research
 
-      - title: Research sprints
-        linkto: /service-design/resources/research-sprints
-        alt: Research sprints
+        - title: Research sprints
+          linkto: /service-design/related/other-resources/research-sprints
+          alt: Research sprints
+          phase: research
 
-      - title: Conversation guide
-        linkto: /service-design/resources/conversation-guide
-        alt: Conversation guide
+        - title: Conversation guide
+          linkto: /service-design/related/other-resources/conversation-guide
+          alt: Conversation guide
+          phase: research
 
-      - title: Research readout
-        linkto: /service-design/resources/research-readout
-        alt: Research readout
+        - title: Research readout
+          linkto: /service-design/related/other-resources/research-readout
+          alt: Research readout
+          phase: research
 
-      - title: Technical discovery
-        linkto: /service-design/resources/technical-discovery
-        alt: technical-discovery
+        - title: Technical discovery
+          linkto: /service-design/related/other-resources/technical-discovery
+          alt: technical-discovery
+          phase: technical
 
-      - title: Product outline
-        linkto: /service-design/resources/product-outline
-        alt: Product outline
-
-- title: Veteran Tools APIs
-  linkto: /apis
-  alt: Veteran Tools APIs
-  title-short: APIs
+        - title: Product outline
+          linkto: /service-design/related/other-resources/product-outline
+          alt: Product outline
+          phase: work
 
 - title: Contact
   linkto: /contact
   alt: Get in touch
+  show-subitems: no

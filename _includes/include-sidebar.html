@@ -10,8 +10,8 @@
 
       {% if subitem.tertitems %}
 
-      {% if subitem.title contains 'Related' %}
-        {% assign subitem-title = subitem.title | replace: 'Related', '' | replace: '-', '' %}
+      {% if subitem.title contains 'guides' %}
+        {% assign subitem-title = subitem.title | replace: ' guides', '' | replace: '-', '' %}
       {% else %}
         {% assign subitem-title = subitem.title %}
       {% endif %}
@@ -22,24 +22,23 @@
         <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
 
         <ul class="usa-sidenav-sub_list">
+          
         {% for tertitem in subitem.tertitems %}
-
           <li class="no-bullet">
-            {% if tertitem.target == true %}
-              <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto}}" target="_blank" class="{% if tertitem.linkto == page.url %}usa-current{% endif %}">{{tertitem.title}}</a>
-            {% else %}
-              <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto | relative_url }}" class="{% if tertitem.linkto == page.url %}usa-current{% endif %}">{{tertitem.title}}</a>
-            {% endif %}
+            <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto | relative_url }}"{% if tertitem.target == true %} target="_blank" {% endif %} class="{% if page.url contains tertitem.linkto %}usa-current{% endif %}">{{tertitem.title}}</a>
           </li>
         {% endfor %}
+
         </ul>
 
       </li>
 
       {% else %}
-      <li class="{% if subitem.linkto == page.url %}usa-current-sidenav-li{% endif %}">
-        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
-      </li>
+
+        <li class="{% if subitem.linkto == page.url %}usa-current-sidenav-li{% endif %}">
+          <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}"{% if subitem.target == true %} target="_blank" {% endif %}class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
+        </li>
+
       {% endif %}
 
     {% endfor %}

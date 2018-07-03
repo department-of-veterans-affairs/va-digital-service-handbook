@@ -29,7 +29,7 @@ It's tempting to start brainstorming solutions right away based on your understa
 
 Instead focus on a user-centered design process in which your team's primary questions are: Who are the potential users of my service, and how can we design a service that meets their needs?
 
-Your goal in the discovery phase is to **learn about real users and identify the problem(s) your service could solve for them**. The best way to do this is to [talk to real users](guides/user-research). Go out and find people who will be using the service. Talk to them, observe them, and learn what they need and want.
+Your goal in the discovery phase is to **learn about real users and identify the problem(s) your service could solve for them**. The best way to do this is to [talk to real users](related/user-research). Go out and find people who will be using the service. Talk to them, observe them, and learn what they need and want.
 
 The following sections will guide you in meeting the Digital Standard for discovery.
 {% for item in page.sections %}
@@ -48,11 +48,11 @@ It's important to start the project by putting a time constraint on your discove
 
 #### The team you need
 
-See [team structure](resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
+See [team structure](related/other-resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
 
 #### At the end of discovery
 
-At least a week before discovery ends, schedule a [Next Steps checkpoint](resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
+At least a week before discovery ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
 
 <a href="#">Return to top</a>
 
@@ -71,13 +71,13 @@ At least a week before discovery ends, schedule a [Next Steps checkpoint](resour
 
 #### Using these activities
 
-* Define a **[problem statement](resources/problem-statement)** that you think your service will solve for your users
-* Conduct **[user research](guides/user-research)** to learn about potential users of your service through interviews, observation, and testing
+* Define a **[problem statement](related/other-resources/problem-statement)** that you think your service will solve for your users
+* Conduct **[user research](related/user-research)** to learn about potential users of your service through interviews, observation, and testing
 * Decide who the primary user groups will be
 * Analyze any existing VA or private-sector services that meet user needs
 * Understand current VA policy, technology, and business process related to your service
 * Identify policies or other barriers that could make it difficult to meet user needs
-* Review the <a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started" target="_blank">**developer documentation**</a> and conduct **[technical discovery](resources/technical-discovery)**
+* Review the <a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started" target="_blank">**developer documentation**</a> and conduct **[technical discovery](related/other-resources/technical-discovery)**
 * Document findings from your user research and technical exploration
 * Use insights from your findings to create a plan for what the team will work on during the alpha phase
 
@@ -114,15 +114,15 @@ At least a week before discovery ends, schedule a [Next Steps checkpoint](resour
 
 ### Resources and help
 
-* Review [Next Steps checkpoint](resources/next-steps-checkpoint) to understand how to document your discovery findings and prepare for your Next Steps meeting.
+* Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to document your discovery findings and prepare for your Next Steps meeting.
 
 * Review the following for information, examples, and templates you can use in the discovery phase:
 
-  * [User research guide](guides/user-research)
-  * [Design guide](guides/design)
+  * [User research guide](related/user-research)
+  * [Design guide](related/design)
   * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
-  * [Technical guide](guides/technical)
-  * [Team management guide](guides/team-mgmt)
+  * [Technical guide](related/technical)
+  * [Team management guide](related/team-mgmt)
 
 * If you have a question about something in the Handbook, or need help in a specific subject area, [email us](mailto:{{site.contact-handbook.email}}). Or, post your question in the #dsva-platform-project Slack channel.
 <br/>

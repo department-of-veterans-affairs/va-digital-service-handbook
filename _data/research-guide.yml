@@ -15,7 +15,7 @@ plan:
 
       **Activities**
 
-      * [Run a team workshop](../resources/research-questions) at the beginning of each development phase to prioritize your team's research questions and the assumptions you need to test.
+      * [Run a team workshop](../related/research-questions) at the beginning of each development phase to prioritize your team's research questions and the assumptions you need to test.
       * Document those questions and assumptions.
   - number: p-2
     title: Identify user groups
@@ -97,7 +97,7 @@ sprints:
       * **Tip**: The screener is subject to the Paperwork Reduction Act (PRA). To stay within PRA guidelines, limit your questions to 9 questions.
 
       **Consent forms**
-      Participants must sign a [consent form](../resources/va-consent-form-generic.docx) prior to taking part in any research sessions. Check with your VA Business Owner to make sure this consent form works for your project.
+      Participants must sign a [consent form](../related/other-resources/va-consent-form-generic.docx) prior to taking part in any research sessions. Check with your VA Business Owner to make sure this consent form works for your project.
 
   - number: s-3
     title: Plan the research sessions
@@ -111,7 +111,7 @@ sprints:
 
       * <a title="Go to example" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/conversation-guide.md" target="_blank">Example conversation guide</a>
       *Once you've been added to the VA Github organization, you'll be able to see this content.*
-      * [Conversation guide template](../resources/conversation-guide)
+      * [Conversation guide template](../related/other-resources/conversation-guide)
 
       > **Post-session surveys and questions**
       If your survey or followup questions occur after the research session ends, for example, after a user has completed a card sorting activity, it is subject to PRA. You can only ask up to 9 questions.
@@ -144,7 +144,7 @@ sprints:
       * For user interviews and usability sessions, don't plan more than 4 per day.
       * Aim to have team members write up their observations immediately after a session. The longer people take to do this, the fewer specific details they're able to remember about the session.
       * Ask the participant if they would like to participate in a future research study. Also ask them if they'd be willing to share that information with other Veterans in their community. This will help you expand your participant pool for future research studies.
-      * The [conversation guide template](../resources/conversation-guide) has some additional tips for conducting your research session.
+      * The [conversation guide template](../related/other-resources/conversation-guide) has some additional tips for conducting your research session.
   - number: s-6
     title: Analyze and synthesize the research data
     copy: |
@@ -159,7 +159,7 @@ sprints:
     title: Document and share your research
     copy: |
       **1. Prepare a research readout**
-      * Summarize what you did and what you learned in a [research readout](../resources/research-readout).
+      * Summarize what you did and what you learned in a [research readout](../related/other-resources/research-readout).
       * Arrange a time with your team and your stakeholders to go over the findings in your research readout.
 
       **2. Document research**

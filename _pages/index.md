@@ -1,8 +1,12 @@
 ---
+#
+# See the Github wiki for how to edit content on this page and markdown styles you can use:
+# link here
+#
+# Title displays on page and in meta
 title: Welcome
 #
-# Should not need to edit attributes below
-#
+# Don't edit items below - they control the page layout
 layout: base
 permalink: /
 page-type: home
@@ -49,7 +53,7 @@ section-image-3: assets/img/square-90.png
       <img alt="{{ section.alt }}" src="{{ section.image }}" height="90">
 
       <h2>
-        <a title="{{ section.alt }}" href="{{ section.link | relative_url }}">{{ section.title }}</a>
+        <a title="{{ section.alt }}" href="{{ section.link | relative_url }}"{%if section.target == true%} target="_blank"{% endif %}>{{ section.title }}</a>
       </h2>
 
       <p>{{ section.copy }}</p>

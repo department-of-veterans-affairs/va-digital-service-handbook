@@ -272,6 +272,7 @@ h6 {
   @include media($medium-screen) {
     float: left;
     width: 33.33333%;
+    //width: 50%;
     padding-left: 1.75rem;
     padding-right: 1.75rem;
     margin-bottom: 0;

@@ -1,6 +1,6 @@
 ---
 #
-# See the Github wiki for how to edit this page and markdown styles you can use:
+# See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
 #
 # Title and Description display on page and in meta
@@ -11,7 +11,7 @@ description: The <i>Digital Service Standard</i> is a set of principles that hel
 header-image: /assets/img/image-digital-standard.png
 header-image-alt: Digital Standard icon
 #
-# The list of jump-menu titles creates the menu. Titles here must match the titles used in the H3 (#### s) in the Markdown.
+# Internal jump-menu titles - titles here must match the titles used in the H3 (#### s) in the Markdown.
 jump-menu:
   - Understand people and their needs
   - Establish the right team

@@ -55,8 +55,7 @@ Using these methods ensures that we make decisions based on observations about u
 3. [Alpha](alpha)
 4. [Beta](beta)
 5. [Live](live)
-6. [Related guides](guides)
-7. [Related resources](resources)
+6. [Related guides](related)
 
 <hr>
 
