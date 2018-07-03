@@ -21,7 +21,14 @@ sidebar-type: /service-design
 
 ### What is Beta?
 
-Description here.
+In the beta phase
+* Improve your service by testing it with users based on the user stories you created in the alpha phase
+* Solve any technical or process-related challenges so that your service meets the Digital Service Standard
+* Make a launch plan
+* Release updates and improvements into the development environment
+* Measure the effect of any changes to the Key Performance Indicators (KPIs) you established in discovery and alpha, for example if you changed KPIs because of new data
+carry out regular accessibility testing and get an accessibility audit
+test the assisted digital support model you designed for your service
 
 #### Sections
 
@@ -45,3 +52,7 @@ Description here.
   * Links to examples/templates from other teams
   * How to get help in a specific discipline
   * How to get help if you don't understand something in the Handbook
+
+<hr>
+
+{% include include-service-design-footer-nav.html data="live" %}

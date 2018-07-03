@@ -24,6 +24,8 @@ sidebar-type: /service-design
 Description here.
 
 #### Sections
+include retiring your service stuff
+
 
 * Goal of phase
 * Timeframe
@@ -45,3 +47,7 @@ Description here.
   * Links to examples/templates from other teams
   * How to get help in a specific discipline
   * How to get help if you don't understand something in the Handbook
+
+<hr>
+
+<a href="#">Return to top</a>

@@ -1,9 +1,18 @@
 ---
+#
+# See the Github wiki for how to edit content on this page and markdown styles you can use:
+# link here
+#
+# Title and Description display on page and in meta
 title: Service Design Guide
 description: The <i>Service Design Guide</i> helps VA teams meet the <a title="Digital Service Standard" href="../digital-standard">Digital Service Standard</a> by consistently engaging with users and by using best practices to design, build, and launch great digital services.
 #
-# Should not need to edit attributes below
+# Internal page menu - titles here match titles in Markdown
+sections:
+  - What is service design?
+  - Using the Service Design Guide
 #
+# Don't edit items below - they control the page layout
 layout: page
 page-type: page
 page-description: yes
@@ -12,17 +21,17 @@ permalink: /service-design/
 header-image: /assets/img/image-service-design.png
 header-image-alt: Service Design Guide icon
 #
-#
-# To edit the Service Design Guide Overview content,
-# use Markdown in the copy below.
-#
-#
 ---
-disclaimer re passing CD1 and CD2 and having funding
-
-### What is Service Design?
 
 > To launch a service (or feature) on the Veteran Tools Platform, you must follow the steps in this Service Design Guide.
+
+{% for item in page.sections %}
+* [{{ item}}](#{{item | downcase | replace: ' ', '-' | replace: '?', ''}})
+{% endfor %}
+
+<hr>
+
+### What is service design?
 
 Service Design helps us to understand the people who will use a service in order to create solutions that work for them.
 
@@ -33,14 +42,22 @@ Service Design uses these methods to engage with users throughout the lifecycle 
 
 Using these methods ensures that we make decisions based on observations about users and their needs (rather than relying on our assumptions).
 
+<a href="#">Return to top</a>
+
+<hr>
 
 ### Using the Service Design Guide
 
-Intro copy - explain the overall process with visual aid
+<span class="todo">todo- Intro copy - explain the overall process with visual aid</span>
 
-1. [Discovery](discovery)
-2. [Alpha](alpha)
-3. [Beta](beta)
-4. [Live](live)
-5. [Retirement](retirement)
-6. [Resources](resources)
+1. [Getting started](getting-started)
+2. [Discovery](discovery)
+3. [Alpha](alpha)
+4. [Beta](beta)
+5. [Live](live)
+6. [Related guides](guides)
+7. [Related resources](resources)
+
+<hr>
+
+{% include include-service-design-footer-nav.html data="getting-started" %}

@@ -15,7 +15,7 @@ sections:
     title: Veteran Tools<br/>APIs
     link: apis
     alt: Veteran Tools APIs
-    copy: The <a title="Veteran Tools APIs" href="apis">Veteran Tools APIs</a> are... <br/><span class="todo">TODO</span> - Copy here.
+    copy: The <a title="Veteran Tools APIs" href="apis">Veteran Tools APIs</a> are... <br/><span class="todo">TODO - Copy here </span>
 description:
   subhead: Empowering VA teams to build their own digital services on the Veteran Tools Platform
   p1: We created this Handbook based on VA's experience with <a title="Vets.gov" href="https://www.vets.gov" target="_blank">Vets.gov</a>, as well as best practices from government digital services, government agencies, and the technology industry. It's a tool to help VA teams create the best possible user experience for people interacting with Veteran-facing digital services.

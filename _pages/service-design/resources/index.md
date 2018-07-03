@@ -4,14 +4,8 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Service Design Resources
-description: Resources you can use throughout the service lifecycle.
-#
-# Internal page menu - titles here match titles in Markdown
-sections:
-  - User research resources
-  - Technical resources
-  - Project management resources
+title: Related resources
+description: Resources for specific activities to help you throughout each phase of the service lifecycle.
 #
 # Don't edit items below - they control the page layout
 layout: page
@@ -21,34 +15,31 @@ sidebar-type: /service-design
 permalink: /service-design/resources
 #
 ---
-### In progress !
 
-### Introduction
+{% for item in site.data.navigation %}
 
-Be sure to read through the Service Design Guide to understand how you to use these resources in each project phase.
-{% for item in page.sections %}
-* [{{ item}}](#{{item | downcase | replace: ' ', '-'}})
+  {% for subitem in item.subitems %}
+
+    {% if subitem.title == "Related resources" %}
+
+      {% for section in subitem.tertitems %}
+
+        {% if section.target == true %}
+
+* <a title="{{ section.title }}" href="{{ section.linkto}}" target="_blank">{{ section.title }}</a>
+  {{ section.description }}
+
+        {% else %}
+
+* [{{ section.title }}]({{ section.linkto  | relative_url }})
+  {{ section.description }}
+
+        {% endif %}
+
+      {% endfor %}
+
+    {% endif %}
+
+  {% endfor %}
+
 {% endfor %}
-
-<hr>
-
-### User research resources
-
-* [Prioritizing your research questions ]({{site.data.resources.workshop-research-questions}})
-  * If you have remote team members, you'll need to modify the workshop instructions to include those team members.
-
-* Creating a research plan - [example]({{site.data.resources.research-plan-ex}}) - [template]({{site.data.resources.research-plan-template}})
-
-* [Learn how to identify user groups]({{site.data.resources.identify-user-groups}})
-
-* [Choosing a research method]({{site.data.resources.choose-research-method}})
-
-* Creating personas - [example1]({{site.data.resources.persona-1}}) - [example2]({{site.data.resources.persona-2}})
-
-* Creating user profiles - [example1]({{site.data.resources.user-profiles-1}}) - [example2]({{site.data.resources.user-profiles-2}})
-
-
-### Technical resources
-* [Technical exploration](linkhere)
-
-### Project management resources

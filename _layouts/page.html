@@ -4,11 +4,11 @@ layout: base
 
 <section class="usa-section-dark pages-section">
   <div class="usa-grid">
-{% if page.page-type != "subpage" %}    
+{% if page.page-type != "subpage" %}
     <div class="usa-width-two-thirds page-hero-text">
 {% else %}
     <div class="usa-width-two-thirds subpage-hero-text">
-{% endif %}      
+{% endif %}
       <h1>
         {{ page.title }}
       </h1>
@@ -32,7 +32,7 @@ layout: base
   <div class="usa-width-full">
 
 {% if page.page-type == "jump-menu" %}
-  
+
     <div class="usa-width-two-thirds">
 
       <div class="page-intro">
@@ -52,16 +52,16 @@ layout: base
 
     <div class="usa-width-three-fourths usa-layout-docs-main_content three-fourths-with-sidebar">
 
-  {% else %}  
+  {% else %}
     <div class="usa-width-three-fourths usa-layout-docs-main_content">
-  {% endif %} 
-    
+  {% endif %}
 
-  {% if page.page-description == true %}      
+
+  {% if page.page-description == true %}
       <div class="page-intro">
         {{ page.description }}
       </div>
-  {% endif %}     
+  {% endif %}
 
     {{ content }}
 

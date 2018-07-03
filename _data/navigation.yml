@@ -11,24 +11,96 @@
     - title: Overview
       linkto: /service-design/
       alt: Overview
+
+    - title: Getting started
+      linkto: /service-design/getting-started
+      alt: Getting started
+
     - title: Discovery
       linkto: /service-design/discovery
       alt: Discovery
+
     - title: Alpha
       linkto: /service-design/alpha
       alt: Alpha
+
     - title: Beta
       linkto: /service-design/beta
       alt: Beta
+
     - title: Live
       linkto: /service-design/live
       alt: Live
-    - title: Retirement
-      linkto: /service-design/retirement
-      alt: Retirement
-    - title: Resources
+
+    - title: Related guides
+      linkto: /service-design/guides
+      alt: Related guides
+      tertitems:
+        - title: User research guide
+          linkto: /service-design/guides/user-research
+          alt: User research guide
+          description: Creating a research plan, planning a research sprint, and more resources
+
+        - title: Design guide
+          linkto: /service-design/guides/design
+          alt: Design guide
+          description: Design philosophy, content guidelines, designing for accessibility, and design tools
+
+        - title: Content guide
+          linkto: https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide
+          alt: Content guide
+          description: Guidelines for word choice and terms, voice and tone, and best practices for well-written plain language content
+          target: yes
+
+        - title: Technical guide
+          linkto: /service-design/guides/technical
+          alt: Technical guide
+          description: Resources and tools for developers
+
+        - title: Team management guide
+          linkto: /service-design/guides/team-mgmt
+          alt: Team management guide
+          description: Guidelines for team structure and resources and tools for managing your team
+
+    - title: Related resources
       linkto: /service-design/resources
-      alt: Resources
+      alt: Related resources
+      tertitems:
+      - title: Team structure
+        linkto: /service-design/resources/team-structure
+        alt: Team structure
+
+      - title: Next Steps checkpoint
+        linkto: /service-design/resources/next-steps-checkpoint
+        alt: Next Steps checkpoint
+
+      - title: Problem statement
+        linkto: /service-design/resources/problem-statement
+        alt: Problem statement
+
+      - title: Research questions
+        linkto: /service-design/resources/research-questions
+        alt: Research questions
+
+      - title: Research sprints
+        linkto: /service-design/resources/research-sprints
+        alt: Research sprints
+
+      - title: Conversation guide
+        linkto: /service-design/resources/conversation-guide
+        alt: Conversation guide
+
+      - title: Research readout
+        linkto: /service-design/resources/research-readout
+        alt: Research readout
+
+      - title: Technical discovery
+        linkto: /service-design/resources/technical-discovery
+        alt: technical-discovery
+
+      - title: Product outline
+        linkto: /service-design/resources/product-outline
+        alt: Product outline
 
 - title: Veteran Tools APIs
   linkto: /apis

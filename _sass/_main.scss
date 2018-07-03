@@ -489,11 +489,12 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
 }
 .usa-sidenav-list {
   margin-top: .8rem;
-  border-top: 1px solid $color-silver;
-  border-bottom: 1px solid $color-silver;
+  //border-top: 1px solid $color-silver;
+  //border-bottom: 1px solid $color-silver;
 }
 .usa-sidenav-list>li {
-  border-top: none;
+  //border-top: none;
+  border-top: 1px solid $color-silver;
 }
 .usa-sidenav-list a.usa-current {
   border-left: none;
@@ -501,6 +502,23 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
 }
 .usa-current-sidenav-li {
   list-style-image: url('../img/bullet-red.png');
+}
+.usa-current-sidenav-li .no-bullet {
+  list-style-image: none;
+}
+.usa-sidenav-sub_list li {
+  //font-size: 1.7rem;
+}
+
+
+.usa-accordion-content ul li {
+  list-style-type: disc;
+}
+.usa-accordion-button[aria-expanded=false] {
+  //background-color: $color-primary-alt-lightest;
+}
+.usa-accordion-button[aria-expanded=true] {
+  //background-color: $color-primary-alt-lightest;
 }
 
 

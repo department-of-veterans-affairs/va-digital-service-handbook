@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Discovery
-description: Discovery is not about solutions; it’s about problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
+description: Discovery is not about solutions; it’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
@@ -29,7 +29,7 @@ It's tempting to start brainstorming solutions right away based on your understa
 
 Instead focus on a user-centered design process in which your team's primary questions are: Who are the potential users of my service, and how can we design a service that meets their needs?
 
-Your goal in the discovery phase is to learn about real users and identify the problem(s) your service could solve for them. The best way to do this is to [talk to real users](resources/research). Go out and find people who will be using the service. Talk to them, observe them, and learn what they need and want.
+Your goal in the discovery phase is to **learn about real users and identify the problem(s) your service could solve for them**. The best way to do this is to [talk to real users](guides/user-research). Go out and find people who will be using the service. Talk to them, observe them, and learn what they need and want.
 
 The following sections will guide you in meeting the Digital Standard for discovery.
 {% for item in page.sections %}
@@ -43,30 +43,16 @@ The following sections will guide you in meeting the Digital Standard for discov
 #### Timeframe
 
 It's important to start the project by putting a time constraint on your discovery work. Plan to spend
-  * 2 to 4 weeks on discovery for a new feature
+  * 2 to 4 weeks for a new feature
   * 4 to 8 weeks for a new service
 
 #### The team you need
 
-Discovery is not just the work of user researchers. Involve your whole team in the discovery phase and make sure they understand their responsibilities. This helps everybody on the team focus on building a user-centered service.
-
-For discovery, you'll need people dedicated to the following roles
-
-* Product manager
-* User researcher
-* User Experience designer
-* Technology lead  
-* Content writer
-* Project manager
-* <span class="todo">these could be made more specific to VA ?</span>
-
-#### Project Management
-
-Make sure to use your team's Github "Product" folder to share your discovery materials.
+See [team structure](resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
 
 #### At the end of discovery
 
-At least a week before discovery ends, schedule a **Next Steps workshop** to share your team's recommended next steps (and your reasons). [Find out how to schedule it, who will attend, and how to prepare]().
+At least a week before discovery ends, schedule a [Next Steps checkpoint](resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
 
 <a href="#">Return to top</a>
 
@@ -85,12 +71,13 @@ At least a week before discovery ends, schedule a **Next Steps workshop** to sha
 
 #### Using these activities
 
-* Conduct **[user research](resources/research)** to learn about potential users of your service through interviews, observation, and testing
+* Define a **[problem statement](resources/problem-statement)** that you think your service will solve for your users
+* Conduct **[user research](guides/user-research)** to learn about potential users of your service through interviews, observation, and testing
 * Decide who the primary user groups will be
 * Analyze any existing VA or private-sector services that meet user needs
 * Understand current VA policy, technology, and business process related to your service
 * Identify policies or other barriers that could make it difficult to meet user needs
-* Explore the **[technical landscape](resources/technical-research)**
+* Review the <a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started" target="_blank">**developer documentation**</a> and conduct **[technical discovery](resources/technical-discovery)**
 * Document findings from your user research and technical exploration
 * Use insights from your findings to create a plan for what the team will work on during the alpha phase
 
@@ -127,34 +114,20 @@ At least a week before discovery ends, schedule a **Next Steps workshop** to sha
 
 ### Resources and help
 
-<!--
-#### Tools
+* Review [Next Steps checkpoint](resources/next-steps-checkpoint) to understand how to document your discovery findings and prepare for your Next Steps meeting.
 
-* Github - how to use
-* Slack - how to use
-* <span class="todo">others ?</span>
--->
+* Review the following for information, examples, and templates you can use in the discovery phase:
 
-#### Resources
+  * [User research guide](guides/user-research)
+  * [Design guide](guides/design)
+  * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
+  * [Technical guide](guides/technical)
+  * [Team management guide](guides/team-mgmt)
 
-During the discovery phase, focus on answering questions (rather than focusing on specific deliverables or process).
+* If you have a question about something in the Handbook, or need help in a specific subject area, [email us](mailto:{{site.contact-handbook.email}}). Or, post your question in the #dsva-platform-project Slack channel.
+<br/>
 
-Below you'll find example deliverables other teams have made in order to answer the discovery questions (along with blank templates you can use). Feel free to use these!
-
-* [User research resources](resources/research)
-* [Technical resources](resources/technical-ex)
-
-
-#### How to get help during discovery
-
-* If you have a question about something in the Handbook, or need help in a specific subject area or discipline, contact [{{site.contact-handbook.email}}](mailto:{{site.contact-handbook.email}}).
-
-
-#### How discovery aligns with Veteran Integrated Process (VIP)
-
-* fill in here
 
 <hr>
 
-<div style="float:left;"><a href="#">Return to top</a></div>
-<div style="float:right;"><a href="alpha">Next phase: Alpha ></a></div>
+{% include include-service-design-footer-nav.html data="alpha" %}

@@ -18,6 +18,7 @@
             <ul id="extended-nav-section-{{count}}" class="usa-nav-submenu">
               {% for subitem in navitem.subitems %}
               <li>
+
                 <a title="{{ navitem.alt}}" href="{{ subitem.linkto | relative_url }}">
                   <span class="{% if page.url == subitem.linkto %}active{% endif %}">{{subitem.title}}</span>
                 </a>

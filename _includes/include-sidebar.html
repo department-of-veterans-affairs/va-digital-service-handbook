@@ -1,7 +1,6 @@
 <nav>
-  <ul class="usa-sidenav-list">
 
-{% assign count = 0 %}
+<ul class="usa-sidenav-list">
 
 {% for navitem in site.data.navigation %}
 
@@ -9,9 +8,39 @@
 
     {% for subitem in navitem.subitems %}
 
-    <li class="{% if subitem.linkto == page.url %}usa-current-sidenav-li{% endif %}">
-      <a title="{{ subitem.title}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
-    </li>
+      {% if subitem.tertitems %}
+
+      {% if subitem.title contains 'Related' %}
+        {% assign subitem-title = subitem.title | replace: 'Related', '' | replace: '-', '' %}
+      {% else %}
+        {% assign subitem-title = subitem.title %}
+      {% endif %}
+
+      {% assign subitem-current = subitem-title | downcase | replace: ' ', '' %}
+
+      <li class="{% if page.url contains subitem-current %}usa-current-sidenav-li{% endif %}">
+        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
+
+        <ul class="usa-sidenav-sub_list">
+        {% for tertitem in subitem.tertitems %}
+
+          <li class="no-bullet">
+            {% if tertitem.target == true %}
+              <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto}}" target="_blank" class="{% if tertitem.linkto == page.url %}usa-current{% endif %}">{{tertitem.title}}</a>
+            {% else %}
+              <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto | relative_url }}" class="{% if tertitem.linkto == page.url %}usa-current{% endif %}">{{tertitem.title}}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+
+      </li>
+
+      {% else %}
+      <li class="{% if subitem.linkto == page.url %}usa-current-sidenav-li{% endif %}">
+        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
+      </li>
+      {% endif %}
 
     {% endfor %}
 
@@ -19,6 +48,6 @@
 
 {% endfor %}
 
-  </ul>
+</ul>
 
 </nav>
