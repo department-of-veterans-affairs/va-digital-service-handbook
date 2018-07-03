@@ -1,5 +1,5 @@
 ---
-# 
+#
 # See the Github wiki for how to edit this page and markdown styles you can use:
 # link here
 #
@@ -7,7 +7,7 @@
 title: Digital Service Standard
 description: The <i>Digital Service Standard</i> is a set of principles that helps VA teams deliver excellent digital services to Veterans and the people who support them.
 #
-# Image displays in page header 
+# Image displays in page header
 header-image: /assets/img/image-digital-standard.png
 header-image-alt: Digital Standard icon
 #
@@ -67,7 +67,7 @@ You'll engage users for research and feedback throughout the service lifecycle. 
 * Explain how you will continuously monitor and improve the service, including how often you plan to research and test the service and your plans for incorporating changes to address user problems
 
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -89,7 +89,7 @@ Your team should include the following skillsets
 * Technical &mdash; architecture; development; quality assurance; testing
 * Policy &mdash; relevant subject-matter expertise (and the desire to improve policy)
 * Performance evaluation &mdash; continuous measurement and analysis
-* Project management &mdash; manage agile delivery; manage the team's work with policy, legal, finance, and communications teams 
+* Project management &mdash; manage agile delivery; manage the team's work with policy, legal, finance, and communications teams
 
 > {{ page.seemore }}  
 
@@ -98,9 +98,9 @@ Your team should include the following skillsets
 
 ### Work in the open
 
-When you build and launch a service (or a feature) on the Veteran Tools Platform, the front-end code will be visible to anyone visiting the <a title="Go to Github repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">Github repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built. 
+When you build and launch a service (or a feature) on the Veteran Tools Platform, the front-end code will be visible to anyone visiting the <a title="Go to Github repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">Github repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built.
 
-When you first begin work on your service for the Veteran Tools Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository. <a title="Go to example Github repo" target="_blank" href="addsampleprojecturl">See an example</a>.
+When you first begin work on your service for the Veteran Tools Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository. <!--<a title="Go to example Github repo" target="_blank" href="addsampleprojecturl">See an example</a>.-->
 
 #### By working in the open on Github, you can
 * See what other Veteran Tools Platform teams are working on
@@ -116,14 +116,14 @@ At a minimum, you'll
 * Use Github Issues (or another agile project management tool) to track team tasks so they're visible to the whole team
 * Publish your team's product, research, and design materials in the Github "Product" repository
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
 
 ### Design the whole experience, from start to finish
 
-Although your service is designed as a digital experience, it probably exists in the context of a larger goal your users want to achieve. For example, Veterans applying for disability compensation first need to obtain certain documents that may require telephone calls or filling out paper forms. 
+Although your service is designed as a digital experience, it probably exists in the context of a larger goal your users want to achieve. For example, Veterans applying for disability compensation first need to obtain certain documents that may require telephone calls or filling out paper forms.
 
 Understand the complete end-to-end journey that users take to complete their goal, including the actions they take online, on a phone, or in person. Every encounter &mdash; whether it’s online or offline &mdash; is part of the "VA user experience" and should move users closer to their goals.
 
@@ -144,7 +144,7 @@ Your understanding of the end-to-end experience will evolve over time as you des
 * Describe the results of research and usability testing and how the results will be used to improve the service
 * Explain any problems found during testing, as well as your proposed solutions
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -170,7 +170,7 @@ The primary goal of your service should be to help your users achieve their goal
 * Test the name of the service to make sure it makes sense to your users
 * Use performance analytics to identify areas where users are unable to complete their tasks and prioritize fixes for these
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -192,17 +192,17 @@ The user experience of your service must be consistent with other services on th
 At a minimum, you'll
 
 * Reuse components from the Veteran Tools Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a>
-* Follow the Veteran Tools Platform <a title="Go to Editorial Guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide/blob/master/table-of-contents.md" target="_blank">Editorial Guide</a> for writing copy for your service
+* Follow the Veteran Tools Platform <a title="Go to Editorial Guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">content guidelines</a> for writing copy for your service
 * Make sure your service is responsive and works on mobile devices
 
 <!--
-* Work with your [DSVA contact](service-design/discovery/linkto) to 
+* Work with your [DSVA contact](service-design/discovery/linkto) to
   * Include your service in the Veteran Tools Platform navigation structure
-  * Name your URLs appropriately (for best SEO and readability) 
+  * Name your URLs appropriately (for best SEO and readability)
   * Set up Google Analytics for your service
 -->
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -211,7 +211,7 @@ At a minimum, you'll
 
 Accessibility is about making sure your service can be used by as many people as possible. Thinking about this from the beginning will help you make sure that nobody is excluded.
 
-When we talk about designing for accessibility, we're not just talking about designing for people with disabilities. We mean *designing for people in the widest variety of real-life circumstances.* 
+When we talk about designing for accessibility, we're not just talking about designing for people with disabilities. We mean *designing for people in the widest variety of real-life circumstances.*
 
 All users will have different needs at different times and in different circumstances. For example, a person's ability to use your service can be affected by their:
 * Health - they may be recovering from a stroke or traumatic brain injury, or they may have a broken arm and be unable to use their mouse
@@ -239,7 +239,7 @@ At a minimum, you'll
 * <a title="Go to Section 508 office" href="https://www.section508.va.gov/" target="_blank">VA Section 508 office</a>
 * <a title="Go to Section 508 law" href="https://www.section508.gov/manage/laws-and-policies" target="_blank">Section 508 law</a>
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -258,7 +258,7 @@ At a minimum, you'll
 * Put in place appropriate VA legal, privacy, and security measures
 * <span class="todo">TODO</span> - More from Aaron
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -286,7 +286,7 @@ At a minimum, you'll
 * Have a quality assurance testing and rollback plan that supports frequent iterations to the service
 * Apply the same iterative approach to evolving *the way your team works together*
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -308,7 +308,7 @@ At a minimum, you'll
 * Follow the process for data storage and recovery in case of data loss
 * Document how your service was built and how to maintain it, and keep the documentation up-to-date
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -330,7 +330,7 @@ At a minimum, you'll
 * Explain what you’ve built in each phase of the service lifecycle and why you built it
 * Demonstrate your team has the ability to deploy software frequently with minimal disruption to users
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -344,7 +344,7 @@ Encourage people to choose your digital service over non-digital VA touch points
 
 #### Tips
 
-* Think about the ways your service is connected to other VA digital services. Then consider how your service might promote (or link to) those other VA digital services. And ask them to do the same for your service. 
+* Think about the ways your service is connected to other VA digital services. Then consider how your service might promote (or link to) those other VA digital services. And ask them to do the same for your service.
 
 #### How to meet this standard
 
@@ -355,8 +355,6 @@ At a minimum, you'll
 * Have a plan to increase the number of people who use your digital service
 * Identify the organizations and groups that help Veterans complete VA-related tasks, and ask them to support your service
 
-> {{ page.seemore }} 
+> {{ page.seemore }}
 
 <a href="#">Return to top</a>
-
-

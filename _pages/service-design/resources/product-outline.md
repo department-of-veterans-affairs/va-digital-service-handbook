@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Creating a product outline
-description: Use a product outline to describe your problem statement and keep track of how your service evolves through the service lifecycle.
+description: Use a product outline to describe your problem statement and hypotheses and keep track of how your service evolves after the discovery phase.
 #
 # Don't edit items below * they control the page layout
 layout: page
