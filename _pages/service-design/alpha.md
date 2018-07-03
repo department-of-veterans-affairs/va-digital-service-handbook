@@ -213,9 +213,9 @@ In the beta phase, you'll need to nail down answers to the following questions. 
 
 ### Resources and help
 
-* Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to document your discovery findings and prepare for your Next Steps meeting.
+* Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to document your alpha findings and prepare for your Next Steps meeting.
 
-* Review the following for information, examples, and templates you can use in the discovery phase:
+* Review the following for information, examples, and templates you can use in the alpha phase:
 
   * [User research guide](related/user-research)
   * [Design guide](related/design)
