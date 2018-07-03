@@ -66,7 +66,7 @@
         description: Guidelines for team structure and resources and tools for managing your team
 
       - title: Other resources
-        linkto: /service-design/related/other-resources/
+        linkto: /service-design/related/other-resources
         alt: Other resources
         description: The Service Design Guide refers to the following resources. They're collected here for easy reference.
         show-quaditems: no
