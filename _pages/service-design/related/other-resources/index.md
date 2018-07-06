@@ -18,7 +18,7 @@ permalink: /service-design/related/other-resources
 
 ### Research resources
 
-* [Problem statement]({{ "problem-statement" | relative-url }})
+* [Problem statement]({{ "problem-statement" }})
 * [Research questions]({{ "research-questions" | relative-url }})
 * [Research sprints]({{ "research-sprints" | relative-url }})
 * [Conversation guide]({{ "conversation-guide" | relative-url }})
