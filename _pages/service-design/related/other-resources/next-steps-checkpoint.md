@@ -82,7 +82,7 @@ We recommend preparing a presentation to guide the conversation. Post this in yo
 
 ### What to expect
 
-The purpose of the Next Steps checkpoint is to ensure your team has met the [Digital Standard](../../digital-standard) and feels confident about moving to the next phase.
+The purpose of the Next Steps checkpoint is to ensure your team has met the [Digital Standard]({{ "digital-standard" | relative_url }}) and feels confident about moving to the next phase.
 
 We expect your team to come to the meeting with a [recommended outcome](#possible-outcomes). Based on the meeting conversation, together we may decide a different outcome.
 
