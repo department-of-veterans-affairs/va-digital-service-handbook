@@ -7,9 +7,9 @@ sections:
     alt: Design modern, user-friendly digital services
     copy: The <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> describes the quality standards for modern, user&#8209;friendly digital services on the Veteran Tools Platform.
   - image: assets/img/home-section-2.png
-    title: Agile and user&#8209;centered delivery
+    title: Agile, user&#8209;centered delivery
     link: service-design
-    alt: Working in an agile way
+    alt: Agile, user-centered delivery
     copy: The <a title="Service Design Guide" href="service-design">Service Design Guide</a> helps VA teams meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> by engaging with users and using best practices for agile delivery.
   - image: assets/img/home-section-3.png
     title: Veteran Affairs<br/>APIs

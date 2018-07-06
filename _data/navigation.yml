@@ -72,47 +72,47 @@
         show-quaditems: no
         quaditems:
         - title: Team structure
-          linkto: /service-design/related/other-resources/team-structure
+          linkto: ../related/other-resources/team-structure
           alt: Team structure
           phase: work
 
         - title: Next Steps checkpoint
-          linkto: /service-design/related/other-resources/next-steps-checkpoint
+          linkto: ../related/other-resources/next-steps-checkpoint
           alt: Next Steps checkpoint
           phase: work
 
         - title: Problem statement
-          linkto: /service-design/related/other-resources/problem-statement
+          linkto: ../related/other-resources/problem-statement
           alt: Problem statement
           phase: research
 
         - title: Research questions
-          linkto: /service-design/related/other-resources/research-questions
+          linkto: ../related/other-resources/research-questions
           alt: Research questions
           phase: research
 
         - title: Research sprints
-          linkto: /service-design/related/other-resources/research-sprints
+          linkto: ../related/other-resources/research-sprints
           alt: Research sprints
           phase: research
 
         - title: Conversation guide
-          linkto: /service-design/related/other-resources/conversation-guide
+          linkto: ../related/other-resources/conversation-guide
           alt: Conversation guide
           phase: research
 
         - title: Research readout
-          linkto: /service-design/related/other-resources/research-readout
+          linkto: ../related/other-resources/research-readout
           alt: Research readout
           phase: research
 
         - title: Technical discovery
-          linkto: /service-design/related/other-resources/technical-discovery
+          linkto: ../related/other-resources/technical-discovery
           alt: technical-discovery
           phase: technical
 
         - title: Product outline
-          linkto: /service-design/related/other-resources/product-outline
+          linkto: ../related/other-resources/product-outline
           alt: Product outline
           phase: work
 

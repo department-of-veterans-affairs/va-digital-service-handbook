@@ -5,13 +5,14 @@
 #
 # Title and Description display on page and in meta
 title: Alpha
-description: Alpha is about testing hypotheses with users. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
+description: Alpha is about prototyping testing hypotheses with users. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
   - Planning for alpha
   - During alpha
-  - For designers and developers
+  - Scoping your MVP
+  - Questions for designers and developers
   - Completing alpha
   - Resources and help
 #
@@ -157,7 +158,17 @@ Think of each prototype as a proof of concept and use it to answer these questio
 <hr>
 
 
-### For designers and developers
+### Scoping your MVP
+
+content re making it smaller and providing minimum features = value
+
+
+<a href="#">Return to top</a>
+
+<hr>
+
+
+### Questions for designers and developers
 
 In the beta phase, you'll need to nail down answers to the following questions. But you may want to start thinking about them now.
 
@@ -184,7 +195,7 @@ In the beta phase, you'll need to nail down answers to the following questions. 
 
 * A clear vision and definition for the MVP service you'll build in beta (its scope)
 * Thoroughly tested prototypes that demonstrate the design of the MVP service
-* A list of user stories and features for the MVP service
+* A prioritized list of user stories and features for the MVP service (your backlog)
 * A clear understanding of the technology that will support the MVP service (and an understanding of how the technology might evolve for later releases)
 * An understanding of other VA systems you need to replace or integrate with
 * A proposed set of metrics to measure your service’s success
