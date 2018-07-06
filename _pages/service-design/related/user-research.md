@@ -97,7 +97,7 @@ Create a research plan at the start of each development phase, especially discov
 
 ### Plan a research sprint
 
-This [research sprint planning template](../related/other-resources/research-sprints) may be useful as you're planning your research sprint.
+This [research sprint planning template](other-resources/research-sprints) may be useful as you're planning your research sprint.
 
 {% for group in site.data.research-guide %}
 

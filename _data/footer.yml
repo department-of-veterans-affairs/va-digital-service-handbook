@@ -1,11 +1,11 @@
 # Footer menu
 ---
 - title: Help
-  linkto: /help
+  linkto: help
   alt: Get help
 
 - title: Contact
-  linkto: /contact
+  linkto: contact
   alt: Contact us
 
 - title: Github

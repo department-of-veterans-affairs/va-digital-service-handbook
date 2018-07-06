@@ -18,104 +18,29 @@ permalink: /service-design/related/other-resources
 
 ### Research resources
 
-{% for item in site.data.navigation %}
+* [Problem statement]({{ "problem-statement" | relative-url }})
+* [Research questions]({{ "research-questions" | relative-url }})
+* [Research sprints]({{ "research-sprints" | relative-url }})
+* [Conversation guide]({{ "conversation-guide" | relative-url }})
+* [Research readout]({{ "research-readout" | relative-url }})
 
-  {% for subitem in item.subitems %}
-
-    {% if subitem.title == "Related guides" %}
-
-      {% for tertitem in subitem.tertitems %}
-
-        {% if tertitem.title == "Other resources" %}
-
-          {% for quaditem in tertitem.quaditems %}
-
-            {% if quaditem.phase == "research" %}
-
-* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto | relative_url }}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
-{{ quaditem.description }}
-
-            {% endif %}
-
-          {% endfor %}
-
-        {% endif %}
-
-      {% endfor %}
-
-    {% endif %}
-
-  {% endfor %}
-
-{% endfor %}
 
 <hr>
 
 ### Technical resources
 
-{% for item in site.data.navigation %}
-
-  {% for subitem in item.subitems %}
-
-    {% if subitem.title == "Related guides" %}
-
-      {% for tertitem in subitem.tertitems %}
-
-        {% if tertitem.title == "Other resources" %}
-
-          {% for quaditem in tertitem.quaditems %}
-
-            {% if quaditem.phase == "technical" %}
-
-* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto | relative_url }}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
-{{ quaditem.description }}
-
-            {% endif %}
-
-          {% endfor %}
-
-        {% endif %}
-
-      {% endfor %}
-
-    {% endif %}
-
-  {% endfor %}
-
-{% endfor %}
+* [Technical discovery]({{ "technical-discovery" | relative-url }})
 
 
 <hr>
 
 ### Resources for managing work
 
-{% for item in site.data.navigation %}
+* [Team structure]({{ "team-structure" | relative-url }})
+* [Next Steps checkpoint]({{ "next-steps-checkpoint" | relative-url }})
+* [Product outline]({{ "product-outline" | relative-url }})
+<br/>
 
-  {% for subitem in item.subitems %}
+<hr>
 
-    {% if subitem.title == "Related guides" %}
-
-      {% for tertitem in subitem.tertitems %}
-
-        {% if tertitem.title == "Other resources" %}
-
-          {% for quaditem in tertitem.quaditems %}
-
-            {% if quaditem.phase == "work" %}
-
-* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto | relative_url }}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
-{{ quaditem.description }}
-
-            {% endif %}
-
-          {% endfor %}
-
-        {% endif %}
-
-      {% endfor %}
-
-    {% endif %}
-
-  {% endfor %}
-
-{% endfor %}
+<a href="#">Return to top</a>

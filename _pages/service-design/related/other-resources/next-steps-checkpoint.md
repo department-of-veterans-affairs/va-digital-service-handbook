@@ -71,7 +71,7 @@ The best way to prepare is to review
 * Any outstanding questions you might have
 * How what you've learned has impacted your plans for the next phase
 
-You should also review the [Digital Standard](../../digital-standard) so you're able to talk about which activities met which standards.
+You should also review the [Digital Standard]({{ "digital-standard" | relative_url }}) so you're able to talk about which activities met which standards.
 
 We recommend preparing a presentation to guide the conversation. Post this in your Github folder so other Veteran Tools Platform teams can learn from your team's work.
 

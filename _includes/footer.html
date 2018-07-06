@@ -20,7 +20,7 @@
 {% for item in site.data.footer %}
   {% if item.title != "Help" %}
 
-          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ site.baseurl }}{{ item.linkto }}"{% endif %}{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a></li>
+          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ site.baseurl }}{{ item.linkto | relative_url }}"{% endif %}{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a></li>
 
   {% endif %}
 {% endfor %}
