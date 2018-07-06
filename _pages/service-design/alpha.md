@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Alpha
-description: Alpha is about testing hypotheses and experimentation. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
+description: Alpha is about testing hypotheses with users. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
