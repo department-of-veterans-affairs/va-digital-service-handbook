@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Digital Service Standard
-description: The <i>Digital Service Standard</i> is a set of principles that helps VA teams deliver excellent digital services to Veterans and the people who support them.
+description: The <i>Digital Service Standard</i> are the quality standards that help VA teams deliver excellent digital services to Veterans and the people who support them.
 #
 # Image displays in page header
 header-image: /assets/img/image-digital-standard.png

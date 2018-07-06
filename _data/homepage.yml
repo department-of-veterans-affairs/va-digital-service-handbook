@@ -2,24 +2,24 @@
 ---
 sections:
   - image: assets/img/home-section-1.png
-    title: Digital Service<br/>Standard
+    title: Modern, user&#8209;friendly digital services
     link: digital-standard
-    alt: Digital Service Standard
-    copy: The <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> is a set of principles that helps anyone build and deliver excellent digital services to Veterans and the people who support them.
+    alt: Design modern, user-friendly digital services
+    copy: The <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> describes the quality standards for modern, user&#8209;friendly digital services on the Veteran Tools Platform.
   - image: assets/img/home-section-2.png
-    title: Service Design<br/>Guide
+    title: Agile and user&#8209;centered delivery
     link: service-design
-    alt: Service Design Guide
-    copy: The <a title="Service Design Guide" href="service-design">Service Design Guide</a> helps VA teams meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> by consistently engaging with users and by using best practices to design, build, and launch great digital services.
+    alt: Working in an agile way
+    copy: The <a title="Service Design Guide" href="service-design">Service Design Guide</a> helps VA teams meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> by engaging with users and using best practices for agile delivery.
   - image: assets/img/home-section-3.png
-    title: Veteran Tools<br/>APIs
+    title: Veteran Affairs<br/>APIs
     link: https://department-of-veterans-affairs.github.io/vets-contrib
-    alt: Veteran Tools APIs
+    alt: Veteran Affairs APIs
     target: yes
-    copy: The <a title="Veteran Tools APIs" href="https://department-of-veterans-affairs.github.io/vets-contrib" target="_blank">Veteran Tools APIs</a> empower our partners to build innovative, Veteran&#8209;centered, cutting edge solutions they can use to manage their care, services, and benefits.
+    copy: <a title="Veteran Affairs APIs" href="https://department-of-veterans-affairs.github.io/vets-contrib" target="_blank">Veteran Affairs APIs</a> empower our partners to build innovative, Veteran&#8209;centered, cutting edge solutions they can use to manage their care, services, and benefits.
 description:
   subhead: Empowering VA teams to build their own digital services on the Veteran Tools Platform
   p1: We created this Handbook based on VA's experience with <a title="Vets.gov" href="https://www.vets.gov" target="_blank">Vets.gov</a>, as well as best practices from government digital services, government agencies, and the technology industry. It's a tool to help VA teams create the best possible user experience for people interacting with Veteran-facing digital services.
-  p2: While this Handbook provides direction for teams who want to build on the <i>Veteran Tools Platform</i>, we hope other VA teams find it useful when building their own digital services.
+  p2: This Handbook provides direction for teams who want to build on the <i>Veteran Tools Platform</i> (the technologies and processes that support Vets.gov). But we hope other VA teams find it useful when building their own digital services.
   alert-title: Work in progress
   alert-copy: We're currently expanding and refining this Handbook.<br/>We encourage you to adopt as much of it as possible and <a title="Share feedback" href="contact">share your feedback</a>.

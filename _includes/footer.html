@@ -8,25 +8,35 @@
     <div class="usa-grid">
 
       <div class="footer-half usa-footer-logo">
-        <a href="http://department-of-veterans-affairs.github.io/dsva/"
+        <div class="footer-group">
+
+          <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="" />
+
+          <a href="http://department-of-veterans-affairs.github.io/dsva/"
           title="Go to {{ site.footer.org-title }}"
           aria-label="Go to {{ site.footer.org-title }}"
-          class="footer-logo-text"
-          target="_blank">
-          <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="Go to {{ site.footer.org-title }}" /> {{ site.footer.org-title }}
-        </a>
+          class=""
+          target="_blank">{{ site.footer.org-title }}</a>
+
+          &nbsp;<a href="https://www.oit.va.gov/"
+          title="Go to {{ site.footer.va-org-title }}"
+          aria-label="Go to {{ site.footer.va-org-title }}"
+          class=""
+          target="_blank">({{ site.footer.va-org-title }})</a>
+        </div>
+
       </div>
 
       <div class="footer-half">
         <ul class="usa-unstyled-list usa-nav-secondary-links">
 
 {% for item in site.data.footer %}
+  {% if item.title != "Help" %}
 
           <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ site.baseurl }}{{ item.linkto }}"{% endif %}{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a></li>
 
-          
-
-{% endfor %}      
+  {% endif %}
+{% endfor %}
         </ul>
       </div>
     </div>

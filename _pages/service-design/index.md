@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Service Design Guide
-description: The <i>Service Design Guide</i> helps VA teams meet the <a title="Digital Service Standard" href="../digital-standard">Digital Service Standard</a> by consistently engaging with users and by using best practices to design, build, and launch great digital services.
+description: The <i>Service Design Guide</i> helps VA teams meet the <a title="Digital Service Standard" href="../digital-standard">Digital Service Standard</a> by engaging with users and using best practices for agile delivery.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
