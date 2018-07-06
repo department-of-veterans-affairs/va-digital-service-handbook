@@ -32,7 +32,7 @@ permalink: /service-design/related/other-resources
 
             {% if quaditem.phase == "research" %}
 
-* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto}}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
+* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto | relative_url }}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
 {{ quaditem.description }}
 
             {% endif %}
@@ -67,7 +67,7 @@ permalink: /service-design/related/other-resources
 
             {% if quaditem.phase == "technical" %}
 
-* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto}}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
+* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto | relative_url }}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
 {{ quaditem.description }}
 
             {% endif %}
@@ -103,7 +103,7 @@ permalink: /service-design/related/other-resources
 
             {% if quaditem.phase == "work" %}
 
-* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto}}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
+* <a title="{{ quaditem.title }}" href="{{ quaditem.linkto | relative_url }}"{% if quaditem.target == true %} target="_blank"{% endif %}>{{ quaditem.title }}</a>
 {{ quaditem.description }}
 
             {% endif %}
