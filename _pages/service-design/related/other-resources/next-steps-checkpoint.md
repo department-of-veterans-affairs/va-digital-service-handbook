@@ -27,7 +27,7 @@ permalink: /service-design/related/other-resources/next-steps-checkpoint
 ### What is the Next Steps checkpoint?
 
 A Next Steps checkpoint happens after the discovery, alpha, and beta phases. It's designed to ensure
-* Your team's work meets the [Digital Standard](../../digital-standard)
+* Your team's work meets the [Digital Standard](/digital-standard)
 * Your service is consistent with the rest of the Veteran Tools Platform
 
 <hr>
