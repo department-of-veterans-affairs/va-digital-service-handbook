@@ -13,8 +13,11 @@ h2 {
     font-size: 2.5rem;
   }
 }
-h3 {
+// include H3 for secondary Markdown accordion
+h3,
+.secondary-accordion h3 {
   font-size: 1.8rem;
+  font-family: $font-serif;
   @include media($medium-screen) {
     font-size: 2rem;
   }
@@ -538,6 +541,8 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
 .align-middle {
   vertical-align: middle;
 }
+
+// basic Markdown blockquote
 blockquote {
   background-color: $color-gray-lightest;
   border-left: .8rem solid $color-red;
@@ -551,3 +556,30 @@ blockquote p {
 .todo {
   color: $color-red;
 }
+
+// secondary Markdown accordion
+.secondary-accordion {
+  border-left: .8rem solid $color-blue;
+  border-right: .8rem solid $color-blue;
+  .usa-accordion-button {
+    background-color: $color-primary;
+    color: white;
+    background-image: url("../img/minus-white.png");
+  }
+  .usa-accordion-button[aria-expanded=false] {
+      background-image: url("../img/plus-white.png");
+  }
+}
+.secondary-accordion-content {
+  background-color: $color-gray-lightest;
+}
+
+/*
+blockquote .b2 {
+  background-color: $color-gray-lightest;
+  border-left: .8rem solid $color-blue;
+  border-right: .8rem solid $color-blue;
+  margin: 1.5rem 0 1.5rem 0;
+  padding: 1.5rem;
+}
+*/

@@ -70,6 +70,7 @@ Create a research plan at the start of each development phase, especially discov
   <ul class="usa-accordion">
 
     {% for item in group[1] %}
+      {% if forloop.first %}
       <li>
         <button class="usa-accordion-button"
           aria-expanded="true"
@@ -82,6 +83,19 @@ Create a research plan at the start of each development phase, especially discov
 
         </div>
       </li>      
+      {% else %}
+      <li>
+        <button class="usa-accordion-button"
+          aria-controls="{{ item.number}}">
+          {{ item.title }}
+        </button>
+        <div id="{{ item.number }}" class="usa-accordion-content">
+
+          {{ item.copy | markdownify }}
+
+        </div>
+      </li>
+      {% endif %}
     {% endfor %}
 
   </ul>
@@ -106,6 +120,7 @@ This [research sprint planning template](other-resources/research-sprints) may b
   <ul class="usa-accordion">
 
     {% for item in group[1] %}
+      {% if forloop.first %}
       <li>
         <button class="usa-accordion-button"
           aria-expanded="true"
@@ -117,7 +132,20 @@ This [research sprint planning template](other-resources/research-sprints) may b
           {{ item.copy | markdownify }}
 
         </div>
-      </li>      
+      </li>
+      {% else %}
+      <li>
+        <button class="usa-accordion-button"
+          aria-controls="{{ item.number}}">
+          {{ item.title }}
+        </button>
+        <div id="{{ item.number }}" class="usa-accordion-content">
+
+          {{ item.copy | markdownify }}
+
+        </div>
+      </li>  
+      {% endif %}    
     {% endfor %}
 
   </ul>
