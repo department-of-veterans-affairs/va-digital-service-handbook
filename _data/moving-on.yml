@@ -1,0 +1,40 @@
+# Content for the "Complete [phase]" section in each service design phase
+#
+# Markdown formatting not needed !
+#
+---
+discovery:
+  next-phase: live
+  move-on: the MVP meets users' basic needs
+  stay: needs to do more work to ensure the MVP meets users' basic needs
+  purpose: The purpose of beta is to build the minimum set of features that provide value to your users. As you validate that feature set with your users, you may learn you need to add/edit/delete features.
+  vs: launched it
+  reasons: |
+    * There’s no user need for the service you planned to build
+    * User needs are already being met by another service — whether government or private-sector
+    * Technology or policy constraints mean you won’t be able to build a service that meets the user needs you’ve found
+    * It’s not cost-effective to develop the service
+
+alpha:
+  next-phase: live
+  move-on: the MVP meets users' basic needs
+  stay: needs to do more work to ensure the MVP meets users' basic needs
+  purpose: The purpose of beta is to build the minimum set of features that provide value to your users. As you validate that feature set with your users, you may learn you need to add/edit/delete features.
+  vs: launched it
+
+beta:
+  next-phase: live
+  move-on: |
+    **Move on to live** &mdash; the team feels confident the MVP meets users' basic needs, and the team is ready to launch it (and move on to the live phase)
+  stay: |
+    **Spend more time in beta** &mdash; the team needs to do more work to ensure the MVP meets basic user needs before moving on to the live phase
+  stopping: |
+      **Stopping after the beta phase is not a failure.**
+      <br/>The user needs you discovered and validated earlier in earlier phases may have changed. Or the technical and/or policy landscape may have changed.
+      <br/>These kinds of changes can impact whether or not your MVP provides value by meeting basic user needs.
+      <br/>If you're considering stopping (or pausing) the project, the key questions to answer are:
+
+        * Does this MVP provide value to your users?
+        * Can it provide that value given the technical and policy landscape?
+
+       It's ok to pause a project (or stop it altogether). And it's better to find this out in beta, rather than after you launch it.

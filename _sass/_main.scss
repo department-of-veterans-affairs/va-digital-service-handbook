@@ -538,11 +538,15 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
   text-transform: uppercase;
   letter-spacing: .3px;
 }
-.align-middle {
-  vertical-align: middle;
+
+// update <hr> style
+hr {
+  border-style: solid;
+  color: $color-silver;
+  border-width: .06rem;
 }
 
-// basic Markdown blockquote
+// Style for default Markdown blockquote
 blockquote {
   background-color: $color-gray-lightest;
   border-left: .8rem solid $color-red;
@@ -553,25 +557,39 @@ blockquote {
 blockquote p {
   display: inline;
 }
+// Plain blockquote overrides default Markdown blockquote style
+.plain-blockquote {
+  background-color: none;
+  border-left: none;
+  border-right: none;
+}
+
 .todo {
   color: $color-red;
 }
 
-// secondary Markdown accordion
+// Style for major page section accordions
 .secondary-accordion {
-  border-left: .8rem solid $color-blue;
-  border-right: .8rem solid $color-blue;
+  margin-top: 4rem;
+  li {
+    background-color: transparent;
+  }
   .usa-accordion-button {
     background-color: $color-primary;
     color: white;
     background-image: url("../img/minus-white.png");
+    margin-bottom: 4rem;
   }
   .usa-accordion-button[aria-expanded=false] {
       background-image: url("../img/plus-white.png");
   }
 }
 .secondary-accordion-content {
-  background-color: $color-gray-lightest;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  border: 0 2px;
+  border-style: solid;
+  border-color: $color-blue;
 }
 
 /*

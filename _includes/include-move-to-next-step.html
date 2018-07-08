@@ -1,0 +1,26 @@
+{% assign this-phase = include.phase %}
+
+<h4 id="so-you-can-confidently-recommend-one-of-these-beta-outcomes">So you can confidently recommend one of these {{ this-phase }} outcomes</h4>
+
+<ul>
+
+  <li>
+    {{ site.data.moving-on.[this-phase].move-on | markdownify }}
+  </li>
+
+  <li>
+    {{ site.data.moving-on.[this-phase].stay | markdownify }}
+  </li>
+
+  <li>
+    <strong>Stop the project</strong> — The {{ this-phase }} findings indicate that the project should be stopped
+
+    <blockquote class="plain-blockquote">
+
+      {{ site.data.moving-on.[this-phase].stopping | markdownify }}
+
+    </blockquote>
+
+  </li>
+
+</ul>

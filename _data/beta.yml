@@ -1,0 +1,101 @@
+# Content for Service Design Guide - Beta
+#
+# Use sequential numbers in "number" to make sure accordions work correctly
+#
+# Use regular Markdown style for the content in "copy"
+#
+---
+- number: p-1
+  title: Planning for beta
+  copy: |
+    Different services will spend different amounts of time in beta, depending on what the team plans to build as the MVP. In general, plan to spend
+
+    * 6-8 weeks for a new feature
+    * 8-12 weeks for a new service
+    * **Tip**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](alpha#scoping-your-mvp) &mdash; make it smaller!
+
+    #### The team you need
+
+    See [team structure](related/other-resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
+
+    #### At the end of beta
+
+    The final step in the beta phase is to launch the MVP, which you'll do after the Next Steps checkpoint. At the Next Steps checkpoint, you should have completed all the beta tasks so you can launch the MVP after the checkpoint meeting.
+
+    At least a week before beta ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
+- number: p-2
+  title: Build and deploy to staging
+  copy: |
+    Map out a beta plan that groups the user stories and features from your MVP backlog into small, testable chunks that you can build, deploy, and test iteratively.
+
+    Then use your beta plan to
+
+    #### 1. Develop incrementally by coding locally and deploying to staging as you go
+
+    * See the <a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">example development workflow</a>.
+
+    * Do automated testing each time you deploy to staging.
+
+      * <a title="Go to 508 testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/automated-testing" target="_blank">Automated accessibility (508 compliance) testing</a>
+      * <a title="Go to testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/tests" target="_blank">Automated unit and end-to-end tests</a>
+
+    #### 2. Plan and conduct [research sprints](related/user-research#plan-a-research-sprint)
+
+      * Focus on <a title="Go to usability testing" href="https://methods.18f.gov/validate/usability-testing/" target="_blank">usability testing</a> to ensure that your staged user stories and features work well for your users.
+
+      * Analyze and synthesize the user feedback you've collected.
+      * Document your research findings.
+      * Use your research findings to refine your beta plan &mdash; adjusting existing features and adding new features (if these are critical to supporting your users' basic needs).
+
+    #### 3. Repeat this cycle
+
+      * *Until* you've deployed all the features you planned for the MVP service
+
+      * *Or, until* the MVP provides value by meeting your users' basic needs
+- number: p-3
+  title: Prepare for launch
+  copy: |
+    **Note**: Some of these tasks impact each other. For example, if you change the information architecture, you'll need to test and QA again, and you may need to update the metrics you've set up in Google Analytics.
+
+    #### 1. Finalize [information architecture](related/ia) for your service
+
+    * [Contact the DSVA team](mailto:{{ site.contact-handbook.email }}) to coordinate.
+
+    #### 2. Finalize [ATO](related/ato) details
+
+    * [Contact the DSVA team](mailto:{{ site.contact-handbook.email }}) to coordinate.
+
+    #### 3. Finalize [marketing and communications materials](related/marcom)
+
+    #### 4. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>
+
+    #### 5. Set up and test <a title="Go to Google Analytics setup" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/google-analytics" target="_blank">Google Analytics</a>
+
+    #### 6. Load test your service
+
+    #### 7. Perform [user acceptance testing (UAT)](related/uat)
+
+    #### 8. Set up live service details
+
+    * Monitoring and logging
+    * Alert configuration
+    * Rate limits
+
+    #### 9. Schedule a walkthrough with VA's 508 office
+
+    #### 10. Review your MVP with the [Help Desk](related/helpdesk)
+
+    * Finalize your Help Desk content after you've completed all the steps above.
+    * Then schedule the review.
+- number: p-4
+  title: Completing beta
+  copy: |
+    #### By the end of beta, your team should have the following
+
+    * A fully-functioning version of your service that meets your users' basic needs
+    * A list of major bugs and usability issues that have been identified and fixed
+    * Documentation of the user research and testing you did in the beta phase
+    * The metrics you'll use to measure your service's success
+    * A prioritized backlog of features you plan to complete post-launch in order to improve the service
+    * A proposed plan for how you'll improve the service after you launch it &mdash; how you'll monitor, evaluate, user research/test, and build from your backlog
+    * An updated resource plan (if you need additional people or other resources for the live phase)

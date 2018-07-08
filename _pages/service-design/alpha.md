@@ -12,7 +12,7 @@ sections:
   - Planning for alpha
   - During alpha
   - Scoping your MVP
-  - Questions for designers and developers
+  - Preparing for beta
   - Completing alpha
   - Resources and help
 #

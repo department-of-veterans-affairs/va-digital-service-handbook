@@ -1,0 +1,21 @@
+# Content for the "Resources and help" section in each service design phase
+#
+# Use regular Markdown style for the content in "copy"
+#
+---
+number: p-99
+title: Resources and help
+copy: |
+  * Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to prepare for the Next Steps meeting.
+
+  * Review the following to help guide your work in this phase:
+
+    * [User research guide](related/user-research)
+    * [Design guide](related/design)
+    * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
+    * [Technical guide](related/technical)
+    * [Team management guide](related/team-mgmt)
+
+  * If you have a question about something in the Handbook, or need help in a specific subject area, [email us](mailto:{{site.contact-handbook.email}}). Or, post your question in the *#dsva-platform-project* Slack channel.
+
+  * To learn more about Agile project management, start with this <a title="Go to agile overview" href="https://www.gov.uk/service-manual/agile-delivery/agile-government-services-introduction" target="_blank">overview from Gov.UK</a>.
