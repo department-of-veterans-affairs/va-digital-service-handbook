@@ -1,6 +1,6 @@
-# Content for the "Complete [phase]" section in each service design phase
+# Content for the "you should stop the project if..." section in each service design phase
 #
-# Markdown formatting not needed !
+# Markdown formatting is ok
 #
 ---
 discovery:
@@ -14,21 +14,28 @@ discovery:
     * User needs are already being met by another service — whether government or private-sector
     * Technology or policy constraints mean you won’t be able to build a service that meets the user needs you’ve found
     * It’s not cost-effective to develop the service
-
 alpha:
-  next-phase: live
-  move-on: the MVP meets users' basic needs
-  stay: needs to do more work to ensure the MVP meets users' basic needs
-  purpose: The purpose of beta is to build the minimum set of features that provide value to your users. As you validate that feature set with your users, you may learn you need to add/edit/delete features.
-  vs: launched it
+  next-phase: beta
+  move-on: |
+    **Move on to beta** &mdash; the team feels confident they've tested their hypotheses, understand how to build the MVP service, and are ready to move to the beta phase
+  stay: |
+    **Spend more time in alpha** &mdash; the team hasadditional (or new) hypotheses they want to test before moving to the beta phase
+  stop: |
+    **Stopping after the alpha phase is not a failure.**
+    <br/>The purpose of alpha is to figure out how you might build a solution to meet your users' needs. This may mean you need to change plans or take a new direction. **Finding this out in the alpha phase is the best possible outcome** (vs. finding out after you've built it or launched it).
+    <br/>Your team should recommend stopping after alpha if your findings show
 
+    * There's no user need for the service you planned to build
+    * User needs are already being met by another service &mdash; whether government or private-sector
+    * Technology or policy constraints mean you won’t be able to build a service that meets the user needs you've found
+    * It’s not cost-effective to develop the service
 beta:
   next-phase: live
   move-on: |
     **Move on to live** &mdash; the team feels confident the MVP meets users' basic needs, and the team is ready to launch it (and move on to the live phase)
   stay: |
     **Spend more time in beta** &mdash; the team needs to do more work to ensure the MVP meets basic user needs before moving on to the live phase
-  stopping: |
+  stop: |
       **Stopping after the beta phase is not a failure.**
       <br/>The user needs you discovered and validated earlier in earlier phases may have changed. Or the technical and/or policy landscape may have changed.
       <br/>These kinds of changes can impact whether or not your MVP provides value by meeting basic user needs.

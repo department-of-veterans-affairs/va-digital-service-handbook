@@ -12,7 +12,7 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related
+permalink: /service-design/related/index.html
 #
 ---
 

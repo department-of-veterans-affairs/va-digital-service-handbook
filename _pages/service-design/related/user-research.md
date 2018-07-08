@@ -7,7 +7,7 @@
 title: User research guide
 description: User research isn't just something you do during the discovery phase. You'll do it throughout the service lifecycle, checking in with your users to answer questions you have about how to improve your service.
 #
-# Edit the research-guide content in /data/research-guide.yml
+# Edit the research-guide content below AND in /data/research-guide.yml
 #
 # Internal page menu - titles here match titles in /data/research-guide.yml
 sections:

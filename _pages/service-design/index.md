@@ -17,7 +17,7 @@ layout: page
 page-type: page
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/
+permalink: /service-design/index.html
 header-image: /assets/img/image-service-design.png
 header-image-alt: Service Design Guide icon
 #

@@ -8,11 +8,13 @@
 - number: p-1
   title: Planning for beta
   copy: |
+    #### Timeframe
+
     Different services will spend different amounts of time in beta, depending on what the team plans to build as the MVP. In general, plan to spend
 
     * 6-8 weeks for a new feature
     * 8-12 weeks for a new service
-    * **Tip**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](alpha#scoping-your-mvp) &mdash; make it smaller!
+    * **Tip**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](related/other-resources/scoping-mvp) &mdash; make it smaller!
 
     #### The team you need
 
@@ -57,15 +59,15 @@
   copy: |
     **Note**: Some of these tasks impact each other. For example, if you change the information architecture, you'll need to test and QA again, and you may need to update the metrics you've set up in Google Analytics.
 
-    #### 1. Finalize [information architecture](related/ia) for your service
+    #### 1. Finalize the [information architecture](related/other-resources/info-architecture) for your service
 
-    * [Contact the DSVA team](mailto:{{ site.contact-handbook.email }}) to coordinate.
+    * <a title="email us" href="mailto:elizabeth.hunt@va.gov">Contact the DSVA team</a> to coordinate.
 
-    #### 2. Finalize [ATO](related/ato) details
+    #### 2. Finalize [ATO](related/other-resources/ato) details
 
-    * [Contact the DSVA team](mailto:{{ site.contact-handbook.email }}) to coordinate.
+    * <a title="email us" href="mailto:elizabeth.hunt@va.gov">Contact the DSVA team</a> to coordinate.
 
-    #### 3. Finalize [marketing and communications materials](related/marcom)
+    #### 3. Finalize [marketing and communications materials](related/other-resources/marcom)
 
     #### 4. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>
 
@@ -73,7 +75,7 @@
 
     #### 6. Load test your service
 
-    #### 7. Perform [user acceptance testing (UAT)](related/uat)
+    #### 7. Perform [user acceptance testing (UAT)](related/other-resources/uat)
 
     #### 8. Set up live service details
 
@@ -83,7 +85,7 @@
 
     #### 9. Schedule a walkthrough with VA's 508 office
 
-    #### 10. Review your MVP with the [Help Desk](related/helpdesk)
+    #### 10. Review your MVP with the [Help Desk](related/other-resources/helpdesk)
 
     * Finalize your Help Desk content after you've completed all the steps above.
     * Then schedule the review.

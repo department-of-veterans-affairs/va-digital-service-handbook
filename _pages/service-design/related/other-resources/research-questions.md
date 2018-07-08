@@ -14,7 +14,7 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/other-resources/research-questions
+permalink: /service-design/related/other-resources/research-questions/
 #
 ---
 

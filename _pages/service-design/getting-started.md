@@ -12,7 +12,7 @@ sections:
   - Onboarding your team
   - Tools for designers
   - Tools for developers
-  - Tools for team management
+  - Tools for agile
 #
 # Don't edit items below - they control the page layout
 layout: page
@@ -76,7 +76,7 @@ Developers should review the [technical guide](related/technical) to complete th
 
 <hr>
 
-### Tools for team management
+### Tools for agile
 
 * coming soon
 

@@ -122,7 +122,7 @@ At least a week before discovery ends, schedule a [Next Steps checkpoint](relate
   * [Design guide](related/design)
   * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
   * [Technical guide](related/technical)
-  * [Team management guide](related/team-mgmt)
+  * [Agile project management guide](related/agile)
 
 * If you have a question about something in the Handbook, or need help in a specific subject area, [email us](mailto:{{site.contact-handbook.email}}). Or, post your question in the #dsva-platform-project Slack channel.
 <br/>

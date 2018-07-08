@@ -60,10 +60,10 @@
         alt: Technical guide
         description: Resources and tools for developers
 
-      - title: Team management guide
-        linkto: /service-design/related/team-mgmt
-        alt: Team management guide
-        description: Guidelines for team structure and resources and tools for managing your team
+      - title: Agile project management guide
+        linkto: /service-design/related/agile
+        alt: Agile project management guide
+        description: Information and resources about using agile methodologies as you work on the Veteran Tools Platform
 
       - title: Other resources
         linkto: /service-design/related/other-resources

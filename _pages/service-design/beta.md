@@ -7,7 +7,7 @@
 title: Beta
 description: Beta is about incrementally building (and testing along the way) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.  
 #
-# Edit the research-guide content in /data/beta.yml
+# Edit the beta content below AND in /data/beta.yml
 #
 # Don't edit items below - they control the page layout
 #
@@ -36,7 +36,7 @@ During beta, you'll build the user stories and features from your backlog in sma
 
   <li>
     <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="{{ item.number }}">
       {{ item.title }}
     </h3>
@@ -57,21 +57,7 @@ During beta, you'll build the user stories and features from your backlog in sma
   {% endfor %}
 
   {% if site.data.resources-help %}
-  <li>
-    <h3 id="{{ site.data.resources-help.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ site.data.resources-help.number }}">
-      {{ site.data.resources-help.title }}
-    </h3>
-    <div id="{{ site.data.resources-help.number }}" class="usa-accordion-content secondary-accordion-content">
-
-      {{ site.data.resources-help.copy | markdownify }}
-
-      <a href="#">Return to top</a>
-
-    </div>
-
-  </li>
+    {% include include-resources-help.html %}
   {% endif %}
 
 </ul>

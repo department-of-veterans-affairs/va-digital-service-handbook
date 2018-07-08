@@ -12,33 +12,44 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/other-resources
+permalink: /service-design/related/other-resources/index.html
 #
 ---
 
 ### Research resources
 
-* [Problem statement]({{ "other-resources/problem-statement" | relative-url  }})
-* [Research questions]({{ "other-resources/research-questions" | relative-url }})
-* [Research sprints]({{ "other-resources/research-sprints" | relative-url }})
-* [Conversation guide]({{ "other-resources/conversation-guide" | relative-url }})
-* [Research readout]({{ "other-resources/research-readout" | relative-url }})
+* [Problem statement]({{ "/service-design/related/other-resources/problem-statement" | relative_url }})
+
+* [Research questions]({{ "/service-design/related/other-resources/research-questions" | relative_url }})
+
+* [Research sprints]({{ "/service-design/related/other-resources/research-sprints" | relative_url }})
+
+* [Conversation guide]({{ "/service-design/related/other-resources/conversation-guide" | relative_url }})
+
+* [Research readout]({{ "/service-design/related/other-resources/research-readout" | relative_url }})
+
+
+<hr>
+
+### Design resources
+
+* [Scoping your MVP]({{ "/service-design/related/other-resources/scoping-mvp" | relative_url }})
 
 
 <hr>
 
 ### Technical resources
 
-* [Technical discovery]({{ "other-resources/technical-discovery" | relative-url }})
+* [Technical discovery]({{ "/service-design/related/other-resources/technical-discovery" | relative_url }})
 
 
 <hr>
 
-### Resources for managing work
+### Agile resources
 
-* [Team structure]({{ "other-resources/team-structure" | relative-url }})
-* [Next Steps checkpoint]({{ "other-resources/next-steps-checkpoint" | relative-url }})
-* [Product outline]({{ "other-resources/product-outline" | relative-url }})
+* [Team structure]({{ "/service-design/related/other-resources/team-structure" | relative_url }})
+* [Next Steps checkpoint]({{ "/service-design/related/other-resources/next-steps-checkpoint" | relative_url }})
+* [Product outline]({{ "/service-design/related/other-resources/product-outline" | relative_url }})
 <br/>
 
 <hr>
