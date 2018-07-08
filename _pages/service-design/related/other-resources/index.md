@@ -19,28 +19,26 @@ permalink: /service-design/related/other-resources
 ### Research resources
 
 * [Problem statement]({{ "/service-design/related/other-resources/problem-statement" | relative_url }})
-* [other]({{ "/service-design/related/other-resources/research-questions" | relative_url }})
-
-* [Research questions]({{ "/service-design/related/other-resources/research-questions" | relative-url }})
-* [Research sprints]({{ "/service-design/related/other-resources/research-sprints" | relative-url }})
-* [Conversation guide]({{ "/service-design/related/other-resources/conversation-guide" | relative-url }})
-* [Research readout]({{ "/service-design/related/other-resources/research-readout" | relative-url }})
+* [Research questions]({{ "/related/other-resources/research-questions" | relative_url }})
+* [Research sprints]({{ "/other-resources/research-sprints" | relative_url }})
+* [Conversation guide]({{ "/conversation-guide" | relative_url }})
+* [Research readout]({{ "research-readout" | relative_url }})
 
 
 <hr>
 
 ### Technical resources
 
-* [Technical discovery]({{ "/service-design/related/other-resources/technical-discovery" | relative-url }})
+* [Technical discovery]({{ "/service-design/related/other-resources/technical-discovery" | relative_url }})
 
 
 <hr>
 
 ### Resources for managing work
 
-* [Team structure]({{ "/service-design/related/other-resources/team-structure" | relative-url }})
-* [Next Steps checkpoint]({{ "/service-design/related/other-resources/next-steps-checkpoint" | relative-url }})
-* [Product outline]({{ "/service-design/related/other-resources/product-outline" | relative-url }})
+* [Team structure]({{ "/service-design/related/other-resources/team-structure" | relative_url }})
+* [Next Steps checkpoint]({{ "/service-design/related/other-resources/next-steps-checkpoint" | relative_url }})
+* [Product outline]({{ "/service-design/related/other-resources/product-outline" | relative_url }})
 <br/>
 
 <hr>
