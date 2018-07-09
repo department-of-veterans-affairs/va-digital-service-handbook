@@ -11,16 +11,19 @@
         <div class="footer-group">
           <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="" /><a href="http://department-of-veterans-affairs.github.io/dsva/" title="{{ site.footer.org-title }}" aria-label="Go to {{ site.footer.org-title }}" target="_blank">{{ site.footer.org-title }}</a> <a href="https://www.oit.va.gov/" title="Go to {{ site.footer.va-org-title }}" aria-label="Go to {{ site.footer.va-org-title }}" target="_blank">&nbsp;({{ site.footer.va-org-title }})</a>
         </div>
-
+        <div class="footer-license">
+          All content is available under <a title="Go to license" href="https://github.com/department-of-veterans-affairs/va-digital-service-handbook/blob/master/LICENSE" target="_blank">Creative Commons Zero v1.0 Universal</a>, except where otherwise stated
+        </div>
       </div>
 
       <div class="footer-half">
         <ul class="usa-unstyled-list usa-nav-secondary-links">
 
 {% for item in site.data.footer %}
+<!-- temporarily remove Help content -->
   {% if item.title != "Help" %}
 
-          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ item.linkto | relative_url }}"{% endif %}{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a></li>
+          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ item.linkto | relative_url }}"{% endif %}{% if item.target == true %} target="_blank"{% endif %}>{{ item.title }}</a></li>
 
   {% endif %}
 {% endfor %}
@@ -28,5 +31,7 @@
       </div>
     </div>
   </div>
+
+
 
 </footer>

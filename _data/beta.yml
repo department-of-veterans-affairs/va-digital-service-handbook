@@ -53,7 +53,7 @@
 
       * *Until* you've deployed all the features you planned for the MVP service
 
-      * *Or, until* the MVP provides value by meeting your users' basic needs
+      * *Or, until* the MVP provides value by meeting basic user needs
 - number: p-3
   title: Prepare for launch
   copy: |
@@ -77,18 +77,15 @@
 
     #### 7. Perform [user acceptance testing (UAT)](related/other-resources/uat)
 
-    #### 8. Set up live service details
+    #### 8. Set up [live service details](related/other-resources/service-details)
 
     * Monitoring and logging
     * Alert configuration
     * Rate limits
 
-    #### 9. Schedule a walkthrough with VA's 508 office
+    #### 9. Review your MVP with [VA's 508 office](related/other-resources/va508)
 
-    #### 10. Review your MVP with the [Help Desk](related/other-resources/helpdesk)
-
-    * Finalize your Help Desk content after you've completed all the steps above.
-    * Then schedule the review.
+    #### 10. Review your MVP with the [Call Center](related/other-resources/call-center)<br/><br/>
 - number: p-4
   title: Completing beta
   copy: |
@@ -98,6 +95,6 @@
     * A list of major bugs and usability issues that have been identified and fixed
     * Documentation of the user research and testing you did in the beta phase
     * The metrics you'll use to measure your service's success
-    * A prioritized backlog of features you plan to complete post-launch in order to improve the service
+    * A prioritized backlog of features you plan to build in order to improve the service after launch
     * A proposed plan for how you'll improve the service after you launch it &mdash; how you'll monitor, evaluate, user research/test, and build from your backlog
     * An updated resource plan (if you need additional people or other resources for the live phase)

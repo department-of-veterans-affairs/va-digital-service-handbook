@@ -4,21 +4,25 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Scoping the MVP
-description: Teams successfully build and launch MVPs when they focus their work on the minimum set of features that will provide value by meeting basic user needs.
+title: Set up live service details
+description: Set up live service details description.
 #
 # Don't edit items below - they control the page layout
 layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/other-resources/scoping-mvp
+permalink: /service-design/related/other-resources/service-details
 #
 ---
 
 ### In progress !
 
-### Scoping the MVP
+### Set up live service details
+
+* Monitoring and logging
+* Alert configuration
+* Rate limits
 
 
 <br/>

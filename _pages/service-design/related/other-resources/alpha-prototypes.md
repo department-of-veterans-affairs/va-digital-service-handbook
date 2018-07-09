@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Tips for alpha prototypes
-description: description here.
+description: Alpha prototypes are not about producing code you might use in your MVP. Instead they're about building just enough to test specific hypotheses.
 #
 # Don't edit items below - they control the page layout
 layout: page

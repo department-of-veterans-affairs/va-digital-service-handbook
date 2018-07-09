@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Alpha
-description: Alpha is about prototyping testing hypotheses with users. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
+description: Alpha is about prototyping and testing hypotheses with users. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
 #
 # Edit the alpha content below AND in /data/alpha.yml
 #
@@ -26,7 +26,7 @@ permalink: /service-design/alpha
 * The primary outcome of alpha is *a clear definition of your **Minimum Viable Product (MVP)** and a solid plan for how you'll build it.*
   <blockquote class="plain-blockquote">
   <b>The MVP is the first working version of your service</b>, which you'll build in the next phase &mdash; beta.
-  <br/><br/>Your MVP will be the smallest set of working functionality you can build that provides value to your users &mdash; by meeting their basic needs.
+  <br/><br/>Your MVP will be the smallest set of working functionality you can build that provides value to your users &mdash; by meeting basic user needs.
   <br/><br/>The alpha phase is about figuring out what those basic user needs are, and how you'll meet them.
   </blockquote>
 
