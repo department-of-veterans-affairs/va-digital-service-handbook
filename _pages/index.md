@@ -7,6 +7,7 @@
 title: Welcome
 #
 # Don't edit items below - they control the page layout
+return-top: no
 layout: base
 permalink: /
 page-type: home

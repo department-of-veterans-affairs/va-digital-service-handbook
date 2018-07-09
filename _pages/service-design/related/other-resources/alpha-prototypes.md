@@ -5,9 +5,10 @@
 #
 # Title and Description display on page and in meta
 title: Tips for alpha prototypes
-description: description here.
+description: Alpha prototypes are not about producing code you might use in your MVP. Instead they're about building just enough to test specific hypotheses.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -25,7 +26,8 @@ In early design sprints, your prototypes can be
 * Wireframes that use images to show the functional elements of your service
 * Clickable mockups that mimic the functionality of your service (<a title="Go to example" href="" target="_blank">see an example</a>)
 
-<br/>
+<a href="#">Return to top</a>
+
 <hr>
 
 
@@ -40,7 +42,8 @@ Think of each prototype as a proof of concept and use it to answer these questio
 * Are there any parts of the solution that won't be easy to build or change later? If so, are you comfortable moving forward despite these?
 * Are there existing processes or policies that will need to change to support your service?
 
-<br/>
+<a href="#">Return to top</a>
+
 <hr>
 
 
@@ -50,7 +53,4 @@ In later prototypes, you can start mimicking your service's working logic. But t
 
 You'll build the actual integrations in the beta phase. Use the alpha phase to figure out **how you'll do that** from a technical perspective. And only build and test the parts of the integration critical to **making decisions about how to build** them.
 
-<br/>
 <hr>
-
-<a href="#">Return to top</a>

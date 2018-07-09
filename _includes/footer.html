@@ -1,32 +1,40 @@
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
-
-  <!--div class="usa-grid usa-footer-return-to-top">
+{% if page.return-top == true %}
+  <div class="usa-grid usa-footer-return-to-top">
     <a href="#">Return to top</a>
-  </div-->
-
+  </div>
+{% endif %}
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
 
       <div class="footer-half usa-footer-logo">
         <div class="footer-group">
-          <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="" /><a href="http://department-of-veterans-affairs.github.io/dsva/" title="{{ site.footer.org-title }}" aria-label="Go to {{ site.footer.org-title }}" target="_blank">{{ site.footer.org-title }}</a> <a href="https://www.oit.va.gov/" title="Go to {{ site.footer.va-org-title }}" aria-label="Go to {{ site.footer.va-org-title }}" target="_blank">&nbsp;({{ site.footer.va-org-title }})</a>
+          <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="" />
+          <p>
+            <a href="http://department-of-veterans-affairs.github.io/dsva/" title="{{ site.footer.org-title }}" aria-label="Go to {{ site.footer.org-title }}" target="_blank">{{ site.footer.org-title }}</a>
+            <a href="https://www.oit.va.gov/" title="Go to {{ site.footer.va-org-title }}" aria-label="Go to {{ site.footer.va-org-title }}" target="_blank">&nbsp;({{ site.footer.va-org-title }})</a>
+          </p>
         </div>
-
       </div>
 
       <div class="footer-half">
         <ul class="usa-unstyled-list usa-nav-secondary-links">
-
+<!-- temporarily remove Help content -->
 {% for item in site.data.footer %}
-  {% if item.title != "Help" %}
-
-          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ item.linkto | relative_url }}"{% endif %}{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a></li>
-
-  {% endif %}
+{% if item.title != "Help" %}
+          <li><a title="{{ item.alt }}" {% if item.target %}href="{{ item.linkto}}"{% else %}href="{{ item.linkto | relative_url }}"{% endif %}{% if item.target == true %} target="_blank"{% endif %}>{{ item.title }}</a></li>
+{% endif %}
 {% endfor %}
         </ul>
       </div>
     </div>
+
+    <div class="usa-grid">
+      <div class="usa-width-one-whole footer-whole">
+        All content is available under <a title="Go to license" href="https://github.com/department-of-veterans-affairs/va-digital-service-handbook/blob/master/LICENSE" target="_blank">Creative Commons Zero v1.0 Universal</a>, except where otherwise stated.
+      </div>
+    </div>
+
   </div>
 
 </footer>

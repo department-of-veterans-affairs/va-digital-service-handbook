@@ -18,6 +18,7 @@ sections:
   - Additional resources
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -163,5 +164,3 @@ This [research sprint planning template](other-resources/research-sprints) may b
  * <span class="todo">TODO - add more resources</span>
 
 <hr>
-
-<a href="#">Return to top</a>

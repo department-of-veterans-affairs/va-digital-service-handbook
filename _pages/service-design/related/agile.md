@@ -17,6 +17,7 @@ sections:
   - Tools, resources, and examples
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -28,10 +29,13 @@ permalink: /service-design/related/agile
 
 ### Using the agile project management guide
 
+Topics:
+- alignment with VIP
+- use of Github in VIP
+- other relationships between dsva and vip processes
+- Links to basic agile references
 
 <!--
-- vip
-- github v rational
 - other improvements in the new memo
 - cd1 and cd2
 - team structure - and use them agiley too! - flex in relation to the work that needs to be done

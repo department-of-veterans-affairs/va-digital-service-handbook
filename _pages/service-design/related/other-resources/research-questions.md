@@ -10,6 +10,7 @@ title: Defining research questions
 description: Run a team workshop at the beginning of each development phase to prioritize your team's research questions and the assumptions you need to test.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -22,6 +23,8 @@ permalink: /service-design/related/other-resources/research-questions/
 The best time to capture research questions is at the start of a new development phase, especially discovery, alpha and beta.
 
 Re-visit and refine your questions as you learn more about your users and service. Understanding what your team wants to learn, and how this changes over time, is an important part of planning user research for your service.
+
+<hr>
 
 ### Workshop: Define research questions
 
@@ -68,5 +71,3 @@ Once you have your prioritized research questions
 * Decide which research activities will help you to answer your questions
 
 <hr>
-
-<a href="#">Return to top</a>

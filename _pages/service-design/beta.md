@@ -5,12 +5,13 @@
 #
 # Title and Description display on page and in meta
 title: Beta
-description: Beta is about incrementally building (and testing along the way) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.  
+description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.  
 #
 # Edit the beta content below AND in /data/beta.yml
 #
 # Don't edit items below - they control the page layout
 #
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -21,7 +22,7 @@ permalink: /service-design/beta
 
 ### What is Beta?
 
-In the beta phase, it's tempting to try to build all the features and functionality you imagine for your service. But stay focused on your vision for the MVP. **As soon as your service can provide value by meeting your users' basic needs, it’s ready to launch!**
+In the beta phase, it's tempting to try to build all the features and functionality you imagine for your service. But stay focused on your vision for the MVP. **As soon as your service can provide value by meeting basic user needs, it’s ready to launch!**
 
 During beta, you'll build the user stories and features from your backlog in small batches of functionality. As you build these batches, you'll test them with your users to ensure they work well. Then you'll use that user feedback to refine your service, adding and adjusting features until your MVP service is complete.
 
@@ -67,4 +68,4 @@ During beta, you'll build the user stories and features from your backlog in sma
 
 <hr>
 
-{% include include-service-design-footer-nav.html data="live" %}
+{% include include-footer-service-design.html next-phase="live" %}

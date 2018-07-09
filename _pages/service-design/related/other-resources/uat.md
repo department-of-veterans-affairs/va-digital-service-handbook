@@ -4,8 +4,8 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Scoping the MVP
-description: Teams successfully build and launch MVPs when they focus their work on the minimum set of features that will provide value by meeting basic user needs.
+title: User acceptance testing
+description: UAT description.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
@@ -13,12 +13,13 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/other-resources/scoping-mvp
+permalink: /service-design/related/other-resources/uat
 #
 ---
 
 ### In progress !
 
-### Scoping the MVP
+### User acceptance testing (UAT)
+
 
 <hr>

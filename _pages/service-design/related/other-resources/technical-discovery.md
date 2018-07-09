@@ -14,6 +14,7 @@ sections:
   - Questions to ask about creating a new API
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -64,7 +65,4 @@ Consider the possibility of creating a new API, if existing Vets-APIs would deli
   * Should someone build a middle service?
   * Should it be a direct connection?
 
-
 <hr>
-
-<a href="#">Return to top</a>

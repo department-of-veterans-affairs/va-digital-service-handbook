@@ -8,6 +8,7 @@ title: Defining a problem statement
 description: Describe the problem you're trying to solve and your current hypothesis.
 #
 # Don't edit items below * they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -39,5 +40,3 @@ As a Veteran, I want to be able to receive benefits and discounts that I’m ent
 By letting Veterans apply for a Veteran ID Card online, we can provide users with a simple way to prove their Veteran status without having to carry around their DD214.
 
 <hr>
-
-<a href="#">Return to top</a>

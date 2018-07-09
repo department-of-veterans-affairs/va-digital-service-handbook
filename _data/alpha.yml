@@ -28,43 +28,43 @@
 
     To get to a clear definition of your MVP, you'll need to test many different hypotheses. Your objective is to identify potential issues &mdash; and learn from them &mdash; while you still have time to make corrections.
 
-    Different services will have different hypotheses to test during alpha. There's not a one-size-fits-all set of hypotheses to test. *But teams who are successful in the alpha phase do follow a similar process &mdash; design sprints.*
+    There's not a one-size-fits-all set of hypotheses to test during alpha. *But teams who are successful in the alpha phase tend to use design sprints to prototype and test their hypotheses.*
 
     A design sprint takes 1-2 weeks and is designed to solve important design or business challenges. Each design sprint starts with brainstorming activities that lead to a prototype that is tested with real users &mdash; all within the span of 1-2 weeks.
 
     <hr>
 
-    #### 2. Create an alpha plan
+    #### 2. Identify your goals
 
-    Before you start your design sprints, map out your work over the course of the alpha phase. Start by identifying your team's goals for the alpha phase. Consider these questions:
+    Each design sprint takes 1-2 weeks. So in an 8-week period, you might (realistically) do 3-5 design sprints.
 
-    * Based on your discovery research and findings, what kinds of solutions make the most sense in terms of meeting your users' needs?
+    Start mapping out your work in the alpha phase by identifying your team's goals. Consider these questions:
+
+    * Based on your discovery research and findings, what **kinds of solutions** make the most sense in terms of meeting your users' needs?
     * Which of those would you like to move forward with and test?
-    * What are the biggest *design risks* in those solutions?
-    * What are the biggest *technical risks* in those solutions?
-    * What are the biggest *business or policy risks* in those solutions?
+    * What are the biggest **design risks** in those solutions?
+    * What are the biggest **technical risks** in those solutions?
+    * What are the biggest **business or policy risks** in those solutions?
     * What are your hypotheses about these risks and solutions?
 
     <hr>
 
     #### 3. Plan a design sprint
 
-    Based on the hypotheses you've identified, map out your first design sprint.
+    Based on the goals and hypotheses you've identified, map out your first design sprint.
 
-    * Each design sprint takes 1-2 weeks. So in an 8-week period, you might (realistically) do 3-5 design sprints.
     * Don't test all your hypotheses at once. Target each design sprint to specific hypotheses.
     * Test the most risky hypotheses first &mdash; the ones that, if your hypothesis is proven wrong, will derail your solution concept.
     * Test your design/user experience hypotheses &mdash; for example, a single-page vs multi-page user flow.
     * Test your technical hypotheses &mdash; for example, whether a specific Vets-API provides data in the format you need.
-    * Be sure to leave enough time at the end of your alpha phase to prepare for the [Next Steps checkpoint](related/other-resources/next-steps-checkpoint).
 
     <hr>
 
-    #### 4. Conduct design sprints
+    #### 4. Conduct a design sprint
 
     Use the following steps for each design sprint:
 
-    1. Review where you're at &mdash; review current goals, hypotheses, and solution concepts with your team
+    1. Review &mdash; review current goals, hypotheses, and solution concepts with your team
     2. Sketch &mdash; use individual and group brainstorming activities to explore design solutions that will test your hypotheses
     3. Decide &mdash; select a single option to move on to testing
     4. Prototype &mdash; create a a simple prototype to test the solution ([tips for alpha prototypes](related/other-resources/alpha-prototypes))
@@ -81,34 +81,18 @@
 - number: p-3
   title: Getting ready for beta
   copy: |
-    mvp scope
+    Review the following &mdash; although you won't finalize these tasks until beta, review them now so you can plan ahead.
 
-    ia details - see finishing beta for words
-    ato - same
-    help desk - same
-    marcom - same
-
-
-
-    In the beta phase, you'll need to nail down answers to the following questions. But you may want to start thinking about them now.
-
-    **Designers and Writers**
-    * What will you call your service? Explore and test some options with users.
-    * How might VA promote the new service? Are there other VA websites where a callout would make sense?
-    * How will users find and get to your service? Think about how your service might be integrated into the sitewide navigation and from the main content hubs.
-    * Does the solution suggest a need for a new design pattern?
-
-    **Developers**
-      * Does the order of the screens mean any changes to schema or suggest difficult data handling?
-    * If users need to upload something, how will the uploaded information be stored/sent?
-    * Can you submit structured data directly? Or do you need to create a PDF for submission? Both?
-    * Are any required backend services frequently (or predictably) unavailable? What kind of messaging to the user will you need?
+    * [Define the information architecture](related/other-resources/info-architecture)
+    * [Determine if you need an ATO](related/other-resources/ato) (new or existing) and what to do
+    * [Review your service with the Call Center](related/other-resources/call-center)
+    * Plan [marketing and communication materials](related/other-resources/marcom)
 - number: p-4
   title: Completing alpha
   copy: |
     #### By the end of alpha, your team should have the following
 
-    * A clear vision and definition for the MVP service you'll build in beta (see [Scoping your MVP](related/other-resources/scoping-mvp))
+    * A clear vision and definition for the MVP service you'll build in beta (see [Scoping the MVP](related/other-resources/scoping-mvp))
     * Thoroughly tested prototypes that demonstrate the design of the MVP service
     * A prioritized list of user stories and features for the MVP service (your backlog)
     * A clear understanding of the technology that will support the MVP service (and an understanding of how the technology might evolve for later releases)

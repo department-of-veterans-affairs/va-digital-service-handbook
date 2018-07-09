@@ -8,6 +8,7 @@ title: Related guides
 description: Activity-specific guides to help you throughout the service lifecycle.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -44,7 +45,4 @@ permalink: /service-design/related/index.html
 
 {% endfor %}
 
-
 <hr>
-
-<a href="#">Return to top</a>

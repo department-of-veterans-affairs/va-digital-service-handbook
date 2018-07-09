@@ -13,6 +13,7 @@ sections:
   - Using the Service Design Guide
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: page
 page-description: yes
@@ -48,8 +49,6 @@ Using these methods ensures that we make decisions based on observations about u
 
 ### Using the Service Design Guide
 
-<span class="todo">todo- Intro copy - explain the overall process with visual aid</span>
-
 1. [Getting started](getting-started)
 2. [Discovery](discovery)
 3. [Alpha](alpha)
@@ -57,6 +56,8 @@ Using these methods ensures that we make decisions based on observations about u
 5. [Live](live)
 6. [Related guides](related)
 
+<span class="todo">TODO - explain the overall process with visual</span>
+
 <hr>
 
-{% include include-service-design-footer-nav.html data="getting-started" %}
+{% include include-footer-service-design.html next-phase="getting-started" %}

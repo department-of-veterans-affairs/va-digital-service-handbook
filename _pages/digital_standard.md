@@ -34,6 +34,7 @@ resources: yes
 resources-file: digital-standard-resources
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: jump-menu
 page-type: jump-menu
 jump-type: digital-standard
@@ -356,5 +357,3 @@ At a minimum, you'll
 * Identify the organizations and groups that help Veterans complete VA-related tasks, and ask them to support your service
 
 > {{ page.seemore }}
-
-<a href="#">Return to top</a>

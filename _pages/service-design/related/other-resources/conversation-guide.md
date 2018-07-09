@@ -8,6 +8,7 @@ title: Creating a conversation guide
 description: Create a conversation guide so you can focus your research sessions on getting answers to the questions you identified for your research sprint.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -107,8 +108,5 @@ As a thank you for your participation, we'd like to offer you a $25 gift [descri
 Would you be willing to share this feedback opportunity with other Veterans or Veteran groups you're a part of? If so, I can send you an email with a blurb that you can pass on.
 
 #### Thanks and bye!
-<br/>
 
 <hr>
-
-<a href="#">Return to top</a>
