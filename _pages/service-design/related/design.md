@@ -16,6 +16,7 @@ sections:
   - Design tools
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -177,5 +178,3 @@ The Veteran Tools Platform design patterns make it much easier for developers to
 -->
 
 <hr>
-
-<a href="#">Return to top</a>

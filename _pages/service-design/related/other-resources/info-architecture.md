@@ -13,6 +13,7 @@ sections:
   - Define the information architecture (IA)
   - Define the URLs
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -110,7 +111,4 @@ Now you need to create URLs that include the end of the URL path &mdash; the las
   * **example** *(page is not live)*
     <code>https://www.vets.gov/pension/application/form-527EZ-veteran-pension</code>
 
-<br/>
 <hr>
-
-<a href="#">Return to top</a>

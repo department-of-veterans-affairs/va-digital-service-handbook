@@ -8,6 +8,7 @@ title: Additional resources
 description: The Service Design Guide refers to the following resources. They're collected here for easy reference.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -57,7 +58,7 @@ permalink: /service-design/related/other-resources/index.html
 
 * [Set up live service details]({{ "/service-design/related/other-resources/service-details" | relative_url }})
 
-* [Walkthrough with VA's 508 office]({{ "/service-design/related/other-resources/va508" | relative_url }})
+* [Review your service with VA's 508 office]({{ "/service-design/related/other-resources/va508" | relative_url }})
 
 
 <hr>
@@ -70,8 +71,4 @@ permalink: /service-design/related/other-resources/index.html
 
 * [Product outline]({{ "/service-design/related/other-resources/product-outline" | relative_url }})
 
-<br/>
-
 <hr>
-
-<a href="#">Return to top</a>

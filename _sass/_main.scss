@@ -158,7 +158,7 @@ h6 {
   background-color: $color-blue-darkest;
   padding: 3rem 0 3rem 0;
   @include media($medium-screen) {
-    padding: 2.25rem 0 1.75rem 0;
+    padding: 2.25rem 0 2.25rem 0;
   }
 }
 .footer-half {
@@ -168,6 +168,9 @@ h6 {
   @include media($medium-screen) {
     margin-right: 4.82916%;
     width: 47.58542%;
+  }
+  p {
+    margin: 0;
   }
 }
 .footer-half:last-child {
@@ -190,7 +193,6 @@ h6 {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-
     align-items: center;
   }
 }
@@ -211,15 +213,12 @@ h6 {
     padding-left: 3rem;
   }
 }
-.footer-license {
-  //clear: both;
+.footer-whole {
   font-size: 1.5rem;
+  padding-top: 1.25rem;
   color: white;
-  width: 100%;
-  a {
-    text-decoration: underline !important;
-  }
 }
+
 // Remove USWDS pipe
 .usa-nav-secondary-links li:not(:last-child)::after {
   content: none;

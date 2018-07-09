@@ -8,6 +8,7 @@ title: Authority to Operate (ATO)
 description: ATO description.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -26,8 +27,4 @@ OTHER BITS
 * if new, they should start asap and finalize in beta
 -->
 
-<br/>
-
 <hr>
-
-<a href="#">Return to top</a>

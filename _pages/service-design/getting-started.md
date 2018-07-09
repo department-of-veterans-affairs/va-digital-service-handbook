@@ -15,6 +15,7 @@ sections:
   - Tools for agile
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -82,4 +83,4 @@ Developers should review the [technical guide](related/technical) to complete th
 
 <hr>
 
-{% include include-service-design-footer-nav.html data="discovery" %}
+{% include include-footer-service-design.html next-phase="discovery" %}

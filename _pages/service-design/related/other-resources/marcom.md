@@ -8,6 +8,7 @@ title: Marketing and communications
 description: Marketing and communications for your service description.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -35,9 +36,4 @@ OTHER BITS
 * Are any required backend services frequently (or predictably) unavailable? What kind of messaging to the user will you need?
 -->
 
-
-<br/>
-
 <hr>
-
-<a href="#">Return to top</a>

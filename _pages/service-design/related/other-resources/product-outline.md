@@ -8,6 +8,7 @@ title: Creating a product outline
 description: Use a product outline to describe your problem statement and hypotheses and keep track of how your service evolves after the discovery phase.
 #
 # Don't edit items below * they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -137,5 +138,3 @@ The sections in the template below are suggestions, not requirements. Use them i
   * User authentication info:
 
 <hr>
-
-<a href="#">Return to top</a>

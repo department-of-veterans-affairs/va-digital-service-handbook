@@ -8,6 +8,7 @@ title: Contact us
 description: Contact us with feedback, comments, or questions.
 #
 # Don't edit items below - they control the page layout
+return-top: no
 layout: page
 page-type: page
 page-description: yes
@@ -21,4 +22,6 @@ header-image-alt: Contact icon
 * via [email](mailto:{{ site.contact-handbook.email }})
 * via Slack: **#dsva-platform-project** &mdash; *for teams already working on the Veteran Tools Platform*
 
-<br/><br/><br/><br/><br/><br/>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

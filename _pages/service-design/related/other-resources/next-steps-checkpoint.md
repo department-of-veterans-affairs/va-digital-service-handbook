@@ -17,6 +17,7 @@ sections:
   - Resources and help
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -114,5 +115,3 @@ We expect your team to come to the meeting with a [recommended outcome](#possibl
 * coming soon
 
 <hr>
-
-<a href="#">Return to top</a>

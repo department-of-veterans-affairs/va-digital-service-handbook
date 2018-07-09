@@ -8,6 +8,7 @@ title: Creating a research readout
 description: Describe the problem you're trying to solve and your current hypothesis.
 #
 # Don't edit items below * they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -29,7 +30,4 @@ Use the research readout to summarize what you did and what you learned in your 
 * [Research readout template - Keynote](research-readout.key)
 * [Research readout template - Powerpoint](research-readout.pptx)
 
-<br/><br/><br/><br/><br/><br/>
 <hr>
-
-<a href="#">Return to top</a>

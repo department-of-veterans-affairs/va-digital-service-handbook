@@ -15,6 +15,7 @@ sections:
   - Getting help
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -74,5 +75,3 @@ To access metrics, build logs, deployment information, and exception details, se
 DSVA product and engineering resources are available to provide guidance and support through the development effort. If you encounter issues or have any questions, raise them in the #dsva-platform-project Slack channel.
 
 <hr>
-
-<a href="#">Return to top</a>

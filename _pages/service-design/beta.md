@@ -11,6 +11,7 @@ description: Beta is about incrementally building (and testing) the MVP user sto
 #
 # Don't edit items below - they control the page layout
 #
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -67,4 +68,4 @@ During beta, you'll build the user stories and features from your backlog in sma
 
 <hr>
 
-{% include include-service-design-footer-nav.html data="live" %}
+{% include include-footer-service-design.html next-phase="live" %}

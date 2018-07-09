@@ -11,6 +11,7 @@ description: Alpha is about prototyping and testing hypotheses with users. Your 
 #
 # Don't edit items below - they control the page layout
 #
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -76,4 +77,4 @@ You'll repeat this process until the prototype meets your users' needs and your 
 
 <hr>
 
-{% include include-service-design-footer-nav.html data="beta" %}
+{% include include-footer-service-design.html next-phase="beta" %}

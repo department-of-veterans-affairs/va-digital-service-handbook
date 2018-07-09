@@ -8,6 +8,7 @@ title: Planning a research sprint
 description: Plan your research sprints to answer your most immediate questions.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -20,6 +21,8 @@ permalink: /service-design/related/other-resources/research-sprints
 Planning a research sprint is a lot like creating a research plan for your service. The difference is that it's targeted to a specific timeframe and is designed to answer your most immediate questions &mdash; the questions that must be answered in order for the team to decide what to do next.
 
 You can use the template below to plan a research sprint with your team.
+
+<hr>
 
 ### Template: Plan a research sprint
 
@@ -81,5 +84,3 @@ You can use the template below to plan a research sprint with your team.
 <br/><br/>
 
 <hr>
-
-<a href="#">Return to top</a>

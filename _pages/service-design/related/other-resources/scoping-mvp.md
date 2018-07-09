@@ -8,6 +8,7 @@ title: Scoping the MVP
 description: Teams successfully build and launch MVPs when they focus their work on the minimum set of features that will provide value by meeting basic user needs.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -20,9 +21,4 @@ permalink: /service-design/related/other-resources/scoping-mvp
 
 ### Scoping the MVP
 
-
-<br/>
-
 <hr>
-
-<a href="#">Return to top</a>

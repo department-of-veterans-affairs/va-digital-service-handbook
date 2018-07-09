@@ -10,6 +10,7 @@ description: Discovery is not about solutions; it’s about uncovering problems.
 # Edit the discovery content below AND in /data/discovery.yml
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -20,7 +21,7 @@ permalink: /service-design/discovery
 
 ### What is Discovery?
 
-It's tempting to start brainstorming solutions right away based on your understanding of your project. Doing that leads to a solution-oriented design process in which your team's primary question is: How do we build the solution?
+It's tempting to start brainstorming solutions right away based on your understanding of your project. Doing that leads to a solution-focused design process in which your team's primary question is: How do we build the solution?
 
 Instead focus on a user-centered design process in which your team's primary questions are: Who are the potential users of my service, and how can we design a service that meets their needs?
 
@@ -68,4 +69,4 @@ Your goal in the discovery phase is to **learn about real users and identify the
 
 <hr>
 
-{% include include-service-design-footer-nav.html data="alpha" %}
+{% include include-footer-service-design.html next-phase="alpha" %}

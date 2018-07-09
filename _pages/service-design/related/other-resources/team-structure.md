@@ -8,6 +8,7 @@ title: Team structure
 description: The team skillsets you'll need throughout the service lifecycle.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -43,5 +44,3 @@ To do that, you'll want the following roles on your team.
   > Not all roles will be needed in every phase. Some roles may be needed less than full-time during some phases. Team members will need to adapt based on the needs of the service and the phase of work.
 
 <hr>
-
-<a href="#">Return to top</a>

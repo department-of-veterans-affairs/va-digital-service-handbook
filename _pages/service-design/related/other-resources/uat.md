@@ -8,6 +8,7 @@ title: User acceptance testing
 description: UAT description.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -21,8 +22,4 @@ permalink: /service-design/related/other-resources/uat
 ### User acceptance testing (UAT)
 
 
-<br/>
-
 <hr>
-
-<a href="#">Return to top</a>

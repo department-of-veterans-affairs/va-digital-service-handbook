@@ -8,6 +8,7 @@ title: Set up live service details
 description: Set up live service details description.
 #
 # Don't edit items below - they control the page layout
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -24,9 +25,4 @@ permalink: /service-design/related/other-resources/service-details
 * Alert configuration
 * Rate limits
 
-
-<br/>
-
 <hr>
-
-<a href="#">Return to top</a>

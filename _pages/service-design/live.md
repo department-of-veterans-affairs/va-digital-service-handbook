@@ -4,6 +4,7 @@ description: Live description goes here.
 #
 # Should not need to edit attributes below
 #
+return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
@@ -22,11 +23,3 @@ sidebar-type: /service-design
 
 
 ### What is Live?
-
-
-
-
-
-<hr>
-
-<a href="#">Return to top</a>
