@@ -7,7 +7,7 @@
 title: Discovery
 description: Discovery is not about solutions; it’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
 #
-# Edit the discovery content below AND in /data/discovery.yml
+# Edit the discovery content below AND in /data/phase-discovery.yml
 #
 # Don't edit items below - they control the page layout
 return-top: yes
@@ -30,11 +30,11 @@ Your goal in the discovery phase is to **learn about real users and identify the
 <hr>
 
 
-{% if site.data.alpha %}
+{% if site.data.phase-discovery %}
 
 <ul class="usa-accordion secondary-accordion">
 
-  {% for item in site.data.discovery %}
+  {% for item in site.data.phase-discovery %}
 
   <li>
     <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"

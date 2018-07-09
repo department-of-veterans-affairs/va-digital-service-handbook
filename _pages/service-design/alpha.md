@@ -7,7 +7,7 @@
 title: Alpha
 description: Alpha is about prototyping and testing hypotheses with users. Your goal in alpha is to figure out how to meet the user needs you identified in discovery. Use alpha as your chance to test many different approaches with real users before building your service.
 #
-# Edit the alpha content below AND in /data/alpha.yml
+# Edit the alpha content below AND in /data/phase-alpha.yml
 #
 # Don't edit items below - they control the page layout
 #
@@ -38,11 +38,11 @@ You'll repeat this process until the prototype meets your users' needs and your 
 <hr>
 
 
-{% if site.data.alpha %}
+{% if site.data.phase-alpha %}
 
 <ul class="usa-accordion secondary-accordion">
 
-  {% for item in site.data.alpha %}
+  {% for item in site.data.phase-alpha %}
 
   <li>
     <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
