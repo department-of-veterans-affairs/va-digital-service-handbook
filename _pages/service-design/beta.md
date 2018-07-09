@@ -68,4 +68,4 @@ During beta, you'll build the user stories and features from your backlog in sma
 
 <hr>
 
-{% include include-footer-service-design.html next-phase="live" %}
+{% include include-footer-service-design.html next-phase="live" prev-phase="alpha" %}

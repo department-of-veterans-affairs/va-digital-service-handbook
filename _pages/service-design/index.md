@@ -60,4 +60,4 @@ Using these methods ensures that we make decisions based on observations about u
 
 <hr>
 
-{% include include-footer-service-design.html next-phase="getting-started" %}
+{% include include-footer-service-design.html next-phase="getting-started" prev-phase="none" %}

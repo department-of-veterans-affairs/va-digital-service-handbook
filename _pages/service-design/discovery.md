@@ -69,4 +69,4 @@ Your goal in the discovery phase is to **learn about real users and identify the
 
 <hr>
 
-{% include include-footer-service-design.html next-phase="alpha" %}
+{% include include-footer-service-design.html next-phase="alpha" prev-phase="getting-started" %}

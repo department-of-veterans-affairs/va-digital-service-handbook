@@ -77,4 +77,4 @@ You'll repeat this process until the prototype meets your users' needs and your 
 
 <hr>
 
-{% include include-footer-service-design.html next-phase="beta" %}
+{% include include-footer-service-design.html next-phase="beta" prev-phase="discovery" %}

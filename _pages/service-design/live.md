@@ -23,3 +23,9 @@ sidebar-type: /service-design
 
 
 ### What is Live?
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<hr>
+
+{% include include-footer-service-design.html next-phase="none" prev-phase="beta" %}
