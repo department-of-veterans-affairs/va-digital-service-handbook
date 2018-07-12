@@ -39,7 +39,7 @@ Veteran Tools Platform teams use <a title="Go to VA Github" href="https://github
 Starting in the Alpha phase, your developers will start integrating with the Veteran Tools Platform release management process. We use Github Issues to manage that process.
 
 To get started
-* Have everyone on your team create a Github account.
+* Have everyone on your team create a Github account. Github requires Two-Factor authentication (2FA) to create an account.
 * [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames.
   * On the list, indicate which people are developers, so that we can give them access to the code repositories and developer tools.
   * Developers also need to <a title="Go to help" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/internal-tools-access#ssh-key" target="_blank">create new SSH keys</a> and include their ***public SSH key*** in the information you email to us.
@@ -49,7 +49,8 @@ To get started
 
 **Slack**
 
-We use <a title="Go to Slack" href="https://slack.com" target="_blank">Slack</a> as our team chat tool; we'll create a Slack channel for your team to use during the project.
+* We'll create a <a title="Go to Slack" href="https://slack.com" target="_blank">Slack</a> channel for your team to use. This channel may include people from other Veteran Tools Platform teams working on a similar service, so you can share findings and ask each other questions.
+* We'll also give you access to the *#dsva-platform-project channel*, which you can use if you have questions about the process described in this Handbook.
 
 <a href="#">Return to top</a>
 
@@ -60,8 +61,7 @@ We use <a title="Go to Slack" href="https://slack.com" target="_blank">Slack</a>
 The Veteran Tools Platform design system based on the <a title="Go to USWDS" href="https://designsystem.digital.gov/" target="_blank">United States Web Design System (USWDS)</a> with some additional specifications to meet the needs of VA’s particular audiences.
 
 > **Our design files use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.**
-<br/>Although you can use other platforms/tools, we strongly recommend using Sketch to ensure your designers are working with our latest templates.
-<br/>Designers should download the design files from the [design guide](related/design) so they can effectively design for the Veteran Tools Platform.
+<br/>Designers should download the Sketch files from the [design guide](related/design) so they can design using the latest Veteran Tools Platform templates.
 
 <a href="#">Return to top</a>
 

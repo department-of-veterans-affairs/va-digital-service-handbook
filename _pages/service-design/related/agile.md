@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Agile project management guide
+title: Agile delivery guide
 description: Information and resources about using agile methodologies as you work on the Veteran Tools Platform.
 #
 # Internal page menu - titles here match titles in Markdown
@@ -27,7 +27,7 @@ permalink: /service-design/related/agile
 ---
 ### In progress !
 
-### Using the agile project management guide
+### Using the agile delivery guide
 
 Topics:
 - alignment with VIP

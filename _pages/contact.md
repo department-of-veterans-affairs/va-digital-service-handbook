@@ -17,7 +17,7 @@ header-image: /assets/img/image-contact.png
 header-image-alt: Contact icon
 ---
 
-### Contact information
+### Contact us
 
 * via [email](mailto:{{ site.contact-handbook.email }})
 * via Slack: **#dsva-platform-project** &mdash; *for teams already working on the Veteran Tools Platform*
