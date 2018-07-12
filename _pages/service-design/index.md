@@ -56,7 +56,7 @@ Using these methods ensures that we make decisions based on observations about u
 5. [Live](live)
 6. [Related guides](related)
 
-<span class="todo">TODO - explain the overall process with visual</span>
+<!--span class="todo">TODO - explain the overall process with visual</span-->
 
 <hr>
 

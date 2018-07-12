@@ -11,7 +11,6 @@ description: User research isn't just something you do during the discovery phas
 #
 # Internal page menu - titles here match titles in /data/research-guide.yml
 sections:
-  - User research and the Paperwork Reduction Act
   - User privacy
   - Create a research plan
   - Plan a research sprint
@@ -35,17 +34,17 @@ permalink: /service-design/related/user-research
 
 <hr>
 
-### User research and the Paperwork Reduction Act
+<!--### User research and the Paperwork Reduction Act
 
-The Paperwork Reduction Act (PRA) limits the burden placed on people when interacting with the federal government. *To avoid going through the lengthy PRA approval process (+ 60 days), stay within PRA limits.*
+The Paperwork Reduction Act (PRA) limits the burden placed on people when interacting with the federal government. *To avoid going through the (often lengthy) PRA approval process, stay within PRA limits.*
 
 PRA does allow you to observe people and ask them questions about the experience you are observing. However, some pre- and post-research activities must follow PRA guidelines.
 
-Follow the specific PRA guidance we've included in the sections below. If you're not certain if an activity is subject to PRA, [email us](mailto:site.contact-handbook). <span class="todo">MS to review this guidance</span>
+<Follow the PRA guidance we've included in the sections below. If you're not certain if an activity is subject to PRA, [email us](mailto:site.contact-handbook).
 
 <a href="#">Return to top</a>
 
-<hr>
+<hr-->
 
 ### User privacy
 
@@ -161,6 +160,6 @@ This [research sprint planning template](other-resources/research-sprints) may b
 
 ### Additional resources
 
- * <span class="todo">TODO - add more resources</span>
+ * coming soon
 
 <hr>

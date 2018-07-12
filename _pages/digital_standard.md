@@ -257,7 +257,7 @@ At a minimum, you'll
 * Describe how the data is being transmitted and stored
 * Explain how long the data is kept, how it will be used, and how it may be shared
 * Put in place appropriate VA legal, privacy, and security measures
-* <span class="todo">TODO</span> - More from Aaron
+<!--* <span class="todo">TODO</span> - More from AW-->
 
 > {{ page.seemore }}
 

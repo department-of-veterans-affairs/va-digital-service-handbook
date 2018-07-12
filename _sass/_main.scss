@@ -117,7 +117,6 @@ h6 {
 }
 
 // Menus - change active state color + mobile weight
-// TODO - view selected state on mobile
 .usa-header-extended .usa-nav-link span.active {
   font-weight: bold;
   @include media($nav-width) {

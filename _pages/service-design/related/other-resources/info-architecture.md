@@ -44,7 +44,7 @@ The DSVA team will make sure your service doesn't collide with other services an
 If you're building a new service, you'll need to create a name for it.
 
 * Be sure to test the service name with your users.
-* <span class="todo">TODO - provide an example</span>
+<!--* <span class="todo">TODO - provide an example</span>-->
 
 <a href="#">Return to top</a>
 
