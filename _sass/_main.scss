@@ -149,7 +149,7 @@ h6 {
 ====================================== */
 
 .usa-footer-secondary_section {
-  background-color: $color-primary-darker;
+  background-color: $color-primary-darker !important;
   padding: 3rem 0 3rem 0;
   @include media($medium-screen) {
     padding: 2.25rem 0 2.25rem 0;
