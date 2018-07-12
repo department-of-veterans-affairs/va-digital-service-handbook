@@ -43,8 +43,6 @@ Service Design uses these methods to engage with users throughout the lifecycle 
 
 Using these methods ensures that we make decisions based on observations about users and their needs (rather than relying on our assumptions).
 
-<a href="#">Return to top</a>
-
 <hr>
 
 ### Using the Service Design Guide
