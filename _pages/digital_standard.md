@@ -5,7 +5,8 @@
 #
 # Title and Description display on page and in meta
 title: Digital Service Standard
-description: The <i>Digital Service Standard</i> are the quality standards that help VA teams deliver excellent digital services to Veterans and the people who support them.
+description: |
+  The <i>Digital Service Standard</i> is the set of quality standards that help VA teams deliver excellent digital services to Veterans and the people who support them.
 #
 # Image displays in page header
 header-image: /assets/img/image-digital-standard.png
@@ -53,13 +54,9 @@ Whether your users are Veterans or VA employees, you must include real people in
 * What problems or frustrations do they experience?
 * What do your users need from your service to achieve their goals?
 
-#### Tip
-
-* Work to understand your users and their needs from their point of view &mdash; beyond the lens of your own experience or assumptions.
-
 #### How to meet this standard
 
-You'll engage users for research and feedback throughout the service lifecycle. At a minimum, you'll
+You'll engage users for research and feedback throughout the service lifecycle. At a minimum,
 
 * Explain the user needs your service addresses and how you found those needs during Discovery
 * Give examples of user goals, user personas, and user profiles for the service
@@ -77,8 +74,7 @@ You'll engage users for research and feedback throughout the service lifecycle. 
 
 Put in place a multidisciplinary team that can design, build, and continuously improve the digital service. The team should be led by a Product Manager who is accountable for the service and has the authority to make decisions about the service.
 
-#### Tip
-* Build your team around a skilled Product Manager empowered to make decisions based on the outcomes of research, testing, prototypes, and performance metrics. This is not the same role as the Project Manager, whose primary task is to keep team members accountable to the agile delivery process.
+Build your team around a skilled Product Manager empowered to make decisions based on the outcomes of research, testing, prototypes, and performance metrics. This is not the same role as the Project Manager, whose primary task is to keep team members accountable to the agile delivery process.
 
 #### How to meet this standard
 
@@ -101,7 +97,7 @@ Your team should include the following skillsets
 
 When you build and launch a service (or a feature) on the Veteran Tools Platform, the front-end code will be visible to anyone visiting the <a title="Go to Github repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">Github repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built.
 
-When you first begin work on your service for the Veteran Tools Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository. <!--<a title="Go to example Github repo" target="_blank" href="addsampleprojecturl">See an example</a>.-->
+When you first begin work on your service for the Veteran Tools Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository.
 
 #### By working in the open on Github, you can
 * See what other Veteran Tools Platform teams are working on
@@ -111,7 +107,7 @@ When you first begin work on your service for the Veteran Tools Platform, you'll
 
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Publish code to the Veteran Tools Platform Github repository
 * Use Github Issues (or another agile project management tool) to track team tasks so they're visible to the whole team
@@ -128,14 +124,9 @@ Although your service is designed as a digital experience, it probably exists in
 
 Understand the complete end-to-end journey that users take to complete their goal, including the actions they take online, on a phone, or in person. Every encounter &mdash; whether it’s online or offline &mdash; is part of the "VA user experience" and should move users closer to their goals.
 
-#### Tips
-
-* Offer guidance for the end-to-end experience beyond your digital service. <a title="See example" href="https://www.vets.gov/disability-benefits/apply/" target="_blank">See an example</a>.
-* The Veteran Tools Platform is accessible with any digital device with a browser &mdash; computer, tablet, mobile phone, or TV. Consider how your users will experience your service in these different device contexts.
-
 #### How to meet this standard
 
-Your understanding of the end-to-end experience will evolve over time as you design and build your service. At a minimum, you'll
+Your understanding of the end-to-end experience will evolve over time as you design and build your service. At a minimum,
 
 * Explain the end-to-end steps that users take to achieve their goals and how your service is integrated into that context
 * Show a journey map of all the touch points in the user's experience of your service, from learning about the service to understanding how to cancel or stop using the service
@@ -154,11 +145,11 @@ Your understanding of the end-to-end experience will evolve over time as you des
 
 Your service should be so simple that your users &mdash; including those with accessibility needs or who lack digital experience &mdash; can succeed on their very first attempt without the need for any assistance.
 
-If your service is complex or challenging to use, your users will be forced to contact VA for help via phone or an in-person visit. Or they may stop using your service altogether. This leads to user frustration and lack of confidence in VA, as well as higher operational costs.
+If your service is complex or challenging to use, your users will need to contact VA for help via phone or an in-person visit. Or they may stop using your service altogether. This leads to user frustration and lack of confidence in VA, as well as higher operational costs.
 
 #### How to meet this standard
 
-The primary goal of your service should be to help your users achieve their goals. At a minimum, you'll
+At a minimum,
 
 * Make sure that the service explains who it is for, how it works, and how to use it &mdash; make this content visible without requiring users to sign in
 * Include contact information so users can learn more about the service and get help using it
@@ -168,7 +159,6 @@ The primary goal of your service should be to help your users achieve their goal
 * Make the service accessible, including for users with limited digital skills
 * Do usability testing at least once before the service goes live, and prioritize making improvements to the service
 * Make design and content decisions based on user research, testing, and analytics
-* Test the name of the service to make sure it makes sense to your users
 * Use performance analytics to identify areas where users are unable to complete their tasks and prioritize fixes for these
 
 > {{ page.seemore }}
@@ -183,14 +173,9 @@ The user experience of your service must be consistent with other services on th
 * You can save time by reusing existing patterns and code (which have been refined over time based on user research and data)
 * Your users will be more confident they can use your service because of its similarity to the other Veteran Tools Platform tools they already use
 
-#### Tips
-
-* If your service needs a design pattern that doesn't already exist, let us know as soon as possible so we can work with you to make sure it's the best version it can be.
-* We refine the design patterns in response to analytics and user feedback. If your testing shows there might be a problem with one of the design patterns, let us know so we can create a plan for improving it.
-
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Reuse components from the Veteran Tools Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a>
 * Follow the Veteran Tools Platform <a title="Go to Editorial Guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">content guidelines</a> for writing copy for your service
@@ -222,23 +207,14 @@ All users will have different needs at different times and in different circumst
 
 Before you design or build anything, think about how these users will access and use your service.
 
-#### Tips
-
-* Accessibility isn’t the responsibility of just one person. Everyone on your team is responsible for making sure your service is accessible.
-
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Seek a wide variety of users for research and testing, including people with disabilities, other impairments, and those with limited digital experience
 * Reuse components from the Veteran Tools Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a> (which have already been tested for Section 508 compliance)
 * Use the Veteran Tools Platform <a title="Go to Design Guide Colors" href="https://department-of-veterans-affairs.github.io/design-system/components/detail/colors.html" target="_blank">color palette and typography</a> (which have already been tested for Section 508 compliance)
 * Test your service using the simplified process for VA Section 508 compliance (which involves automated tools for testing Section 508 compliance, in addition to periodic manual testing)
-
-#### References
-
-* <a title="Go to Section 508 office" href="https://www.section508.va.gov/" target="_blank">VA Section 508 office</a>
-* <a title="Go to Section 508 law" href="https://www.section508.gov/manage/laws-and-policies" target="_blank">Section 508 law</a>
 
 > {{ page.seemore }}
 
@@ -251,7 +227,7 @@ Typically users won’t use a service unless they know it’s secure, confidenti
 
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Identify the data the service will collect, use, store, create, and/or update
 * Describe how the data is being transmitted and stored
@@ -270,14 +246,9 @@ Services on the Veteran Tools Platform are built and released using agile delive
 
 This means your service gets into the hands of your users &mdash; and you can collect their feedback &mdash; much faster than using waterfall delivery methods. For example, you could release a new feature, collect feedback from users, make improvements, and release that feature again in just a few weeks (or days).
 
-#### Tips
-
-* Design small pieces of the service and prototype them with real users early and often.
-* Build and release small pieces of functionality until you've build the complete service.
-
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Explain how your team works in an agile way, using agile tools and techniques, and how you'll continue to do so when the service is live
 * Describe design options for prototypes and explain why some were discarded
@@ -298,7 +269,7 @@ Continuously test the end-to-end service in an environment identical to that of 
 
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Design your service so it accommodates the expected number of users and can support more users if demand increases
 * Separate content, design, and functionality so updates can be made independently of each other
@@ -322,7 +293,7 @@ Your service should be adaptable so it can respond both to changes in policies t
 
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Define the metrics you'll use to evaluate your service and the tools you'll use to do that
 * Use Google Analytics to capture information about how users interact with your service
@@ -343,13 +314,9 @@ Encourage people to choose your digital service over non-digital VA touch points
 * Allow non-digital channels to focus their attention on people who are unable to use digital services on their own
 * Help Users develop their digital skills and understand VA as a modern government agency
 
-#### Tips
-
-* Think about the ways your service is connected to other VA digital services. Then consider how your service might promote (or link to) those other VA digital services. And ask them to do the same for your service.
-
 #### How to meet this standard
 
-At a minimum, you'll
+At a minimum,
 
 * Understand how different VA touch points meet the needs of users trying to complete a task that is part of your service
 * Design your service so that it has clear advantages over other touch points, for example, saves time over submitting a paper form

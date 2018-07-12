@@ -135,18 +135,13 @@ h6 {
 
 // Menu button - change color and weight
 .usa-menu-btn {
-  //background-color: $color-blue-darker;
-  background-color: $color-cool-blue-light;
+  background-color: $color-primary-darker;
   font-weight: bold;
   color: $color-white;
-  //color: $color-blue-darkest;
 }
-
-.usa-nav-submenu {
-  //border: 3px solid red;
-  //https://www.cssmatic.com/box-shadow
+.usa-menu-btn:hover {
+  background-color: $color-primary;
 }
-
 
 
 /* ===================================
@@ -242,7 +237,7 @@ h6 {
 ====================================== */
 // Update USWDS hero styles
 .usa-hero {
-  background-color: #112e51;
+  background-color: $color-primary-darker;
   padding-top: 1rem;
   padding-bottom: 1rem;
 
@@ -255,6 +250,9 @@ h6 {
     background-size: 25%;
     background-repeat: no-repeat;
   }
+}
+.usa-section-dark {
+  background-color: $color-primary-darker;
 }
 .usa-hero-callout {
   max-width: 100%;
@@ -390,22 +388,36 @@ h6 {
   }
 }
 .jump-menu-header {
-  margin-left: 1.8rem;
+  //margin-left: 1.8rem;
+  margin-left: 1rem;
   padding-bottom: 0;
   margin-bottom: 0;
   text-transform: uppercase;
-  font-size: 80%;
+  font-size: 85%;
   font-weight: 600;
   color: $color-red;
 }
 .jump-menu-items {
-  margin-top: .5rem;
+  //margin-top: .5rem;
+  margin-top: 1rem;
+  padding-left: 0;
+  margin-left: 1rem;
+  border-bottom: 1px solid $color-silver;
   li {
-    list-style-image: url('../img/bullet-red.png');
+    list-style: none;
+    padding: .75rem;
+    margin-bottom: 0;
+    //list-style-image: url('../img/bullet-blue.png');
+    border-top: 1px solid $color-silver;
   }
   a {
     font-size: 90%;
     color: $color-blue;
+    text-decoration: none;
+  }
+  li:hover {
+    background-color: #f1f1f1;
+    color: #0071bc;
     text-decoration: none;
   }
 }
@@ -415,6 +427,13 @@ h6 {
   margin-left: 0;
   padding-left: 0;
   list-style: none;
+}
+.jump-content blockquote {
+  margin-top: 0;
+  //margin-bottom: 1rem;
+}
+.jump-items {
+  //margin-top: 3rem;
 }
 .jump-items h3 {
   position: relative;
@@ -504,8 +523,8 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
 }
 .usa-sidenav-list {
   margin-top: .8rem;
-  //border-top: 1px solid $color-silver;
-  //border-bottom: 1px solid $color-silver;
+  border-top: 1px solid $color-silver;
+  border-bottom: 1px solid $color-silver;
 }
 .usa-sidenav-list>li {
   //border-top: none;
@@ -556,8 +575,8 @@ hr {
 // Style for default Markdown blockquote
 blockquote {
   background-color: $color-gray-lightest;
-  border-left: .8rem solid $color-red;
-  border-right: .8rem solid $color-red;
+  border-left: .8rem solid $color-gray-light;
+  border-right: .8rem solid $color-gray-light;
   margin: 1.5rem 0 1.5rem 0;
   padding: 1.5rem;
 }

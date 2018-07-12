@@ -133,6 +133,11 @@ We have not yet dealt with multi-party signatures. If you come need for a multi-
 
     * Use large targets for interactions.
     * Don't necessarily move the UI (no dancing monkeys ;)
+
+**References**:
+* <a title="Go to Section 508 office" href="https://www.section508.va.gov/" target="_blank">VA Section 508 office</a>
+* <a title="Go to Section 508 law" href="https://www.section508.gov/manage/laws-and-policies" target="_blank">Section 508 law</a>
+
 <br/>
 
 <a href="#">Return to top</a>
