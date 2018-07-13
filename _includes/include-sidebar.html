@@ -10,6 +10,10 @@
 
       {% if subitem.tertitems %}
 
+{% comment %}
+create new subitem-title so if page is tertiary its subitem gets highlighted
+{% endcomment %}
+
       {% if subitem.title contains 'guides' %}
         {% assign subitem-title = subitem.title | replace: ' guides', '' | replace: '-', '' %}
       {% else %}
@@ -22,7 +26,7 @@
         <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
 
         <ul class="usa-sidenav-sub_list">
-          
+
         {% for tertitem in subitem.tertitems %}
           <li class="no-bullet">
             <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto | relative_url }}"{% if tertitem.target == true %} target="_blank" {% endif %} class="{% if page.url contains tertitem.linkto %}usa-current{% endif %}">{{tertitem.title}}</a>
@@ -35,8 +39,17 @@
 
       {% else %}
 
-        <li class="{% if subitem.linkto == page.url %}usa-current-sidenav-li{% endif %}">
-          <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}"{% if subitem.target == true %} target="_blank" {% endif %}class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
+{% comment %}
+create new subitem-linkto to deal with Overview as directory where page.url doesn't equal the subitem.linkto
+{% endcomment %}
+
+{% if subitem.title == "Overview" %}
+  {% assign subitem-linkto = "/service-design/index.html" %}
+{% else %}
+  {% assign subitem-linkto = subitem.linkto %}
+{% endif %}
+        <li class="{% if subitem-linkto == page.url %}usa-current-sidenav-li{% endif %}">
+          <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}"{% if subitem.target == true %} target="_blank" {% endif %}class="{% if subitem-linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
         </li>
 
       {% endif %}
