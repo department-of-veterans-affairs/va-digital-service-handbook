@@ -39,13 +39,16 @@ Veteran Tools Platform teams use <a title="Go to VA Github" href="https://github
 Starting in the Alpha phase, your developers will start integrating with the Veteran Tools Platform release management process. We use Github Issues to manage that process.
 
 To get started
-* Have everyone on your team create a Github account. Github requires Two-Factor authentication (2FA) to create an account.
-* [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames.
-  * On the list, indicate which people are developers, so that we can give them access to the code repositories and developer tools.
-  * Developers also need to <a title="Go to help" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/internal-tools-access#ssh-key" target="_blank">create new SSH keys</a> and include their ***public SSH key*** in the information you email to us.
-
-* We'll add the team to the VA Github organization and give them access to a team folder on Github, which you'll use to store and share project documents.
-* If your team is new to Github, we can arrange a short meeting to show you how to use it share documents.
+1. Have everyone on your team create a Github account. Github requires Two-Factor authentication (2FA) to create an account.
+2. [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames for your team.
+  * Indicate which people on the list are developers (so we give developer access to the right people).
+  * **Have each developer on your team <a title="Go to help" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/internal-tools-access#ssh-key" target="_blank">create new SSH keys</a>**.
+  * **Important** &mdash; include each developer's **public SSH key** on the list.
+  * Make sure developers send the **public SSH key** (not the SSH fingerprint).<br/>The public SSH key format looks like <code>ssh-rsa [long string]</code>
+5. We'll add the people on the list to the VA Github organization and
+  * Give everyone access to a team folder on Github, which you'll use to store and share project documents
+  * Provide the developers with access to code repositories and the tools they'll need to develop on the Veteran Tools Platform
+7. If your team is new to Github, we can arrange a short meeting to show you how to use it share documents.
 
 **Slack**
 
