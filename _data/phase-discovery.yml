@@ -7,20 +7,7 @@
 ---
 - number: p-1
   title: Planning for discovery
-  copy: |
-    #### Timeframe
-
-    It's important to start the project by putting a time constraint on your discovery work. Plan to spend
-      * 2 to 4 weeks for a new feature
-      * 4 to 8 weeks for a new service
-
-    #### The team you need
-
-    See [team structure](related/other-resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
-
-    #### At the end of discovery
-
-    At least a week before discovery ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
+  # See /data/planning-for.yml for this content
 - number: p-2
   title: During discovery
   copy: |
@@ -54,3 +41,4 @@
     * What specific things do you plan to prototype and test during the alpha phase?
     * What people and/or resources do you need to support the work during the alpha phase?
     * What are the metrics you'll use to measure the success of the service, and what is your plan to get those metrics?
+  # See /data/next-steps.yml for the rest of the Completing discovery content

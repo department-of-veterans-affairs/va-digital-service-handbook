@@ -6,7 +6,16 @@
   </h3>
   <div id="{{ site.data.resources-help.number }}" class="usa-accordion-content secondary-accordion-content">
 
-    {{ site.data.resources-help.copy | markdownify }}
+    <ul>
+
+      {% if include.phase != "live" %}
+      <li>{{ site.data.resources-help.next-steps | markdownify }}</li>
+      {% endif %}
+
+      <li>{{ site.data.resources-help.guides | markdownify }}</li>
+
+      <li>{{ site.data.resources-help.help | markdownify }}</li>
+    </ul>
 
     <a href="#">Return to top</a>
 

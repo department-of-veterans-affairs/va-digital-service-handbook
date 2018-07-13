@@ -1,0 +1,26 @@
+# Content for the "Planning for X" section in each service design phase
+#
+# Markdown formatting is ok
+#
+---
+discovery:
+  timeframe: |
+    It's important to start the project by putting a time constraint on your discovery work. Plan to spend
+      * 2 to 4 weeks for a new feature
+      * 4 to 8 weeks for a new service
+alpha:
+  timeframe: |
+    Different services will spend different amounts of time in alpha, depending on the complexity of what the team needs to prototype and test. In general, plan to spend
+      * 2 to 4 weeks for a new feature
+      * 6 to 8 weeks for a new service
+beta:
+  timeframe: |
+    Different services will spend different amounts of time in beta, depending on what the team plans to build as the MVP. In general, plan to spend
+
+    * 6-8 weeks for a new feature
+    * 8-12 weeks for a new service
+    * **Tip**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](related/other-resources/scoping-mvp) &mdash; make it smaller!
+  end: |
+    The final step in the beta phase is to launch the MVP, which you'll do after the Next Steps checkpoint. At the Next Steps checkpoint, you should have completed all the beta tasks so you can launch the MVP after the checkpoint meeting.
+
+    At least a week before beta ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).

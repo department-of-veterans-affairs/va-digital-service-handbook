@@ -7,20 +7,7 @@
 ---
 - number: p-1
   title: Planning for alpha
-  copy: |
-    #### Timeframe
-
-    Different services will spend different amounts of time in alpha, depending on the complexity of what the team needs to prototype and test. In general, plan to spend
-      * 2 to 4 weeks for a new feature
-      * 6 to 8 weeks for a new service
-
-    #### The team you need
-
-    See [team structure](related/other-resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
-
-    #### At the end of alpha
-
-    At least a week before alpha ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
+  # See /data/planning-for.yml for this content
 - number: p-2
   title: During alpha
   copy: |
@@ -101,3 +88,4 @@
     * Documentation of the user research you did in the alpha phase
     * A plan and timeline for your beta phase
     * An updated resource plan (if you need additional people or other resources for the beta phase)
+  # See /data/next-steps.yml for the rest of the Completing alpha content

@@ -5,11 +5,11 @@
 <ul>
 
   <li>
-    {{ site.data.moving-on.[this-phase].move-on | markdownify }}
+    {{ site.data.next-steps.[this-phase].move-on | markdownify }}
   </li>
 
   <li>
-    {{ site.data.moving-on.[this-phase].stay | markdownify }}
+    {{ site.data.next-steps.[this-phase].stay | markdownify }}
   </li>
 
   <li>
@@ -17,7 +17,7 @@
 
     <blockquote class="plain-blockquote">
 
-      {{ site.data.moving-on.[this-phase].stop | markdownify }}
+      {{ site.data.next-steps.[this-phase].stop | markdownify }}
 
     </blockquote>
 

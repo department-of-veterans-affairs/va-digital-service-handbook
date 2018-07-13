@@ -9,6 +9,10 @@ description: Discovery is not about solutions. It’s about uncovering problems.
 #
 # Edit the discovery content below AND in /data/phase-discovery.yml
 #
+# The Planning for Discovery content is in /data/planning-for.yml
+#
+# The Next Steps content is in /data/next-steps.yml
+#
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
@@ -44,10 +48,14 @@ Your goal in the discovery phase is to **learn about real users and identify the
     </h3>
     <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
 
+      {% if item.title == "Planning for discovery" %}
+        {% include include-planning-for.html phase="discovery" %}
+      {% endif %}
+
       {{ item.copy | markdownify }}
 
       {% if item.title == "Completing discovery" %}
-        {% include include-move-to-next-step.html phase="discovery" %}
+        {% include include-next-steps.html phase="discovery" %}
       {% endif %}
 
       <a href="#">Return to top</a>
@@ -59,7 +67,7 @@ Your goal in the discovery phase is to **learn about real users and identify the
   {% endfor %}
 
   {% if site.data.resources-help %}
-    {% include include-resources-help.html %}
+    {% include include-resources-help.html phase="discovery" %}
   {% endif %}
 
 </ul>

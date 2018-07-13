@@ -9,6 +9,10 @@ description: Beta is about incrementally building (and testing) the MVP user sto
 #
 # Edit the beta content below AND in /data/phase-beta.yml
 #
+# The Planning for Beta content is in /data/planning-for.yml
+#
+# The Next Steps content is in /data/next-steps.yml
+#
 # Don't edit items below - they control the page layout
 #
 return-top: yes
@@ -43,10 +47,14 @@ During beta, you'll build the user stories and features from your backlog in sma
     </h3>
     <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
 
+    {% if item.title == "Planning for beta" %}
+      {% include include-planning-for.html phase="beta" %}
+    {% endif %}
+
       {{ item.copy | markdownify }}
 
       {% if item.title == "Completing beta" %}
-        {% include include-move-to-next-step.html phase="beta" %}
+        {% include include-next-steps.html phase="beta" %}
       {% endif %}
 
       <a href="#">Return to top</a>
@@ -58,7 +66,7 @@ During beta, you'll build the user stories and features from your backlog in sma
   {% endfor %}
 
   {% if site.data.resources-help %}
-    {% include include-resources-help.html %}
+    {% include include-resources-help.html phase="beta" %}
   {% endif %}
 
 </ul>

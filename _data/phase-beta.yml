@@ -7,24 +7,7 @@
 ---
 - number: p-1
   title: Planning for beta
-  copy: |
-    #### Timeframe
-
-    Different services will spend different amounts of time in beta, depending on what the team plans to build as the MVP. In general, plan to spend
-
-    * 6-8 weeks for a new feature
-    * 8-12 weeks for a new service
-    * **Tip**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](related/other-resources/scoping-mvp) &mdash; make it smaller!
-
-    #### The team you need
-
-    See [team structure](related/other-resources/team-structure) to understand the skillsets you'll need throughout the service lifecycle.
-
-    #### At the end of beta
-
-    The final step in the beta phase is to launch the MVP, which you'll do after the Next Steps checkpoint. At the Next Steps checkpoint, you should have completed all the beta tasks so you can launch the MVP after the checkpoint meeting.
-
-    At least a week before beta ends, schedule a [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to share your team's recommended next steps (and your reasons).
+  # See /data/planning-for.yml for this content
 - number: p-2
   title: Build and deploy to staging
   copy: |
@@ -94,3 +77,4 @@
     * A prioritized backlog of features you plan to build in order to improve the service after launch
     * A proposed plan for how you'll improve the service after you launch it &mdash; how you'll monitor, evaluate, user research/test, and build from your backlog
     * An updated resource plan (if you need additional people or other resources for the live phase)
+  # See /data/next-steps.yml for the rest of the Completing beta content

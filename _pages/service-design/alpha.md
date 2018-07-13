@@ -9,6 +9,10 @@ description: Alpha is about prototyping and testing hypotheses with users. Your 
 #
 # Edit the alpha content below AND in /data/phase-alpha.yml
 #
+# The Planning for Alpha content is in /data/planning-for.yml
+#
+# The Next Steps content is in /data/next-steps.yml
+#
 # Don't edit items below - they control the page layout
 #
 return-top: yes
@@ -52,10 +56,14 @@ You'll repeat this process until the prototype meets your users' needs and your 
     </h3>
     <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
 
+      {% if item.title == "Planning for alpha" %}
+        {% include include-planning-for.html phase="alpha" %}
+      {% endif %}
+
       {{ item.copy | markdownify }}
 
       {% if item.title == "Completing alpha" %}
-        {% include include-move-to-next-step.html phase="alpha" %}
+        {% include include-next-steps.html phase="alpha" %}
       {% endif %}
 
       <a href="#">Return to top</a>
@@ -67,7 +75,7 @@ You'll repeat this process until the prototype meets your users' needs and your 
   {% endfor %}
 
   {% if site.data.resources-help %}
-    {% include include-resources-help.html %}
+    {% include include-resources-help.html phase="alpha" %}
   {% endif %}
 
 </ul>

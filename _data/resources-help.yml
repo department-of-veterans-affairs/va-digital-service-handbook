@@ -5,15 +5,15 @@
 ---
 number: p-99
 title: Resources and help
-copy: |
-  * Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to prepare for the Next Steps meeting.
+next-steps: |
+  Review [Next Steps checkpoint](related/other-resources/next-steps-checkpoint) to understand how to prepare for the Next Steps meeting.
+guides: |
+  Review the following to help guide your work in this phase:
 
-  * Review the following to help guide your work in this phase:
-
-    * [User research guide](related/user-research)
-    * [Design guide](related/design)
-    * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
-    * [Technical guide](related/technical)
-    * [Agile delivery guide](related/agile)
-
-  * If you have a question about something in the Handbook, [email us](mailto:{{site.contact-handbook.email}}), or post your question in the *#dsva-platform-project* Slack channel.
+  * [User research guide](related/user-research)
+  * [Design guide](related/design)
+  * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
+  * [Technical guide](related/technical)
+  * [Agile delivery guide](related/agile)
+help: |
+  If you have a question about something in the Handbook, [email us](mailto:{{site.contact-handbook.email}}), or post a question in your team's Slack channel.
