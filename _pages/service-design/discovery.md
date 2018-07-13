@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Discovery
-description: Discovery is not about solutions; it’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
+description: Discovery is not about solutions. It’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
 #
 # Edit the discovery content below AND in /data/phase-discovery.yml
 #

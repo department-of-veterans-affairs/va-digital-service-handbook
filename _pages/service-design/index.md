@@ -24,37 +24,36 @@ header-image-alt: Service Design Guide icon
 #
 ---
 
-> To launch a service (or feature) on the Veteran Tools Platform, you must follow the steps in this Service Design Guide.
-
-{% for item in page.sections %}
-* [{{ item}}](#{{item | downcase | replace: ' ', '-' | replace: '?', ''}})
-{% endfor %}
-
-<hr>
-
 ### What is service design?
 
-Service Design helps us to understand the people who will use a service in order to create solutions that work for them.
+Service Design helps us understand the people who use services on the Veteran Tools Platform in order to create solutions that work for them. Our goal is to make decisions about Veteran services based on observation and analysis of Veteran needs (vs. relying on our assumptions).
 
-Service Design uses these methods to engage with users throughout the lifecycle of any service:
-* Conduct user research to learn about users and their needs
-* Test possible solutions (prototypes) with users
-* Continuously test the live service with users to check that it continues to serve their needs
+Using service design methods, we engage with our users throughout the service lifecycle:
 
-Using these methods ensures that we make decisions based on observations about users and their needs (rather than relying on our assumptions).
+* Conducting user research to learn about users and their needs
+* Testing possible solutions (prototypes) with users
+* Continuously testing the live service to check that it continues to serve users needs
 
 <hr>
 
 ### Using the Service Design Guide
 
-1. [Getting started](getting-started)
-2. [Discovery](discovery)
-3. [Alpha](alpha)
-4. [Beta](beta)
-5. [Live](live)
-6. [Related guides](related)
+1. [Get your team onboarded](getting-started) with the tools they need to work on the Veteran Tools Platform
 
-<!--span class="todo">TODO - explain the overall process with visual</span-->
+2. Complete the phases of the Service Design Guide:
+  * [Do user research](discovery) to understand your users' needs
+  * [Test possible solutions (prototypes)](alpha) with your users
+  * [Build a Minimum Viable Product (MVP)](beta) and test it with your users
+  * [Continue to improve your service](live) based on user testing
+
+3. Refer to the [related guides](related) for guidance, tips, and examples of specific activities you'll use throughout the service lifecycle:
+  * [User research guide](related/user-research)
+  * [Design guide](related/design)
+  * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
+  * [Technical guide](related/technical)
+  * [Agile delivery guide](related/agile)
+  * [Other resources](related/other-resources)
+
 
 <hr>
 

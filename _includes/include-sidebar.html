@@ -23,7 +23,7 @@ create new subitem-title so if page is tertiary its subitem gets highlighted
       {% assign subitem-current = subitem-title | downcase | replace: ' ', '' %}
 
       <li class="{% if page.url contains subitem-current %}usa-current-sidenav-li{% endif %}">
-        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if subitem.linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
+        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if page.url contains subitem-current %}usa-current{% endif %}">{{subitem.title}}</a>
 
         <ul class="usa-sidenav-sub_list">
 
