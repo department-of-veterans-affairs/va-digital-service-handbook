@@ -41,7 +41,7 @@ Starting in the Alpha phase, your developers will start integrating with the Vet
 To get started
 1. Have everyone on your team create a Github account. Github requires Two-Factor authentication (2FA) to create an account.
 2. [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames for your team.
-  * Indicate which people on the list are developers (so we give developer access to the right people).
+  * Indicate which people on the list are developers (so we can give developer access to the right people).
   * **Have each developer on your team <a title="Go to help" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/internal-tools-access#ssh-key" target="_blank">create new SSH keys</a>**.
   * **Important** &mdash; include each developer's **public SSH key** on the list.
   * Make sure developers send the **public SSH key** (not the SSH fingerprint).<br/>The public SSH key format looks like <code>ssh-rsa [long string]</code>
