@@ -36,6 +36,8 @@ Before using this guide, make sure you've completed the steps in [onboarding you
 
 ### Getting started
 
+* Confirm that you've completed the [Getting Started steps for developers](../getting-started#tools-for-developers).
+
 * Review the Vets Developer Docs starting with the section titled "<a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">Getting Started</a>."
 
 * **Confirm that you have access to the 3 code repositories, the shared testing environments, and to the Internal Tools**. If you run into a problem or can't get access, [email us](mailto:{{ site.contact-handbook.email }}).
