@@ -158,28 +158,15 @@ When you're designing mockups or prototypes, be sure they include well-written c
 
 ### Design tools
 
-**Design patterns**
+**Review the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a>**
 
 The Veteran Tools Platform design patterns make it much easier for developers to quickly prototype new pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
 
-* Review the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a>
-
 **Download design files**
 
-> **The design files are created in <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.**
-<br/>Although you can use other platforms/tools, we strongly recommend using Sketch to ensure your designers are working with our latest templates.
-
-* <a title="Go to instructions" href="https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library" target="_blank">Instructions for downloading and using the Sketch files</a>
-*Once a designer been added to the VA Github organization, they'll be able to download the design files.*
-
-* **Required fonts**
-  * <a title="Get font" href="https://www.fontsquirrel.com/fonts/source-sans-pro" target="_blank">Source Sans Pro</a>
-  * <a title="Get font" href="https://www.fontsquirrel.com/fonts/bitter" target="_blank">Bitter</a>
-  * <a title="Get Fontawesome 4" href="https://fontawesome.com/v4.7.0/" target="_blank">Font Awesome 4</a> &mdash; Be sure you're getting Font Awesome 4 (not 5)!
-
-<!--
-* <a title="Download Sketch file" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-gov-pattern-library.sketch" target="_blank">Sketch template file</a>
-* <a title="Download Sketch file" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-gov-colors.sketchpalette" target="_blank">Sketch color palette</a>
--->
+* *The design files are created in <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.* Although you can use other platforms/tools, we strongly recommend using Sketch to ensure your designers are working with our latest templates.
+  * <a title="Go to instructions" href="https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library" target="_blank">Instructions for downloading and using the Sketch files</a>
+  *Once a designer been added to the VA Github organization, they'll be able to download the Sketch files.*
+  * <a title="Go to fonts" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-fonts.md" target="_blank">Instructions for fonts and icons</a>
 
 <hr>

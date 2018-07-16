@@ -42,13 +42,11 @@ To get started
 1. Have everyone on your team create a Github account. Github requires Two-Factor authentication (2FA) to create an account.
 2. [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames for your team.
   * Indicate which people on the list are developers (so we can give developer access to the right people).
-  * **Have each developer on your team <a title="Go to help" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/internal-tools-access#ssh-key" target="_blank">create new SSH keys</a>**.
-  * **Include each developer's *public SSH key* on the list**.
-  * Make sure developers send the **public SSH key** (not the SSH fingerprint).<br/>The public SSH key format looks like <code>ssh-rsa [long string]</code>
-5. We'll add the people on the list to the VA Github organization and
+3. We'll add the people on the list to the VA Github organization and
   * Give everyone access to a team folder on Github, which you'll use to store and share project documents
   * Provide the developers with access to code repositories and the tools they'll need to develop on the Veteran Tools Platform
-7. If your team is new to Github, we can arrange a short meeting to show you how to use it share documents.
+4. If your team is new to Github, we can arrange a short meeting to show you how to use it share documents.
+
 
 **Slack**
 
@@ -64,7 +62,7 @@ To get started
 The design system for the Veteran Tools Platform is based on the <a title="Go to USWDS" href="https://designsystem.digital.gov/" target="_blank">United States Web Design System (USWDS)</a>, with some additional specifications to meet the needs of VA’s particular audiences.
 
 > **Our design files use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.**
-<br/>Designers should download the Sketch files from the [design guide](related/design) so they can design using the latest Veteran Tools Platform templates.
+Designers should download the Sketch files from the [design guide](related/design) so they can design using the latest Veteran Tools Platform templates.
 
 <a href="#">Return to top</a>
 
@@ -72,9 +70,15 @@ The design system for the Veteran Tools Platform is based on the <a title="Go to
 
 ### Tools for developers
 
-Once a developer's Github account is added to the VA Github organization and their SSH public key is set up, they'll be given access to the code repositories, credentials for shared testing environments, and internal tools.
+To get access to code repositories, testing credentials, and internal tools, developers should do the following as soon as possible
 
-Developers should review the [technical guide](related/technical) to complete the onboarding steps and confirm that they have access to all the tools.
+1. Create <a title="Go to create ssh keys" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Engineering/Internal%20Tools.md#create-an-ssh-public-key" target="_blank">new SSH keys</a>.
+{{ site.vets-team }}
+
+2. Configure <a title="Go to configure socks proxy" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Engineering/Internal%20Tools.md#configure-the-socks-proxy" target="_blank">the SOCKS proxy</a>.
+{{ site.vets-team }}
+
+3. Review the [technical guide](related/technical#getting-started) and confirm they have access to all the tools.
 
 <a href="#">Return to top</a>
 
