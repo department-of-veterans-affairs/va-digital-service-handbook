@@ -43,7 +43,7 @@ To get started
 2. [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames for your team.
   * Indicate which people on the list are developers (so we can give developer access to the right people).
   * **Have each developer on your team <a title="Go to help" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/internal-tools-access#ssh-key" target="_blank">create new SSH keys</a>**.
-  * **Important** &mdash; include each developer's **public SSH key** on the list.
+  * **Include each developer's *public SSH key* on the list**.
   * Make sure developers send the **public SSH key** (not the SSH fingerprint).<br/>The public SSH key format looks like <code>ssh-rsa [long string]</code>
 5. We'll add the people on the list to the VA Github organization and
   * Give everyone access to a team folder on Github, which you'll use to store and share project documents
