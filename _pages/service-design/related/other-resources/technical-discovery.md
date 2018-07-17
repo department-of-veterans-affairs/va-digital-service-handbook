@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Conducting technical discovery
-description: Conduct a preliminary technical review during the discovery phase.
+description: Complete a technical review during the discovery phase and do ongoing technical discovery throughout the service lifecycle
 #
 # Internal page menu - titles here match titles in Markdown
 sections:

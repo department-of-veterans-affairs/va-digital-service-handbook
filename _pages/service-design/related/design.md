@@ -11,8 +11,9 @@ description: Learn about the Veteran Tools Platform design strategy. Find design
 sections:
   - General design guidance
   - Design philosophy
+  - Document every interaction
+  - Design for accessibility
   - Content guidelines
-  - Designing for accessibility
   - Design tools
 #
 # Don't edit items below - they control the page layout
@@ -97,8 +98,7 @@ We have not yet dealt with multi-party signatures. If you come need for a multi-
 <hr>
 
 
-
-### Designing for accessibility
+### Design for accessibility
 
 1. Start with well-structured content (and design to make this easy) that assistive devices can make sense of.
 
@@ -138,7 +138,45 @@ We have not yet dealt with multi-party signatures. If you come need for a multi-
 * <a title="Go to Section 508 office" href="https://www.section508.va.gov/" target="_blank">VA Section 508 office</a>
 * <a title="Go to Section 508 law" href="https://www.section508.gov/manage/laws-and-policies" target="_blank">Section 508 law</a>
 
-<br/>
+<a href="#">Return to top</a>
+
+<hr>
+
+
+### Document every interaction
+
+#### Why design documentation?
+
+Clear design documentation communicates how a thing works, and looks, to developers who will build the service and make it real.
+
+Clear design documentation also
+
+* Creates a record of decisions the team made for easier recall when having sign-off discussions later
+
+* Creates an easy-to-follow "history" for new team members or stakeholders who may not know the full project history
+
+* Creates a valuable source of information for teams who are working on similar or related projects on the Veteran Tools Platform
+
+* Communicates new services (or features) to the Call Center, who support users of the Veteran Tools Platform
+  * **Tip**: a video walkthrough is a great way to help Call Center staff understand your service (or feature). Videos are especially helpful if your service (or feature) includes a change to an existing VA process.
+
+#### Communicating with developers
+
+It's important to "design" all the interactions for each screen in your service. These include
+
+* Different states of UI widgets
+* Different conditions, e.g., when X happens, do Y
+* All contextual help interactions, including the content in each contextual help area
+* All errors
+* All notifications
+
+Designers should document these in the lowest-possible fidelity in a format that makes it easy to communicate to developers. For example, because error states and notifications have standard visual design, you just need to communicate the content to developers; the easiest way to do this is in a spreadsheet or other flat file (vs. creating a mockup for each error).
+
+
+
+
+
+
 
 <a href="#">Return to top</a>
 

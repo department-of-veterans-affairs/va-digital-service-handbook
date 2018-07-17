@@ -21,7 +21,7 @@ permalink: /service-design/related/other-resources/problem-statement
 
 Discovery research starts with some kind of hypothesis, for example, that turning a specific paper form into a digital experience will make it easier for Veterans to access a specific VA benefit.
 
-Defining your problem statement starts by asking questions
+Begin by stating what you believe to be true about your users, their challenges, and their needs. Then define your problem statement by answering these questions
 
 * Who is the user?
 * What are they trying to achieve?
