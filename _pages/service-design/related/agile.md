@@ -35,10 +35,10 @@ permalink: /service-design/related/agile
 The DSVA team manages its agile workflow using Github and a Github integration called <a title="go to Zenhub" href="https://zenhub.com" target="_blank">Zenhub</a>, which turns Github issues into a project board.
 
 * To get started with Zenhub, <a title="go to Zenhub overview" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Onboarding%20and%20Offboarding/zenhub_onboarding.pdf" target="_blank">see this guide</a>
-{{ vets-team }}
+{{ site.vets-team }}
 
 * To learn more about using Zenhub as a workflow management tool, <a title="go to Zenhub overview" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Product%20Management/zenhub_product_management.pdf" target="_blank">see this guide</a>
-{{ vets-team }}
+{{ site.vets-team }}
 
 <!--If you have any questions about setting up Zenhub, contact Ryan at ryan.luu@adhocteam.us.-->
 
