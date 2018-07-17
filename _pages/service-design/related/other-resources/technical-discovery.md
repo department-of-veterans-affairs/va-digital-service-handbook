@@ -12,6 +12,7 @@ sections:
   - Overall philosophy
   - Questions to ask about existing APIs
   - Questions to ask about creating a new API
+  - Ongoing technical discovery
 #
 # Don't edit items below - they control the page layout
 return-top: yes
@@ -65,4 +66,20 @@ Consider the possibility of creating a new API, if existing Vets-APIs would deli
   * Should someone build a middle service?
   * Should it be a direct connection?
 
+<a href="#">Return to top</a>
+
 <hr>
+
+### Ongoing technical discovery
+
+Conduct ongoing technical discovery as your team learns more about the problem you're trying to solve &mdash; and the solution you're planning to build.
+
+Questions to consider
+
+* Does the order of the screens mean any changes to schema or suggest difficult data handling?
+* If users need to upload something, how will the uploaded information be sent and/or stored?
+* Can you submit structured data directly? Or do you need to create a PDF for submission? Both?
+* Are any required backend services frequently (or predictably) unavailable? What kind of messaging to the user will you need?
+* How well does the design line up with the technical limitations uncovered in discovery?
+* Are there parts of the design that need to be reconsidered due to technical issues?
+* Is there additional back end development that needs to happen before the project can proceed?

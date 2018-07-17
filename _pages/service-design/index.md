@@ -32,7 +32,7 @@ Using service design methods, we engage with our users throughout the service li
 
 * Conducting user research to learn about users and their needs
 * Testing possible solutions (prototypes) with users
-* Continuously testing the live service to check that it continues to serve users needs
+* Continuously testing the live service to check that it continues to serve user needs
 
 <hr>
 
