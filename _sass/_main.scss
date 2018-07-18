@@ -601,7 +601,7 @@ blockquote p {
     background-color: transparent;
   }
   .usa-accordion-button {
-    background-color: $color-primary;
+    background-color: $color-primary-darker;
     color: white;
     background-image: url("../img/minus-white.png");
     margin-bottom: 4rem;
@@ -615,7 +615,7 @@ blockquote p {
   margin-bottom: 4rem;
   border: 0 2px;
   border-style: solid;
-  border-color: $color-blue;
+  border-color: $color-primary-darker;
 }
 
 /*
