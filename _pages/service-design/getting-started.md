@@ -9,10 +9,10 @@ description: Get your team set up with the tools and resources they'll need thro
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
-  - Onboarding your team
-  - Tools for designers
-  - Tools for developers
-  - Tools for agile
+  - General team onboarding
+  - Onboarding for designers
+  - Onboarding for developers
+  - Onboarding for agile
 #
 # Don't edit items below - they control the page layout
 return-top: yes
@@ -31,7 +31,7 @@ permalink: /service-design/getting-started
 
 <hr>
 
-### Onboarding your team
+### General team onboarding
 
 **Github**
 Veteran Tools Platform teams use <a title="Go to VA Github" href="https://github.com/department-of-veterans-affairs" target="_blank">Github</a> for sharing project documents. We do this so all Veteran Tools Platform teams can learn from what other teams are doing.
@@ -39,12 +39,16 @@ Veteran Tools Platform teams use <a title="Go to VA Github" href="https://github
 Starting in the Alpha phase, your developers will start integrating with the Veteran Tools Platform release management process. We use Github Issues to manage that process.
 
 To get started
-1. Have everyone on your team create a Github account. Github requires Two-Factor authentication (2FA) to create an account.
+
+1. Have everyone on your team create a Github account. *Note:* Github requires Two-Factor authentication (2FA) to create an account.
+
 2. [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames for your team.
   * Indicate which people on the list are developers (so we can give developer access to the right people).
+
 3. We'll add the people on the list to the VA Github organization and
   * Give everyone access to a team folder on Github, which you'll use to store and share project documents
-  * Provide the developers with access to code repositories and the tools they'll need to develop on the Veteran Tools Platform
+  * Developers will need to complete <a title="go to developer getting started" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">additional onboarding steps</a> to access the code repositories and tools they'll need for developing on the Veteran Tools Platform
+
 4. If your team is new to Github, we can arrange a short meeting to show you how to use it share documents.
 
 
@@ -57,36 +61,35 @@ To get started
 
 <hr>
 
-### Tools for designers
+### Onboarding for designers
 
 The design system for the Veteran Tools Platform is based on the <a title="Go to USWDS" href="https://designsystem.digital.gov/" target="_blank">United States Web Design System (USWDS)</a>, with some additional specifications to meet the needs of VA’s particular audiences.
 
 > **Our design files use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.**
-Designers should download the Sketch files from the [design guide](related/design) so they can design using the latest Veteran Tools Platform templates.
+Designers should review the [Design guide](related/design) and [download the Sketch files](related/design#design-tools) so they can design using the latest Veteran Tools Platform templates.
 
 <a href="#">Return to top</a>
 
 <hr>
 
-### Tools for developers
+### Onboarding for developers
 
-To get access to code repositories, testing credentials, and internal tools, developers should do the following as soon as possible
+<!--
+* Give developers access to repositories and tools they'll need to develop on the Veteran Tools Platform (see [Onboarding for developers](#onboarding-for-developers))
+-->
 
-1. Create <a title="Go to create ssh keys" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Engineering/Internal%20Tools.md#create-an-ssh-public-key" target="_blank">new SSH keys</a>.
-{{ site.vets-team }}
-
-2. Configure <a title="Go to configure socks proxy" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Engineering/Internal%20Tools.md#configure-the-socks-proxy" target="_blank">the SOCKS proxy</a>.
-{{ site.vets-team }}
-
-3. Review the [technical guide](related/technical#getting-started) and confirm they have access to all the tools.
+Developers should complete the <a title="go to developer getting started" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">additional onboarding steps</a> as soon as they've received the email invitation to join the VA Github organization.
 
 <a href="#">Return to top</a>
 
 <hr>
 
-### Tools for agile
+
+### Onboarding for agile
 
 * coming soon
+
+<a href="#">Return to top</a>
 
 <hr>
 
