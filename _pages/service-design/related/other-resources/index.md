@@ -42,7 +42,7 @@ permalink: /service-design/related/other-resources/index.html
 
 * [Defining information architecture]({{ "/service-design/related/other-resources/info-architecture" | relative_url }})
 
-* [Getting an ATO]({{ "/service-design/related/other-resources/ato" | relative_url }})
+<!--* [Getting an ATO]({{ "/service-design/related/other-resources/ato" | relative_url }})-->
 
 * [Call Center review]({{ "/service-design/related/other-resources/call-center" | relative_url }})
 

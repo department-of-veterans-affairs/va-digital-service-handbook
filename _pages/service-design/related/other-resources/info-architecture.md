@@ -65,7 +65,7 @@ The IA determines where in the Veteran Tools Platform your service will live, an
 
 * What are the primary entry points to the service?
 
-* Would cross-linking from other Veteran Tools Platforms help Veterans find and use your service? If so, what are those secondary entry points?
+* Would cross-linking from other tools on the Veteran Tools Platform help Veterans find and use your service? If so, what are those secondary entry points?
 
 
 #### Test the proposed IA with Veterans

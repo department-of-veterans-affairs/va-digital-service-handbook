@@ -71,7 +71,8 @@
     Review the following &mdash; although you won't finalize these tasks until beta, review them now so you can plan ahead.
 
     * [Define the information architecture](related/other-resources/info-architecture)
-    * [Determine if you need an ATO](related/other-resources/ato) (new or existing) and what to do
+
+    * <a title="go to ATO" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/deploy-your-app/ato.html" target="_blank">Determine if you need an ATO</a> (new or existing) and what to do
     * [Review your service with the Call Center](related/other-resources/call-center)
     * Plan [marketing and communication materials](related/other-resources/marcom)
 - number: p-4
