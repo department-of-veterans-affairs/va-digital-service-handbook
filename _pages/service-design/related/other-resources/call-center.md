@@ -25,7 +25,7 @@ When you're confident you've thoroughly testing your MVP and it's ready to launc
 
 The product guide should show screenshots of each screen of the user journey. You should also show how people navigate to the service. It's especially important to explain any unique scenarios, as well as the possible error messages (and notifications) a user might experience with your service.
 
-* See an [example product guide](../assets/pdfs/sample-product-guide.pdf)
+* See an [example product guide](../../../assets/pdfs/sample-product-guide.pdf)
 
 
 <!--
