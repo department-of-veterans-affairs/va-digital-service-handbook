@@ -47,7 +47,7 @@ To get started
 
 3. We'll add the people on the list to the VA Github organization and
   * Give everyone access to a team folder on Github, which you'll use to store and share project documents
-  * Developers will need to complete <a title="go to developer getting started" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">additional onboarding steps</a> to access the code repositories and tools they'll need for developing on the Veteran Tools Platform
+  * Developers will need to complete <a title="go to developer getting started" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html#getting-started" target="_blank">additional onboarding steps</a> to access the code repositories and tools they'll need for developing on the Veteran Tools Platform
 
 4. If your team is new to Github, we can arrange a short meeting to show you how to use it share documents.
 
@@ -78,7 +78,7 @@ Designers should review the [Design guide](related/design) and [download the Ske
 * Give developers access to repositories and tools they'll need to develop on the Veteran Tools Platform (see [Onboarding for developers](#onboarding-for-developers))
 -->
 
-Developers should complete the <a title="go to developer getting started" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">additional onboarding steps</a> as soon as they've received the email invitation to join the VA Github organization.
+Developers should complete the <a title="go to developer getting started" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html#getting-started" target="_blank">additional onboarding steps</a> as soon as they've received the email invitation to join the VA Github organization.
 
 <a href="#">Return to top</a>
 
