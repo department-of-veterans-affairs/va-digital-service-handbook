@@ -10,7 +10,7 @@ sections:
     title: Agile, user&#8209;centered delivery
     link: service-design
     alt: Agile, user-centered delivery
-    copy: The <a title="Service Design Guide" href="service-design">Service Design Guide</a> helps VA teams meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> by engaging with users and using best practices for agile delivery.
+    copy: The <a title="Service Design Guide" href="service-design/">Service Design Guide</a> helps VA teams meet the <a title="Digital Service Standard" href="digital-standard">Digital Service Standard</a> by engaging with users and using best practices for agile delivery.
   - image: assets/img/home-section-3.png
     title: Veteran Affairs<br/>APIs
     link: https://department-of-veterans-affairs.github.io/vets-contrib
