@@ -28,7 +28,7 @@ jump-menu:
   - Encourage people to use your service
 #
 # Seemore displays on page at end of each standard
-seemore: See the <a title="Service Design Guide" href="/service-design/">Service Design Guide</a> for how to meet this standard during each phase of the service lifecycle.
+seemore: See the <a title="Service Design Guide" href="service-design/">Service Design Guide</a> for how to meet this standard during each phase of the service lifecycle.
 #
 # If resources = yes, content from "data/[resources-file]" displays at bottom of page
 resources: yes
@@ -66,7 +66,6 @@ You'll engage users for research and feedback throughout the service lifecycle. 
 
 
 > {{ page.seemore }}
-> See the <a title="Service Design Guide" href="service-design/">Service Design Guide</a> for how to meet this standard during each phase of the service lifecycle.
 
 <a href="#">Return to top</a>
 
