@@ -66,6 +66,7 @@ You'll engage users for research and feedback throughout the service lifecycle. 
 
 
 > {{ page.seemore }}
+> See the <a title="Service Design Guide" href="service-design/">Service Design Guide</a> for how to meet this standard during each phase of the service lifecycle.
 
 <a href="#">Return to top</a>
 
