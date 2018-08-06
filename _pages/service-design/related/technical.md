@@ -38,4 +38,4 @@ permalink: /service-design/related/technical
 
 DSVA product and engineering resources are available to provide guidance and support through the development effort.
 
-If you encounter issues or have any questions, raise them in your team's Slack channel, or [email us](mailto:{{ site.contact-handbook.email }}).
+If you encounter issues or have any questions, [contact the DSVA team](../../contact).

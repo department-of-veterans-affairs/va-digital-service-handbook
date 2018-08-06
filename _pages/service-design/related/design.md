@@ -44,13 +44,13 @@ All services on the Veteran Tools Platform must work well in desktop, tablet, an
 
 As we've built out the Veteran Tools Platform, we've focused the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> on the immediate design tasks. This means we have not designed for every possible VA scenario.
 
-In your work, you may find a need for a new design pattern. If that happens, [email us](mailto:{{ site.contact-handbook.email }}), and we'll work together to solve it.
+In your work, you may find a need for a new design pattern. If that happens, [contact the DSVA team](../../contact), and we'll work together to solve it.
 
 **Using the patterns as designed**
 
 The design patterns are meant to be used as solutions to specific design patterns. For instance, the "what does this mean?" pattern is meant to be used in that context only. We don't want it to be used in a "get more information" context.
 
-If you have any questions about how or when to use specific design patterns, [email us](mailto:{{ site.contact-handbook.email }}).
+If you have any questions about how or when to use specific design patterns, [contact the DSVA team](../../contact).
 
 <a href="#">Return to top</a>
 
@@ -91,7 +91,7 @@ People get frustrated entering data repeatedly, especially if it is stuff they t
 
 Every VA paper form has at least one signature line. Our approach is that when a user agrees to terms in a form and/or submits a form, those actions stand in for the person's literal signature.
 
-We have not yet dealt with multi-party signatures. If you come need for a multi-party signature, [email us](mailto:{{ site.contact-handbook.email }}), and we'll figure it out together.
+We have not yet dealt with multi-party signatures. If you come need for a multi-party signature, [contact the DSVA team](../../contact)), and we'll figure it out together.
 
 <a href="#">Return to top</a>
 

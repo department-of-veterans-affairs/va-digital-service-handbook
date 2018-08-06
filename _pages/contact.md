@@ -17,10 +17,13 @@ header-image: /assets/img/image-contact.png
 header-image-alt: Contact icon
 ---
 
-### Contact us
+### Contact us by
 
-* via [email](mailto:{{ site.contact-handbook.email }})
-* via Slack: **#dsva-platform-project** &mdash; *for teams already working on the Veteran Tools Platform*
+* Emailing **{{ site.contact-handbook.email }}**
+* Posting in a Slack channel
+  * Your **team channel** for general questions
+  * The **#{{ site.slack.devsupport }}** channel for developer questions
+  * *Note: Slack channels are only available if your team is currently working on the Veteran Tools Platform.*
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

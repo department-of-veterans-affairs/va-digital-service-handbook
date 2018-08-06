@@ -40,7 +40,7 @@ The Paperwork Reduction Act (PRA) limits the burden placed on people when intera
 
 PRA does allow you to observe people and ask them questions about the experience you are observing. However, some pre- and post-research activities must follow PRA guidelines.
 
-<Follow the PRA guidance we've included in the sections below. If you're not certain if an activity is subject to PRA, [email us](mailto:site.contact-handbook).
+<Follow the PRA guidance we've included in the sections below. If you're not certain if an activity is subject to PRA, [contact the DSVA team](../../contact).
 
 <a href="#">Return to top</a>
 

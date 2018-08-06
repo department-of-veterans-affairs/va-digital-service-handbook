@@ -28,7 +28,7 @@ You'll need to coordinate these tasks with the DSVA team.
 
 The DSVA team will make sure your service doesn't collide with other services and provide suggestions based on Veteran experiences with other services.
 
-> [Contact the DSVA team](mailto:{{ site.contact-handbook.email }}) to review the items in each task below.
+> [Contact the DSVA team](../../contact) to review the items in each task below.
 
 {% for item in page.sections %}
 * [{{ item}}](#{{item | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', '' }})

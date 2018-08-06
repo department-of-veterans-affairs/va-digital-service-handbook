@@ -20,6 +20,9 @@ contact-handbook:
   name: Elizabeth Hunt
   email: elizabeth.hunt@va.gov
 
+slack:
+  devsupport: devsupport-external  
+
 vets-team: <i>Once you've been added to the VA Github organization, you'll be able to see this content.</i>
 
 # ----------------------------------
