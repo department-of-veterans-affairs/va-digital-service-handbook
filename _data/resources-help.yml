@@ -16,4 +16,4 @@ guides: |
   * [Technical guide](related/technical)
   * [Agile delivery guide](related/agile)
 help: |
-  If you have a question about something in the Handbook, [email us](mailto:{{site.contact-handbook.email}}), or post a question in your team's Slack channel.
+  If you have a question about something in the Handbook, <a title="email us" href="mailto:elizabeth.hunt@va.gov">Contact the DSVA team</a>, or post a question in your team's Slack channel.
