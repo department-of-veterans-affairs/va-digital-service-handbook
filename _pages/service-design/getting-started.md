@@ -42,7 +42,7 @@ To get started
 
 1. Have everyone on your team create a Github account. *Note:* Github requires Two-Factor authentication (2FA) to create an account.
 
-2. [Email a list](mailto:{{ site.contact-handbook.email }}) of all names, email addresses, and Github usernames for your team.
+2. Email a list to **{{ site.contact-handbook.email }}** of all names, email addresses, and Github usernames for your team.
   * Indicate which people on the list are developers (so we can give developer access to the right people).
 
 3. We'll add the people on the list to the VA Github organization and

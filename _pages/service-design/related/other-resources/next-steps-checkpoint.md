@@ -43,7 +43,7 @@ A Next Steps checkpoint happens after the discovery, alpha, and beta phases. It'
 
 * The checkpoints typically last 1.5 hours and are usually scheduled for Mondays or Wednesday mornings.
 
-* At least a week before discovery ends, [send an email](mailto:{{ site.contact-handbook.email }}) with possible dates and times when your team can meet with us.
+* At least a week before discovery ends, send an email to **{{ site.contact-handbook.email }}** with possible dates and times when your team can meet with us.
 
 <a href="#">Return to top</a>
 
