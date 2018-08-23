@@ -30,7 +30,7 @@ subhead: Empowering VA teams to build digital services on the Veteran Tools Plat
 p1: We created this Handbook based on VA's experience with <a title="Vets.gov" href="https://www.vets.gov" target="_blank">Vets.gov</a>, as well as best practices from government digital services, government agencies, and the technology industry. It's a tool to help VA teams create the best possible user experience for people interacting with Veteran-facing digital services.
 p2: This Handbook provides direction for teams who want to build on the <i>Veteran Tools Platform</i> (the technologies and processes that support Vets.gov). But we hope other VA teams find it useful when building their own digital services.
 alert-title: Work in progress
-alert-copy: We're currently expanding and refining this Handbook.<br/>We encourage you to adopt as much of it as possible and <a title="Share feedback" href="/contact">share your feedback</a>.
+alert-copy: We're currently expanding and refining this Handbook.<br/>We encourage you to adopt as much of it as possible and <a title="Share feedback" href="contact">share your feedback</a>.
 #
 #
 # Don't edit items below - they control the page layout
