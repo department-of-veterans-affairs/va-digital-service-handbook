@@ -71,6 +71,7 @@ exclude:
   - LICENSE
   - CONTRIBUTING
   - README
+  - vendor
 
 sass:
     # Either :compressed or :expanded
