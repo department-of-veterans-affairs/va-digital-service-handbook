@@ -22,7 +22,7 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /resources/user-research
+permalink: /service-design/related/user-research
 #
 ---
 
