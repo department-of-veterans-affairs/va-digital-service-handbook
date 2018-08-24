@@ -6,7 +6,7 @@
 
 {% elsif include.prev-phase != "none" %}
 
-  <a href="{{site.baseurl}}/service-design/{{ include.prev-phase }}">< Previous: {{ include.prev-phase | capitalize | replace: '-',' ' }}</a>
+  <a href="{{ include.prev-phase | relative_url }}">< Previous: {{ include.prev-phase | capitalize | replace: '-',' ' }}</a>
 
 {% endif %}
 
@@ -14,6 +14,6 @@
 
 {% if include.next-phase != "none" %}
 
-<div style="float:right;"><a href="{{ include.next-phase }}">Next: {{ include.next-phase | capitalize | replace: '-',' ' }} ></a></div>
+<div style="float:right;"><a href="{{ include.next-phase | relative_url }}">Next: {{ include.next-phase | capitalize | replace: '-',' ' }} ></a></div>
 
 {% endif %}
