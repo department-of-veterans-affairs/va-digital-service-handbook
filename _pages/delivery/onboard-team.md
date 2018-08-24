@@ -1,11 +1,11 @@
 ---
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
+# See the Github wiki for how to use Markdown in the editable content below:
 # link here
 #
-# Title and Description display on page and in meta
+# Title and Description display on the page and in HTML meta tags
 title: Getting started
-description: Get your team set up with the tools and resources they'll need throughout the service lifecycle.
+description: Get your team set up with the tools and resources they'll need throughout the digital delivery lifecycle.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
@@ -19,10 +19,17 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /service-design
-permalink: /service-design/getting-started
+sidebar-type: /delivery
+permalink: /delivery/onboard-team
+pagination: yes
+phase-prev: Overview
+page-prev: none
+phase-next: Research + Discovery
+page-next: none
+
 #
 ---
+
 ### Getting started
 
 {% for item in page.sections %}
@@ -91,6 +98,3 @@ Developers should complete the <a title="go to developer getting started" href="
 
 <a href="#">Return to top</a>
 
-<hr>
-
-{% include include-footer-service-design.html next-phase="discovery" prev-phase="overview" prev-phase-index="yes" %}

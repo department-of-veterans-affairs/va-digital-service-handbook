@@ -1,0 +1,45 @@
+---
+layout: base
+---
+
+<section class="usa-section-dark pages-section">
+  <div class="usa-grid">
+
+    <div class="usa-width-two-thirds page-hero-text">
+
+      <h1>
+        {{ page.title }}
+      </h1>
+
+    </div>
+
+
+    <div class="usa-width-one-third page-hero-image">
+
+      <img alt="{{ page.header-image-alt }}" src="{{ page.header-image | relative_url }}">
+
+    </div>
+
+  </div>
+</section>
+
+
+<main class="usa-grid-full content-wrapper" id="main-content">
+
+  <div class="usa-width-full">
+
+    <div class="usa-width-three-fourths usa-layout-docs-main_content">
+
+  {% if page.page-description == true %}
+      <div class="page-intro">
+        {{ page.description }}
+      </div>
+  {% endif %}
+
+    {{ content }}
+
+    </div>
+
+  </div>
+
+</main>

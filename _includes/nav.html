@@ -10,7 +10,7 @@
         {% assign count = 0 %}
         {% for navitem in site.data.navigation %}
           {% assign count = count | plus:1 %}
-          {% if navitem.subitems and navitem.title != "Resources" %}
+          {% if navitem.subitems %}
 
           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="extended-nav-section-{{count}}">

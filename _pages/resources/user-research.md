@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: User research guide
+title: User Research guide
 description: User research isn't just something you do during the discovery phase. You'll do it throughout the service lifecycle, checking in with your users to answer questions you have about how to improve your service.
 #
 # Edit the research-guide content below AND in /data/research-guide.yml
@@ -17,12 +17,13 @@ sections:
   - Additional resources
 #
 # Don't edit items below - they control the page layout
+#
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /service-design
-permalink: /service-design/related/user-research
+sidebar-type: /delivery
+permalink: /resources/user-research
 #
 ---
 

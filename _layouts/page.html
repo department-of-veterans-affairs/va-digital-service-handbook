@@ -7,7 +7,7 @@ layout: base
 {% if page.page-type != "subpage" %}
     <div class="usa-width-two-thirds page-hero-text">
 {% else %}
-    <div class="usa-width-two-thirds subpage-hero-text">
+    <div class="usa-width-one-full subpage-hero-text">
 {% endif %}
       <h1>
         {{ page.title }}
@@ -47,7 +47,7 @@ layout: base
 
   {% if page.sidebar-type %}
     <div class="usa-width-one-fourth usa-layout-docs-sidenav one-fourth-sidebar">
-      {% include include-sidebar.html data=page.sidebar-type %}
+      {% include nav-sidebar.html data=page.sidebar-type %}
     </div>
 
     <div class="usa-width-three-fourths usa-layout-docs-main_content three-fourths-with-sidebar">
@@ -64,6 +64,13 @@ layout: base
   {% endif %}
 
     {{ content }}
+
+  {% if page.pagination == true %}  
+    <hr>
+    
+    {% include pagination-delivery.html %}
+
+  {% endif %}
 
     </div>
 

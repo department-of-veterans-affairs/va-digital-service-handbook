@@ -14,6 +14,7 @@
 create new subitem-title so if page is tertiary its subitem gets highlighted
 {% endcomment %}
 
+<!--
       {% if subitem.title contains 'guides' %}
         {% assign subitem-title = subitem.title | replace: ' guides', '' | replace: '-', '' %}
       {% else %}
@@ -22,8 +23,13 @@ create new subitem-title so if page is tertiary its subitem gets highlighted
 
       {% assign subitem-current = subitem-title | downcase | replace: ' ', '' %}
 
-      <li class="{% if page.url contains subitem-current %}usa-current-sidenav-li{% endif %}">
-        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if page.url contains subitem-current %}usa-current{% endif %}">{{subitem.title}}</a>
+      {{ subitem.linkto }}
+-->      
+
+
+
+      <li class="{% if page.url contains subitem.linkto %}usa-current-sidenav-li{% endif %}">
+        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if page.url contains subitem.linkto %}usa-current{% endif %}">{{subitem.title}}</a>
 
         <ul class="usa-sidenav-sub_list">
 
@@ -44,7 +50,7 @@ create new subitem-linkto to deal with Overview as directory where page.url does
 {% endcomment %}
 
 {% if subitem.title == "Overview" %}
-  {% assign subitem-linkto = "/service-design/index.html" %}
+  {% assign subitem-linkto = "/delivery/index.html" %}
 {% else %}
   {% assign subitem-linkto = subitem.linkto %}
 {% endif %}

@@ -627,3 +627,32 @@ blockquote .b2 {
   padding: 1.5rem;
 }
 */
+
+
+
+
+
+.bullet-checkmark ul {
+  margin-top: 0px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 4.5rem;
+}
+
+.bullet-checkmark li {
+  position: relative;
+}
+
+.bullet-checkmark li:before { 
+  position: absolute;
+  left: -2.5rem;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  content: "\f0c8"; //"\f14a";
+  //font-weight: 900;
+  color: $color-blue-darkest;
+}

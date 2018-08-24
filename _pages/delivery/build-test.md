@@ -19,8 +19,13 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /service-design
-permalink: /service-design/beta
+sidebar-type: /delivery
+permalink: /delivery/build-test
+pagination: yes
+phase-prev: Prototype
+page-prev: none
+phase-next: Learn + Improve
+page-next: none
 #
 ---
 
@@ -48,7 +53,7 @@ During beta, you'll build the user stories and features from your backlog in sma
     <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
 
     {% if item.title == "Planning for beta" %}
-      {% include include-planning-for.html phase="beta" %}
+      {% include phase-planning.html phase="beta" %}
     {% endif %}
 
       {{ item.copy | markdownify }}
@@ -73,7 +78,3 @@ During beta, you'll build the user stories and features from your backlog in sma
 
 {% endif %}
 
-
-<hr>
-
-{% include include-footer-service-design.html next-phase="live" prev-phase="alpha" %}

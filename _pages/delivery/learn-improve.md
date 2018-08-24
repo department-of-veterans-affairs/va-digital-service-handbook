@@ -13,12 +13,18 @@ description: Live description goes here.
 # The Next Steps content is in /data/next-steps.yml
 #
 # Don't edit items below - they control the page layout
+#
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /service-design
-permalink: /service-design/live
+sidebar-type: /delivery
+permalink: /delivery/learn-improve
+pagination: yes
+phase-prev: Build + Test
+page-prev: none
+phase-next: none
+page-next: none
 #
 # To edit the Live content,
 # use Markdown in the copy below.
@@ -64,4 +70,3 @@ Content in progress
 
 {% endif %}
 
-{% include include-footer-service-design.html next-phase="none" prev-phase="beta" %}

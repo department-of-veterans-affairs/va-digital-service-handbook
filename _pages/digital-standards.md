@@ -35,11 +35,12 @@ resources: yes
 resources-file: digital-standard-resources
 #
 # Don't edit items below - they control the page layout
+#
 return-top: yes
 layout: jump-menu
 page-type: jump-menu
 jump-type: digital-standard
-permalink: /digital-standard
+permalink: /digital-standards
 #
 ---
 

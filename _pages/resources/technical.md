@@ -15,12 +15,13 @@ sections:
   - Getting help
 #
 # Don't edit items below - they control the page layout
+#
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/technical
+permalink: /resources/technical
 #
 ---
 

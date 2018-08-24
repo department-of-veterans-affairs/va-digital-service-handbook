@@ -17,12 +17,13 @@ sections:
   - Tools, resources, and examples
 #
 # Don't edit items below - they control the page layout
+#
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/agile
+permalink: /resources/agile
 #
 ---
 ### In progress !

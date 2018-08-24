@@ -4,17 +4,17 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Related guides
+title: Other resources
 description: Activity-specific guides to help you throughout the service lifecycle.
 #
 # Don't edit items below - they control the page layout
+#
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
 sidebar-type: /service-design
-permalink: /service-design/related/index.html
-#
+permalink: /resources/other
 ---
 
 {% for item in site.data.navigation %}
