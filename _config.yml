@@ -41,7 +41,6 @@ footer:
 # Additional Site Settings
 image: /assets/img/logo/og-image.jpg
 canonical_domain: department-of-veterans-affairs.github.io
-url: department-of-veterans-affairs.github.io
 baseurl: /va-digital-service-handbook
 
 # Pages
