@@ -47,7 +47,7 @@ Using service design methods, we engage with our users throughout the service li
   * [In live](live), continue to improve your service based on ongoing user research and testing
 
 3. **Refer to the [related guides](related)** for guidance, tips, and examples of specific activities you'll use throughout the service lifecycle:
-  * [User research guide](/resources/user-research)
+  * [User research guide](/va-digital-service-handook/tresources/user-research)
   * [Design guide](related/design)
   * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
   * [Technical guide](related/technical)
