@@ -3,11 +3,14 @@
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
 #
-# Title and Description display on page and in meta
+# Title and Description display on the page and in HTML meta tags
+#
 title: Agile delivery guide
 description: Information and resources about using agile methodologies as you work on the Veteran Tools Platform.
 #
-# Internal page menu - titles here match titles in Markdown
+# Editable - Internal page menu
+# Match titles here with H3s (###) below
+#
 sections:
   - Doing user research
   - During the discovery phase
@@ -16,16 +19,25 @@ sections:
   - During the live phase
   - Tools, resources, and examples
 #
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: lakdjlfsjd
+page-prev: lsdjflsd
+phase-next: lsdjfls
+page-next: sldjfsdf
+#
 # Don't edit items below - they control the page layout
 #
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/agile
 #
 ---
+
 ### In progress !
 
 ### Using the agile delivery guide

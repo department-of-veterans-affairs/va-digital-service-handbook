@@ -2,12 +2,14 @@
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
+# Title and Description display on the page and in HTML meta tags
 #
-# Title and Description display on page and in meta
 title: Design guide
 description: Learn about the Veteran Tools Platform design strategy. Find design resources, tools, and examples you can use throughout the service lifecycle.
 #
-# Internal page menu - titles here match titles in Markdown
+# Editable - Internal page menu
+# Match titles here with H3s (###) below
+#
 sections:
   - General design guidance
   - Design philosophy
@@ -16,13 +18,21 @@ sections:
   - Content guidelines
   - Design tools
 #
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: lakdjlfsjd
+page-prev: lsdjflsd
+phase-next: lsdjfls
+page-next: sldjfsdf
+#
 # Don't edit items below - they control the page layout
 #
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/design
 #
 ---

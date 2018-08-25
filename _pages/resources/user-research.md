@@ -2,27 +2,35 @@
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
+# Title and Description display on the page and in HTML meta tags
 #
-# Title and Description display on page and in meta
 title: User Research guide
 description: User research isn't just something you do during the discovery phase. You'll do it throughout the service lifecycle, checking in with your users to answer questions you have about how to improve your service.
 #
-# Edit the research-guide content below AND in /data/research-guide.yml
+# Editable - Internal page menu
+# Match titles here with H3s (###) below
 #
-# Internal page menu - titles here match titles in /data/research-guide.yml
 sections:
   - User privacy
   - Create a research plan
   - Plan a research sprint
   - Additional resources
 #
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: lakdjlfsjd
+page-prev: lsdjflsd
+phase-next: lsdjfls
+page-next: sldjfsdf
+  #
 # Don't edit items below - they control the page layout
 #
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /delivery
+sidebar-page-type: /resources
 permalink: /resources/user-research
 #
 ---

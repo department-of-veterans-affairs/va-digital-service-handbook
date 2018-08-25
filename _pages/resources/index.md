@@ -4,13 +4,24 @@
 # link here
 #
 # Title and Description display on the page and in HTML meta tags
-title: Resources
-description: The <i>Digital Delivery Guide</i> helps VA teams meet the <a title="Digital Standards" href="/va-digital-service-handbook/digital-standards">Digital Standards</a> by engaging with users and using best practices for agile delivery.
 #
-# Internal page menu - titles here match titles in Markdown
+title: Resources
+description: resources description.
+#
+# Editable - Internal page menu
+# Match titles here with H3s (###) below
+#
 sections:
   - What is the Digital Delivery process?
   - Using the Digital Delivery Guide
+#
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: none
+page-prev: none
+phase-next: User Research guide
+page-next: none
 #
 # Don't edit items below - they control the page layout
 #
@@ -22,11 +33,6 @@ sidebar-page-type: /resources
 permalink: /resources/index.html
 header-image: /assets/img/image-resources.png
 header-image-alt: Resources icon
-pagination: yes
-phase-prev: none
-page-prev: none
-phase-next: Onboard Team
-page-next: none
 #
 ---
 
