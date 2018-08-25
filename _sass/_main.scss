@@ -78,7 +78,7 @@ h6 {
 .usa-nav-primary>li>a,
 .usa-nav-primary button {
   @include media($nav-width) {
-    color: $color-blue-darker;
+    color: $color-blue;
     //letter-spacing: .2px;
   }
 }
@@ -101,8 +101,8 @@ h6 {
 // Menus - change color of dropdown button states + reduce border height
 .usa-nav-primary .usa-nav-link:hover span {
   @include media($nav-width) {
-    color: $color-blue-darker;
-    border-bottom: 0.5rem solid $color-blue-darker;
+    color: $color-blue;
+    border-bottom: 0.5rem solid $color-blue;
     padding-bottom: 0.8rem;;
   }
 }
@@ -522,141 +522,67 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
 
 
 /* ===================================
-   Sidebar
+   Sidebar - Accordion
 ====================================== */
 
 .sidebar-accordion {
-  .usa-accordion-button {
+  .usa-sidenav-list {
+    border: none;
+  }
+  .usa-sidenav-list>li {
     background-color: $color-white;
-    padding: 1rem 1rem 1rem 0;
+    margin-bottom: 0;
+    border-top: none;
+    border-bottom: 1px solid $color-silver;
+  }
+  .usa-sidenav-list>li:first-child {
+    border-top: 1px solid $color-silver;
+  }
+  .sidebar-button .usa-accordion-button {
+    background-color: $color-white;
+    padding: 0.85rem 1rem 0.85rem 1.5rem;
+    font-weight: normal;
+    line-height: 1.3;
+    background-size: 1.25rem;
+  }
+  .sidebar-button .usa-accordion-button:hover {
+    background-color: $color-gray-lightest;
+    color: $color-blue;
+  }
+  .usa-accordion-content {
+    padding: 0;
+  }
+  .accordion-current {
+    border-left: .4rem solid $color-blue;
+    .usa-accordion-button {
+      font-weight: 700;
+      color: $color-blue;
+    }
+  }
+  // Focus attention on sub-item
+  .accordion-current button[aria-expanded=true] {
+    color: inherit;
+    font-weight: normal;
+  }
+  // Focus attention on accordion item
+  .accordion-current button[aria-expanded=false] {
+    color: $color-blue;
+  }
+  // No indent for sub-items
+  .usa-sidenav-sub_list a {
+    padding-left: 1.5rem;
+  }
+  .usa-sidenav-list a.level-1-current,
+  .usa-sidenav-sub_list a.level-2-current {
+    border-left: .4rem solid $color-blue;
+    font-weight: bold;
+    color: $color-blue;
+  }
+  .usa-sidenav-sub_list a.level-2-current {
+    border: none;
   }
 }
 
-ul.usa-sidenav-list {
-  //margin-top: .8rem;
-  border: none;
-}
-
-.usa-sidenav-list li {
-  margin-bottom: 0 !important;
-  border-top: none;
-}
-
-.usa-sidenav-list li.sidebar-level-one {
-  border-bottom: 1px solid $color-silver;
-}
-
-.usa-sidenav-list li.sidebar-level-one:first-child {
-  border-top: 1px solid $color-silver;
-}
-
-.usa-sidenav-list .sidebar-level-one a.sidebar-off {
-  background-color: $color-white;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  font-weight: normal;
-}
-
-.usa-sidenav-list .sidebar-level-one a.sidebar-on {
-  background-color: $color-white;
-  border-left: .4rem solid $color-blue-darker;
-  padding-left: 1.1rem;
-  color: $color-blue-darker;
-  font-weight: 700;
-}
-
-.usa-sidenav-list .sidebar-level-one a.sidebar-off:hover,
-.usa-sidenav-list .sidebar-level-one a.sidebar-on:hover {
-  background-color: $color-gray-lightest;
-}
-
-.usa-accordion-content {
-  //padding: .75rem 1.5rem;
-  padding: 0;
-}
-.usa-sidenav-sub_list li {
-  list-style-type: none;
-  //border: 1px solid red;
-  //padding-left: 0;
-  font-size: 1.5rem;
-}
-
-.usa-sidenav-sub_list .sidebar-level-two a {
-  //padding-left: 3rem;
-}
-
-
-.usa-sidenav-list .sidebar-level-two a.sidebar-off {
-  background-color: $color-white;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  margin-left: 1.5rem;
-  font-weight: normal;
-}
-
-.usa-sidenav-list .sidebar-level-two a.sidebar-on {
-  background-color: $color-white;
-  border-left: .4rem solid $color-blue-darker;
-  padding-left: 1.1rem;
-  margin-left: 1.5rem;
-  color: $color-blue-darker;
-  font-weight: 700;
-}
-
-/*
-.usa-accordion>ul>li {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.sidebar-accordion .usa-accordion-button {
-  background-color: $color-white;
-  padding: 0;
-  a {
-    width: 70%;
-    padding: .5rem 0 .5rem 1.5rem;
-  }
-}
-
-.usa-sidenav-list {
-  margin-top: .8rem;
-  border-top: 1px solid $color-silver;
-  border-bottom: 1px solid $color-silver;
-}
-
-.usa-sidenav-list>li {
-  border-top: 1px solid $color-silver;
-}
-
-.usa-accordion>ul [aria-expanded=false], 
-.usa-accordion-bordered>ul [aria-expanded=false] {
-  background-size: 1.25rem;
-}
-
-.usa-accordion .usa-sidenav-sub_list {
-  list-style-type: none;
-  li {
-    margin-bottom: 1rem;
-  }
-}
-
-.usa-accordion-content {
-  padding-left: 1.5rem;
-}
-
-.usa-current {
-  color: $color-blue-darker !important;
-}
-
-.usa-sidenav-list a.usa-current,
-.usa-sidenav-sub_list li a.usa-current {
-  border-color: $color-blue-darker;
-}
-.usa-sidenav-sub_list a:hover, .usa-sidenav-sub_list a.usa-current {
-  padding-left: 1rem;
-  border-left: .4rem solid $color-blue-darker;
-}
-*/
 
 /* ===================================
    Utilities
@@ -709,7 +635,7 @@ blockquote p {
   position: relative;
 }
 
-.bullet-checkmark li:before { 
+.bullet-checkmark li:before {
   position: absolute;
   left: -2.5rem;
   display: inline-block;
