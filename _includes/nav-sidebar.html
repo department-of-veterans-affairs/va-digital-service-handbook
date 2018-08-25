@@ -1,71 +1,65 @@
-<nav>
+<nav class="sidebar-accordion usa-accordion">
 
-<ul class="usa-sidenav-list">
+  <ul class="usa-sidenav-list">
 
-{% for navitem in site.data.navigation %}
+    <li class="sidebar-level-one">
 
-  {% if (navitem.subitems and navitem.linkto == include.data) %}
+        <a href="" class="sidebar-on">Overview</a>
 
-    {% for subitem in navitem.subitems %}
+    </li>
 
-      {% if subitem.tertitems %}
+    <li class="sidebar-level-one">
 
-{% comment %}
-create new subitem-title so if page is tertiary its subitem gets highlighted
-{% endcomment %}
+        <a href="" class="sidebar-off">Next Item</a>
 
-<!--
-      {% if subitem.title contains 'guides' %}
-        {% assign subitem-title = subitem.title | replace: ' guides', '' | replace: '-', '' %}
-      {% else %}
-        {% assign subitem-title = subitem.title %}
-      {% endif %}
+    </li>
 
-      {% assign subitem-current = subitem-title | downcase | replace: ' ', '' %}
+    <li class="sidebar-level-one">
 
-      {{ subitem.linkto }}
--->      
-
-
-
-      <li class="{% if page.url contains subitem.linkto %}usa-current-sidenav-li{% endif %}">
-        <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}" class="{% if page.url contains subitem.linkto %}usa-current{% endif %}">{{subitem.title}}</a>
+      <a href="" class="sidebar-off usa-accordion-button" 
+        aria-expanded="true" 
+        aria-controls="p-1">
+        Research and Discovery
+      </a>
+      
+      <div id="p-1" class="usa-accordion-content">
 
         <ul class="usa-sidenav-sub_list">
-
-        {% for tertitem in subitem.tertitems %}
-          <li class="no-bullet">
-            <a title="{{ tertitem.alt}}" href="{{ tertitem.linkto | relative_url }}"{% if tertitem.target == true %} target="_blank" {% endif %} class="{% if page.url contains tertitem.linkto %}usa-current{% endif %}">{{tertitem.title}}</a>
+          <li class="sidebar-level-two">
+            <a href="" class="sidebar-on">Introduction</a>
           </li>
-        {% endfor %}
-
+          <li class="sidebar-level-two">
+            <a href="" class="sidebar-off">Activities</a>
+          </li>
         </ul>
 
-      </li>
+      </div>
 
-      {% else %}
+    </li>
 
-{% comment %}
-create new subitem-linkto to deal with Overview as directory where page.url doesn't equal the subitem.linkto
-{% endcomment %}
+    <li class="sidebar-level-one {% if page.title == "none" %}usa-current-sidenav-item{% endif %}">
 
-{% if subitem.title == "Overview" %}
-  {% assign subitem-linkto = "/delivery/index.html" %}
-{% else %}
-  {% assign subitem-linkto = subitem.linkto %}
-{% endif %}
-        <li class="{% if subitem-linkto == page.url %}usa-current-sidenav-li{% endif %}">
-          <a title="{{ subitem.alt}}" href="{{ subitem.linkto | relative_url }}"{% if subitem.target == true %} target="_blank" {% endif %}class="{% if subitem-linkto == page.url %}usa-current{% endif %}">{{subitem.title}}</a>
-        </li>
+      <h4 id="test-2" class="usa-accordion-button"
+        aria-expanded="false"
+        aria-controls="p-2">
+        Prototype
+      </h4>
+      
+      <div id="p-2" class="usa-accordion-content">
 
-      {% endif %}
+        <ul class="usa-sidenav-sub_list">
+          <li>
+            2 to 4 weeks for a new feature
+          </li>
+          <li>
+            4 to 8 weeks for a new service
+          </li>
+        </ul>
 
-    {% endfor %}
+      </div>
 
-  {% endif %}
+    </li>
 
-{% endfor %}
-
-</ul>
+  </ul>
 
 </nav>

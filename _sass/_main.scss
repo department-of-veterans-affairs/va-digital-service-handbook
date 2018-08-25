@@ -13,9 +13,7 @@ h2 {
     font-size: 2.5rem;
   }
 }
-// include H3 for secondary Markdown accordion
-h3,
-.secondary-accordion h3 {
+h3 {
   font-size: 1.8rem;
   font-family: $font-serif;
   @include media($medium-screen) {
@@ -521,40 +519,144 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
     width: 70%;
   }
 }
+
+
+/* ===================================
+   Sidebar
+====================================== */
+
+.sidebar-accordion {
+  .usa-accordion-button {
+    background-color: $color-white;
+    padding: 1rem 1rem 1rem 0;
+  }
+}
+
+ul.usa-sidenav-list {
+  //margin-top: .8rem;
+  border: none;
+}
+
+.usa-sidenav-list li {
+  margin-bottom: 0 !important;
+  border-top: none;
+}
+
+.usa-sidenav-list li.sidebar-level-one {
+  border-bottom: 1px solid $color-silver;
+}
+
+.usa-sidenav-list li.sidebar-level-one:first-child {
+  border-top: 1px solid $color-silver;
+}
+
+.usa-sidenav-list .sidebar-level-one a.sidebar-off {
+  background-color: $color-white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: normal;
+}
+
+.usa-sidenav-list .sidebar-level-one a.sidebar-on {
+  background-color: $color-white;
+  border-left: .4rem solid $color-blue-darker;
+  padding-left: 1.1rem;
+  color: $color-blue-darker;
+  font-weight: 700;
+}
+
+.usa-sidenav-list .sidebar-level-one a.sidebar-off:hover,
+.usa-sidenav-list .sidebar-level-one a.sidebar-on:hover {
+  background-color: $color-gray-lightest;
+}
+
+.usa-accordion-content {
+  //padding: .75rem 1.5rem;
+  padding: 0;
+}
+.usa-sidenav-sub_list li {
+  list-style-type: none;
+  //border: 1px solid red;
+  //padding-left: 0;
+  font-size: 1.5rem;
+}
+
+.usa-sidenav-sub_list .sidebar-level-two a {
+  //padding-left: 3rem;
+}
+
+
+.usa-sidenav-list .sidebar-level-two a.sidebar-off {
+  background-color: $color-white;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: 1.5rem;
+  font-weight: normal;
+}
+
+.usa-sidenav-list .sidebar-level-two a.sidebar-on {
+  background-color: $color-white;
+  border-left: .4rem solid $color-blue-darker;
+  padding-left: 1.1rem;
+  margin-left: 1.5rem;
+  color: $color-blue-darker;
+  font-weight: 700;
+}
+
+/*
+.usa-accordion>ul>li {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sidebar-accordion .usa-accordion-button {
+  background-color: $color-white;
+  padding: 0;
+  a {
+    width: 70%;
+    padding: .5rem 0 .5rem 1.5rem;
+  }
+}
+
 .usa-sidenav-list {
   margin-top: .8rem;
   border-top: 1px solid $color-silver;
   border-bottom: 1px solid $color-silver;
 }
+
 .usa-sidenav-list>li {
-  //border-top: none;
   border-top: 1px solid $color-silver;
 }
-.usa-sidenav-list a.usa-current {
-  border-left: none;
-  color: $color-black-light;
-}
-.usa-current-sidenav-li {
-  list-style-image: url('../img/bullet-red.png');
-}
-.usa-current-sidenav-li .no-bullet {
-  list-style-image: none;
-}
-.usa-sidenav-sub_list li {
-  //font-size: 1.7rem;
+
+.usa-accordion>ul [aria-expanded=false], 
+.usa-accordion-bordered>ul [aria-expanded=false] {
+  background-size: 1.25rem;
 }
 
-
-.usa-accordion-content ul li {
-  list-style-type: disc;
-}
-.usa-accordion-button[aria-expanded=false] {
-  //background-color: $color-primary-alt-lightest;
-}
-.usa-accordion-button[aria-expanded=true] {
-  //background-color: $color-primary-alt-lightest;
+.usa-accordion .usa-sidenav-sub_list {
+  list-style-type: none;
+  li {
+    margin-bottom: 1rem;
+  }
 }
 
+.usa-accordion-content {
+  padding-left: 1.5rem;
+}
+
+.usa-current {
+  color: $color-blue-darker !important;
+}
+
+.usa-sidenav-list a.usa-current,
+.usa-sidenav-sub_list li a.usa-current {
+  border-color: $color-blue-darker;
+}
+.usa-sidenav-sub_list a:hover, .usa-sidenav-sub_list a.usa-current {
+  padding-left: 1rem;
+  border-left: .4rem solid $color-blue-darker;
+}
+*/
 
 /* ===================================
    Utilities
@@ -583,6 +685,7 @@ blockquote {
 blockquote p {
   display: inline;
 }
+
 // Plain blockquote overrides default Markdown blockquote style
 .plain-blockquote {
   background-color: none;
@@ -593,43 +696,6 @@ blockquote p {
 .todo {
   color: $color-red;
 }
-
-// Style for major page section accordions
-.secondary-accordion {
-  margin-top: 4rem;
-  li {
-    background-color: transparent;
-  }
-  .usa-accordion-button {
-    background-color: $color-primary-darker;
-    color: white;
-    background-image: url("../img/minus-white.png");
-    margin-bottom: 4rem;
-  }
-  .usa-accordion-button[aria-expanded=false] {
-      background-image: url("../img/plus-white.png");
-  }
-}
-.secondary-accordion-content {
-  margin-top: -4rem;
-  margin-bottom: 4rem;
-  border: 0 2px;
-  border-style: solid;
-  border-color: $color-primary-darker;
-}
-
-/*
-blockquote .b2 {
-  background-color: $color-gray-lightest;
-  border-left: .8rem solid $color-blue;
-  border-right: .8rem solid $color-blue;
-  margin: 1.5rem 0 1.5rem 0;
-  padding: 1.5rem;
-}
-*/
-
-
-
 
 
 .bullet-checkmark ul {
