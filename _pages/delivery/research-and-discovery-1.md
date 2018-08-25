@@ -4,8 +4,24 @@
 # link here
 #
 # Title and Description display on the page and in HTML meta tags
-title: Research + Discovery
+#
+title: Research + Discovery introduction
 description: The Research + Discovery phase is not about solutions. It’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
+#
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: Onboard Team
+page-prev: none
+phase-next: Research + Discovery
+page-next: activities
+#
+# Editable - Timeframe for this phase
+#
+timeframe: |
+  It's important to start the project by putting a time constraint on your discovery work. Plan to spend
+  * 2 to 4 weeks for a new feature
+  * 4 to 8 weeks for a new service
 #
 # Don't edit items below - they control the page layout
 #
@@ -13,17 +29,9 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /delivery
-permalink: /delivery/research-discovery
-pagination: yes
-phase-prev: Onboard Team
-page-prev: none
-phase-next: Research + Discovery
-page-next: Activities
-timeframe: |
-  It's important to start the project by putting a time constraint on your discovery work. Plan to spend
-  * 2 to 4 weeks for a new feature
-  * 4 to 8 weeks for a new service
+sidebar-page-type: /delivery
+# same name for sidebar + pagination include
+permalink: /delivery/research-and-discovery/index.html
 #
 ---
 
@@ -43,6 +51,3 @@ Your goal in the Research + Discovery phase is to **learn about real users and i
 
 
 {% include phase-planning.html phase="Research + Discovery" %}
-
-
-

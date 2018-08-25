@@ -13,7 +13,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /service-design
+sidebar-page-type: /service-design
 permalink: /resources/other
 ---
 

@@ -18,7 +18,7 @@ return-top: yes
 layout: page
 page-type: page
 page-description: yes
-sidebar-type: /resources
+sidebar-page-type: /resources
 permalink: /resources/index.html
 header-image: /assets/img/image-resources.png
 header-image-alt: Resources icon
@@ -48,7 +48,7 @@ Throughout the digital delivery lifecycle, teams engage with Veterans by:
 
 ### Using the Digital Delivery Guide
 
- 
+
 <!--- image/diagrams illustrate process with explanations and links-->
 
 1. **[Complete the onboarding steps]({{site.baseurl}}/delivery/onboard-team)** to get your team set up with the tools they need to work on the Veteran Tools Platform.
@@ -66,5 +66,3 @@ Throughout the digital delivery lifecycle, teams engage with Veterans by:
   * [Technical guide]({{site.baseurl}}/resources/technical)
   * [Agile delivery guide]({{site.baseurl}}/resources/agile)
   * [Other resources]({{site.baseurl}}/resources/other)
-  
-

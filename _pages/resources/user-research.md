@@ -22,7 +22,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /delivery
+sidebar-page-type: /delivery
 permalink: /resources/user-research
 #
 ---

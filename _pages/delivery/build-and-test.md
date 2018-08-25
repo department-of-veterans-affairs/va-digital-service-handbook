@@ -7,11 +7,13 @@
 title: Beta
 description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.  
 #
-# Edit the beta content below AND in /data/phase-beta.yml
+# Can edit - pagination for bottom of page
 #
-# The Planning for Beta content is in /data/planning-for.yml
-#
-# The Next Steps content is in /data/next-steps.yml
+pagination: yes
+phase-prev: Prototype
+page-prev: none
+phase-next: Learn + Improve
+page-next: none
 #
 # Don't edit items below - they control the page layout
 #
@@ -19,13 +21,9 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /delivery
-permalink: /delivery/build-test
-pagination: yes
-phase-prev: Prototype
-page-prev: none
-phase-next: Learn + Improve
-page-next: none
+# same name for sidebar + pagination include
+sidebar-page-type: /delivery
+permalink: /delivery/build-and-test
 #
 ---
 
@@ -77,4 +75,3 @@ During beta, you'll build the user stories and features from your backlog in sma
 </ul>
 
 {% endif %}
-

@@ -3,7 +3,9 @@
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
 #
-# You can edit this SECTION CONTENT
+# See layouts/home.html for Title + Description
+#
+# Editable - SECTION CONTENT
 #
 section-1-image: assets/img/home-section-1.png
 section-1-title: Modern, user&#8209;friendly digital services
@@ -24,7 +26,7 @@ section-3-alt: Veteran Affairs APIs
 section-3-target: yes
 section-3-copy: <a title="Veteran Affairs APIs" href="https://department-of-veterans-affairs.github.io/vets-contrib" target="_blank">Veteran Affairs APIs</a> empower our partners to build innovative, Veteran&#8209;centered, cutting edge solutions they can use to manage their care, services, and benefits.
 #
-# You can edit this DESCRIPTION CONTENT
+# Editable - DESCRIPTION CONTENT
 #
 subhead: Empowering VA teams to build digital services on the Veteran Tools Platform
 p1: We created this Handbook based on VA's experience with <a title="Vets.gov" href="https://www.vets.gov" target="_blank">Vets.gov</a>, as well as best practices from government digital services, government agencies, and the technology industry. It's a tool to help VA teams create the best possible user experience for people interacting with Veteran-facing digital services.

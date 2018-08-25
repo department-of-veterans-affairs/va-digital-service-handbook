@@ -45,9 +45,9 @@ layout: base
 
 {% else %}
 
-  {% if page.sidebar-type %}
+  {% if page.sidebar-page-type %}
     <div class="usa-width-one-fourth usa-layout-docs-sidenav one-fourth-sidebar">
-      {% include nav-sidebar.html data=page.sidebar-type %}
+      {% include nav-sidebar.html data=page.sidebar-page-type %}
     </div>
 
     <div class="usa-width-three-fourths usa-layout-docs-main_content three-fourths-with-sidebar">
@@ -68,7 +68,8 @@ layout: base
   {% if page.pagination == true %}
     <hr>
 
-    {% include pagination-delivery.html %}
+    {% capture pag-type %}{{page.sidebar-page-type}}{% endcapture %}
+    {% include pagination.html pagination-type=pag-type %}
 
   {% endif %}
 

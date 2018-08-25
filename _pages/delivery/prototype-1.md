@@ -3,9 +3,18 @@
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
 #
-# Title and Description display on the page and in HTML meta tags# Title and Description display on page and in meta
+# Title and Description display on the page and in HTML meta tags
+#
 title: Prototype
 description: The Prototype phase is about prototyping and testing hypotheses with users. Your goal is to figure out how to meet the user needs you identified in discovery. Use this phase as your chance to test many different approaches with real users before building your service.
+#
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: Research + Discovery
+page-prev: resources
+phase-next: Prototype
+page-next: activities
 #
 # Don't edit items below - they control the page layout
 #
@@ -13,13 +22,9 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /delivery
-permalink: /delivery/prototype
-pagination: yes
-phase-prev: Research + Discovery
-page-prev: Resources
-phase-next: Prototype
-page-next: Activities
+# same name for sidebar + pagination include
+sidebar-page-type: /delivery
+permalink: /delivery/prototype/index.html
 #
 ---
 
@@ -46,9 +51,3 @@ You'll repeat this process until the prototype meets your users' needs and your 
 
 
 {% include phase-planning.html phase="Prototype" %}
-
-
-
-
-
-

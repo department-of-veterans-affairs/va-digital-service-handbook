@@ -4,29 +4,35 @@
 # link here
 #
 # Title and Description display on the page and in HTML meta tags
+#
 title: Getting started
 description: Get your team set up with the tools and resources they'll need throughout the digital delivery lifecycle.
 #
-# Internal page menu - titles here match titles in Markdown
+# Editable - Internal page menu
+# Match titles here with H3s (###) below
+#
 sections:
   - General team onboarding
   - Onboarding for designers
   - Onboarding for developers
   - Onboarding for agile
 #
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: Overview
+page-prev: none
+phase-next: Research + Discovery
+page-next: introduction
+#
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /delivery
+sidebar-page-type: /delivery
+# same name for sidebar + pagination include
 permalink: /delivery/onboard-team
-pagination: yes
-phase-prev: Overview
-page-prev: none
-phase-next: Research + Discovery
-page-next: none
-
 #
 ---
 
@@ -97,4 +103,3 @@ Developers should complete the <a title="go to developer getting started" href="
 * coming soon
 
 <a href="#">Return to top</a>
-

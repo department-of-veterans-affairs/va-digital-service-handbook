@@ -4,7 +4,17 @@
 # link here
 #
 # Title and Description display on the page and in HTML meta tags
-title: Checklist for Research + Discovery
+#
+title: Research + Discovery checklist
+description: The Research + Discovery phase is not about solutions. It’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
+#
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: Research + Discovery
+page-prev: activities
+phase-next: Research + Discovery
+page-next: resources
 #
 # Don't edit items below - they control the page layout
 #
@@ -12,13 +22,9 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: no
-sidebar-type: /delivery
-permalink: /delivery/research-discovery/checklist
-pagination: yes
-phase-prev: Research + Discovery
-page-prev: Activities
-phase-next: Research + Discovery
-page-next: Resources
+# same name for sidebar + pagination include
+sidebar-page-type: /delivery
+permalink: /delivery/research-and-discovery/checklist
 #
 ---
 
@@ -40,9 +46,3 @@ page-next: Resources
 
 
 </div>
-
-
-    
-
-
-

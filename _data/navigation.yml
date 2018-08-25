@@ -14,7 +14,7 @@
   show-subitems: yes
   subitems:
     - title: Overview
-      linkto: /delivery/
+      linkto: /delivery/index.html
       alt: Overview
 
     - title: Onboard Team
@@ -22,42 +22,76 @@
       alt: Onboard team
 
     - title: Research and Discovery
-      linkto: /delivery/research-discovery
+      linkto: /delivery/research-and-discovery
       alt: Research and Discovery
       show-tertitems: yes
       tertitems:
+      - title: Introduction
+        linkto: /delivery/research-and-discovery/index.html
+        alt: Research + Discovery introduction
       - title: Activities
-        linkto: /delivery/research-discovery/activities
-        alt: Research + Discovery Activities
+        linkto: /delivery/research-and-discovery/activities
+        alt: Research + Discovery activities
       - title: Checklist
-        linkto: /delivery/research-discovery/checklist
-        alt: Checklist for Research + Discovery
+        linkto: /delivery/research-and-discovery/checklist
+        alt: Research + Discovery checklist
       - title: Resources
-        linkto: /delivery/research-discovery/resources
-        alt: Resources for Research + Discovery
+        linkto: /delivery/research-and-discovery/resources
+        alt: Research + Discovery resources
 
     - title: Prototype
       linkto: /delivery/prototype
       alt: Prototype
       show-tertitems: yes
       tertitems:
+      - title: Introduction
+        linkto: /delivery/prototype/index.html
+        alt: Prototype Introduction
       - title: Activities
         linkto: /delivery/prototype/activities
         alt: Prototype Activities
       - title: Checklist
         linkto: /delivery/prototype/checklist
-        alt: Checklist for Prototype
+        alt: Prototype Checklist
       - title: Resources
         linkto: /delivery/prototype/resources
-        alt: Resources for Prototype
+        alt: Prototype Resources
 
-    - title: Build + Test
-      linkto: /delivery/build-test
+    - title: Build and Test
+      linkto: /delivery/build-and-test
       alt: Build and Test
+      show-tertitems: yes
+      tertitems:
+      - title: Introduction
+        linkto: /delivery/build-and-test/index.html
+        alt: Build and Test Introduction
+      - title: Activities
+        linkto: /delivery/build-and-test/activities
+        alt: Build and Test Activities
+      - title: Checklist
+        linkto: /delivery/build-and-test/checklist
+        alt: Build and Test Checklist
+      - title: Resources
+        linkto: /delivery/build-and-test/resources
+        alt: Build and Test Resources
 
-    - title: Learn + Improve
-      linkto: /delivery/learn-improve
+    - title: Learn and Improve
+      linkto: /delivery/learn-and-improve
       alt: Learn and Improve
+      show-tertitems: yes
+      tertitems:
+      - title: Introduction
+        linkto: /delivery/learn-and-improve/index.html
+        alt: Learn and Improve Introduction
+      - title: Activities
+        linkto: /delivery/learn-and-improve/activities
+        alt: Learn and Improve Activities
+      - title: Checklist
+        linkto: /delivery/learn-and-improve/checklist
+        alt: Learn and Improve Checklist
+      - title: Resources
+        linkto: /delivery/learn-and-improve/resources
+        alt: Learn and Improve Resources
 
 - title: Resources
   linkto: /resources

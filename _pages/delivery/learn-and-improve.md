@@ -6,11 +6,13 @@
 title: Live
 description: Live description goes here.
 #
-# Edit the discovery content below AND in /data/phase-live.yml
+# Can edit - pagination for bottom of page
 #
-# The Planning for Live content is in /data/planning-for.yml
-#
-# The Next Steps content is in /data/next-steps.yml
+pagination: yes
+phase-prev: Build + Test
+page-prev: none
+phase-next: none
+page-next: none
 #
 # Don't edit items below - they control the page layout
 #
@@ -18,17 +20,9 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-type: /delivery
-permalink: /delivery/learn-improve
-pagination: yes
-phase-prev: Build + Test
-page-prev: none
-phase-next: none
-page-next: none
-#
-# To edit the Live content,
-# use Markdown in the copy below.
-#
+sidebar-page-type: /delivery
+# same name for sidebar + pagination include
+permalink: /delivery/learn-and-improve
 #
 ---
 
@@ -69,4 +63,3 @@ Content in progress
 </ul>
 
 {% endif %}
-

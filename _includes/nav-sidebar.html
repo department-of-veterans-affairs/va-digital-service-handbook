@@ -2,52 +2,53 @@
 
   <ul class="usa-sidenav-list">
 
-    <li class="">
+{% for navitem in site.data.navigation %}
 
-        <a href="" class="level-1-current">
-          First Amendment lsdklsdkf
+  {% if (navitem.subitems and navitem.linkto == include.data) %}
+
+    {% for subitem in navitem.subitems %}
+
+      {% if subitem.tertitems %}
+
+      <li class="sidebar-button{% if page.url contains subitem.linkto %} accordion-current{% endif %}">
+
+        <button class="usa-accordion-button"
+          aria-expanded="{% if page.url contains subitem.linkto %}true{% endif %}"
+          aria-controls="{{subitem.linkto}}">
+          {{subitem.title}}
+        </button>
+
+        <div id="{{subitem.linkto}}" class="usa-accordion-content">
+
+          <ul class="usa-sidenav-sub_list">
+          {% for tertitem in subitem.tertitems %}
+            <li>
+              <a title="{{tertitem.alt}}" href="{{site.baseurl}}{{tertitem.linkto}}" class="{% if page.url contains tertitem.linkto %}level-2-current{% endif %}">{{tertitem.title}}</a>
+            </li>
+          {% endfor %}
+          </ul>
+
+        </div>
+
+      </li>
+
+      {% else %}
+
+      <li>
+
+        <a title="{{subitem.alt}}" href="{{site.baseurl}}{{subitem.linkto}}"{% if subitem.target == true %} target="_blank" {% endif %} class="{% if page.url contains subitem.linkto %}level-1-current{% endif %}">
+          {{subitem.title}}
         </a>
 
-    </li>
+      </li>
 
-    <li class="">
+      {% endif %}
 
-        <a href="" class="">
-          First Amendment lsdklsdkf
-        </a>
+    {% endfor %}
 
-    </li>
+  {% endif %}
 
-    <li class="sidebar-button accordion-current">
-
-      <button class="usa-accordion-button"
-        aria-expanded="true"
-        aria-controls="a1">
-        First Amendment lsdklsdkf
-      </button>
-
-      <div id="a1" class="usa-accordion-content">
-
-        <ul class="usa-sidenav-sub_list">
-          <li class="">
-            <a href="" class="level-2-current">Introduction</a>
-          </li>
-          <li class="">
-            <a href="" class="">Activities</a>
-          </li>
-        </ul>
-
-      </div>
-
-    </li>
-
-    <li class="level-1">
-
-        <a href="" class="">
-          First Amendment lsdklsdkf
-        </a>
-
-    </li>
+{% endfor %}
 
   </ul>
 

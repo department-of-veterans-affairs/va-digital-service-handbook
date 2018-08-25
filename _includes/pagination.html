@@ -1,0 +1,70 @@
+{% assign phasep = page.phase-prev %}
+
+{% assign phasep-link = phasep | downcase | replace: ' + ', '-and-' | replace: ' ', '-' | replace: '--', '-' %}
+
+
+{% assign phasen = page.phase-next %}
+
+{% assign phasen-link = phasen | downcase | replace: ' + ', '-and-' | replace: ' ', '-' | replace: '--', '-' %}
+
+
+{% assign pagep = page.page-prev %}
+
+{% assign pagep-link = pagep | downcase %}
+
+{% if pagen-link == "introduction" %}
+	{% assign pagen-link = "index.html" %}
+{% endif %}
+
+
+{% assign pagen = page.page-next %}
+
+{% assign pagen-link = pagen | downcase %}
+
+{% if pagep-link == "introduction" %}
+	{% assign pagep-link = "index.html" %}
+{% endif %}
+
+
+<div style="float:left;">
+
+{% comment %}
+	Overview page is the start page of a site section with URL = [site section]/index.html
+{% endcomment %}
+
+{% if phasep == "Overview" %}
+
+  <a href="{{ site.baseurl}}/{{include.pagination-type}}/index.html">< {{ phasep }}</a>
+
+
+{% elsif phasep != "none" %}
+
+	{% if pagep != "none" %}
+
+		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasep-link}}/{{pagep-link}}">< {{ phasep }} {{pagep}}</a>
+
+	{% else %}
+
+		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasep-link}}">< {{ phasep }}</a>
+
+	{% endif %}
+
+{% endif %}
+
+
+</div>
+
+
+<div style="float:right;">
+
+	{% if pagen != "none" %}
+
+		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasen-link}}/{{pagen-link}}">{{ phasen }} {{pagen}} ></a>
+
+	{% else %}
+
+		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasen-link}}">{{ phasen }} ></a>
+
+	{% endif %}
+
+</div>

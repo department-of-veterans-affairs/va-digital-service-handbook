@@ -541,7 +541,7 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
     padding: 0.85rem 3.5rem 0.85rem 1.5rem;
     font-weight: normal;
     line-height: 1.3;
-    background-size: 1.25rem;
+    background-size: 1.1rem;
   }
   .sidebar-button .usa-accordion-button:hover {
     background-color: $color-gray-lightest;
@@ -560,7 +560,7 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
   // Focus attention on sub-item
   .accordion-current button[aria-expanded=true] {
     color: inherit;
-    font-weight: normal;
+    font-weight: 600;
   }
   // Focus attention on accordion item
   .accordion-current button[aria-expanded=false] {

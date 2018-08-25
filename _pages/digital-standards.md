@@ -3,7 +3,8 @@
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
 #
-# Title and Description display on page and in meta
+# Title and Description display on the page and in HTML meta tags
+#
 title: Digital Service Standard
 description: |
   The <i>Digital Service Standard</i> is the set of quality standards that help VA teams deliver excellent digital services to Veterans and the people who support them.
@@ -12,7 +13,9 @@ description: |
 header-image: /assets/img/image-digital-standard.png
 header-image-alt: Digital Standard icon
 #
-# Internal jump-menu titles - titles here must match the titles used in the H3 (#### s) in the Markdown.
+# Editable - Internal jump-menu titles
+# Match titles here with H3s (###) below
+#
 jump-menu:
   - Understand people and their needs
   - Establish the right team
@@ -27,7 +30,7 @@ jump-menu:
   - Measure performance and iterate frequently
   - Encourage people to use your service
 #
-# Seemore displays on page at end of each standard
+# Editable - displays at end of each standard
 seemore: See the <a title="Service Design Guide" href="service-design/">Service Design Guide</a> for how to meet this standard during each phase of the service lifecycle.
 #
 # If resources = yes, content from "data/[resources-file]" displays at bottom of page

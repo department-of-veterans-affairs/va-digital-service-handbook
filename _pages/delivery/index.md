@@ -4,13 +4,24 @@
 # link here
 #
 # Title and Description display on the page and in HTML meta tags
+#
 title: Digital Delivery Guide
 description: The <i>Digital Delivery Guide</i> helps VA teams meet the <a title="Digital Standards" href="/va-digital-service-handbook/digital-standards">Digital Standards</a> by engaging with users and using best practices for agile delivery.
 #
-# Internal page menu - titles here match titles in Markdown
+# Editable - Internal page menu
+# Match titles here with H3s (###) below
+#
 sections:
   - What is the Digital Delivery process?
   - Using the Digital Delivery Guide
+#
+# Editable - Pagination for bottom of page
+#
+pagination: yes
+phase-prev: none
+page-prev: none
+phase-next: Onboard Team
+page-next: none
 #
 # Don't edit items below - they control the page layout
 #
@@ -18,15 +29,11 @@ return-top: yes
 layout: page
 page-type: page
 page-description: yes
-sidebar-type: /delivery
+# same name for sidebar + pagination include
+sidebar-page-type: /delivery
 permalink: /delivery/index.html
 header-image: /assets/img/image-service-design.png
 header-image-alt: Service Design Guide icon
-pagination: yes
-phase-prev: none
-page-prev: none
-phase-next: Onboard Team
-page-next: none
 #
 ---
 
@@ -48,7 +55,7 @@ Throughout the digital delivery lifecycle, teams engage with Veterans by:
 
 ### Using the Digital Delivery Guide
 
- 
+
 <!--- image/diagrams illustrate process with explanations and links-->
 
 1. **[Complete the onboarding steps]({{site.baseurl}}/delivery/onboard-team)** to get your team set up with the tools they need to work on the Veteran Tools Platform.
@@ -66,5 +73,3 @@ Throughout the digital delivery lifecycle, teams engage with Veterans by:
   * [Technical guide]({{site.baseurl}}/resources/technical)
   * [Agile delivery guide]({{site.baseurl}}/resources/agile)
   * [Other resources]({{site.baseurl}}/resources/other)
-  
-
