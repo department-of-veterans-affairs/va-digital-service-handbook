@@ -35,9 +35,6 @@
       - title: Checklist
         linkto: /delivery/research-and-discovery/checklist
         alt: Research + Discovery checklist
-      - title: Resources
-        linkto: /delivery/research-and-discovery/resources
-        alt: Research + Discovery resources
 
     - title: Prototype
       linkto: /delivery/prototype
@@ -53,9 +50,6 @@
       - title: Checklist
         linkto: /delivery/prototype/checklist
         alt: Prototype Checklist
-      - title: Resources
-        linkto: /delivery/prototype/resources
-        alt: Prototype Resources
 
     - title: Build and Test
       linkto: /delivery/build-and-test
@@ -71,9 +65,6 @@
       - title: Checklist
         linkto: /delivery/build-and-test/checklist
         alt: Build and Test Checklist
-      - title: Resources
-        linkto: /delivery/build-and-test/resources
-        alt: Build and Test Resources
 
     - title: Learn and Improve
       linkto: /delivery/learn-and-improve
@@ -89,9 +80,6 @@
       - title: Checklist
         linkto: /delivery/learn-and-improve/checklist
         alt: Learn and Improve Checklist
-      - title: Resources
-        linkto: /delivery/learn-and-improve/resources
-        alt: Learn and Improve Resources
 
 - title: Resources
   linkto: /resources
@@ -114,6 +102,6 @@
   - title: Agile guide
     linkto: /resources/agile
     alt: Agile guide
-  - title: Other resources
-    linkto: /resources/other
-    alt: Other resources
+  - title: More resources
+    linkto: /resources/more
+    alt: More resources

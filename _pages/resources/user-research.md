@@ -30,6 +30,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
+# same name for sidebar + pagination include
 sidebar-page-type: /resources
 permalink: /resources/user-research
 #

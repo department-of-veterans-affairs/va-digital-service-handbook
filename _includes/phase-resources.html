@@ -1,0 +1,18 @@
+<ul>
+
+{% if include.phase != "live" %}
+
+  <li>
+    Learn how to prepare for the
+    <a href="/va-digital-service-handbook/resources/more/checkpoint">
+      {{include.phase}} Checkpoint
+    </a>.
+  </li>
+
+{% endif %}
+
+  <li>{{ site.data.phase-resources.guides | markdownify }}</li>
+
+  <li>{{ site.data.phase-resources.help | markdownify }}</li>
+
+</ul>

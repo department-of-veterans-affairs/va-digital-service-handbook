@@ -12,14 +12,15 @@
 
 {% assign pagep-link = pagep | downcase %}
 
-{% if pagen-link == "introduction" %}
-	{% assign pagen-link = "index.html" %}
-{% endif %}
-
 
 {% assign pagen = page.page-next %}
 
 {% assign pagen-link = pagen | downcase %}
+
+
+{% if pagen-link == "introduction" %}
+	{% assign pagen-link = "index.html" %}
+{% endif %}
 
 {% if pagep-link == "introduction" %}
 	{% assign pagep-link = "index.html" %}
@@ -34,18 +35,18 @@
 
 {% if phasep == "Overview" %}
 
-  <a href="{{ site.baseurl}}/{{include.pagination-type}}/index.html">< {{ phasep }}</a>
+  <a href="{{ site.baseurl}}{{include.pagination-type}}/index.html">< {{ phasep }}</a>
 
 
 {% elsif phasep != "none" %}
 
 	{% if pagep != "none" %}
 
-		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasep-link}}/{{pagep-link}}">< {{ phasep }} {{pagep}}</a>
+		<a href="{{site.baseurl}}{{include.pagination-type}}/{{phasep-link}}/{{pagep-link}}">< {{ phasep }} {{pagep}}</a>
 
 	{% else %}
 
-		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasep-link}}">< {{ phasep }}</a>
+		<a href="{{site.baseurl}}{{include.pagination-type}}/{{phasep-link}}">< {{ phasep }}</a>
 
 	{% endif %}
 
@@ -57,14 +58,18 @@
 
 <div style="float:right;">
 
+{% if phasen != "none" %}
+
 	{% if pagen != "none" %}
 
-		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasen-link}}/{{pagen-link}}">{{ phasen }} {{pagen}} ></a>
+		<a href="{{site.baseurl}}{{include.pagination-type}}/{{phasen-link}}/{{pagen-link}}">{{ phasen }} {{pagen}} ></a>
 
 	{% else %}
 
-		<a href="{{site.baseurl}}/{{include.pagination-type}}/{{phasen-link}}">{{ phasen }} ></a>
+		<a href="{{site.baseurl}}{{include.pagination-type}}/{{phasen-link}}">{{ phasen }} ></a>
 
 	{% endif %}
+
+{% endif %}
 
 </div>

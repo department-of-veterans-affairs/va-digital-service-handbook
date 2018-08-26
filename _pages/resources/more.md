@@ -5,7 +5,7 @@
 #
 # Title and Description display on the page and in HTML meta tags
 #
-title: Other resources
+title: More resources
 description: Activity-specific guides to help you throughout the service lifecycle.
 #
 # Editable - Internal page menu
@@ -22,10 +22,10 @@ sections:
 # Editable - Pagination for bottom of page
 #
 pagination: yes
-phase-prev: lakdjlfsjd
-page-prev: lsdjflsd
-phase-next: lsdjfls
-page-next: sldjfsdf
+phase-prev: none
+page-prev: none
+phase-next: none
+page-next: none
 #
 # Don't edit items below - they control the page layout
 #
@@ -33,9 +33,27 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
+# same name for sidebar + pagination include
 sidebar-page-type: /resources
-permalink: /resources/other
+permalink: /resources/more
 ---
+
+{{ site.pages }}
+
+
+{% for pageit in site.pages.resources.more %}
+{{ pageit }}
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
 
 {% for item in site.data.navigation %}
 

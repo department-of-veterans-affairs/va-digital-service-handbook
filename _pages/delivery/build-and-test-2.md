@@ -3,17 +3,18 @@
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
 #
-# Title and Description display on page and in meta
-title: Beta
-description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.  
+# Title and Description display on the page and in HTML meta tags
 #
-# Can edit - pagination for bottom of page
+title: Build and Test activities
+description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.
+#
+# Editable - Pagination for bottom of page
 #
 pagination: yes
-phase-prev: Prototype
-page-prev: none
-phase-next: Learn + Improve
-page-next: none
+phase-prev: Build and Test
+page-prev: introduction
+phase-next: Build and Test
+page-next: checklist
 #
 # Don't edit items below - they control the page layout
 #
@@ -23,7 +24,7 @@ page-type: subpage
 page-description: yes
 # same name for sidebar + pagination include
 sidebar-page-type: /delivery
-permalink: /delivery/build-and-test
+permalink: /delivery/build-and-test/activities
 #
 ---
 
@@ -57,7 +58,7 @@ During beta, you'll build the user stories and features from your backlog in sma
       {{ item.copy | markdownify }}
 
       {% if item.title == "Completing beta" %}
-        {% include include-next-steps.html phase="beta" %}
+        next steps
       {% endif %}
 
       <a href="#">Return to top</a>
@@ -68,8 +69,8 @@ During beta, you'll build the user stories and features from your backlog in sma
 
   {% endfor %}
 
-  {% if site.data.resources-help %}
-    {% include include-resources-help.html phase="beta" %}
+  {% if site.data.phase-resources %}
+    {% include phase-resources.html phase="beta" %}
   {% endif %}
 
 </ul>

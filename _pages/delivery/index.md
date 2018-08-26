@@ -72,4 +72,4 @@ Throughout the digital delivery lifecycle, teams engage with Veterans by:
   * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
   * [Technical guide]({{site.baseurl}}/resources/technical)
   * [Agile delivery guide]({{site.baseurl}}/resources/agile)
-  * [Other resources]({{site.baseurl}}/resources/other)
+  * [More resources]({{site.baseurl}}/resources/more)

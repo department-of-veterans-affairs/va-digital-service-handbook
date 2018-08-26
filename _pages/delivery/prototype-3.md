@@ -5,7 +5,7 @@
 #
 # Title and Description display on the page and in HTML meta tags
 #
-title: Prototype
+title: Prototype checklist
 description: The Prototype phase is about prototyping and testing hypotheses with users. Your goal is to figure out how to meet the user needs you identified in discovery. Use this phase as your chance to test many different approaches with real users before building your service.
 #
 # Editable - Pagination for bottom of page
@@ -13,8 +13,8 @@ description: The Prototype phase is about prototyping and testing hypotheses wit
 pagination: yes
 phase-prev: Prototype
 page-prev: activities
-phase-next: Prototype
-page-next: resources
+phase-next: Build and Test
+page-next: introduction
 #
 # Don't edit items below - they control the page layout
 #
@@ -22,8 +22,8 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /delivery
 # same name for sidebar + pagination include
+sidebar-page-type: /delivery
 permalink: /delivery/prototype/checklist
 #
 ---

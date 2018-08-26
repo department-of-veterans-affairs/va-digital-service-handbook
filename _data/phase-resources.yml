@@ -1,0 +1,17 @@
+# Content for the "Resources and help" section in each delivery phase
+#
+# Use regular Markdown style in the sections with a pipe (|)
+#
+---
+next-steps: Learn how to prepare for the <a href="/va-digital-service-handbook/resources/more/checkpoint">{{include.phase}} Checkpoint</a>.
+guides: |
+  Guides and resources:
+
+  * [User research guide](/va-digital-service-handbook/resources/user-research)
+  * [Design guide](/va-digital-service-handbook/resources/design)
+  * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
+  * [Technical guide](/va-digital-service-handbook/resources/technical)
+  * [Agile delivery guide](/va-digital-service-handbook/resources/agile)
+  * [More resources](/va-digital-service-handbook/resources/more)
+help: |
+  If you have a question about something in the Handbook, [contact the DSVA team](/va-digital-service-handbook/contact).

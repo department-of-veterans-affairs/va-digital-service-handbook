@@ -13,8 +13,8 @@ description: The Research + Discovery phase is not about solutions. It’s about
 pagination: yes
 phase-prev: Research + Discovery
 page-prev: activities
-phase-next: Research + Discovery
-page-next: resources
+phase-next: Prototype
+page-next: introduction
 #
 # Don't edit items below - they control the page layout
 #
@@ -46,3 +46,10 @@ permalink: /delivery/research-and-discovery/checklist
 
 
 </div>
+
+
+### At the end of this phase
+
+* Schedule a checkpoint (1 week notice)
+* Prepare for checkpoint
+* Things you need to have (checklist)

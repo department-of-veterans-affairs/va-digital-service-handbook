@@ -19,7 +19,7 @@ page-next: activities
 # Editable - Timeframe for this phase
 #
 timeframe: |
-  It's important to start the project by putting a time constraint on your discovery work. Plan to spend
+  Start the project by putting a time constraint on your discovery work. Plan to spend
   * 2 to 4 weeks for a new feature
   * 4 to 8 weeks for a new service
 #
@@ -29,8 +29,8 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /delivery
 # same name for sidebar + pagination include
+sidebar-page-type: /delivery
 permalink: /delivery/research-and-discovery/index.html
 #
 ---
@@ -46,8 +46,12 @@ Your goal in the Research + Discovery phase is to **learn about real users and i
 
 <hr>
 
-
 ### Planning for Research and Discovery
 
+{% include phase-planning.html phase="Research and Discovery" %}
 
-{% include phase-planning.html phase="Research + Discovery" %}
+<hr>
+
+### Resources and help
+
+{% include phase-resources.html phase="Research and Discovery"%}
