@@ -18,7 +18,7 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-page-type: /service-design
-permalink: /service-design/related/other-resources/product-outline
+permalink: /resources/more/product-outline
 #
 ---
 

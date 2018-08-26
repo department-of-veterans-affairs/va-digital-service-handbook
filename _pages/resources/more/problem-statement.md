@@ -13,7 +13,7 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-page-type: /service-design
-permalink: /service-design/related/other-resources/problem-statement
+permalink: /resources/more/problem-statement
 #
 ---
 

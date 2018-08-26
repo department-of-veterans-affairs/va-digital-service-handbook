@@ -13,7 +13,7 @@ layout: page
 page-type: subpage
 page-description: yes
 sidebar-page-type: /service-design
-permalink: /service-design/related/other-resources/team-structure
+permalink: /resources/more/team-structure
 #
 ---
 

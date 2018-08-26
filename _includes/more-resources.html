@@ -1,0 +1,31 @@
+<div class="list-files">
+
+{% assign sorted-pages = site.pages | sort: 'title' %}
+
+<ul>
+
+{% for resource in sorted-pages %}
+
+  {% if resource.path contains "resources/more" %}
+
+    {% if resource.title != "More resources" %}
+
+<li>
+  <a title="{{resource.title}}" href="{{site.baseurl}}{{resource.url}}">{{resource.title}}</a>
+
+  <ul>
+    <li>
+      {{resource.description}}
+    </li>
+  </ul>
+
+</li>
+
+    {% endif %}
+
+  {% endif %}
+
+{% endfor %}
+</ul>
+
+</div>

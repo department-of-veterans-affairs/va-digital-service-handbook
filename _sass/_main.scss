@@ -646,3 +646,26 @@ blockquote p {
   //font-weight: 900;
   color: $color-blue-darkest;
 }
+
+.list-files ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: 0;
+    border-bottom: 1px solid $color-silver;
+    a {
+      font-weight: 700;
+    }
+    ul {
+      //border: 1px solid blue;
+      margin: 0;
+      padding: 0;
+      li {
+        padding: .75rem 3rem 0 0;
+        border-bottom: none;
+      }
+    }
+  }
+}
