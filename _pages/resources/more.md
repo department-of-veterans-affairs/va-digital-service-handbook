@@ -7,7 +7,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: More resources
-description: The Digital Delivery guide refers to the following resources. They're collected here for easy reference.
+description: The <i>Digital Delivery Guide</i> refers to the following resources. They're collected here for easy reference.
 #
 # Don't edit items below - they control the page layout
 #
