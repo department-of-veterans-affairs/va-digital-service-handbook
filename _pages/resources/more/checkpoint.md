@@ -4,8 +4,8 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Checkpoint
-description: Learn what it is, how to schedule it, how to prepare, and what to expect.
+title: Checkpoint meeting
+description: Learn what the Checkpoint meeting is, how to schedule it, how to prepare, and what to expect.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
