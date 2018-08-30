@@ -83,3 +83,5 @@ Questions to consider
 * How well does the design line up with the technical limitations uncovered in discovery?
 * Are there parts of the design that need to be reconsidered due to technical issues?
 * Is there additional back end development that needs to happen before the project can proceed?
+
+<hr>

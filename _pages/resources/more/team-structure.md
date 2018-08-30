@@ -25,7 +25,7 @@ All Veteran Tools Platform teams will do these activities
 * Create user stories and prioritize them
 * Design, build, test and iterate software, and deploy software
 * Test with real users
-* Support the live running of the service (monitoring and evaluating metrics, fixing bugs, conducting ongoing user research and usability testing, continue building and releasing new features from the backlog, ensure the service continues to meet the [Digital Standard]({{ "digital-standard" | relative_url }}))
+* Support the live running of the service (monitoring and evaluating metrics, fixing bugs, conducting ongoing user research and usability testing, continue building and releasing new features from the backlog, ensure the service continues to meet the [Digital Standards]({{site.baseurl}}/digital-standards))
 * Manage and report to stakeholders and manage dependencies on other teams
 
 ### Team roles

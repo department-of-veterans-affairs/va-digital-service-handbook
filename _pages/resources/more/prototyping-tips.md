@@ -24,7 +24,7 @@ Prototypes only need to be **realistic enough to get meaningful feedback** that 
 In early design sprints, your prototypes can be
 * Simple paper sketches
 * Wireframes that use images to show the functional elements of your service
-* Clickable mockups that mimic the functionality of your service (<a title="Go to example" href="" target="_blank">see an example</a>)
+* Clickable mockups that mimic the functionality of your service (<a title="Go to example" href="" target="_blank">TODO - give an example</a>)
 
 <a href="#">Return to top</a>
 
