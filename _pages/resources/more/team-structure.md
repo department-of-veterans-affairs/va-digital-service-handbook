@@ -41,6 +41,6 @@ To do that, you'll want the following skillsets on your team.
 * Performance Evaluation &mdash; continuous measurement and analysis
 * Project Management &mdash; manage agile delivery; manage the team's work with policy, legal, finance, and communications teams
 
-  > Not all roles will be needed in every phase. Some roles may be needed less than full-time during some phases. Team members will need to adapt based on the needs of the service and the phase of work.
+  > Some skillsets may be needed less than full-time during some phases. Team members will need to adapt based on the needs of the service and the phase of work.
 
 <hr>
