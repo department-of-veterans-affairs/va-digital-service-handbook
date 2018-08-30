@@ -43,4 +43,5 @@ To do that, you'll want the following skillsets on your team.
 
   > Some skillsets may be needed less than full-time during some phases. Team members will need to adapt based on the needs of the service and the phase of work.
 
+<br/>
 <hr>
