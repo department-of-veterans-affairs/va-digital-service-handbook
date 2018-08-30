@@ -31,7 +31,7 @@ jump-menu:
   - Encourage people to use your service
 #
 # Editable - displays at end of each standard
-seemore: See the <a title="Service Design Guide" href="service-design/">Service Design Guide</a> for how to meet this standard during each phase of the Digital Delivery lifecycle.
+seemore: See the <a title="Digital Delivery Guide" href="/va-digital-service-handbook/delivery">Digital Delivery Guide</a> for how to meet this standard during each phase of your project's lifecycle.
 #
 # If resources = yes, content from "data/[resources-file]" displays at bottom of page
 resources: yes
