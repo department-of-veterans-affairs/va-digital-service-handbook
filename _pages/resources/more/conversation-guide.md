@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Creating a conversation guide
+title: Conversation guide
 description: Create a conversation guide so you can focus your research sessions on getting answers to the questions you identified for your research sprint.
 #
 # Don't edit items below - they control the page layout

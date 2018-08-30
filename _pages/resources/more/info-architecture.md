@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Defining information architecture
+title: Information architecture
 description: Learn how to integrate your service into the Veteran Tools Platform so your users can easily find (and search for) your service.
 #
 # Internal page menu - titles here match titles in Markdown

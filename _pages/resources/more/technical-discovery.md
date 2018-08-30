@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Conducting technical discovery
+title: Technical discovery
 description: Complete a technical review during the <i>Research and Discovery</i> phase and do ongoing technical discovery throughout the Digital Delivery lifecycle.
 #
 # Internal page menu - titles here match titles in Markdown

@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Creating a product outline
+title: Product outline
 description: Use a product outline to describe your problem statement and hypotheses and keep track of how your service evolves after the <i>Research and Discovery</i> phase.
 #
 # Internal page menu - titles here match titles in Markdown

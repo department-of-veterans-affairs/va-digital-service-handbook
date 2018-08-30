@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Defining a problem statement
+title: Problem statement
 description: Describe the problem you're trying to solve and your current hypothesis.
 #
 # Don't edit items below * they control the page layout

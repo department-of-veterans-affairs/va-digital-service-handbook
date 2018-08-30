@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Tips for prototyping
+title: Prototyping tips
 description: Prototyping is not about producing code you might use in your MVP. Instead creating a prototype is about creating just enough to test specific hypotheses.
 #
 # Don't edit items below - they control the page layout

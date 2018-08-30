@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Creating a research readout
+title: Research readout
 description: Summarize your user research findings and make recommendations.
 #
 # Don't edit items below * they control the page layout

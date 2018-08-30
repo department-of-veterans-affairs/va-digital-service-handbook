@@ -59,7 +59,7 @@ permalink: /delivery/prototype/checklist
 
 <div class="bullet-checkmark" markdown="1">
 
-* A clear vision and definition for the MVP service you'll build in the next phase (see [Scoping the MVP]({{site.baseurl}}/resources/more/mvp-scoping))
+* A clear vision and definition for the MVP service you'll build in the next phase (see [MVP scope]({{site.baseurl}}/resources/more/mvp-scope))
 
 * Thoroughly tested prototypes that illustrate the design of the MVP service
 

@@ -6,7 +6,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Defining research questions
+title: Research questions
 description: Run a team workshop at the beginning of each development phase to prioritize your team's research questions and the assumptions you need to test.
 #
 # Don't edit items below - they control the page layout

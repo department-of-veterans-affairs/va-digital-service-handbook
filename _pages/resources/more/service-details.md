@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Set up live service details
+title: Live service details
 description: Learn how to set up live service details like logging and monitoring.
 #
 # Don't edit items below - they control the page layout
