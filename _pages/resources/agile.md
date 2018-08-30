@@ -55,10 +55,10 @@ The "Issues" section of the <a href="https://github.com/department-of-veterans-a
 
 All teams manage their agile workflow in 2-week sprints using Github and a Github integration called Zenhub, which turns Github Issues into a <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" target="_blank">scrum board</a>.
 
-* Get started [using Zenhub](https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Onboarding%20and%20Offboarding/zenhub_onboarding.pdf).
+* Get started <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Onboarding%20and%20Offboarding/zenhub_onboarding.pdf" target="_blank">using Zenhub</a>.
 {{ site.vets-team }}
 
-* See [how we use Zenhub for agile workflow](https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Product%20Management/zenhub_product_management.pdf).
+* See <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Product%20Management/zenhub_product_management.pdf" target="_blank">how we use Zenhub for agile workflow</a>.
 {{site.vets-team}}
 
 <!--
