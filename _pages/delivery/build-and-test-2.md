@@ -71,7 +71,7 @@ Map out a *Build and Test* plan that groups the user stories and features from y
 
 1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
 
-2. Finalize [ATO]({{site.baseurl}}/resources/more/ato) details.
+2. Request a [security review]({{site.baseurl}}/resources/more/ato#request-a-security-review) and a [Final ATO review]({{site.baseurl}}/resources/more/ato#request-a-final-ato-review)
 
 3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom)
 

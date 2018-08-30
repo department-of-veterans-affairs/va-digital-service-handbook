@@ -109,7 +109,7 @@ Based on the goals and hypotheses you've identified, map out your first design s
 8. Keep iterating with your design sprints until your prototypes meet your users' basic needs and the team feels confident about moving on to the *Build and Test* phase.
 
 
-#### Plan ahead
+#### Plan ahead for the next phase
 
 Be sure you understand [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#preparing-to-launch-the-mvp) so you can create an effective plan for your *Build and Test* phase.
 <br/>
