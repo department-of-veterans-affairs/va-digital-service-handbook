@@ -5,18 +5,20 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Design guide
-description: Learn about the Veteran Tools Platform design strategy. Find design resources, tools, and examples you can use throughout the service lifecycle.
+description: Learn about the Veteran Tools Platform design strategy. Find design resources, tools, and examples you can use throughout the Digital Delivery lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
 #
 sections:
+  - Expectations
   - General design guidance
   - Design philosophy
   - Document every interaction
   - Design for accessibility
   - Content guidelines
   - Design tools
+  - Getting help
 # Don't edit items below - they control the page layout
 #
 return-top: yes
@@ -29,11 +31,23 @@ permalink: /resources/design
 #
 ---
 
-### Using the design guide
+### Using the Design guide
 
 {% for item in page.sections %}
 * [{{ item}}](#{{item | downcase | replace: ' ', '-'}})
 {% endfor %}
+
+<hr>
+
+### Expectations
+
+Teams working on the Veteran Tools Platform are required to have "User Experience Design" as a skillset (see [Team Structure]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+
+Teams working on the Veteran Tools Platform are responsible for all design activities, including UX, UI, and visual design. Design activities must adhere to the guidelines laid out in this Design guide.
+
+If you have any questions, ask your DSVA contact.
+
+<a href="#">Return to top</a>
 
 <hr>
 
@@ -175,12 +189,6 @@ It's important to "design" all the interactions for each screen in your service.
 
 Designers should document these in the lowest-possible fidelity in a format that makes it easy to communicate to developers. For example, because error states and notifications have standard visual design, you just need to communicate the content to developers; the easiest way to do this is in a spreadsheet or other flat file (vs. creating a mockup for each error).
 
-
-
-
-
-
-
 <a href="#">Return to top</a>
 
 <hr>
@@ -190,7 +198,7 @@ Designers should document these in the lowest-possible fidelity in a format that
 
 **Plain-language content is a cornerstone of the Veteran Tools Platform design philosophy.**
 
-When you're designing mockups or prototypes, be sure they include well-written content that follow the <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">content guidelines</a>.
+When you're designing mockups or prototypes, be sure they include well-written content that follow the [content style guide]({{site.baseurl}}/resources/content).
 
 <a href="#">Return to top</a>
 
@@ -210,3 +218,14 @@ Designers need to use <a title="Go to Sketch" href="https://www.sketchapp.com/" 
   *{{site.vets-team}}*
   * <a title="Go to fonts" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-fonts.md" target="_blank">Instructions for fonts and icons</a>
   *{{site.vets-team}}*
+
+<hr>
+
+### Getting help
+
+DSVA design resources are available to provide guidance and support throughout development and deployment.
+
+* For process-related questions, ask in the *#support-external* Slack channel.
+* For design-related questions, ask in your team's "Product" Slack channel.
+
+<hr>

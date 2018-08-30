@@ -30,16 +30,16 @@ All Veteran Tools Platform teams will do these activities
 
 ### Team roles
 
-To do that, you'll want the following roles on your team.
+To do that, you'll want the following skillsets on your team.
 
-* Product management &mdash; set strategy and define features; manage stakeholders
-* User research &mdash; conduct user research and analysis; usability testing
-* User experience designer &mdash; turn research insights into design decisions; designs the end-to-end user experience based on user research
-* Content strategy &mdash; including knowledge of accessibility (or access to accessibility experts)
+* Product Management &mdash; set strategy and define features; manage stakeholders
+* User Research &mdash; conduct user research; analyze findings and make recommendations; conduct user testing of different types (e.g., usability testing and card sorting)
+* User Experience Design &mdash; turn research insights into design decisions; designs the end-to-end user experience based on user research
+* Content Strategy/Writing &mdash; ability to follow content style guide and including knowledge of accessibility (or access to accessibility experts)
 * Technical &mdash; architecture; development; quality assurance; testing; deployment
 * Policy &mdash; relevant subject-matter expertise (and the desire to improve policy)
-* Performance evaluation &mdash; continuous measurement and analysis
-* Project management &mdash; manage agile delivery; manage the team's work with policy, legal, finance, and communications teams
+* Performance Evaluation &mdash; continuous measurement and analysis
+* Project Management &mdash; manage agile delivery; manage the team's work with policy, legal, finance, and communications teams
 
   > Not all roles will be needed in every phase. Some roles may be needed less than full-time during some phases. Team members will need to adapt based on the needs of the service and the phase of work.
 

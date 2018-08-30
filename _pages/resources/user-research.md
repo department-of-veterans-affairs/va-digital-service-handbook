@@ -5,16 +5,17 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: User Research guide
-description: User research isn't just something you do during the discovery phase. You'll do it throughout the service lifecycle, checking in with your users to answer questions you have about how to improve your service.
+description: User research isn't just something you do during the discovery phase. You'll do it throughout the Digital Delivery lifecycle, checking in with your users to answer questions you have about how to improve your service.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
 #
 sections:
+  - Expectations
   - User privacy
   - Create a research plan
   - Plan a research sprint
-  - Additional resources
+  - Getting help
 #
 # Don't edit items below - they control the page layout
 #
@@ -28,7 +29,7 @@ permalink: /resources/user-research
 #
 ---
 
-### Using the research guide
+### Using the User Research guide
 
 {% for item in page.sections %}
 * [{{ item}}](#{{item | downcase | replace: ' ', '-'}})
@@ -47,6 +48,18 @@ PRA does allow you to observe people and ask them questions about the experience
 <a href="#">Return to top</a>
 
 <hr-->
+
+### Expectations
+
+Teams working on the Veteran Tools Platform are required to have "User Research" as a skillset (see [Team Structure]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+
+Teams working on the Veteran Tools Platform are responsible for conducting their own user research studies, including recruiting. User research/testing studies must adhere to the guidelines laid out in this User Research guide.
+
+If you have any questions, ask your DSVA contact.
+
+<a href="#">Return to top</a>
+
+<hr>
 
 ### User privacy
 
@@ -160,8 +173,11 @@ This [research sprint planning template](other-resources/research-sprints) may b
 
 <hr>
 
-### Additional resources
+### Getting help
 
- * coming soon
+DSVA design resources are available to provide guidance and support throughout development and deployment.
+
+* For process-related questions, ask in the *#support-external* Slack channel.
+* For research-related questions, ask in your team's "Product" Slack channel.
 
 <hr>

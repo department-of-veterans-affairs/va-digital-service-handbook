@@ -91,9 +91,9 @@
     linkto: /resources/design
     alt: Design guide
   - title: Content guide
-    linkto: https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide
+    linkto: /resources/content
     alt: Content guide
-    target: yes
+    target: no
   - title: Technical guide
     linkto: /resources/technical
     alt: Technical guide

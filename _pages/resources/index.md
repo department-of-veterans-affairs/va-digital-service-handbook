@@ -12,7 +12,7 @@ description: Guidance, tips, and examples of specific activities you can use thr
 # Don't need to edit anything but the "guides" section below
 #
 guides:
-  - title: User research guide
+  - title: User Research guide
     description: Information and guidance for conducting research for the Veteran Tools Platform.
     linkto: user-research
   - title: Design guide
@@ -20,8 +20,8 @@ guides:
     linkto: design
   - title: Content guide
     description: Review the content style guide for the Veteran Tools Platform.
-    linkto: https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide
-    target: yes
+    linkto: content
+    target: no
   - title: Technical guide
     description: Get access to developer tools and learn how to use them.
     linkto: technical

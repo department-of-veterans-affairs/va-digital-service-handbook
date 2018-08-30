@@ -69,7 +69,7 @@ Throughout the Digital Delivery lifecycle, teams engage with Veterans by:
 3. Review guidance, tips, and examples of specific activities you can use throughout the Digital Delivery lifecycle:
   * [User research guide]({{site.baseurl}}/resources/user-research)
   * [Design guide]({{site.baseurl}}/resources/design)
-  * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
+  * [Content guide]({{site.baseurl}}/resources/content)
   * [Technical guide]({{site.baseurl}}/resources/technical)
   * [Agile delivery guide]({{site.baseurl}}/resources/agile)
   * [More resources]({{site.baseurl}}/resources/more)

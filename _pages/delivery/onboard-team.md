@@ -33,13 +33,13 @@ We're excited that your team will be building an application (or feature) on the
 
 #### To get started, your team's
 
-* Project manager should [follow the steps in our onboarding guide](https://github.com/department-of-veterans-affairs/vets-work-practices/tree/master/external-contractor-onboarding)
+* Project manager should <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/tree/master/external-contractor-onboarding" target="blank">follow the steps in our onboarding guide</a>.
 
 * Designers should [review the design guide]({{site.baseurl}}/resources/design)
 
 * Content Writers and Designers should review <a href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">the content style guide</a>
 
-* Developers should review [the developer documentation]({{site.baseurl}}/resources/technical)
+* Developers and other technical roles should review [the technical guide]({{site.baseurl}}/resources/technical)
 
 * Project manager (or Scrum master) should review [the agile guide]({{site.baseurl}}/resources/agile)
 <br/>
