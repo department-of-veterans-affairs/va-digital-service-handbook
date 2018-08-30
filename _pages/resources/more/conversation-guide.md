@@ -12,7 +12,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/conversation-guide
 #
 ---

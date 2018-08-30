@@ -43,7 +43,7 @@ The Veteran Tools Platform is based on a Veteran-centered delivery process to cr
 
 Our primary goal is to understand Veterans who use our services in order to create solutions that work for them. This helps teams make decisions about digital services based on observation and analysis of Veteran needs (vs. relying on their assumptions).
 
-Throughout the digital delivery lifecycle, teams engage with Veterans by:
+Throughout the Digital Delivery lifecycle, teams engage with Veterans by:
 
 * Conducting user research to learn about Veterans and their needs
 * Testing possible solutions (prototypes) with Veterans
@@ -73,3 +73,4 @@ Throughout the digital delivery lifecycle, teams engage with Veterans by:
   * [Technical guide]({{site.baseurl}}/resources/technical)
   * [Agile delivery guide]({{site.baseurl}}/resources/agile)
   * [More resources]({{site.baseurl}}/resources/more)
+<br/>

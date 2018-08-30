@@ -5,14 +5,14 @@
 #
 # Title and Description display on page and in meta
 title: Call Center review
-description: Review service with the Call Center description.
+description: Review your MVP with the Call Center so they can answer questions from Veterans about your service.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/call-center
 #
 ---

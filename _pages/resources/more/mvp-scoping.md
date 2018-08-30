@@ -5,20 +5,22 @@
 #
 # Title and Description display on page and in meta
 title: Scoping the MVP
-description: Teams successfully build and launch MVPs when they focus their work on the minimum set of features that will provide value by meeting basic user needs.
+description: Focus your work on the minimum set of features that will provide value by meeting basic user needs.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
-permalink: /resources/more/scoping-mvp
+sidebar-page-type: /resources
+permalink: /resources/more/mvp-scoping
 #
 ---
 
-### In progress !
-
 ### Scoping the MVP
+
+#### In progress !
+
+
 
 <hr>

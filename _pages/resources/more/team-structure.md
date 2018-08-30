@@ -5,14 +5,14 @@
 #
 # Title and Description display on page and in meta
 title: Team structure
-description: The team skillsets you'll need throughout the service lifecycle.
+description: The team skillsets you'll need throughout the Digital Delivery lifecycle.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/team-structure
 #
 ---

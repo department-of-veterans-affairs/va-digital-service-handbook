@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Build and Test introduction
-description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.  
+description: The <i>Build and Test</i> phase is about incrementally building (and testing) the user stories and features you've identified for the MVP. Your goal is to launch the first working version of your service at the end of this phase.  
 #
 # Editable - Pagination for bottom of page
 #
@@ -15,6 +15,14 @@ phase-prev: Prototype
 page-prev: checklist
 phase-next: Build and Test
 page-next: activities
+#
+# Editable - Timeframe for this phase
+#
+timeframe: |
+  Different services will spend different amounts of time in the *Build and Test* phase, depending on what the team plans to build as the MVP. In general, plan to spend
+  * 6-8 weeks for a new feature
+  * 8-12 weeks for a new service
+  * **Tip**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](va-digital-service-handbook/resources/more/mvp-scoping) &mdash; make it smaller!
 #
 # Don't edit items below - they control the page layout
 #
@@ -28,51 +36,23 @@ permalink: /delivery/build-and-test/index.html
 #
 ---
 
-### What is Beta?
+### What is the *Build and Test* phase?
 
-In the beta phase, it's tempting to try to build all the features and functionality you imagine for your service. But stay focused on your vision for the MVP. **As soon as your service can provide value by meeting basic user needs, it’s ready to launch!**
+In the *Build and Test* phase, it's tempting to try to build all the features and functionality you imagine for your service. But stay focused on your vision for the MVP. **As soon as your service can provide value by meeting basic user needs, it’s ready to launch!**
 
-During beta, you'll build the user stories and features from your backlog in small batches of functionality. As you build these batches, you'll test them with your users to ensure they work well. Then you'll use that user feedback to refine your service, adding and adjusting features until your MVP service is complete.``
+During this phase, you'll build the user stories and features from your backlog in small batches of functionality. As you build these batches, you'll test them with your users to ensure they work well. Then you'll use that user feedback to refine your service, adding and adjusting features until your MVP service is complete.
+
+The final step in the *Build and Test* phase is to launch the MVP, which you'll do after the Checkpoint meeting.
 
 <hr>
 
+### Planning
 
-{% if site.data.phase-beta %}
+{% include phase-planning.html phase="Build and Test" %}
 
-<ul class="usa-accordion secondary-accordion">
+<hr>
 
-  {% for item in site.data.phase-beta %}
+### Resources and help
 
-  <li>
-    <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ item.number }}">
-      {{ item.title }}
-    </h3>
-    <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
-
-    {% if item.title == "Planning for beta" %}
-      {% include phase-planning.html phase="beta" %}
-    {% endif %}
-
-      {{ item.copy | markdownify }}
-
-      {% if item.title == "Completing beta" %}
-        next steps
-      {% endif %}
-
-      <a href="#">Return to top</a>
-
-    </div>
-
-  </li>
-
-  {% endfor %}
-
-  {% if site.data.phase-resources %}
-    {% include phase-resources.html phase="beta" %}
-  {% endif %}
-
-</ul>
-
-{% endif %}
+{% include phase-resources.html phase="Build and Test"%}
+<br/>

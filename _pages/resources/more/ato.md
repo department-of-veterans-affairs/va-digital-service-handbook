@@ -5,21 +5,21 @@
 #
 # Title and Description display on page and in meta
 title: Authority to Operate (ATO)
-description: ATO description.
+description: Coordinate with the DSVA team to determine if the Veteran Tools Platform ATO needs to be updated for your service.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/ato
 #
 ---
 
-### In progress !
-
 ### Authority to Operate (ATO)
+
+#### In progress !
 
 <!--
 OTHER BITS

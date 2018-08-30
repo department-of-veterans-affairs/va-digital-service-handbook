@@ -5,7 +5,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Learn and Improve activities
-description: Live description goes here.
+description: During the <i>Learn and Improve</i> phase, focus on learning about the evolving needs of your users. Then design, build, test, and deploy those features.
 #
 # Editable - Pagination for bottom of page
 #
@@ -27,40 +27,14 @@ permalink: /delivery/learn-and-improve/activities
 #
 ---
 
-### What is Live?
+### Key questions to answer
 
-Content in progress
+#### content in progress
 
 <hr>
 
-{% if site.data.phase-live %}
+### Activities
 
-<ul class="usa-accordion secondary-accordion">
+#### content in progress
 
-  {% for item in site.data.phase-live %}
-
-  <li>
-    <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ item.number }}">
-      {{ item.title }}
-    </h3>
-    <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
-
-      {{ item.copy | markdownify }}
-
-      <a href="#">Return to top</a>
-
-    </div>
-
-  </li>
-
-  {% endfor %}
-
-  {% if site.data.phase-resources %}
-    {% include phase-resources.html phase="live" %}
-  {% endif %}
-
-</ul>
-
-{% endif %}
+<br/>

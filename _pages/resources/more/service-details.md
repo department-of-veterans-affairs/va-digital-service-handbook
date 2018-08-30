@@ -5,21 +5,21 @@
 #
 # Title and Description display on page and in meta
 title: Set up live service details
-description: Set up live service details description.
+description: Learn how to set up live service details like logging and monitoring.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/service-details
 #
 ---
 
-### In progress !
-
 ### Set up live service details
+
+#### In progress !
 
 * Monitoring and logging
 * Alert configuration

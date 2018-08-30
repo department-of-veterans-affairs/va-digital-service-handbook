@@ -17,18 +17,16 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/info-architecture
 #
 ---
 
-### Coordinating with the DSVA team
+### Coordinate with the DSVA team
 
-You'll need to coordinate these tasks with the DSVA team.
+The DSVA team will make sure your service doesn't collide with other services and will provide suggestions based on Veteran experiences with existing services.
 
-The DSVA team will make sure your service doesn't collide with other services and provide suggestions based on Veteran experiences with other services.
-
-> [Contact the DSVA team](../../../contact) to review the items in each task below.
+> [Contact the DSVA team]({{site.baseurl}}/contact) to review the items in each task below.
 
 {% for item in page.sections %}
 * [{{ item}}](#{{item | downcase | replace: ' ', '-' | replace: '(', '' | replace: ')', '' }})
@@ -81,7 +79,7 @@ The IA determines where in the Veteran Tools Platform your service will live, an
 
 ### Define the URLS
 
-In [creating the IA for your service](#define-the-information-architecture-ia), you identified the main part of your service's URL &mdash; the directory (or sub-directory) in which the service lives.
+In [defining the IA for your service](#define-the-information-architecture-ia), you identified the main part of your service's URL &mdash; the directory (or sub-directory) in which the service lives.
 
 Now you need to create URLs that include the end of the URL path &mdash; the last directory or page name.
 

@@ -5,21 +5,21 @@
 #
 # Title and Description display on page and in meta
 title: Marketing and communications
-description: Marketing and communications for your service description.
+description: Coordinate with DSVA on marketing and communications about your service.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/marcom
 #
 ---
 
-### In progress !
-
 ### Marketing and communications
+
+#### In progress !
 
 <!--
 OTHER BITS

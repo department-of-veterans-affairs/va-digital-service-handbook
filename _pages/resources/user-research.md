@@ -16,14 +16,6 @@ sections:
   - Plan a research sprint
   - Additional resources
 #
-# Editable - Pagination for bottom of page
-#
-pagination: yes
-phase-prev: lakdjlfsjd
-page-prev: lsdjflsd
-phase-next: lsdjfls
-page-next: sldjfsdf
-  #
 # Don't edit items below - they control the page layout
 #
 return-top: yes

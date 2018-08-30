@@ -19,14 +19,6 @@ sections:
   - During the live phase
   - Tools, resources, and examples
 #
-# Editable - Pagination for bottom of page
-#
-pagination: yes
-phase-prev: lakdjlfsjd
-page-prev: lsdjflsd
-phase-next: lsdjfls
-page-next: sldjfsdf
-#
 # Don't edit items below - they control the page layout
 #
 return-top: yes

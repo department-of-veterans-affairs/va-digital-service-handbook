@@ -12,7 +12,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/research-sprints
 #
 ---
@@ -28,8 +28,8 @@ You can use the template below to plan a research sprint with your team.
 
 **What is our current problem statement and corresponding solution hypothesis?**
 * Why do we want to do this research?
-
 <br/>
+
 **What are our immediate questions for this research sprint?**
   * What do we need to know now that will us decide what to do in the next sprint?
 <br/>

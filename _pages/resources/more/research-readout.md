@@ -12,7 +12,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/research-readout
 #
 ---
@@ -27,7 +27,7 @@ Use the research readout to summarize what you did and what you learned in your 
 
 ### Template: Research readout
 
-* [Research readout template - Keynote](research-readout.key)
-* [Research readout template - Powerpoint](research-readout.pptx)
+* [Research readout template - Keynote]({{site.baseurl}}/resources/docs/research-readout.key)
+* [Research readout template - Powerpoint]({{site.baseurl}}/resources/docs/research-readout.pptx)
 
 <hr>

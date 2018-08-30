@@ -17,15 +17,6 @@ sections:
   - Design for accessibility
   - Content guidelines
   - Design tools
-#
-# Editable - Pagination for bottom of page
-#
-pagination: yes
-phase-prev: lakdjlfsjd
-page-prev: lsdjflsd
-phase-next: lsdjfls
-page-next: sldjfsdf
-#
 # Don't edit items below - they control the page layout
 #
 return-top: yes
@@ -208,15 +199,14 @@ When you're designing mockups or prototypes, be sure they include well-written c
 
 ### Design tools
 
-**Review the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a>**
+#### Design Patterns
 
-The Veteran Tools Platform design patterns make it much easier for developers to quickly prototype new pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
+The Veteran Tools Platform <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> make it much easier for designers and developers to quickly prototype pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
 
-**Download design files**
+#### Design files
 
-* *The design files are created in <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a>, which is a Mac application.* Although you can use other platforms/tools, we strongly recommend using Sketch to ensure your designers are working with our latest templates.
+Designers need to use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a> for design on the Veteran Tools Platform.
   * <a title="Go to instructions" href="https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library" target="_blank">Instructions for downloading and using the Sketch files</a>
-  *Once a designer been added to the VA Github organization, they'll be able to download the Sketch files.*
+  *{{site.vets-team}}*
   * <a title="Go to fonts" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-fonts.md" target="_blank">Instructions for fonts and icons</a>
-
-<hr>
+  *{{site.vets-team}}*

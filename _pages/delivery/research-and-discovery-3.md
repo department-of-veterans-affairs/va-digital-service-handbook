@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Research + Discovery checklist
-description: The Research + Discovery phase is not about solutions. It’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.
+description: The <i>Research + Discovery</i> phase ends with a Checkpoint to make sure your team is ready to move on the <i>Prototype</i> phase.
 #
 # Editable - Pagination for bottom of page
 #
@@ -21,35 +21,58 @@ page-next: introduction
 return-top: yes
 layout: page
 page-type: subpage
-page-description: no
+page-description: yes
 # same name for sidebar + pagination include
 sidebar-page-type: /delivery
 permalink: /delivery/research-and-discovery/checklist
 #
 ---
 
-### By the end of discovery, your team should have answers to these questions
+### By the end of this phase, you should have answers to these questions
 
 
 <div class="bullet-checkmark" markdown="1">
 
 
-* What user problems and needs will the service solve (what is the scope of the service)?
+* What user problems and needs will the service solve (i.e., what is the scope of the service)?
 
-* What are the specific user needs and user stories the service will address?
+* What are the specific user stories the service will address?
 
-* What specific things do you plan to prototype and test during the alpha phase?
+* What specific things do you plan to prototype and test during the <i>Prototype</i> phase?
 
-* What people and/or resources do you need to support the work during the alpha phase?
+* What people and/or resources do you need to support the work during the <i>Prototype</i> phase?
 
 * What are the metrics you'll use to measure the success of the service, and what is your plan to get those metrics?
 
 
 </div>
 
+<hr>
 
-### At the end of this phase
+### Completing this phase
 
-* Schedule a checkpoint (1 week notice)
-* Prepare for checkpoint
-* Things you need to have (checklist)
+#### 1. Schedule a [Checkpoint]({{site.baseurl}}/resources/more/checkpoint) meeting at the end of this phase.
+
+#### 2. At the Checkpoint meeting, be prepared with the following:
+
+
+<div class="bullet-checkmark" markdown="1">
+
+* Your problem statement
+
+* A definition of your primary users
+
+* A list of specific user stories your service will address
+
+* A list of policy, technical, or other barriers that could make it difficult to deliver your service (i.e., risks)
+
+* Your findings from technical discovery
+
+* Your findings from user research
+
+* A timeline and plan for what you'll prototype in the next phase, including any additional people or resources you'll need
+
+* A list of metrics to measure the success of the service (and how you plan to get those metrics)
+
+</div>
+<br/>

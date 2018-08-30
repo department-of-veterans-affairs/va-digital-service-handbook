@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Build and Test checklist
-description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.
+description: The <i>Build and Test</i> phase ends with a Checkpoint to make sure your team is ready to move on the <i>Build and Test</i> phase.
 #
 # Editable - Pagination for bottom of page
 #
@@ -28,51 +28,47 @@ permalink: /delivery/build-and-test/checklist
 #
 ---
 
-### What is Beta?
+### By the end of this phase, you should have answers to these questions
 
-In the beta phase, it's tempting to try to build all the features and functionality you imagine for your service. But stay focused on your vision for the MVP. **As soon as your service can provide value by meeting basic user needs, it’s ready to launch!**
 
-During beta, you'll build the user stories and features from your backlog in small batches of functionality. As you build these batches, you'll test them with your users to ensure they work well. Then you'll use that user feedback to refine your service, adding and adjusting features until your MVP service is complete.``
+<div class="bullet-checkmark" markdown="1">
+
+
+* Does the MVP service meet the basic needs of your users?
+
+* Does it work correctly in the production environment at scale and including all integrations?
+
+* If needed, are the right policies or processes in place to support the MVP when it launches?
+
+* Has the team successfully completed all [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#preparing-to-launch-the-mvp)?
+
+
+</div>
 
 <hr>
 
+### Completing this phase
 
-{% if site.data.phase-beta %}
+#### 1. Schedule a [Checkpoint]({{site.baseurl}}/resources/more/checkpoint) meeting at the end of this phase.
 
-<ul class="usa-accordion secondary-accordion">
+* **Note**: The expectation is that you will launch the MVP after the Checkpoint meeting. Be sure you've completed all the [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#preparing-to-launch-the-mvp) before then.
 
-  {% for item in site.data.phase-beta %}
+#### 2. At the Checkpoint meeting, be prepared with the following:
 
-  <li>
-    <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ item.number }}">
-      {{ item.title }}
-    </h3>
-    <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
 
-    {% if item.title == "Planning for beta" %}
-      {% include phase-planning.html phase="beta" %}
-    {% endif %}
+<div class="bullet-checkmark" markdown="1">
 
-      {{ item.copy | markdownify }}
+* A fully-functioning MVP service that meets your users' basic needs
 
-      {% if item.title == "Completing beta" %}
-        next steps
-      {% endif %}
+* A list of major bugs and usability issues that have been identified and fixed
 
-      <a href="#">Return to top</a>
+* The metrics you'll use to measure the success of your MVP
 
-    </div>
+* Documentation of the user research and testing you did in the *Build and Test* phase
 
-  </li>
+* A proposed plan for how you'll improve the service after you launch it &mdash; how you'll monitor, evaluate, user research/test, and build from your backlog
 
-  {% endfor %}
+* A prioritized backlog of features you plan to build after MVP launch in order to improve the service
 
-  {% if site.data.phase-resources %}
-    {% include phase-resources.html phase="beta" %}
-  {% endif %}
-
-</ul>
-
-{% endif %}
+</div>
+<br/>

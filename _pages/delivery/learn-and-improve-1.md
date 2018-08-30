@@ -5,7 +5,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Learn and Improve introduction
-description: Live description goes here.
+description: The <i>Learn and Improve</i> phase begins after the MVP launch and continues until the service is retired. The goal is to continuously monitor, research, test, and improve for as long as the service is active.
 #
 # Editable - Pagination for bottom of page
 #
@@ -27,40 +27,14 @@ permalink: /delivery/learn-and-improve/index.html
 #
 ---
 
-### What is Live?
+### What is the *Learn and Improve* phase?
 
-Content in progress
+#### content in progress
 
 <hr>
 
-{% if site.data.phase-live %}
 
-<ul class="usa-accordion secondary-accordion">
+### Resources and help
 
-  {% for item in site.data.phase-live %}
-
-  <li>
-    <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ item.number }}">
-      {{ item.title }}
-    </h3>
-    <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
-
-      {{ item.copy | markdownify }}
-
-      <a href="#">Return to top</a>
-
-    </div>
-
-  </li>
-
-  {% endfor %}
-
-  {% if site.data.phase-resources %}
-    {% include phase-resources.html phase="live" %}
-  {% endif %}
-
-</ul>
-
-{% endif %}
+{% include phase-resources.html phase="Learn and Improve"%}
+<br/>

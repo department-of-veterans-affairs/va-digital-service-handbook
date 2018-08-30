@@ -6,22 +6,31 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Resources
-description: resources description.
+description: Guidance, tips, and examples of specific activities you can use throughout the Digital Delivery lifecycle.
 #
-# Editable - Internal page menu
-# Match titles here with H3s (###) below
+# Editable - list of guides to include on this page
+# Don't need to edit anything but the "guides" section below
 #
-sections:
-  - What is the Digital Delivery process?
-  - Using the Digital Delivery Guide
-#
-# Editable - Pagination for bottom of page
-#
-pagination: yes
-phase-prev: none
-page-prev: none
-phase-next: User Research guide
-page-next: none
+guides:
+  - title: User research guide
+    description: Information and guidance for conducting research for the Veteran Tools Platform.
+    linkto: user-research
+  - title: Design guide
+    description: Understand the Veteran Tools Platform design patterns and design guidelines, and download the design tools.
+    linkto: design
+  - title: Content guide
+    description: Review the content style guide for the Veteran Tools Platform.
+    linkto: https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide
+    target: yes
+  - title: Technical guide
+    description: Get access to developer tools and learn how to use them.
+    linkto: technical
+  - title: Agile guide
+    description: Manage your team's agile workflow while working on the Veteran Tools Platform.
+    linkto: agile
+  - title: More resources
+    description: A collection of additional resources referred to throughout the <i>Digital Delivery Guide</i>.
+    linkto: more
 #
 # Don't edit items below - they control the page layout
 #
@@ -36,39 +45,37 @@ header-image-alt: Resources icon
 #
 ---
 
-### Resources
+<div class="list-files resources-index">
 
-All teams who build digital services on the Veteran Tools Platform use a Veteran-centered delivery process to create modern, user-friendly services for Veterans.
+  <ul>
 
-The primary goal is to understand Veterans who use our services in order to create solutions that work for them. This helps teams make decisions about digital services based on observation and analysis of Veteran needs (vs. relying on their assumptions).
+{% for resource in page.guides %}
 
-Throughout the digital delivery lifecycle, teams engage with Veterans by:
+    <li>
 
-* Conducting user research to learn about Veterans and their needs
-* Testing possible solutions (prototypes) with Veterans
-* Continuously improving the service after it launches so that it continues to serve Veteran needs
+      <a title="{{resource.title}}"
+      href="
+      {% if resource.target == true %}
+      {{resource.linkto}}
+      {% else %}
+      {{site.baseurl}}/resources/{{resource.linkto}}
+      {% endif %}
+      "{% if resource.target == true %} target="_blank"{% endif %}>{{resource.title}}</a>
 
+      <ul>
 
-<hr>
+        <li>
 
+          {{resource.description}}
 
-### Using the Digital Delivery Guide
+        </li>
 
+      </ul>
 
-<!--- image/diagrams illustrate process with explanations and links-->
+    </li>
 
-1. **[Complete the onboarding steps]({{site.baseurl}}/delivery/onboard-team)** to get your team set up with the tools they need to work on the Veteran Tools Platform.
+{% endfor %}
 
-2. **Work through the Digital Delivery phases**
-  * [Research + Discovery]({{site.baseurl}}/delivery/research-discovery) &#8212; do user research to understand your users' needs
-  * [Prototype]({{site.baseurl}}/delivery/prototype) &#8212; test possible solutions (prototypes) with your users
-  * [Build + Test]({{site.baseurl}}/delivery/built-test) &#8212; build a Minimum Viable Product (MVP) and test it with your users
-  * [Learn + Improve]({{site.baseurl}}/delivery/learn-improve) &#8212; continue to improve your service based on ongoing user research and testing
+  </ul>
 
-3. **Refer to the [resources]({{site.baseurl}}/resources/)** for guidance, tips, and examples of specific activities you can use throughout the Digital Delivery lifecycle
-  * [User research guide]({{site.baseurl}}/resources/user-research)
-  * [Design guide]({{site.baseurl}}/resources/design)
-  * <a title="Go to content guide" href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">Content guide</a>
-  * [Technical guide]({{site.baseurl}}/resources/technical)
-  * [Agile delivery guide]({{site.baseurl}}/resources/agile)
-  * [More resources]({{site.baseurl}}/resources/more)
+</div>

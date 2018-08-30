@@ -4,8 +4,8 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Next Steps checkpoint
-description: Learn how to schedule it, how to prepare, and what to expect at the Next Steps checkpoint.
+title: Checkpoint
+description: Learn what it is, how to schedule it, how to prepare, and what to expect.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
@@ -21,8 +21,8 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
-permalink: /resources/more/next-steps-checkpoint
+sidebar-page-type: /resources
+permalink: /resources/more/checkpoint
 #
 ---
 ### What is the Next Steps checkpoint?

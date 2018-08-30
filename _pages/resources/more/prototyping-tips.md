@@ -4,16 +4,16 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Tips for alpha prototypes
-description: Alpha prototypes are not about producing code you might use in your MVP. Instead they're about building just enough to test specific hypotheses.
+title: Tips for prototyping
+description: Prototyping is not about producing code you might use in your MVP. Instead creating a prototype is about creating just enough to test specific hypotheses.
 #
 # Don't edit items below - they control the page layout
 return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
-permalink: /resources/more/alpha-prototypes
+sidebar-page-type: /resources
+permalink: /resources/more/prototyping-tips
 #
 ---
 

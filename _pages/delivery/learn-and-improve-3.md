@@ -5,7 +5,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Learn and Improve checklist
-description: Live description goes here.
+description: If you need to retire your service, be sure your team has a plan to inform users, including what happens to their data and how they can meet the needs your service previously met for them.
 #
 # Editable - Pagination for bottom of page
 #
@@ -27,40 +27,21 @@ permalink: /delivery/learn-and-improve/checklist
 #
 ---
 
-### What is Live?
+### Before retiring a service, you should have answers to these questions
 
-Content in progress
+
+<div class="bullet-checkmark" markdown="1">
+
+
+* **content in progress !**
+
+
+</div>
 
 <hr>
 
-{% if site.data.phase-live %}
+### Before retiring your service
 
-<ul class="usa-accordion secondary-accordion">
+#### 1. content in progress !
 
-  {% for item in site.data.phase-live %}
-
-  <li>
-    <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ item.number }}">
-      {{ item.title }}
-    </h3>
-    <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
-
-      {{ item.copy | markdownify }}
-
-      <a href="#">Return to top</a>
-
-    </div>
-
-  </li>
-
-  {% endfor %}
-
-  {% if site.data.phase-resources %}
-    {% include phase-resources.html phase="live" %}
-  {% endif %}
-
-</ul>
-
-{% endif %}
+<br/>

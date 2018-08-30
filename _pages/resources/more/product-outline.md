@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Creating a product outline
-description: Use a product outline to describe your problem statement and hypotheses and keep track of how your service evolves after the discovery phase.
+description: Use a product outline to describe your problem statement and hypotheses and keep track of how your service evolves after the <i>Research and Discovery</i> phase.
 #
 # Internal page menu - titles here match titles in Markdown
 sections:
@@ -17,7 +17,7 @@ return-top: yes
 layout: page
 page-type: subpage
 page-description: yes
-sidebar-page-type: /service-design
+sidebar-page-type: /resources
 permalink: /resources/more/product-outline
 #
 ---

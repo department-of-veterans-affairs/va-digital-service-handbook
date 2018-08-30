@@ -9,12 +9,13 @@
       <ul class="usa-nav-primary usa-accordion">
         {% assign count = 0 %}
         {% for navitem in site.data.navigation %}
+
           {% assign count = count | plus:1 %}
           {% if navitem.subitems %}
 
           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="extended-nav-section-{{count}}">
-              <span class="{% if page.url contains {{navitem.linkto}} %}active{% endif %}">{{navitem.title}}</span>
+              <span class="{% if page.url contains {{navitem.linkto}} %}{% unless page.url == "/resources/docs/index.html" %}active{% endunless %}{% endif %}">{{navitem.title}}</span>
             </button>
             <ul id="extended-nav-section-{{count}}" class="usa-nav-submenu">
               {% for subitem in navitem.subitems %}
@@ -28,9 +29,9 @@
           </li>
 
           {% else %}
-          <li>
+          <li class="testit">
             <a title="{{ navitem.alt}}" class="usa-nav-link" href="{{ navitem.linkto | relative_url }}">
-              <span class="{% if page.url == navitem.linkto %}active{% endif %}">{% if navitem.title-short %}{{navitem.title-short}}{% else %}{{navitem.title}}{% endif %}</span>
+              <span class="{% if page.url == navitem.linkto %}active{% endif %}">{{navitem.title}}</span>
             </a>
           </li>
           {% endif %}

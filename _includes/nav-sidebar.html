@@ -36,7 +36,8 @@
 
       <li>
 
-        <a title="{{subitem.alt}}" href="{{site.baseurl}}{{subitem.linkto}}"{% if subitem.target == true %} target="_blank" {% endif %} class="{% if page.url contains subitem.linkto %}level-1-current{% endif %}">
+        <a title="{{subitem.alt}}"
+        {% if subitem.target == true %}href="{{subitem.linkto}}"{% else %} href="{{site.baseurl}}{{subitem.linkto}}"{% endif %}{% if subitem.target == true %} target="_blank" {% endif %} class="{% if page.url contains subitem.linkto %}level-1-current{% endif %}">
           {{subitem.title}}
         </a>
 

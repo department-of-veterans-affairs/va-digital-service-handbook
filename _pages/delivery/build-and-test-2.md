@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Build and Test activities
-description: Beta is about incrementally building (and testing) the MVP user stories and features you've identified, so you can launch the first working version of your service at the end of the beta phase.
+description: During the <i>Build and Test</i> phase, focus on building features in small batches and testing those with real users.
 #
 # Editable - Pagination for bottom of page
 #
@@ -28,51 +28,64 @@ permalink: /delivery/build-and-test/activities
 #
 ---
 
-### What is Beta?
+<!--
+### Key questions to answer
 
-In the beta phase, it's tempting to try to build all the features and functionality you imagine for your service. But stay focused on your vision for the MVP. **As soon as your service can provide value by meeting basic user needs, it’s ready to launch!**
 
-During beta, you'll build the user stories and features from your backlog in small batches of functionality. As you build these batches, you'll test them with your users to ensure they work well. Then you'll use that user feedback to refine your service, adding and adjusting features until your MVP service is complete.``
+
+<hr>
+-->
+
+### Activities
+
+Map out a *Build and Test* plan that groups the user stories and features from your backlog into small, testable chunks that you can build, deploy, and test iteratively.
+
+#### 1. Develop incrementally by coding locally and deploying to staging as you go.
+
+* See the <a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">example development workflow</a>.
+
+* Do automated testing each time you deploy to staging.
+
+  * <a title="Go to 508 testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/automated-testing" target="_blank">Automated accessibility (508 compliance) testing</a>
+  * <a title="Go to testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/tests" target="_blank">Automated unit and end-to-end tests</a>
+
+#### 2. Plan and conduct [research sprints]({{site.baseurl}}/resources/user-research#plan-a-research-sprint).
+
+  * Focus on <a title="Go to usability testing" href="https://methods.18f.gov/validate/usability-testing/" target="_blank">usability testing</a> to ensure that your staged user stories and features work well for your users.
+
+  * Analyze and synthesize the user feedback you've collected.
+  * Document your research findings.
+  * Use your research findings to refine your *Build and Test* plan &mdash; adjusting existing features and adding new features (if these are critical to supporting your users' basic needs).
+
+#### 3. Repeat this cycle
+
+  * *Until* you've deployed all the features you planned for the MVP service
+
+  * *Or, until* the MVP provides value by meeting basic user needs
 
 <hr>
 
+### Preparing to launch the MVP
 
-{% if site.data.phase-beta %}
+**Note**: Some of these tasks impact one another. For example, if you change the information architecture, you'll need to test and QA again, and you may need to update the metrics you've set up in Google Analytics.
 
-<ul class="usa-accordion secondary-accordion">
+1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
 
-  {% for item in site.data.phase-beta %}
+2. Finalize <a title="go to ATO" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/deploy-your-app/ato.html" target="_blank">ATO</a> details.
 
-  <li>
-    <h3 id="{{ item.title | downcase | replace: ' ', '-' }}" class="usa-accordion-button"
-      aria-expanded="false"
-      aria-controls="{{ item.number }}">
-      {{ item.title }}
-    </h3>
-    <div id="{{ item.number }}" class="usa-accordion-content secondary-accordion-content">
+3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom)
 
-    {% if item.title == "Planning for beta" %}
-      {% include phase-planning.html phase="beta" %}
-    {% endif %}
+4. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>.
 
-      {{ item.copy | markdownify }}
+5. Set up and test <a title="Go to Google Analytics setup" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/google-analytics" target="_blank">Google Analytics</a>.
 
-      {% if item.title == "Completing beta" %}
-        next steps
-      {% endif %}
+6. Load test your service.
 
-      <a href="#">Return to top</a>
+7. Perform [user acceptance testing (UAT)]({{site.baseurl}}/resources/more/uat).
 
-    </div>
+8. Set up [live service details]({{site.baseurl}}/resources/more/service-details).
 
-  </li>
+9. Review your MVP with [VA's 508 office]({{site.baseurl}}/resources/more/va508).
 
-  {% endfor %}
-
-  {% if site.data.phase-resources %}
-    {% include phase-resources.html phase="beta" %}
-  {% endif %}
-
-</ul>
-
-{% endif %}
+10. Review your MVP with the [Call Center]({{site.baseurl}}/resources/more/call-center).
+<br/>

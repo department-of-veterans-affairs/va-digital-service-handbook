@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Prototype checklist
-description: The Prototype phase is about prototyping and testing hypotheses with users. Your goal is to figure out how to meet the user needs you identified in discovery. Use this phase as your chance to test many different approaches with real users before building your service.
+description: The <i>Prototype</i> phase ends with a Checkpoint to make sure your team is ready to move on the <i>Build and Test</i> phase.
 #
 # Editable - Pagination for bottom of page
 #
@@ -28,26 +28,52 @@ permalink: /delivery/prototype/checklist
 #
 ---
 
-### What is Prototyping?
+### By the end of this phase, you should have answers to these questions
 
-* The primary objective of alpha is to answer the question: *How can your team best meet the user needs you identified in discovery?*
 
-* The primary outcome of alpha is *a clear definition of your **Minimum Viable Product (MVP)** and a solid plan for how you'll build it.*
-  <blockquote class="plain-blockquote">
-  <b>The MVP is the first working version of your service</b>, which you'll build in the next phase &mdash; beta.
-  <br/><br/>Your MVP will be the smallest set of working functionality you can build that provides value to your users &mdash; by meeting basic user needs.
-  <br/><br/>The alpha phase is about figuring out what those basic user needs are, and how you'll meet them.
-  </blockquote>
+<div class="bullet-checkmark" markdown="1">
 
-During the alpha phase, you'll iteratively design and test potential solutions. You'll build prototypes quickly and test them with users. You'll then use the feedback and testing results to improve the next prototype.
+* Have you defined the right MVP service to meet the basic needs of your users?
 
-You'll repeat this process until the prototype meets your users' needs and your team is confident they know what the MVP will be and how to build it.
+* What existing (and/or new) design patterns are needed for the MVP?
 
+* What APIs will the MVP use (if any), and how do you plan to use them?
+
+* What integrations are required for the MVP (if any), and how do you plan to integrate them?
+
+* What existing processes or policies need to change to support the MVP (if any)?
+
+* What are the metrics you'll use to measure the success of the MVP, and what is your plan to get those metrics?
+
+
+</div>
 
 <hr>
 
+### Completing this phase
 
-### Planning for Prototyping
+#### 1. Schedule a [Checkpoint]({{site.baseurl}}/resources/more/checkpoint) meeting at the end of this phase.
+
+#### 2. At the Checkpoint meeting, be prepared with the following:
 
 
-{% include phase-planning.html phase="Prototype" %}
+<div class="bullet-checkmark" markdown="1">
+
+* A clear vision and definition for the MVP service you'll build in the next phase (see [Scoping the MVP]({{site.baseurl}}/resources/more/mvp-scoping))
+
+* Thoroughly tested prototypes that illustrate the design of the MVP service
+
+* A prioritized list of user stories and features for the MVP service (i.e., your backlog)
+
+* A clear understanding of the technology that will support the MVP service (and an understanding of how the technology might evolve for later releases)
+
+* An understanding of other VA systems you need to replace or integrate with
+
+* A proposed set of metrics you'll use to measure your service’s success (and how you'll get them)
+
+* Documentation of the user research and testing you did in the *Prototype* phase
+
+* A timeline and plan for your *Build and Test* phase, including any additional people or resources you'll need
+
+</div>
+<br/>
