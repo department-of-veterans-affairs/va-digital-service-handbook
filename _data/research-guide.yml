@@ -97,7 +97,7 @@ sprints:
       <!--* **Tip**: The screener is subject to the Paperwork Reduction Act (PRA). To stay within PRA guidelines, limit your questions to 9 questions.-->
 
       **Consent forms**
-      Participants must sign a [consent form](/va-digital-service-handbook/resources/docs/va-consent-form-generic.docx) prior to taking part in any research sessions. Check with your VA Business Owner to make sure this consent form works for your project.
+      Participants must sign a [consent form](https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/va-consent-form-generic.docx) prior to taking part in any research sessions. Be sure to update the generic email address with your own!
 
   - number: s-3
     title: Plan the research sessions

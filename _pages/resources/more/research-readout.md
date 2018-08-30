@@ -5,7 +5,7 @@
 #
 # Title and Description display on page and in meta
 title: Creating a research readout
-description: Describe the problem you're trying to solve and your current hypothesis.
+description: Summarize your user research findings and make recommendations.
 #
 # Don't edit items below * they control the page layout
 return-top: yes
@@ -27,7 +27,7 @@ Use the research readout to summarize what you did and what you learned in your 
 
 ### Template: Research readout
 
-* [Research readout template - Keynote]({{site.baseurl}}/resources/docs/research-readout.key)
-* [Research readout template - Powerpoint]({{site.baseurl}}/resources/docs/research-readout.pptx)
+* <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
+* <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
 
 <hr>
