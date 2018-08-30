@@ -71,7 +71,7 @@ Map out a *Build and Test* plan that groups the user stories and features from y
 
 1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
 
-2. Finalize <a title="go to ATO" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/deploy-your-app/ato.html" target="_blank">ATO</a> details.
+2. Finalize [ATO]({{site.baseurl}}/resources/more/ato) details.
 
 3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom)
 
