@@ -49,7 +49,7 @@ Veterans must be able to upload supporting documents in certain scenarios to sup
 Veterans have indicated that one of most difficult parts of the 686 Form is gathering information on their Spouse's previous marriages. In addition, they don't understand why this information is relevant when applying to declare a dependent.
 
 #### Solution Approach
-We plan on building a digital form with React.js on the frontend and a backend submission connection to the Central Mail API. This will enable users to quickly submit the 686 form with supporting documentation on Vets.gov. We're shooting to launch a first version (MVP) of this form on June 1st, 2018.
+We plan on building a digital form with React.js on the frontend and a backend submission connection to the Central Mail API. This will enable users to quickly submit the 686 form with supporting documentation. We're shooting to launch a first version (MVP) of this form on June 1st, 2018.
 
 #### Key Performance Indicators
 - Decrease the time it takes for a user to get a dependents declaration
@@ -67,7 +67,7 @@ We plan on building a digital form with React.js on the frontend and a backend s
 ### [Service/Product Name] Outline
 * GitHub Label:
 * Slack channel:
-* Vets.gov link:
+* Product link:
 * Demo video link:
 
 ### Table of contents
