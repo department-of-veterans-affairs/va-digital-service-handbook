@@ -68,7 +68,7 @@ Throughout the *Digital Delivery* lifecycle, teams engage with Veterans by:
   * [Build + Test]({{site.baseurl}}/delivery/build-and-test) &#8212; build a Minimum Viable Product (MVP) and test it with your users
   * [Learn + Improve]({{site.baseurl}}/delivery/learn-and-improve) &#8212; continue to improve your service based on ongoing user research and testing
 
-1. Review guidance, tips, and examples of specific activities you can use throughout the *Digital Delivery* lifecycle:
+1. **Review guidance, tips, and examples** of specific activities you can use throughout the *Digital Delivery* lifecycle:
   * [User research guide]({{site.baseurl}}/resources/user-research)
   * [Design guide]({{site.baseurl}}/resources/design)
   * [Content guide]({{site.baseurl}}/resources/content)
