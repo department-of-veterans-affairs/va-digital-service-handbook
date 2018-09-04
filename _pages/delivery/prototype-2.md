@@ -55,5 +55,5 @@ permalink: /delivery/prototype/activities
 * Document the technology needed to support the MVP, as well as any business or policy changes required by the MVP.
 
 * Create a timeline and plan for the *Build and Test* phase.
-  * Be sure you **understand [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#preparing-to-launch-the-mvp)** so you can create an effective *Build and Test* plan.
+  * Be sure you **understand [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#pre-launch-activities)** so you can create an effective *Build and Test* plan.
 <br/>

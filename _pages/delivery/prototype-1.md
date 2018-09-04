@@ -37,7 +37,7 @@ permalink: /delivery/prototype/index.html
 
 ### What is the *Prototype* phase?
 
-* The primary objective of the *Prototype* phase is to answer the question: *How can your team best meet the user needs you identified in research and discovery?*
+* The primary objective of the *Prototype* phase is to answer the question: *How can your team best meet the user needs you identified in Research and Discovery?*
 
 * The primary outcome of the *Prototype* phase is *a clear definition of your **Minimum Viable Product (MVP)** and a solid plan for how you'll build it.*
   <blockquote class="plain-blockquote">

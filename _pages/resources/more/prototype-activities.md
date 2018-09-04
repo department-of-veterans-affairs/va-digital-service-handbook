@@ -4,7 +4,7 @@
 # link here
 #
 # Title and Description display on page and in meta
-title: Prototype activities
+title: Prototyping activities
 description: Plan, prepare, and conduct prototyping activities.
 #
 # Internal page menu - titles here match titles in Markdown
@@ -58,7 +58,10 @@ Begin by identifying your team's goals. Consider these questions:
 
 * What are your hypotheses about those risks and solutions?
 
+<a href="#">Return to top</a>
+
 <hr>
+
 
 ### Plan your design sprints
 
@@ -74,7 +77,10 @@ Based on the goals and hypotheses you've identified, map out your design sprints
 
 * Test your technical hypotheses &mdash; for example, whether a specific Vets-API provides data in the format you need.
 
+<a href="#">Return to top</a>
+
 <hr>
+
 
 ### Conduct a design sprint
 
@@ -93,7 +99,6 @@ Based on the goals and hypotheses you've identified, map out your design sprints
 
 7. **Plan** &mdash; plan your next design sprint incorporating what you've just learned into the next prototype.
     * Involve all team members in prototyping. This leads to better design outcomes and helps the team create a common understanding of the service.
-
 
 8. **Keep iterating** with your design sprints **until your prototypes meet the goals you've identified.**
     * For the *Build and Test* phase, this means meeting your users' basic needs for the MVP launch.

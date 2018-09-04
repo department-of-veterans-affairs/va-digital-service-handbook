@@ -40,7 +40,7 @@ permalink: /delivery/build-and-test/checklist
 
 * If needed, are the right policies or processes in place to support the MVP when it launches?
 
-* Has the team successfully completed all [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#preparing-to-launch-the-mvp)?
+* Has the team successfully completed all [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#pre-launch-activities)?
 
 
 </div>
@@ -51,7 +51,7 @@ permalink: /delivery/build-and-test/checklist
 
 #### 1. Schedule a [Checkpoint]({{site.baseurl}}/resources/more/checkpoint) meeting at the end of this phase.
 
-* **Note**: The expectation is that you will launch the MVP after the Checkpoint meeting. Be sure you've completed all the [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#preparing-to-launch-the-mvp) before then.
+* **Note**: The expectation is that you will launch the MVP after the Checkpoint meeting. Be sure you've completed all the [the pre-launch activities]({{site.baseurl}}/delivery/build-and-test/activities#pre-launch-activities) before then.
 
 #### 2. At the Checkpoint meeting, be prepared with the following:
 
