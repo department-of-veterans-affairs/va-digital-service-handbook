@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Research + Discovery checklist
-description: The <i>Research + Discovery</i> phase ends with a Checkpoint to make sure your team is ready to move on the <i>Prototype</i> phase.
+description: The <i>Research + Discovery</i> phase ends with a Checkpoint meeting to confirm your team is ready to move on the <i>Prototype</i> phase.
 #
 # Editable - Pagination for bottom of page
 #

@@ -41,21 +41,21 @@ permalink: /delivery/research-and-discovery/activities
 
 ### Activities
 
-* Define a **[problem statement]({{site.baseurl}}/resources/more/problem-statement)** that you think your service will solve for your users
+* Define a **[problem statement]({{site.baseurl}}/resources/more/problem-statement)** that you think your service will solve for your users.
 
-* Conduct **[user research]({{site.baseurl}}/resources/user-research)** to learn about potential users of your service through interviews, observation, and testing
+* Conduct **[user research]({{site.baseurl}}/resources/user-research)** to learn about potential users of your service through interviews, observation, and testing.
 
-* Decide who the primary user groups will be
+* Determine your primary user groups.
 
-* Analyze any existing VA or private-sector services that meet user needs
+* Analyze any existing VA or private-sector services that meet user needs.
 
-* Understand current VA policy, technology, and business process related to your service
+* Understand current VA policy, technology, and business process related to your service.
 
-* Identify policy, technical, or other barriers that could make it difficult to meet user needs
+* Identify policy, technical, or other barriers that could make it difficult to meet user needs.
 
-* Review the <a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started" target="_blank">**developer documentation**</a> and conduct **[technical discovery]({{site.baseurl}}/resources/more/technical-discovery)**
+* Review the <a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started" target="_blank">**developer documentation**</a> and conduct **[technical discovery]({{site.baseurl}}/resources/more/technical-discovery)**.
 
-* [Document findings]() from your user research and technical exploration
+* **[Document findings]({{site.baseurl}}/resources/more/research-readout)** from your user research and technical exploration
 
 * Use insights from your findings to create a plan for what the team will work on during the *Prototype* phase
 <br/>

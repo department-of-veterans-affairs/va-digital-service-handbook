@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Technical guide
-description: Get started with Veteran Tools Platform developer tools. Find technical resources, tools, and examples you can use throughout the Digital Delivery lifecycle.
+description: Get started with Veteran Tools Platform developer tools. Find technical resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
@@ -70,7 +70,7 @@ If you have any questions, ask your DSVA contact.
 
 DSVA technical and engineering resources are available to provide guidance and support throughout development and deployment.
 
-* For process-related questions, ask in the *#support-external* Slack channel.
+* For process-related questions, ask in the *#{{site.slack.support}}* Slack channel.
 * For product-related questions, ask in your team's "Product" Slack channel.
 
 <hr>

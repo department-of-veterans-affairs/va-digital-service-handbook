@@ -5,7 +5,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Design guide
-description: Learn about the Veteran Tools Platform design strategy. Find design resources, tools, and examples you can use throughout the Digital Delivery lifecycle.
+description: Learn about the Veteran Tools Platform design strategy. Find design resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
@@ -214,10 +214,10 @@ The Veteran Tools Platform <a title="Go to design patterns" href="https://depart
 #### Design files
 
 Designers need to use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a> for design on the Veteran Tools Platform.
-  * <a title="Go to instructions" href="https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library" target="_blank">Instructions for downloading and using the Sketch files</a>
-  *{{site.vets-team}}*
-  * <a title="Go to fonts" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-fonts.md" target="_blank">Instructions for fonts and icons</a>
-  *{{site.vets-team}}*
+  * <a title="Go to instructions" href="https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library" target="_blank">Instructions for downloading and using the Sketch files</a> ({{site.vets-team}})
+  * <a title="Go to fonts" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-fonts.md" target="_blank">Instructions for fonts and icons</a> ({{site.vets-team}})
+
+<a href="#">Return to top</a>
 
 <hr>
 
@@ -225,7 +225,7 @@ Designers need to use <a title="Go to Sketch" href="https://www.sketchapp.com/" 
 
 DSVA design resources are available to provide guidance and support throughout development and deployment.
 
-* For process-related questions, ask in the *#support-external* Slack channel.
+* For process-related questions, ask in the *#{{site.slack.support}}* Slack channel.
 * For design-related questions, ask in your team's "Product" Slack channel.
 
 <hr>

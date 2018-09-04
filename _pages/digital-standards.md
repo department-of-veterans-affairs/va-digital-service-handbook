@@ -60,7 +60,7 @@ Whether your users are Veterans or VA employees, you must include real people in
 
 #### How to meet this standard
 
-You'll engage users for research and feedback throughout the Digital Delivery lifecycle. At a minimum,
+You'll engage users for research and feedback throughout the *Digital Delivery* lifecycle. At a minimum,
 
 * Explain the user needs your service addresses and how you found those needs during Discovery
 * Give examples of user goals, user personas, and user profiles for the service
@@ -136,7 +136,7 @@ Your understanding of the end-to-end experience will evolve over time as you des
 * Show a journey map of all the touch points in the user's experience of your service, from learning about the service to understanding how to cancel or stop using the service
 * Describe your support plan, including the "help" content within your service and how users can request additional help via phone or in-person
 * Create prototypes that demonstrate the end-to-end experience
-* Explain how often you'll do research and testing for each stage of the Digital Delivery lifecycle and how the results will be used
+* Explain how often you'll do research and testing for each stage of the *Digital Delivery* lifecycle and how the results will be used
 * Describe the results of research and usability testing and how the results will be used to improve the service
 * Explain any problems found during testing, as well as your proposed solutions
 
@@ -303,7 +303,7 @@ At a minimum,
 * Use Google Analytics to capture information about how users interact with your service
 * Monitor and evaluate user feedback about your service from other touch-points like Help Desk phone calls or in-person visits
 * Show how you’ve used qualitative and quantitative data to improve your understanding of user needs and to identify areas for improvement
-* Explain what you’ve built in each phase of the Digital Delivery lifecycle and why you built it
+* Explain what you’ve built in each phase of the *Digital Delivery* lifecycle and why you built it
 * Demonstrate your team has the ability to deploy software frequently with minimal disruption to users
 
 > {{ page.seemore }}

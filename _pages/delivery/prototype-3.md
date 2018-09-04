@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Prototype checklist
-description: The <i>Prototype</i> phase ends with a Checkpoint to make sure your team is ready to move on the <i>Build and Test</i> phase.
+description: The <i>Prototype</i> phase ends with a Checkpoint meeting to confirm your team is ready to move on the <i>Build and Test</i> phase.
 #
 # Editable - Pagination for bottom of page
 #

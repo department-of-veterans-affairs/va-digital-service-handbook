@@ -19,9 +19,9 @@ page-next: activities
 # Editable - Timeframe for this phase
 #
 timeframe: |
-  Start the project by putting a time constraint on your *Research and Discovery* work. Plan to spend
-  * 2 to 4 weeks for a new feature
-  * 4 to 8 weeks for a new service
+  * Start the project by putting a time constraint on your *Research and Discovery* work. Plan to spend
+    * 2 to 4 weeks for a new feature
+    * 4 to 8 weeks for a new service
 #
 # Don't edit items below - they control the page layout
 #

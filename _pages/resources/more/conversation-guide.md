@@ -21,8 +21,7 @@ permalink: /resources/more/conversation-guide
 
 The conversation guide is a guide; it's not meant to be a script. Each research session with a participant will evolve organically. Use the conversation guide to keep track of the questions you want your participants to answer.
 
-See an <a title="Go to example" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/conversation-guide.md" target="_blank">example conversation guide</a>.
-({{ site.vets-team }})
+See an <a title="Go to example" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/conversation-guide.md" target="_blank">example conversation guide</a> ({{ site.vets-team }}).
 
 <hr>
 
@@ -37,8 +36,7 @@ See an <a title="Go to example" href="https://github.com/department-of-veterans-
 * If the tool you're using plays sounds when people enter and exit, set this option to off.
 
 * Check your setup and that screensharing works.
-  * <a title="Go to tips" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/remote-work/sharing-your-screen.md" target="_blank">Tips for using GoToMeeting</a> (but useful guidance for any tool)
-  {{ site.vets-team }}
+  * <a title="Go to tips" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/remote-work/sharing-your-screen.md" target="_blank">Tips for using GoToMeeting</a>, but useful guidance for any tool ({{ site.vets-team }})
 
 * Project-specific setup
   * Include links to session artifacts, e.g., a clickable prototype

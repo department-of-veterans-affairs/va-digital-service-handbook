@@ -5,7 +5,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Content guide
-description: Learn about the Veteran Tools Platform content strategy. Find content resources, tools, and examples you can use throughout the Digital Delivery lifecycle.
+description: Learn about the Veteran Tools Platform content strategy. Find content resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
@@ -56,7 +56,7 @@ Our content style guide evolves as we learn new information about how Veterans t
 
 DSVA content resources are available to provide guidance and support throughout development and deployment.
 
-* For process-related questions, ask in the *#support-external* Slack channel.
+* For process-related questions, ask in the *#{{site.slack.support}}* Slack channel.
 * For content-related questions, ask in your team's "Product" Slack channel.
 
 <hr>

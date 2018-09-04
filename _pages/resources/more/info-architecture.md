@@ -68,7 +68,7 @@ The IA determines where in the Veteran Tools Platform your service will live, an
 
 #### Test the proposed IA with Veterans
 
-* Your service's IA should map to Veteran mental models &mdash; even (and especially) if this differs from how VA thinks about your service.
+* Your service's IA should map to Veteran mental models &mdash; even if this differs from how VA thinks about your service.
 
 * Use card sorting, tree testing, or user interviews to test the IA.
 

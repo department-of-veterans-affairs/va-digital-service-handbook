@@ -28,52 +28,73 @@ permalink: /delivery/build-and-test/activities
 #
 ---
 
-<!--
 ### Key questions to answer
 
+* Which user stories for the MVP are best suited to address basic user needs?
 
+* Does the technical solution work at scale, and do its integrations with other services work well?
 
-<hr>
--->
+* Is the MVP solution consistent with other Veteran Tools Platform design patterns?
 
-### Activities
+* Is the MVP solution accessible?
 
-Map out a *Build and Test* plan that groups the user stories and features from your backlog into small, testable chunks that you can build, deploy, and test iteratively.
+* Which metrics make sense to measure the success of the MVP?
 
-#### 1. Develop incrementally by coding locally and deploying to staging as you go.
-
-* See the <a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">example development workflow</a>.
-
-* Do automated testing each time you deploy to staging.
-
-  * <a title="Go to 508 testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/automated-testing" target="_blank">Automated accessibility (508 compliance) testing</a>
-  * <a title="Go to testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/tests" target="_blank">Automated unit and end-to-end tests</a>
-
-#### 2. Plan and conduct [research sprints]({{site.baseurl}}/resources/user-research#plan-a-research-sprint).
-
-  * Focus on <a title="Go to usability testing" href="https://methods.18f.gov/validate/usability-testing/" target="_blank">usability testing</a> to ensure that your staged user stories and features work well for your users.
-
-  * Analyze and synthesize the user feedback you've collected.
-  * Document your research findings.
-  * Use your research findings to refine your *Build and Test* plan &mdash; adjusting existing features and adding new features (if these are critical to supporting your users' basic needs).
-
-#### 3. Repeat this cycle
-
-  * *Until* you've deployed all the features you planned for the MVP service
-
-  * *Or, until* the MVP provides value by meeting basic user needs
+* What business or policy changes are needed for the MVP?
 
 <hr>
 
-### Preparing to launch the MVP
+### MVP activities
+
+* Create a *Build and Test* plan that groups the user stories and features you've identified for the MVP into small, testable chunks that you can build, deploy, and test iteratively.
+
+* **[Define the information architecture]({{site.baseurl}}/resources/more/info-architecture)** for your MVP.
+
+* **[Request a preliminary ATO assessment]({{site.baseurl}}/resources/more/ato#request-a-preliminary-ato-assessment)** for your MVP.
+
+* **<a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">Incrementally develop, deploy, and test</a>** small chunks of the MVP.
+
+  1. Code locally and deploy to staging (with automated testing).
+
+      * <a title="Go to 508 testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/automated-testing" target="_blank">Automated accessibility (508 compliance) testing</a>
+
+      * <a title="Go to testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/tests" target="_blank">Automated unit and end-to-end tests</a>
+
+  1. **Conduct [user research]({{site.baseurl}}/resources/user-research#plan-a-research-sprint)** to test the deployed features.
+
+      * Focus on <a title="Go to usability testing" href="https://methods.18f.gov/validate/usability-testing/" target="_blank">usability testing</a> to ensure that your staged user stories and features work well for your users.
+
+      * Analyze and synthesize the user feedback you've collected.
+
+      * Document your research findings.
+
+      * Use your research findings to refine your *Build and Test* plan &mdash; adjusting existing features and adding new features (if these are critical to supporting your users' basic needs).
+
+  3. Repeat the cycle of developing incrementally and conducting user research until one of the following is true
+
+      * You've deployed all the features you planned for the MVP service
+
+      * The MVP provides value by meeting basic user needs
+
+* When you've deployed and tested all your MVP features, **[complete the Pre-launch activities](#pre-launch-activities)**.
+
+* Define the metrics you'll use to measure the success of the MVP.
+
+* Create a prioritized backlog of features you plan to build after the MVP launches.
+
+* Create a plan for the *Learn and Improve* phase &#8212; how you’ll monitor, evaluate, user research/test, and build from your backlog.
+
+<hr>
+
+### Pre-launch activities
 
 **Note**: Some of these tasks impact one another. For example, if you change the information architecture, you'll need to test and QA again, and you may need to update the metrics you've set up in Google Analytics.
 
 1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
 
-2. Request a [security review]({{site.baseurl}}/resources/more/ato#request-a-security-review) and a [Final ATO review]({{site.baseurl}}/resources/more/ato#request-a-final-ato-review)
+2. Request a [security review]({{site.baseurl}}/resources/more/ato#request-a-security-review) and a [Final ATO review]({{site.baseurl}}/resources/more/ato#request-a-final-ato-review).
 
-3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom)
+3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
 4. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>.
 

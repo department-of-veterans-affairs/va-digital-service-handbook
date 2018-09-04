@@ -19,9 +19,9 @@ page-next: activities
 # Editable - Timeframe for this phase
 #
 timeframe: |
-  Different services will spend different amounts of time in the *Prototype* phase, depending on the complexity of what the team needs to prototype and test. In general, plan to spend
-  * 2 to 4 weeks for a new feature
-  * 6 to 8 weeks for a new service
+  * Different services will spend different amounts of time in the *Prototype* phase, depending on the complexity of what the team needs to prototype and test. In general, plan to spend
+    * 2 to 4 weeks for a new feature
+    * 6 to 8 weeks for a new service
 #
 # Don't edit items below - they control the page layout
 #
@@ -42,7 +42,7 @@ permalink: /delivery/prototype/index.html
 * The primary outcome of the *Prototype* phase is *a clear definition of your **Minimum Viable Product (MVP)** and a solid plan for how you'll build it.*
   <blockquote class="plain-blockquote">
   <b>The MVP is the first working version of your service</b>, which you'll build in the next phase &mdash; <i>Build and Test</i>.
-  <br/><br/>Your MVP will be the smallest set of working functionality you can build that provides value to your users &mdash; by meeting basic user needs.
+  <br/><br/>Your MVP will be the smallest set of working functionality you can build that provides value to your users by meeting basic user needs.
   <br/><br/>The <i>Prototype</i> phase is about figuring out what those basic user needs are, and how you'll meet them.
   </blockquote>
 

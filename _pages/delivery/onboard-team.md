@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Getting started
-description: Get your team set up with the tools and resources they'll need throughout the Digital Delivery lifecycle.
+description: Get your team set up with the tools and resources they'll need throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Pagination for bottom of page
 #
@@ -33,7 +33,7 @@ We're excited that your team will be building an application (or feature) on the
 
 #### To get started, your team's
 
-* Project manager should <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/tree/master/external-contractor-onboarding" target="blank">follow the steps in our onboarding guide</a>.
+* Project manager should <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/tree/master/External-Contractor-Onboarding" target="blank">follow the steps in our onboarding guide</a>.
 
 * Designers should [review the design guide]({{site.baseurl}}/resources/design)
 

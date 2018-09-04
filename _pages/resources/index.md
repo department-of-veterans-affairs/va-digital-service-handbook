@@ -6,7 +6,7 @@
 # Title and Description display on the page and in HTML meta tags
 #
 title: Resources
-description: Guidance, tips, and examples of specific activities you can use throughout the Digital Delivery lifecycle.
+description: Guidance, tips, and examples of specific activities you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - list of guides to include on this page
 # Don't need to edit anything but the "guides" section below
