@@ -10,21 +10,27 @@ Contact @ehuntdsva for any questions, comments, or feedback.
 Add link here..
 
 
-
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
+
 
 #### Development
 
 This is a Jekyll-built static site.
 
 1. Clone/fork this repo.
-2. For best results (urls work correctly), run locally at 127.0.0.1:4000
+2. For best results (urls work correctly), run locally at 127.0.0.1:4000/va-digital-service-handbook/
 
     ```
-    jekyll serve --watch --baseurl ""
+    bundle exec jekyll serve
     ```
+
+3. Whenever you make a change to content, also change the ```modified-date``` in the yml at the top of the relevant ```.md``` file.
+
+    * The ```modified-date``` is pulled into the ```footer.html``` include for all pages, except for the Home page.
+    * For the Home page, the ```modified-date``` is pulled into the ```home.html``` layout.
+
 
 ## License
 
