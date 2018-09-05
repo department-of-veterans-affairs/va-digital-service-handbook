@@ -1,5 +1,7 @@
 ---
 #
+modified-date: September 4, 2018
+#
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
 #
@@ -19,7 +21,13 @@ permalink: /resources/more/marcom
 
 ### Marketing and communications
 
-#### In progress !
+content in progress
+
+<hr>
+
+### Other sections
+
+content in progress
 
 <!--
 OTHER BITS

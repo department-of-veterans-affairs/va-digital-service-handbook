@@ -1,5 +1,7 @@
 ---
 #
+modified-date: September 4, 2018
+#
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
 #
@@ -31,9 +33,13 @@ Begin by stating what you believe to be true about your users, their challenges,
 
 In discovery, you won't ***know the answers*** to these questions. But it's best to be explicit about your current hypotheses. The problem statement (and solution hypothesis) will evolve as you learn new information through research and technical discovery. That's part of the process &mdash; keep refining both as your project moves forward.
 
+<hr>
+
 ### Example problem statement
 
 As a Veteran, I want to be able to receive benefits and discounts that I’m entitled to with my Veteran status. Right now, I have to carry around my DD214 to prove my Veteran status. But it’s risky to do so because it contains a lot of personal information that would be exposed if I lost my DD214.
+
+<hr>
 
 ### Example solution hypothesis
 

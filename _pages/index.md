@@ -1,9 +1,14 @@
 ---
 #
+modified-date: September 4, 2018
+#
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
 #
-# See layouts/home.html for Title + Description
+# Title displays on the page and in HTML meta tags
+title: Welcome
+#
+# See layouts/home.html for Site Title + Description
 #
 # Editable - SECTION CONTENT
 #

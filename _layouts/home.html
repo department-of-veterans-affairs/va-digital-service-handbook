@@ -1,9 +1,6 @@
 ---
 layout: base
 #
-# Title displays on the page and in HTML meta tags
-title: Welcome
-#
 # site.title + site.tagline in header are defined in config.yml
 #
 ---
@@ -77,9 +74,12 @@ title: Welcome
         <div class="usa-alert-body">
           <h4 class="usa-alert-heading">{{ page.alert-title}}</h4>
           <p class="usa-alert-text">{{ page.alert-copy }}</p>
+          <br/><span class="modified-date">Page last updated: {{ page.modified-date }}</span>
         </div>
       </div>
+
     </div>
 
   </div>
+
 </section>

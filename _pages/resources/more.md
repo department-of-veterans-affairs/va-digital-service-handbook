@@ -1,5 +1,7 @@
 ---
 #
+modified-date: September 4, 2018
+#
 # This page automatically lists all files in the /resources/more folder. No need to edit.
 #
 # Supporting documents (pdfs, docx, etc) should go in /resources/docs.

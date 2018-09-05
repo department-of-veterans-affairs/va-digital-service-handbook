@@ -1,12 +1,27 @@
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
-{% if page.return-top == true %}
+
+{% if page.title != "Welcome" %}
+
   <div class="usa-grid usa-footer-return-to-top">
+
+  {% if page.return-top == true %}
+
     <a href="#">Return to top</a>
+
+    <p class="modified-date">Page last updated: {{ page.modified-date }}</p>
+
+  {% else %}
+
+    <span class="modified-date">Page last updated: {{ page.modified-date }}</span>
+
+  {% endif %}
+
   </div>
+
 {% endif %}
+
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
-
       <div class="footer-half usa-footer-logo">
         <div class="footer-group">
           <img src="{{ '/assets/img/logo/logo-dsva.png' | relative_url }}" alt="" />
