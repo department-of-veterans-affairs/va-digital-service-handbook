@@ -125,7 +125,7 @@ Create a research plan at the start of each *Digital Delivery* phase. Then regul
 #### 3. Recruit, screen, and obtain consent  
 
 * Create a list of the criteria people must meet in order to match the participant types you've identified.
-* Use <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/User-Research/recruiting.md#screening-participants-for-external-contractors" target="_blank">the DSVA screening process</a> to create a pool of potential participants.
+* Use [the DSVA screening process](../user-research#participant-recruiting) to create a pool of potential participants.
 * Phone potential participants to make sure they meet your screener criteria.
 * Once you've identified the best participants, [get their consent to participate](../user-research#participant-consent) in the research study.
 
