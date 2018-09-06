@@ -124,22 +124,10 @@ Create a research plan at the start of each *Digital Delivery* phase. Then regul
 
 #### 3. Recruit, screen, and obtain consent  
 
-* **Recruit**
-
-  * Start recruiting at least 2 weeks before you plan to run the research sessions.
-
-  * Use your team's existing recruiting methods and practices. Be sure your recruiting pool includes the kinds of Veterans you need for this study.
-
-  * You can also recruit Veteran participants in person at Veteran-focused events, through VSO relationships, or through your personal networks and social media.
-    * <a title="Go to examples" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Research/Request%20or%20Do%20Research/PRA%20and%20Recruiting/Outreachrecruiting-language-proposed.md" target="_blank">Examples of recruiting emails at different points in the recruiting process</a> ({{site.vets-team}}).
-
-* **Screen**
-
-  * Create a list of the criteria people must meet in order to match the participant types you've identified.
-  * Then get in touch with potential participants to make sure they meet your screener criteria.
-  * You can use the <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Research/Request%20or%20Do%20Research/PRA%20and%20Recruiting/PRA/Screener%20Questionnaire%202900-0770/Digital%20Service%20User%20Screener%20Questionnaire.docx" target="_blank">DSVA screener form</a> ({{site.vets-team}}).
-
-* **[Obtain consent](../user-research#participant-consent)**
+* Create a list of the criteria people must meet in order to match the participant types you've identified.
+* Use <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/User-Research/recruiting.md#screening-participants-for-external-contractors" target="_blank">the DSVA screening process</a> to create a pool of potential participants.
+* Phone potential participants to make sure they meet your screener criteria.
+* Once you've identified the best participants, [get their consent to participate](../user-research#participant-consent) in the research study.
 
 #### 3. Prepare for the research sessions
 

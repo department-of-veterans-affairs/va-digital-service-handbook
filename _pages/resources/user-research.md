@@ -16,7 +16,7 @@ sections:
   - Expectations
   - The Paperwork Reduction Act
   - Participant privacy
-  - Participant screening
+  - Participant recruiting
   - Participant consent
   - Participant thank-yous
   - User research activities
@@ -60,7 +60,6 @@ If you have any questions, ask your DSVA contact.
 
 The <a href="https://www.opm.gov/about-us/open-government/digital-government-strategy/fitara/paperwork-reduction-act-guide.pdf" target="_blank">Paperwork Reduction Act (PRA)</a> limits the burden placed on people when interacting with the federal government. To avoid violating the PRA, follow the guidelines below.
 
-
 #### User research
 
 1. Research activities involving "direct observation" are **exempt from PRA**.
@@ -84,6 +83,11 @@ If your team is working on an existing VA form, your researchers and designers w
 
 1. *If you aren't sure if your design changes qualify as "de minimis," ask your DSVA contact.*
 
+#### PRA references
+
+* <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/inforeg/memos/2014/appendix-data-search-tools-calculators.pdf" target="_blank">Types of data collection exempt from PRA</a>
+* <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/inforeg/memos/2015/behavioral-science-insights-and-federal-forms.pdf" target="_blank">Explanation of "de minimis" changes</a>
+* <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/PRAPrimer_04072010.pdf" target="_blank">General PRA primer</a>
 
 <a href="#">Return to top</a>
 
@@ -113,15 +117,14 @@ All information about research participants, including what they say and do duri
 <hr>
 
 
-### Participant screening
+### Participant recruiting
 
-Recruiting screeners (paper or digital) are subject to PRA.
+**All teams are required to follow <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/User-Research/recruiting.md#screening-participants-for-external-contractors" target="_blank">the DSVA screening process</a> for any research study related to the Veteran Tools Platform.** 
 
-The DSVA team has OMB clearance to use <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Research/Request%20or%20Do%20Research/PRA%20and%20Recruiting/PRA/Screener%20Questionnaire%202900-0770/Digital%20Service%20User%20Screener%20Questionnaire.docx" target="_blank">this form as a recruiting screener</a> ({{site.vets-team}}).
+After you've screened participants, follow your normal recruiting process.
 
-* Your team may use the same form to recruit participants for your project.
+If your team doesn't have an existing recruiting process, see <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/User-Research/recruiting.md#tips" target="_blank">tips for recruiting</a>.
 
-* **The form must be sent to participants as is with no modifications.** Any changes you make to this form will violate the PRA.
 
 <a href="#">Return to top</a>
 
