@@ -190,13 +190,27 @@ Follow best practices.
 * Arrange a time with your team and your stakeholders to go over the findings in your research readout.
 
 #### 3. Document your research
-Be sure to document the following in your team's Github "Product" folder:
 
-* Research sprint plan
-* Recordings of research sessions &mdash; scrub any PII (names, addresses, emails, etc.) from these before putting them on Github
-* Session notes - any notes taken by the Notetaker and Observers (scrub any PII before posting)
-* Notes, photos, etc. from the team's synthesis activities
-* Your research readout
+* Document the following in your team's Github "Product" folder:
+
+  * Research sprint plan
+  * Recordings of research sessions &mdash; scrub any PII (names, addresses, emails, etc.) from these before putting them on Github (see the important note below).
+  * Session notes - any notes taken by the Notetaker and Observers (scrub any PII before posting)
+  * Notes, photos, etc. from the team's synthesis activities
+  * Your research readout
+
+* Participant recordings
+
+  * **You must scrub all PII (names, addresses, emails, etc.) from participant video and audio recordings.**
+    * Due to the nature of the research questions, some recordings contain a lot of PII. 
+    * Use your best judgement here. If there's so much PII that the recording loses meaning without it, don't upload it.
+  * After scrubbing PII, do the following:
+     1. Create a message in your team's Slack channel (e.g., *#claimsmodern*) and upload the file.
+     1. Copy the link to the Slack message (click the "three dots" icon and choose "Copy link").
+     1. Create a new Github page called "Participant Recordings" in your team's Github *Product/Research* folder. <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Declare%20Dependent%20686/Design/Usability%20Research%20April%202018/686%20usability%20recordings.md" target="_blank">See an example</a>.
+       * List each participant on that page.
+       * Link each participant to the link you copied for each file uploaded to Slack.
+     1. Then create a new entry on the <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Research/Research%20History.md" target="_blank">Research History" page</a> by following the instructions at the top of that page.
 
 <a href="#">Return to top</a>
 
