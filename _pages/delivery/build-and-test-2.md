@@ -94,7 +94,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
 
-2. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Security-and-ATO/README.md#request-a-final-ato-review" target="_blank">Final ATO review</a>.
+2. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Security-and-ATO/README.md#request-a-pre-launch-ato-review" target="_blank">Pre-launch ATO review</a>.
 
 3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
