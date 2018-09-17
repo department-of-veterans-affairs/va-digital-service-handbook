@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 17, 2018
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
@@ -52,7 +52,7 @@ permalink: /delivery/build-and-test/activities
 
 * **[Define the information architecture]({{site.baseurl}}/resources/more/info-architecture)** for your MVP.
 
-* **[Request a preliminary ATO assessment]({{site.baseurl}}/resources/more/ato#request-a-preliminary-ato-assessment)** for your MVP.
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Security-and-ATO/README.md#request-a-preliminary-ato-assessment" target="_blank">Request a preliminary ATO assessment</a>** for your MVP.
 
 * **<a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">Incrementally develop, deploy, and test</a>** small chunks of the MVP.
 
@@ -94,7 +94,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
 
-2. Request a [security review]({{site.baseurl}}/resources/more/ato#request-a-security-review) and a [Final ATO review]({{site.baseurl}}/resources/more/ato#request-a-final-ato-review).
+2. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Security-and-ATO/README.md#request-a-final-ato-review" target="_blank">Final ATO review</a>.
 
 3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
