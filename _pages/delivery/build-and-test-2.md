@@ -50,9 +50,9 @@ permalink: /delivery/build-and-test/activities
 
 * Create a *Build and Test* plan that groups the user stories and features you've identified for the MVP into small, testable chunks that you can build, deploy, and test iteratively.
 
-* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/info-arch.md#prepare-for-an-ia-review" target="_blank">Define the information architecture</a>** for your MVP.
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ia-review.md#prepare-for-an-ia-review" target="_blank">Define the information architecture</a>** for your MVP.
 
-* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/info-arch.md#request-an-ia-review" target="_blank">Request an IA Review</a>** for your MVP.
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ia-review.md#request-an-ia-review" target="_blank">Request an IA Review</a>** for your MVP.
 
 * **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ato-reviews.md#request-a-preliminary-ato-review" target="_blank">Request a preliminary ATO review</a>** for your MVP.
 
@@ -94,7 +94,7 @@ permalink: /delivery/build-and-test/activities
 
 **Note**: Some of these tasks impact one another. For example, if you change the information architecture, you'll need to test and QA again, and you may need to update the metrics you've set up in Google Analytics.
 
-1. If you've made any changes to your service's information architecture (page titles, URLs, navigation) since your last IA Review with DSVA, you must <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/info-arch.md#request-an-ia-review" target="_blank">request another IA Review</a>.
+1. If you've made any changes to your service's information architecture (page titles, URLs, navigation) since your last IA Review with DSVA, you must <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ia-review.md#request-an-ia-review" target="_blank">request another IA Review</a>.
 
 1. Request <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-508-review.md" target="_blank">an Accessibility/508 review</a>.
 
