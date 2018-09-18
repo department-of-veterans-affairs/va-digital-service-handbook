@@ -52,8 +52,6 @@ permalink: /delivery/build-and-test/activities
 
 * **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ia-review.md#prepare-for-an-ia-review" target="_blank">Define the information architecture</a>** for your MVP.
 
-* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ia-review.md#request-an-ia-review" target="_blank">Request an IA Review</a>** for your MVP.
-
 * **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ato-reviews.md#request-a-preliminary-ato-review" target="_blank">Request a preliminary ATO review</a>** for your MVP.
 
 * **<a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">Incrementally develop, deploy, and test</a>** small chunks of the MVP.
@@ -80,7 +78,15 @@ permalink: /delivery/build-and-test/activities
 
       * The MVP provides value by meeting basic user needs
 
-* When you've deployed and tested all your MVP features, **[complete the Pre-launch activities](#pre-launch-activities)**.
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ia-review.md#request-an-ia-review" target="_blank">Request an IA Review</a>** for your MVP.
+
+
+* When you've deployed and tested all your MVP features on staging, 
+  * **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-design-qa.md" target="_blank">Request a Design QA</a>**.
+
+  * **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-content-qa.md" target="_blank">Request a Content QA</a>**.
+
+  * **[Complete the Pre-launch activities](#pre-launch-activities)**.
 
 * Define the metrics you'll use to measure the success of the MVP.
 
