@@ -104,13 +104,13 @@ permalink: /delivery/build-and-test/activities
 
 1. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ato-reviews.md#request-a-pre-launch-ato-review" target="_blank">Pre-launch ATO review</a>.
 
+1. Load test your service.
+
 1. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
 1. Perform [user acceptance testing (UAT)]({{site.baseurl}}/resources/more/uat).
 
 1. Review your MVP with the [Call Center]({{site.baseurl}}/resources/more/call-center).
-
-<!--1. Load test your service.-->
 
 <!--1. Set up [live service details]({{site.baseurl}}/resources/more/service-details).-->
 
