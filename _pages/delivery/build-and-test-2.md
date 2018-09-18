@@ -50,9 +50,11 @@ permalink: /delivery/build-and-test/activities
 
 * Create a *Build and Test* plan that groups the user stories and features you've identified for the MVP into small, testable chunks that you can build, deploy, and test iteratively.
 
-* **[Define the information architecture]({{site.baseurl}}/resources/more/info-architecture)** for your MVP.
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/info-arch.md#prepare-for-an-ia-review" target="_blank">Define the information architecture</a>** for your MVP.
 
-* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Security-and-ATO/README.md#request-a-preliminary-ato-assessment" target="_blank">Request a preliminary ATO assessment</a>** for your MVP.
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/info-arch.md#request-an-ia-review" target="_blank">Request an IA Review</a>** for your MVP.
+
+* **<a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ato-reviews.md#request-a-preliminary-ato-review" target="_blank">Request a preliminary ATO review</a>** for your MVP.
 
 * **<a title="Go to developer workflow" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/development-workflow.html" target="_blank">Incrementally develop, deploy, and test</a>** small chunks of the MVP.
 
@@ -92,23 +94,25 @@ permalink: /delivery/build-and-test/activities
 
 **Note**: Some of these tasks impact one another. For example, if you change the information architecture, you'll need to test and QA again, and you may need to update the metrics you've set up in Google Analytics.
 
-1. Finalize the [information architecture]({{site.baseurl}}/resources/more/info-architecture) for your service.
+1. If you've made any changes to your service's information architecture (page titles, URLs, navigation) since your last IA Review with DSVA, you must <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/info-arch.md#request-an-ia-review" target="_blank">request another IA Review</a>.
 
-2. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Security-and-ATO/README.md#request-a-pre-launch-ato-review" target="_blank">Pre-launch ATO review</a>.
+1. Request <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-508-review.md" target="_blank">an Accessibility/508 review</a>.
 
-3. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
+1. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>.
 
-4. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>.
+1. Set up <a title="Go to Google Analytics setup" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/google-analytics" target="_blank">Google Analytics</a>.
 
-5. Set up and test <a title="Go to Google Analytics setup" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/google-analytics" target="_blank">Google Analytics</a>.
+1. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ato-reviews.md#request-a-pre-launch-ato-review" target="_blank">Pre-launch ATO review</a>.
 
-6. Load test your service.
+1. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
-7. Perform [user acceptance testing (UAT)]({{site.baseurl}}/resources/more/uat).
+1. Perform [user acceptance testing (UAT)]({{site.baseurl}}/resources/more/uat).
 
-8. Set up [live service details]({{site.baseurl}}/resources/more/service-details).
+1. Review your MVP with the [Call Center]({{site.baseurl}}/resources/more/call-center).
 
-9. Review your MVP with [VA's 508 office]({{site.baseurl}}/resources/more/va508).
+<!--1. Load test your service.-->
 
-10. Review your MVP with the [Call Center]({{site.baseurl}}/resources/more/call-center).
+<!--1. Set up [live service details]({{site.baseurl}}/resources/more/service-details).-->
+
+
 <br/>
