@@ -11,7 +11,7 @@
       {% if subitem.tertitems %}
 
 {% comment %}
-Global nav needs "index.html" to avoid problem where https is stripped when there are tertiary items with the result that the the page is blocked by the VA network. But to make subnav work, need to remove "index.html." So...remove "index.html" from subitem.linkto and assign it to "newlinkto." 
+Global nav needs "index.html" to avoid problem where https is stripped when there are tertiary items with the result that the the page is blocked by the VA network. But to make subnav selected states work correctly for tertiary pages, need to remove "index.html." So...remove "index.html" from subitem.linkto and assign it to "newlinkto." 
 {% endcomment %}
 
 {% if subitem.linkto contains "index.html" %}
