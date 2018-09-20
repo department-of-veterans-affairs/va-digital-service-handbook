@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 20, 2018
+modified-date: September 4, 2018
 #
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
@@ -15,7 +15,7 @@ title: Welcome
 section-1-image: assets/img/home-section-1.png
 section-1-title: Modern, user&#8209;friendly digital services
 section-1-link: digital-standards
-section-1-alt: Design modern, user-friendly digital services!
+section-1-alt: Design modern, user-friendly digital services
 section-1-copy: The <a title="Digital Standards" href="/va-digital-service-handbook/digital-standards">Digital Standards</a> describe the quality standards for modern, user&#8209;friendly digital services on the Veteran Tools Platform.
 #
 section-2-image: assets/img/home-section-2.png
