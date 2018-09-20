@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 19, 2018
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
@@ -45,7 +45,7 @@ permalink: /resources/user-research
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "User Research" as a skillset (see [Team Structure]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran Tools Platform are required to have "User Research" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
 Teams working on the Veteran Tools Platform are responsible for conducting their own user research studies, including recruiting. User research/testing studies must adhere to the guidelines laid out in this User Research guide.
 
@@ -119,11 +119,11 @@ All information about research participants, including what they say and do duri
 
 ### Participant recruiting
 
-**All teams are required to follow <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/User-Research/recruiting.md#screening-participants-for-external-contractors" target="_blank">the DSVA screening process</a> for any research study related to the Veteran Tools Platform.** 
+**All teams are required to follow <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-recruiting-screener.md#general" target="_blank">the DSVA screening process</a> for any research study related to the Veteran Tools Platform.** 
 
 After you've screened participants, follow your normal recruiting process.
 
-If your team doesn't have an existing recruiting process, see <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/User-Research/recruiting.md#tips" target="_blank">tips for recruiting</a>.
+If your team doesn't have an existing recruiting process, see <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-recruiting-screener.md#tips" target="_blank">tips for recruiting</a>.
 
 
 <a href="#">Return to top</a>

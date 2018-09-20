@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 19, 2018
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
@@ -43,7 +43,7 @@ permalink: /resources/design
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "User Experience Design" as a skillset (see [Team Structure]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran Tools Platform are required to have "User Experience Design" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
 Teams working on the Veteran Tools Platform are responsible for all design activities, including UX, UI, and visual design. Design activities must adhere to the guidelines laid out in this Design guide.
 
@@ -63,13 +63,13 @@ All services on the Veteran Tools Platform must work well in desktop, tablet, an
 
 As we've built out the Veteran Tools Platform, we've focused the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> on the immediate design tasks. This means we have not designed for every possible VA scenario.
 
-In your work, you may find a need for a new design pattern. If that happens, [contact the DSVA team](../../contact), and we'll work together to solve it.
+In your work, you may find a need for a new design pattern. If that happens, reach out to your DSVA contact, and we'll work together to design it.
 
 **Using the patterns as designed**
 
 The design patterns are meant to be used as solutions to specific design patterns. For instance, the "what does this mean?" pattern is meant to be used in that context only. We don't want it to be used in a "get more information" context.
 
-If you have any questions about how or when to use specific design patterns, [contact the DSVA team](../../contact).
+If you have any questions about how or when to use specific design patterns, ask your DSVA contact.
 
 <a href="#">Return to top</a>
 
@@ -110,7 +110,7 @@ People get frustrated entering data repeatedly, especially if it is stuff they t
 
 Every VA paper form has at least one signature line. Our approach is that when a user agrees to terms in a form and/or submits a form, those actions stand in for the person's literal signature.
 
-We have not yet dealt with multi-party signatures. If you come need for a multi-party signature, [contact the DSVA team](../../contact)), and we'll figure it out together.
+We have not yet dealt with multi-party signatures. If you come need for a multi-party signature, reach out to your DSVA contact, and we'll design it out together.
 
 <a href="#">Return to top</a>
 

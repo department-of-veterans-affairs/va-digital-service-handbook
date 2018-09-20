@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 19, 2018
 #
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
@@ -39,7 +39,7 @@ We're excited that your team will be building an application (or feature) on the
 
 * Designers should [review the design guide]({{site.baseurl}}/resources/design)
 
-* Content Writers and Designers should review <a href="https://github.com/department-of-veterans-affairs/vets.gov-content-style-guide" target="_blank">the content style guide</a>
+* Content Writers and Designers should [review the content guide]({{site.baseurl}}/resources/content)
 
 * Developers and other technical roles should review [the technical guide]({{site.baseurl}}/resources/technical)
 

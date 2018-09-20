@@ -58,9 +58,9 @@ permalink: /delivery/build-and-test/activities
 
   1. Code locally and deploy to staging (with automated testing).
 
-      * <a title="Go to 508 testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/automated-testing" target="_blank">Automated accessibility (508 compliance) testing</a>
+      * <a title="Go to 508 testing" href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Testing/508-automated-testing.md" target="_blank">Automated accessibility (508 compliance) testing</a>
 
-      * <a title="Go to testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/tests" target="_blank">Automated unit and end-to-end tests</a>
+      * <a title="Go to testing" href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Testing/unit-testing.md" target="_blank">Automated unit testing</a> and <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Testing/end-to-end-testing.md" target="_blank">automated end-to-end testing</a>
 
   1. **Conduct [user research]({{site.baseurl}}/resources/user-research#plan-a-research-sprint)** to test the deployed features.
 
@@ -104,7 +104,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Request <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-508-review.md" target="_blank">an Accessibility/508 review</a>.
 
-1. Conduct <a title="Go to qa testing" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/building-and-testing/qa" target="_blank">end-to-end QA testing</a>.
+1. Conduct <a title="Go to qa testing" href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Testing/cross-browser-manual-testing.md" target="_blank">cross-browser QA testing</a>.
 
 1. Set up <a title="Go to Google Analytics setup" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/google-analytics" target="_blank">Google Analytics</a>.
 

@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 19, 2018
 #
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
@@ -60,7 +60,7 @@ Throughout the *Digital Delivery* lifecycle, teams engage with Veterans by:
 
 <!--- image/diagrams illustrate process with explanations and links-->
 
-1. **Make sure [your team includes the skillsets]({{site.baseurl}}/resources/more/team-structure)** you'll need throughout the *Digital Delivery* lifecycle.
+1. **Make sure [your team includes the skillsets]({{site.baseurl}}/resources/more/team-structure#team-roles)** you'll need throughout the *Digital Delivery* lifecycle.
 
 1. **[Complete the onboarding steps]({{site.baseurl}}/delivery/onboard-team)** to get your team set up with the tools they need to work on the Veteran Tools Platform.
 

@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 19, 2018
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
@@ -41,7 +41,7 @@ permalink: /resources/technical
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "Technical" as a skillset, including architecture, development, quality assurance, testing, and deployment (see [Team Structure]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran Tools Platform are required to have "Technical" as a skillset, including architecture, development, quality assurance, testing, and deployment (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
 Teams working on the Veteran Tools Platform are responsible for building services that follow guidelines in this Technical guide and in the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">Veteran Tools Platform Developer Documentation</a>.
 

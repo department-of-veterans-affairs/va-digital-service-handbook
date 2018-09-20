@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 19, 2018
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
@@ -38,7 +38,7 @@ permalink: /resources/content
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "Content Strategy/Writing" as a skillset (see [Team Structure]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran Tools Platform are required to have "Content Strategy/Writing" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
 Teams working on the Veteran Tools Platform are responsible for creating well-written, plain language content for their services. This content must adhere to the guidelines and rules laid out in the Content Style Guide.
 
