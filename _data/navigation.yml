@@ -21,7 +21,7 @@
       alt: Onboard team
 
     - title: Research and Discovery
-      linkto: /delivery/research-and-discovery
+      linkto: /delivery/research-and-discovery/index.html
       alt: Research and Discovery
       show-tertitems: yes
       tertitems:
@@ -36,7 +36,7 @@
         alt: Research + Discovery checklist
 
     - title: Prototype
-      linkto: /delivery/prototype
+      linkto: /delivery/prototype/index.html
       alt: Prototype
       show-tertitems: yes
       tertitems:
@@ -51,7 +51,7 @@
         alt: Prototype Checklist
 
     - title: Build and Test
-      linkto: /delivery/build-and-test
+      linkto: /delivery/build-and-test/index.html
       alt: Build and Test
       show-tertitems: yes
       tertitems:
@@ -66,7 +66,7 @@
         alt: Build and Test Checklist
 
     - title: Learn and Improve
-      linkto: /delivery/learn-and-improve
+      linkto: /delivery/learn-and-improve/index.html
       alt: Learn and Improve
       show-tertitems: yes
       tertitems:
