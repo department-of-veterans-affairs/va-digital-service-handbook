@@ -10,10 +10,17 @@
 
       {% if subitem.tertitems %}
 
-      <li class="sidebar-button{% if page.url contains subitem.linkto %} accordion-current{% endif %}">
+{% comment %}
+Global nav needs "index.html" to avoid problem where https is stripped when there are tertiary items with the result that the phe page is blocked by the VA network. But to make subnav work, need to remove "index.html." So...remove "index.html" from subitem.linkto and assign it to "newlinkto." 
+{% endcomment %}
+
+{% if subitem.linkto contains "index.html" %}
+{% assign newlinkto = subitem.linkto | remove: "index.html" %}
+{% endif %}
+      <li class="sidebar-button{% if page.url contains newlinkto %} accordion-current{% endif %}">
 
         <button class="usa-accordion-button"
-          aria-expanded="{% if page.url contains subitem.linkto %}true{% endif %}"
+          aria-expanded="{% if page.url contains newlinkto %}true{% endif %}"
           aria-controls="{{subitem.linkto}}">
           {{subitem.title}}
         </button>
