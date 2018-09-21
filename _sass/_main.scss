@@ -566,7 +566,7 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
   }
 
   .usa-sidenav-list a.level-1-current {
-    border-left: .4rem solid $color-black-light;
+    border-left: .4rem solid $color-red;
     color: $color-black-light;
     font-weight: 600;
     margin-left: -.4rem;
@@ -577,7 +577,7 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
   
 
   .accordion-current {
-    border-left: .4rem solid $color-black-light;
+    border-left: .4rem solid $color-red;
     margin-left: -.4rem;
     width: calc(100% + .4rem);
     .usa-accordion-button {
@@ -588,6 +588,10 @@ At sizes above 1201, why doesn't the one-fourth column resize smaller so it does
   .sidebar-button .usa-accordion-button[aria-expanded=true] {
     font-weight: 600;
     background-color: $color-gray-lightest;
+  }
+
+  .accordion-current .usa-accordion-button[aria-expanded=true] {
+    color: $color-blue;
   }
 
   .sidebar-button .usa-accordion-button:hover {
