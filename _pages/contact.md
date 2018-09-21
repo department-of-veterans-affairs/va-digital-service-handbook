@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 4, 2018
+modified-date: September 20, 2018
 #
 # You can use Markdown in the editable content below the three dashes (---)
 #
@@ -13,11 +13,9 @@ description: Contact us with feedback, comments, or questions.
 #
 return-top: no
 layout: no-sidebar
-page-type: page
+page-type: subpage
 page-description: yes
 permalink: /contact
-header-image: /assets/img/image-contact.png
-header-image-alt: Contact icon
 #
 ---
 

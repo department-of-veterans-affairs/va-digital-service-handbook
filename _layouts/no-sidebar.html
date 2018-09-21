@@ -4,23 +4,26 @@ layout: base
 
 <section class="usa-section-dark pages-section">
   <div class="usa-grid">
-
+{% if page.page-type != "subpage" %}
     <div class="usa-width-two-thirds page-hero-text">
-
+{% else %}
+    <div class="usa-width-one-full subpage-hero-text">
+{% endif %}
       <h1>
         {{ page.title }}
       </h1>
 
     </div>
 
-
+{% if page.page-type != "subpage" %}
     <div class="usa-width-one-third page-hero-image">
 
       <img alt="{{ page.header-image-alt }}" src="{{ page.header-image | relative_url }}">
 
     </div>
-
+{% endif %} 
   </div>
+ 
 </section>
 
 
