@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 19, 2018
+modified-date: October 4, 2018
 #
 # See the Github wiki for how to edit content on this page and markdown styles you can use:
 # link here
@@ -106,7 +106,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Conduct <a title="Go to qa testing" href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Testing/cross-browser-manual-testing.md" target="_blank">cross-browser QA testing</a>.
 
-1. Set up <a title="Go to Google Analytics setup" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/google-analytics" target="_blank">Google Analytics</a>.
+1. Set up <a title="Go to Google Analytics setup" href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-google-analytics.md" target="_blank">Google Analytics</a>.
 
 1. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-ato-reviews.md#request-a-pre-launch-ato-review" target="_blank">Pre-launch ATO review</a>.
 
@@ -116,7 +116,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Perform [user acceptance testing (UAT)]({{site.baseurl}}/resources/more/uat).
 
-1. Review your MVP with the [Call Center]({{site.baseurl}}/resources/more/call-center).
+1. Review your MVP with the <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-contact-center-review.md" target="_blank">Call Center</a>.
 
 <!--1. Set up [live service details]({{site.baseurl}}/resources/more/service-details).-->
 
