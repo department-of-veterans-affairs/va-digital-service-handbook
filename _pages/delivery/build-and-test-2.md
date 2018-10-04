@@ -114,7 +114,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
-1. Perform [user acceptance testing (UAT)]({{site.baseurl}}/resources/more/uat).
+1. Perform <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Product%20Management/UserAcceptanceTesting.md" target="_blank">user acceptance testing</a>.
 
 1. Review your MVP with the <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Reviews-External-Contractors/request-contact-center-review.md" target="_blank">Call Center</a>.
 
