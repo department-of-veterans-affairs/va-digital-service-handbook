@@ -110,7 +110,7 @@ permalink: /delivery/build-and-test/activities
 
 1. Request a <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/External-Contractors-Reviews/request-ato-reviews.md#request-a-pre-launch-ato-review" target="_blank">Pre-launch ATO review</a>.
 
-1. [Load test](https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/External-Contractors-Reviews/request-load-testing.md) your service.
+1. <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/External-Contractors-Reviews/request-load-testing.md" target="_blank">Load test</a> your service.
 
 1. Finalize [marketing and communications materials]({{site.baseurl}}/resources/more/marcom).
 
