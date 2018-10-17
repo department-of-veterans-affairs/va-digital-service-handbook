@@ -150,7 +150,7 @@ h6 {
 ====================================== */
 
 .usa-footer-secondary_section {
-  background-color: $color-primary-darker !important;
+  background-color: $color-primary-darkest !important;
   padding: 3rem 0 3rem 0;
   @include media($medium-screen) {
     padding: 2.25rem 0 2.25rem 0;
@@ -264,6 +264,9 @@ h6 {
 }
 .usa-section-dark {
   background-color: $color-primary-darkest;
+  a {
+    color: $color-aqua;
+  }
 }
 .usa-hero-callout {
   max-width: 100%;
@@ -334,6 +337,10 @@ h6 {
 }
 .home-secondary {
   background-color: $color-gray-lightest;
+}
+
+.usa-alert-info::before {
+  background-color: $color-primary-darkest;
 }
 
 
