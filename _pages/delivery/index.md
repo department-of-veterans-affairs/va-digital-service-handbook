@@ -1,6 +1,6 @@
 ---
 #
-modified-date: September 19, 2018
+modified-date: October 16, 2018
 #
 # See the Github wiki for how to use Markdown in the editable content below:
 # link here
@@ -34,7 +34,7 @@ page-description: yes
 # same name for sidebar + pagination include
 sidebar-page-type: /delivery
 permalink: /delivery/index.html
-header-image: /assets/img/image-service-design.png
+header-image: /assets/img/image-digital-delivery.png
 header-image-alt: Service Design Guide icon
 #
 ---

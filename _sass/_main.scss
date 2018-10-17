@@ -136,7 +136,7 @@ h6 {
 
 // Menu button - change color and weight
 .usa-menu-btn {
-  background-color: $color-primary-darker;
+  background-color: $color-gray;
   font-weight: bold;
   color: $color-white;
 }
@@ -239,29 +239,43 @@ h6 {
    Home page
 ====================================== */
 // Update USWDS hero styles
+
+.handbook-hero .usa-grid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 .usa-hero {
-  background-color: $color-primary-darker;
+  background-color: $color-primary-darkest;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
   background-image: url(../../assets/img/hero.png);
   background-position: center;
   background-size: cover;
-
   @include media($medium-screen) {
     background-position: 10% 50%;
     background-size: 25%;
     background-repeat: no-repeat;
   }
+  @media (max-width: 600px) {
+    background-image: none;
+  }
 }
 .usa-section-dark {
-  background-color: $color-primary-darker;
+  background-color: $color-primary-darkest;
 }
 .usa-hero-callout {
   max-width: 100%;
+  padding: 3rem 0 1.5rem 0;
   @include media($medium-screen) {
-    max-width: 70%;
+    max-width: 66%;
     float: right;
+  }
+  @media (max-width: 600px) {
+    max-width: 100%;
+    width: 100%;
+    float: none;
   }
 }
 .hero-text {
@@ -275,6 +289,9 @@ h6 {
 }
 
 // Home grid
+.home-section {
+  padding-top: 1.5rem;
+}
 .home-block-container {
   margin-left: auto;
   margin-right: auto;
@@ -284,6 +301,13 @@ h6 {
 .home-block {
   width: 100%;
   margin-bottom: 3rem;
+  img {
+    //border: 3px solid green;
+    display: block;
+    max-height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @include media($medium-screen) {
     float: left;
     width: 33.33333%;
@@ -320,16 +344,22 @@ h6 {
 .pages-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  @include media($nav-width) {
+    padding-top: 2rem;
+    padding-bottom: 1.75rem;
+  }
+}
+.page-hero-text {
+  margin-right: 0;
 }
 .page-hero-text h1,
 .subpage-hero-text h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 3rem;
-  //line-height: 1;
   color: $color-white;
   @include media($nav-width) {
-    line-height: 100px;
+    line-height: 150px;
     font-size: 4rem;
   }
 }
@@ -337,11 +367,13 @@ h6 {
   line-height: 1;
 }
 .page-hero-image {
-  height: 100px;
   text-align: center;
   display: none;
   @include media($nav-width) {
     display: block;
+  }
+  img {
+    max-height: 150px !important;
   }
 }
 

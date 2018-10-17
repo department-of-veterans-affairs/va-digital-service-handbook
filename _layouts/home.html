@@ -5,81 +5,83 @@ layout: base
 #
 ---
 
-<main id="main-content"></main>
+<main id="main-content">
 
-<section class="usa-hero">
-  <div class="usa-grid">
-    <div class="usa-hero-callout usa-section-dark hero-text">
+  <section class="usa-hero handbook-hero">
+    <div class="usa-grid">
+      <div class="usa-hero-callout usa-section-dark">
+        <h1>        
+            <span class="usa-hero-callout-alt">{{ site.title }}
+        </h1>
+        
+        <p>{{ site.tagline }}</p>
+        
+      </div>
+    </div>
+  </section>  
 
-      <h1>
-        <span class="usa-hero-callout-alt">{{ site.title }}</span>
-      </h1>
 
-      <p>{{ site.tagline }}</p>
+  <section class="usa-section home-section">
+    <div class="usa-grid home-block-container">
+
+      <div class="home-block">
+        <img alt="{{ page.section-1-alt }}" src="{{ page.section-1-image }}">
+
+        <h2>
+          <a title="{{ page.section-1-alt }}" href="{{ page.section-1-link | relative_url }}"{%if page.section-1-target == true%} target="_blank"{% endif %}>{{ page.section-1-title }}</a>
+        </h2>
+
+        <p>{{ page.section-1-copy }}</p>
+      </div>
+
+      <div class="home-block">
+        <img alt="{{ page.section-2-alt }}" src="{{ page.section-2-image }}">
+
+        <h2>
+          <a title="{{ page.section-2-alt }}" href="{{ page.section-2-link | relative_url }}"{%if page.section-2-target == true%} target="_blank"{% endif %}>{{ page.section-2-title }}</a>
+        </h2>
+
+        <p>{{ page.section-2-copy }}</p>
+      </div>
+
+      <div class="home-block">
+        <img alt="{{ page.section-3-alt }}" src="{{ page.section-3-image }}">
+
+        <h2>
+          <a title="{{ page.section-3-alt }}" href="{{ page.section-3-link | relative_url }}"{%if page.section-3-target == true%} target="_blank"{% endif %}>{{ page.section-3-title }}</a>
+        </h2>
+
+        <p>{{ page.section-3-copy }}</p>
+      </div>
 
     </div>
-  </div>
-</section>
-
-<section class="usa-section home-section">
-  <div class="usa-grid home-block-container">
-
-    <div class="home-block">
-      <img alt="{{ page.section-1-alt }}" src="{{ page.section-1-image }}" height="90">
-
-      <h2>
-        <a title="{{ page.section-1-alt }}" href="{{ page.section-1-link | relative_url }}"{%if page.section-1-target == true%} target="_blank"{% endif %}>{{ page.section-1-title }}</a>
-      </h2>
-
-      <p>{{ page.section-1-copy }}</p>
-    </div>
-
-    <div class="home-block">
-      <img alt="{{ page.section-2-alt }}" src="{{ page.section-2-image }}" height="90">
-
-      <h2>
-        <a title="{{ page.section-2-alt }}" href="{{ page.section-2-link | relative_url }}"{%if page.section-2-target == true%} target="_blank"{% endif %}>{{ page.section-2-title }}</a>
-      </h2>
-
-      <p>{{ page.section-2-copy }}</p>
-    </div>
-
-    <div class="home-block">
-      <img alt="{{ page.section-3-alt }}" src="{{ page.section-3-image }}" height="90">
-
-      <h2>
-        <a title="{{ page.section-3-alt }}" href="{{ page.section-3-link | relative_url }}"{%if page.section-3-target == true%} target="_blank"{% endif %}>{{ page.section-3-title }}</a>
-      </h2>
-
-      <p>{{ page.section-3-copy }}</p>
-    </div>
-
-  </div>
-</section>
+  </section>
 
 
-<section class="usa-section home-secondary">
-  <div class="usa-grid">
+  <section class="usa-section home-secondary">
+    <div class="usa-grid">
 
-    <div class="usa-width-one-third">
-      <h3>{{ page.subhead }}</h3>
-    </div>
+      <div class="usa-width-one-third">
+        <h3>{{ page.subhead }}</h3>
+      </div>
 
-    <div class="usa-width-two-thirds">
-      <p>{{ page.p1 }}</p>
+      <div class="usa-width-two-thirds">
+        <p>{{ page.p1 }}</p>
 
-      <p>{{ page.p2 }}</p>
+        <p>{{ page.p2 }}</p>
 
-      <div class="usa-alert usa-alert-info" >
-        <div class="usa-alert-body">
-          <h4 class="usa-alert-heading">{{ page.alert-title}}</h4>
-          <p class="usa-alert-text">{{ page.alert-copy }}</p>
-          <br/><span class="modified-date">Page last updated: {{ page.modified-date }}</span>
+        <div class="usa-alert usa-alert-info" >
+          <div class="usa-alert-body">
+            <h4 class="usa-alert-heading">{{ page.alert-title}}</h4>
+            <p class="usa-alert-text">{{ page.alert-copy }}</p>
+            <br/><span class="modified-date">Page last updated: {{ page.modified-date }}</span>
+          </div>
         </div>
+
       </div>
 
     </div>
 
-  </div>
+  </section>
 
-</section>
+</main>  
