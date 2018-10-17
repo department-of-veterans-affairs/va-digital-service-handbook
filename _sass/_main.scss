@@ -349,8 +349,16 @@ h6 {
     padding-bottom: 1.75rem;
   }
 }
+.subpage-hero-text {
+  padding-top: .5rem;
+  padding-bottom: .25rem;
+}
 .page-hero-text {
   margin-right: 0;
+  @include media($nav-width) {
+    //padding-top: 2rem;
+    //padding-bottom: 1.75rem;
+  }
 }
 .page-hero-text h1,
 .subpage-hero-text h1 {
