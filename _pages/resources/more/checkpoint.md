@@ -32,7 +32,7 @@ permalink: /resources/more/checkpoint
 
 A Checkpoint meeting happens after the *Research and Discovery*, *Prototype*, and *Build and Test* phases. It's designed to ensure
 * Your team's work meets the [Digital Standards]({{site.baseurl}}/digital-standards)
-* Your service is consistent with the rest of the Veteran Tools Platform
+* Your service is consistent with the rest of the Veteran-facing Services Platform
 
 <hr>
 
@@ -77,7 +77,7 @@ The best way to prepare is to review
 
 You should also review the [Digital Standards]({{site.baseurl}}/digital-standards) so you're able to talk about which activities met which standards.
 
-We recommend preparing a presentation to guide the conversation. Post this in your team's Github "Product" folder so other Veteran Tools Platform teams can learn from your team's work.
+We recommend preparing a presentation to guide the conversation. Post this in your team's Github "Product" folder so other Veteran-facing Services Platform teams can learn from your team's work.
 
 <a href="#">Return to top</a>
 

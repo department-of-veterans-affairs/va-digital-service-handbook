@@ -36,7 +36,7 @@ permalink: /delivery/build-and-test/activities
 
 * Does the technical solution work at scale, and do its integrations with other services work well?
 
-* Is the MVP solution consistent with other Veteran Tools Platform design patterns?
+* Is the MVP solution consistent with other Veteran-facing Services Platform design patterns?
 
 * Is the MVP solution accessible?
 

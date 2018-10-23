@@ -45,9 +45,9 @@ permalink: /resources/user-research
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "User Research" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran-facing Services Platform are required to have "User Research" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
-Teams working on the Veteran Tools Platform are responsible for conducting their own user research studies, including recruiting. User research/testing studies must adhere to the guidelines laid out in this User Research guide.
+Teams working on the Veteran-facing Services Platform are responsible for conducting their own user research studies, including recruiting. User research/testing studies must adhere to the guidelines laid out in this User Research guide.
 
 If you have any questions, ask your DSVA contact.
 
@@ -119,7 +119,7 @@ All information about research participants, including what they say and do duri
 
 ### Participant recruiting
 
-**All teams are required to follow <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Request-Reviews/request-recruiting-screener.md#general" target="_blank">the DSVA screening process</a> for any research study related to the Veteran Tools Platform.**
+**All teams are required to follow <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Request-Reviews/request-recruiting-screener.md#general" target="_blank">the DSVA screening process</a> for any research study related to the Veteran-facing Services Platform.**
 
 After you've screened participants, follow your normal recruiting process.
 

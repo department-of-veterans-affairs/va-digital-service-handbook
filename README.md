@@ -1,6 +1,6 @@
 # VA Digital Service Handbook
 
-Helping Veterans Affairs (VA) teams design, build, and launch great digital services that meet the [Digital Service Standard](href="https://github.com/department-of-veterans-affairs/va-digital-service-handbook/digital-standard") for the [Veteran Tools Platform](#fn1).
+Helping Veterans Affairs (VA) teams design, build, and launch great digital services that meet the [Digital Service Standard](href="https://github.com/department-of-veterans-affairs/va-digital-service-handbook/digital-standard") for the [Veteran-facing Services Platform](#fn1).
 
 Contact @ehuntdsva for any questions, comments, or feedback.
 
@@ -43,7 +43,7 @@ All content is available under the [Creative Commons Zero v1.0 Universal license
 
 <hr>
 
-<a name="fn1"></a>The *Veteran Tools Platform* is the set of technologies (and processes) that run the current [Vets.gov](https://www.vets.gov/) website. VA teams who want to release a digital service for veterans using the Veteran Tools Platform should use this [Handbook](http://department-of-veterans-affairs.github.io/va-digital-service-handbook/) to learn how to do that.
+<a name="fn1"></a>The *Veteran-facing Services Platform* is the set of technologies (and processes) that run the current [Vets.gov](https://www.vets.gov/) website. VA teams who want to release a digital service for veterans using the Veteran-facing Services Platform should use this [Handbook](http://department-of-veterans-affairs.github.io/va-digital-service-handbook/) to learn how to do that.
 
-* In the short-term, veteran digital services built using the Veteran Tools Platform will be accessible through the Vets.gov domain.
-* In the future, veteran digital services built using the Veteran Tools Platform will be accessible through the VA.gov domain.
+* In the short-term, veteran digital services built using the Veteran-facing Services Platform will be accessible through the Vets.gov domain.
+* In the future, veteran digital services built using the Veteran-facing Services Platform will be accessible through the VA.gov domain.

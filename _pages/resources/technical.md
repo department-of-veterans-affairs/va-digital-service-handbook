@@ -8,7 +8,7 @@ modified-date: September 19, 2018
 # Title and Description display on the page and in HTML meta tags
 #
 title: Technical guide
-description: Get started with Veteran Tools Platform developer tools. Find technical resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
+description: Get started with Veteran-facing Services Platform developer tools. Find technical resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
@@ -41,9 +41,9 @@ permalink: /resources/technical
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "Technical" as a skillset, including architecture, development, quality assurance, testing, and deployment (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran-facing Services Platform are required to have "Technical" as a skillset, including architecture, development, quality assurance, testing, and deployment (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
-Teams working on the Veteran Tools Platform are responsible for building services that follow guidelines in this Technical guide and in the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">Veteran Tools Platform Developer Documentation</a>.
+Teams working on the Veteran-facing Services Platform are responsible for building services that follow guidelines in this Technical guide and in the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">Veteran-facing Services Platform Developer Documentation</a>.
 
 If you have any questions, ask your DSVA contact.
 
@@ -62,7 +62,7 @@ If you have any questions, ask your DSVA contact.
 
 * Review the developer documentation <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html#development" target="_blank">starting with the "Development" section</a>.
 
-* If you're creating a form, use the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/form-tutorial.html" target="_blank">Basic Form Tutorial</a> to get familiar with how form work on the Veteran Tools Platform.
+* If you're creating a form, use the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/form-tutorial.html" target="_blank">Basic Form Tutorial</a> to get familiar with how form work on the Veteran-facing Services Platform.
 
 * If you'll be interacting with an API, review <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-api/vets-api-readme.html" target="_blank">the API documentation</a>.
 

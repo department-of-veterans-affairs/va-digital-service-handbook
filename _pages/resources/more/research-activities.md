@@ -133,7 +133,7 @@ Create a research plan at the start of each *Digital Delivery* phase. Then regul
 
 * Plan sessions to last from 30-60 minutes.
 
-* Plan to record the research sessions (video preferred) so your team can review them later and so other Veteran Tools Platform teams can learn from them.
+* Plan to record the research sessions (video preferred) so your team can review them later and so other Veteran-facing Services Platform teams can learn from them.
   * For reference, the DSVA team uses <a title="Go to GoToMeeting" href="https://www.gotomeeting.com/" target="_blank">GoToMeeting</a> for remote usability testing and interviews.
 
 * If you're doing user interviews or usability testing, prepare a [conversation guide]({{site.baseurl}}/resources/more/conversation-guide).
@@ -201,7 +201,7 @@ Follow best practices.
 * Document participant recordings
 
   * **Scrub all PII (names, addresses, emails, etc.) from participant video and audio recordings.**
-    * Due to the nature of the research questions, some recordings contain a lot of PII. 
+    * Due to the nature of the research questions, some recordings contain a lot of PII.
     * Use your best judgement here. If there's so much PII that the recording loses meaning without it, skip the rest of this process.
   * After scrubbing PII, do the following:
      1. Create a message in your team's Slack channel (e.g., *#claimsmodern*) and upload the file.

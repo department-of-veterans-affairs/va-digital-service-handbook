@@ -29,9 +29,9 @@ permalink: /delivery/onboard-team
 #
 ---
 
-### Welcome to the Veteran Tools Platform!
+### Welcome to the Veteran-facing Services Platform!
 
-We're excited that your team will be building an application (or feature) on the Veteran Tools Platform. We look forward to working with you to create modern, user-friendly tools for Veterans and the people who care about them.
+We're excited that your team will be building an application (or feature) on the Veteran-facing Services Platform. We look forward to working with you to create modern, user-friendly tools for Veterans and the people who care about them.
 
 #### To get started, your team's
 

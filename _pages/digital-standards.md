@@ -101,21 +101,21 @@ Your team should include the following skillsets
 
 ### Work in the open
 
-When you build and launch a service (or a feature) on the Veteran Tools Platform, the front-end code will be visible to anyone visiting the <a title="Go to Github repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">Github repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built.
+When you build and launch a service (or a feature) on the Veteran-facing Services Platform, the front-end code will be visible to anyone visiting the <a title="Go to Github repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">Github repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built.
 
-When you first begin work on your service for the Veteran Tools Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository.
+When you first begin work on your service for the Veteran-facing Services Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository.
 
 #### By working in the open on Github, you can
-* See what other Veteran Tools Platform teams are working on
-* Ask other Veteran Tools Platform teams for comments or feedback on your designs or code
-* Accept code contributions from people on other Veteran Tools Platform teams
-* Reuse documents and design materials produced by other Veteran Tools Platform teams
+* See what other Veteran-facing Services Platform teams are working on
+* Ask other Veteran-facing Services Platform teams for comments or feedback on your designs or code
+* Accept code contributions from people on other Veteran-facing Services Platform teams
+* Reuse documents and design materials produced by other Veteran-facing Services Platform teams
 
 #### How to meet this standard
 
 At a minimum,
 
-* Publish code to the Veteran Tools Platform Github repository
+* Publish code to the Veteran-facing Services Platform Github repository
 * Use Github Issues (or another agile project management tool) to track team tasks so they're visible to the whole team
 * Publish your team's product, research, and design materials in the Github "Product" repository
 
@@ -174,22 +174,22 @@ At a minimum,
 
 ### Make the user experience consistent
 
-The user experience of your service must be consistent with other services on the Veteran Tools Platform. Using the existing Veteran Tools Platform interaction design patterns, visual style, and editorial style means
+The user experience of your service must be consistent with other services on the Veteran-facing Services Platform. Using the existing Veteran-facing Services Platform interaction design patterns, visual style, and editorial style means
 
 * You can save time by reusing existing patterns and code (which have been refined over time based on user research and data)
-* Your users will be more confident they can use your service because of its similarity to the other Veteran Tools Platform tools they already use
+* Your users will be more confident they can use your service because of its similarity to the other Veteran-facing Services Platform tools they already use
 
 #### How to meet this standard
 
 At a minimum,
 
-* Reuse components from the Veteran Tools Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a>
-* Follow the Veteran Tools Platform [Content guide]({{site.baseurl}}/resources/content) for writing copy for your service
+* Reuse components from the Veteran-facing Services Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a>
+* Follow the Veteran-facing Services Platform [Content guide]({{site.baseurl}}/resources/content) for writing copy for your service
 * Make sure your service is responsive and works on mobile devices
 
 <!--
 * Work with your [DSVA contact](service-design/discovery/linkto) to
-  * Include your service in the Veteran Tools Platform navigation structure
+  * Include your service in the Veteran-facing Services Platform navigation structure
   * Name your URLs appropriately (for best SEO and readability)
   * Set up Google Analytics for your service
 -->
@@ -218,8 +218,8 @@ Before you design or build anything, think about how these users will access and
 At a minimum,
 
 * Seek a wide variety of users for research and testing, including people with disabilities, other impairments, and those with limited digital experience
-* Reuse components from the Veteran Tools Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a> (which have already been tested for Section 508 compliance)
-* Use the Veteran Tools Platform <a title="Go to Design Guide Colors" href="https://department-of-veterans-affairs.github.io/design-system/components/detail/colors.html" target="_blank">color palette and typography</a> (which have already been tested for Section 508 compliance)
+* Reuse components from the Veteran-facing Services Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a> (which have already been tested for Section 508 compliance)
+* Use the Veteran-facing Services Platform <a title="Go to Design Guide Colors" href="https://department-of-veterans-affairs.github.io/design-system/components/detail/colors.html" target="_blank">color palette and typography</a> (which have already been tested for Section 508 compliance)
 * Test your service using the simplified process for VA Section 508 compliance (which involves automated tools for testing Section 508 compliance, in addition to periodic manual testing)
 
 > {{ page.seemore }}
@@ -248,7 +248,7 @@ At a minimum,
 
 ### Be agile and user-centered
 
-Services on the Veteran Tools Platform are built and released using agile delivery practices. Agile practices allow teams to break their work into small chunks (iterations) and release these every day (sometimes multiple times per day).
+Services on the Veteran-facing Services Platform are built and released using agile delivery practices. Agile practices allow teams to break their work into small chunks (iterations) and release these every day (sometimes multiple times per day).
 
 This means your service gets into the hands of your users &mdash; and you can collect their feedback &mdash; much faster than using waterfall delivery methods. For example, you could release a new feature, collect feedback from users, make improvements, and release that feature again in just a few weeks (or days).
 

@@ -21,7 +21,7 @@ permalink: /resources/more/team-structure
 
 ### Team activities
 
-All Veteran Tools Platform teams will do these activities
+All Veteran-facing Services Platform teams will do these activities
 
 * Analyze user needs and turn those into user stories
 * Create user stories and prioritize them

@@ -7,7 +7,7 @@ modified-date: September 19, 2018
 # Title and Description display on the page and in HTML meta tags
 #
 title: Content guide
-description: Learn about the Veteran Tools Platform content strategy. Find content resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
+description: Learn about the Veteran-facing Services Platform content strategy. Find content resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
@@ -38,9 +38,9 @@ permalink: /resources/content
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "Content Strategy/Writing" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran-facing Services Platform are required to have "Content Strategy/Writing" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
-Teams working on the Veteran Tools Platform are responsible for creating well-written, plain language content for their services. This content must adhere to the guidelines and rules laid out in the Content Style Guide.
+Teams working on the Veteran-facing Services Platform are responsible for creating well-written, plain language content for their services. This content must adhere to the guidelines and rules laid out in the Content Style Guide.
 
 If you have any questions, ask your DSVA contact.
 

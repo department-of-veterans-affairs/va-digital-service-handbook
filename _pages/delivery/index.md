@@ -41,7 +41,7 @@ header-image-alt: Service Design Guide icon
 
 ### Veteran-centered Digital Delivery
 
-The Veteran Tools Platform is based on a Veteran-centered delivery process to create modern, user-friendly services for Veterans.
+The Veteran-facing Services Platform is based on a Veteran-centered delivery process to create modern, user-friendly services for Veterans.
 
 Our primary goal is to understand Veterans who use our services in order to create solutions that work for them. This helps teams make decisions about digital services based on observation and analysis of Veteran needs (vs. relying on their assumptions).
 
@@ -62,7 +62,7 @@ Throughout the *Digital Delivery* lifecycle, teams engage with Veterans by:
 
 1. **Make sure [your team includes the skillsets]({{site.baseurl}}/resources/more/team-structure#team-roles)** you'll need throughout the *Digital Delivery* lifecycle.
 
-1. **[Complete the onboarding steps]({{site.baseurl}}/delivery/onboard-team)** to get your team set up with the tools they need to work on the Veteran Tools Platform.
+1. **[Complete the onboarding steps]({{site.baseurl}}/delivery/onboard-team)** to get your team set up with the tools they need to work on the Veteran-facing Services Platform.
 
 1. **Work through the Digital Delivery phases**
   * [Research + Discovery]({{site.baseurl}}/delivery/research-and-discovery/) &#8212; do user research to understand your users' needs
