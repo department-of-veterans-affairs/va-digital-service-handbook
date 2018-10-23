@@ -5,17 +5,14 @@ Helping Veterans Affairs (VA) teams design, build, and launch great digital serv
 Contact @ehuntdsva for any questions, comments, or feedback.
 
 
-## Roadmap
-
-Add link here..
-
-
 ## Contributing
 
-See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
+* See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
+* [See the Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for how to format pages in this site.
 
 
-#### Development
+
+## Development
 
 This is a Jekyll-built static site.
 
