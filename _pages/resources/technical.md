@@ -43,7 +43,7 @@ permalink: /resources/technical
 
 Teams working on the Veteran-facing Services Platform are required to have "Technical" as a skillset, including architecture, development, quality assurance, testing, and deployment (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
-Teams working on the Veteran-facing Services Platform are responsible for building services that follow guidelines in this Technical guide and in the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html" target="_blank">Veteran-facing Services Platform Developer Documentation</a>.
+Teams working on the Veteran-facing Services Platform are responsible for building services that follow guidelines in this Technical guide and in the <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/tree/master/DeveloperDocs" target="_blank">Veteran-facing Services Platform Developer Documentation</a>.
 
 If you have any questions, ask your DSVA contact.
 
@@ -52,7 +52,7 @@ If you have any questions, ask your DSVA contact.
 
 ### Getting started
 
-* Complete all the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html#getting-started" target="_blank">"Getting Started" tasks for developers</a>.
+* Complete all the <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/DeveloperDocs/getting-started.md" target="_blank">"Getting Started" tasks for developers</a>.
 
 * Be sure to confirm that you have access to the code repositories and shared testing environments and that you can use the Internal Tools.
 
@@ -60,11 +60,11 @@ If you have any questions, ask your DSVA contact.
 
 ### Development
 
-* Review the developer documentation <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started.html#development" target="_blank">starting with the "Development" section</a>.
+* Review the developer documentation <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/DeveloperDocs/development-workflow.md" target="_blank">starting with the "Development Workflow" section</a>.
 
-* If you're creating a form, use the <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-website/forms/form-tutorial.html" target="_blank">Basic Form Tutorial</a> to get familiar with how form work on the Veteran-facing Services Platform.
+* If you're creating a form, review the <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/tree/master/DeveloperDocs/vets-website" target="_blank">Vets Website documentation</a> and check out the <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/DeveloperDocs/vets-website/forms/form-tutorial-basic.md" target="_blank">Basic Form Tutorial</a> to get familiar with how forms work on the Veteran-facing Services Platform.
 
-* If you'll be interacting with an API, review <a href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-api/vets-api-readme.html" target="_blank">the API documentation</a>.
+* If you'll be interacting with an API, review <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/tree/master/DeveloperDocs/vets-api" target="_blank">the API documentation</a>.
 
 <hr>
 
