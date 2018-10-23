@@ -7,7 +7,7 @@ modified-date: September 19, 2018
 # Title and Description display on the page and in HTML meta tags
 #
 title: Design guide
-description: Learn about the Veteran Tools Platform design strategy. Find design resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
+description: Learn about the Veteran-facing Services Platform design strategy. Find design resources, tools, and examples you can use throughout the <i>Digital Delivery</i> lifecycle.
 #
 # Editable - Internal page menu
 # Match titles here with H3s (###) below
@@ -43,9 +43,9 @@ permalink: /resources/design
 
 ### Expectations
 
-Teams working on the Veteran Tools Platform are required to have "User Experience Design" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
+Teams working on the Veteran-facing Services Platform are required to have "User Experience Design" as a skillset (see [Team Roles]({{site.baseurl}}/resources/more/team-structure#team-roles)).
 
-Teams working on the Veteran Tools Platform are responsible for all design activities, including UX, UI, and visual design. Design activities must adhere to the guidelines laid out in this Design guide.
+Teams working on the Veteran-facing Services Platform are responsible for all design activities, including UX, UI, and visual design. Design activities must adhere to the guidelines laid out in this Design guide.
 
 If you have any questions, ask your DSVA contact.
 
@@ -57,11 +57,11 @@ If you have any questions, ask your DSVA contact.
 
 **Mobile-first design**
 
-All services on the Veteran Tools Platform must work well in desktop, tablet, and mobile. We typically design flows and screens as a mobile experience, so we determine if they work well at the smallest screen size. The design files are set up so you can design a mobile-first experience, and the design patterns are responsive.
+All services on the Veteran-facing Services Platform must work well in desktop, tablet, and mobile. We typically design flows and screens as a mobile experience, so we determine if they work well at the smallest screen size. The design files are set up so you can design a mobile-first experience, and the design patterns are responsive.
 
 **New design patterns**
 
-As we've built out the Veteran Tools Platform, we've focused the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> on the immediate design tasks. This means we have not designed for every possible VA scenario.
+As we've built out the Veteran-facing Services Platform, we've focused the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> on the immediate design tasks. This means we have not designed for every possible VA scenario.
 
 In your work, you may find a need for a new design pattern. If that happens, reach out to your DSVA contact, and we'll work together to design it.
 
@@ -100,7 +100,7 @@ People get frustrated entering data repeatedly, especially if it is stuff they t
 
 #### Be specific
 
-* We try not to assume too much context. Most people are not expert in VA benefits. So we try to provide context for form sections and labels. Review some of the current Veteran Tools Platform forms to get a feel for where and how we do this.
+* We try not to assume too much context. Most people are not expert in VA benefits. So we try to provide context for form sections and labels. Review some of the current Veteran-facing Services Platform forms to get a feel for where and how we do this.
 * Some forms ask for the similar information about multiple parties, for example, contact information on multiple family members.
   * In these situations, we clearly label these at both the chunk and field level.
   * Depending on the form, another approach is to build a list of people first, and then loop through the questions for each.
@@ -174,9 +174,9 @@ Clear design documentation also
 
 * Creates an easy-to-follow "history" for new team members or stakeholders who may not know the full project history
 
-* Creates a valuable source of information for teams who are working on similar or related projects on the Veteran Tools Platform
+* Creates a valuable source of information for teams who are working on similar or related projects on the Veteran-facing Services Platform
 
-* Communicates new services (or features) to the Call Center, who support users of the Veteran Tools Platform
+* Communicates new services (or features) to the Call Center, who support users of the Veteran-facing Services Platform
   * **Tip**: a video walkthrough is a great way to help Call Center staff understand your service (or feature). Videos are especially helpful if your service (or feature) includes a change to an existing VA process.
 
 #### Communicating with developers
@@ -198,7 +198,7 @@ Designers should document these in the lowest-possible fidelity in a format that
 
 ### Content guidelines
 
-**Plain-language content is a cornerstone of the Veteran Tools Platform design philosophy.**
+**Plain-language content is a cornerstone of the Veteran-facing Services Platform design philosophy.**
 
 When you're designing mockups or prototypes, be sure they include well-written content that follow the [content style guide]({{site.baseurl}}/resources/content).
 
@@ -211,11 +211,11 @@ When you're designing mockups or prototypes, be sure they include well-written c
 
 #### Design Patterns
 
-The Veteran Tools Platform <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> make it much easier for designers and developers to quickly prototype pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
+The Veteran-facing Services Platform <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> make it much easier for designers and developers to quickly prototype pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
 
 #### Design files
 
-Designers need to use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a> for design on the Veteran Tools Platform.
+Designers need to use <a title="Go to Sketch" href="https://www.sketchapp.com/" target="_blank">Sketch App</a> for design on the Veteran-facing Services Platform.
   * <a title="Go to instructions" href="https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library" target="_blank">Instructions for downloading and using the Sketch files</a> ({{site.vets-team}})
   * <a title="Go to fonts" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-fonts.md" target="_blank">Instructions for fonts and icons</a> ({{site.vets-team}})
 

@@ -133,7 +133,7 @@ Create a research plan at the start of each *Digital Delivery* phase. Then regul
 
 * Plan sessions to last from 30-60 minutes.
 
-* Plan to record the research sessions (video preferred) so your team can review them later and so other Veteran Tools Platform teams can learn from them.
+* Plan to record the research sessions (video preferred) so your team can review them later and so other Veteran-facing Services Platform teams can learn from them.
   * For reference, the DSVA team uses <a title="Go to GoToMeeting" href="https://www.gotomeeting.com/" target="_blank">GoToMeeting</a> for remote usability testing and interviews.
 
 * If you're doing user interviews or usability testing, prepare a [conversation guide]({{site.baseurl}}/resources/more/conversation-guide).
@@ -185,8 +185,8 @@ Follow best practices.
 #### 2. Prepare a research readout
 * Summarize what you did and what you learned in a research readout.
   * See an <a title="" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/MHV-upgrade-research-readout_v1.1.pdf" target="_blank">example research readout</a> ({{ site.vets-team }}).
-  * <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
-  * <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
+  * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
+  * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
 * Arrange a time with your team and your stakeholders to go over the findings in your research readout.
 
 #### 3. Document your research
@@ -201,7 +201,7 @@ Follow best practices.
 * Document participant recordings
 
   * **Scrub all PII (names, addresses, emails, etc.) from participant video and audio recordings.**
-    * Due to the nature of the research questions, some recordings contain a lot of PII. 
+    * Due to the nature of the research questions, some recordings contain a lot of PII.
     * Use your best judgement here. If there's so much PII that the recording loses meaning without it, skip the rest of this process.
   * After scrubbing PII, do the following:
      1. Create a message in your team's Slack channel (e.g., *#claimsmodern*) and upload the file.

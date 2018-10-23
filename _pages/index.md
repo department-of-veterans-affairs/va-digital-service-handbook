@@ -16,7 +16,7 @@ section-1-image: assets/img/home-section-1.png
 section-1-title: Modern, user&#8209;friendly digital services
 section-1-link: digital-standards
 section-1-alt: Design modern, user-friendly digital services
-section-1-copy: The <a title="Digital Standards" href="/va-digital-service-handbook/digital-standards">Digital Standards</a> describe the quality standards for modern, user&#8209;friendly digital services on the Veteran Tools Platform.
+section-1-copy: The <a title="Digital Standards" href="/va-digital-service-handbook/digital-standards">Digital Standards</a> describe the quality standards for modern, user&#8209;friendly digital services on the Veteran-facing Services Platform.
 #
 section-2-image: assets/img/home-section-2.png
 section-2-title: Agile, user&#8209;centered delivery
@@ -33,9 +33,9 @@ section-3-copy: <a title="Veteran Affairs APIs" href="https://department-of-vete
 #
 # Editable - DESCRIPTION CONTENT
 #
-subhead: Empowering VA teams to build digital services on the Veteran Tools Platform
+subhead: Empowering VA teams to build digital services on the Veteran-facing Services Platform
 p1: We created this Handbook based on VA's experience with <a title="Vets.gov" href="https://www.vets.gov" target="_blank">Vets.gov</a>, as well as best practices from government digital services, government agencies, and the technology industry. It's a tool to help VA teams create the best possible user experience for people interacting with Veteran-facing digital services.
-p2: This Handbook provides direction for teams who want to build on the <i>Veteran Tools Platform</i> (the technologies and processes that support Vets.gov). But we hope other VA teams find it useful when building their own digital services.
+p2: This Handbook provides direction for teams who want to build on the <i>Veteran-facing Services Platform</i> (the technologies and processes that support Vets.gov). But we hope other VA teams find it useful when building their own digital services.
 alert-title: Work in progress
 alert-copy: We're currently expanding and refining this Handbook.<br/>We encourage you to adopt as much of it as possible and <a title="Share feedback" href="/va-digital-service-handbook/contact">share your feedback</a>.
 #

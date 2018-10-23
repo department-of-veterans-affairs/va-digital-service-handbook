@@ -36,7 +36,7 @@ permalink: /delivery/prototype/activities
 
 * What technical solutions or approaches are best suited to deliver the user experience you want?
 
-* What technical solutions or approaches are best suited to integrate with existing Veteran Tools Platform technologies?
+* What technical solutions or approaches are best suited to integrate with existing Veteran-facing Services Platform technologies?
 
 <hr>
 

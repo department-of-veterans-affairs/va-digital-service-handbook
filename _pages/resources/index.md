@@ -15,20 +15,20 @@ description: Guidance, tips, and examples of specific activities you can use thr
 #
 guides:
   - title: User Research guide
-    description: Information and guidance for conducting research for the Veteran Tools Platform.
+    description: Information and guidance for conducting research for the Veteran-facing Services Platform.
     linkto: user-research
   - title: Design guide
-    description: Understand the Veteran Tools Platform design patterns and design guidelines, and download the design tools.
+    description: Understand the Veteran-facing Services Platform design patterns and design guidelines, and download the design tools.
     linkto: design
   - title: Content guide
-    description: Review the content style guide for the Veteran Tools Platform.
+    description: Review the content style guide for the Veteran-facing Services Platform.
     linkto: content
     target: no
   - title: Technical guide
     description: Get access to developer tools and learn how to use them.
     linkto: technical
   - title: Agile guide
-    description: Manage your team's agile workflow while working on the Veteran Tools Platform.
+    description: Manage your team's agile workflow while working on the Veteran-facing Services Platform.
     linkto: agile
   - title: More resources
     description: A collection of additional resources referred to throughout the <i>Digital Delivery Guide</i>.

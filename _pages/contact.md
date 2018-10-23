@@ -25,7 +25,7 @@ permalink: /contact
 * Posting in a Slack channel
   * Your **team channel** for general questions
   * The **#{{ site.slack.support }}** channel for developer questions
-  * *Note: Slack channels are only available if your team is currently working on the Veteran Tools Platform.*
+  * *Note: Slack channels are only available if your team is currently working on the Veteran-facing Services Platform.*
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
