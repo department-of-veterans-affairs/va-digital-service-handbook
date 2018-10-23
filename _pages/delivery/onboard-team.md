@@ -35,7 +35,7 @@ We're excited that your team will be building an application (or feature) on the
 
 #### To get started, your team's
 
-* Project manager should <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/tree/master/External-Contractors-Onboarding" target="blank">follow the steps in our onboarding guide</a>.
+* Project manager should <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/tree/master/Onboarding" target="blank">follow the steps in our onboarding guide</a>.
 
 * Designers should [review the design guide]({{site.baseurl}}/resources/design)
 

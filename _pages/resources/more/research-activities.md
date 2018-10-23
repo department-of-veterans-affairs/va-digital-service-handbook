@@ -185,8 +185,8 @@ Follow best practices.
 #### 2. Prepare a research readout
 * Summarize what you did and what you learned in a research readout.
   * See an <a title="" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/MHV-upgrade-research-readout_v1.1.pdf" target="_blank">example research readout</a> ({{ site.vets-team }}).
-  * <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
-  * <a href="https://github.com/department-of-veterans-affairs/vets-work-practices/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
+  * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
+  * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
 * Arrange a time with your team and your stakeholders to go over the findings in your research readout.
 
 #### 3. Document your research
