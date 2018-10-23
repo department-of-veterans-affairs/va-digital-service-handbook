@@ -62,7 +62,7 @@ permalink: /delivery/build-and-test/activities
 
       * <a title="Go to testing" href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/DeveloperDocs/testing/unit-testing.md" target="_blank">Automated unit testing</a> and <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/DeveloperDocs/testing/end-to-end-testing.md" target="_blank">automated end-to-end testing</a>
 
-  1. **Conduct [user research]({{site.baseurl}}/resources/user-research/)** to test the deployed features.
+  1. **Conduct [user research]({{site.baseurl}}/resources/user-research)** to test the deployed features.
 
       * Focus on <a title="Go to usability testing" href="https://methods.18f.gov/validate/usability-testing/" target="_blank">usability testing</a> to ensure that your staged user stories and features work well for your users.
 
