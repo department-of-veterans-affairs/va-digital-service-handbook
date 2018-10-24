@@ -25,7 +25,7 @@ This is a Jekyll-built static site.
     bundle exec jekyll serve
     ```
 
-3. Whenever you make a change to content, also change the ```modified-date``` in the yml at the top of the relevant ```.md``` file.
+3. Whenever you make a change to content, also change the ```modified-date``` in the yml at the top of the relevant ```.md``` file. See [Updating Page Dates](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki/updating-page-dates) for more info.
 
     * The ```modified-date``` is pulled into the ```footer.html``` include for all pages, except for the Home page.
     * For the Home page, the ```modified-date``` is pulled into the ```home.html``` layout.
