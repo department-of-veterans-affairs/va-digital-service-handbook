@@ -8,7 +8,7 @@ Contact @ehuntdsva for any questions, comments, or feedback.
 ## Contributing
 
 * See [CONTRIBUTING](CONTRIBUTING.md) for how to contribute content.
-* See [the repo Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for how you can use Markdown for writing/editing content.
+* See [the repo Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for how this Jekyll site is organized and how to use Markdown for writing/editing content.
 
 
 
