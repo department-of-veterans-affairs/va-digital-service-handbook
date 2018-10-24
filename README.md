@@ -7,9 +7,11 @@ Contact @ehuntdsva for any questions, comments, or feedback.
 
 ## Contributing
 
+* **DSVA team**: See [the repo Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for
+  * How this Jekyll site is organized
+  * How to use Markdown for writing/editing content
+  * How to update ```last-updated``` dates for all pages
 * See [CONTRIBUTING](CONTRIBUTING.md) for how to contribute content.
-* See [the repo Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for how this Jekyll site is organized and how to use Markdown for writing/editing content.
-
 
 
 ## Development
