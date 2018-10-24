@@ -1,6 +1,6 @@
 # VA Digital Service Handbook
 
-Helping Veterans Affairs (VA) teams design, build, and launch great digital services that meet the [Digital Standards](href="https://github.com/department-of-veterans-affairs/va-digital-service-handbook/digital-standards") for the [Veteran-facing Services Platform](#fn1).
+Helping Veterans Affairs (VA) teams design, build, and launch great digital services that meet the [Digital Standards](https://department-of-veterans-affairs.github.io/va-digital-service-handbook/digital-standards) for the [Veteran-facing Services Platform](#fn1).
 
 Contact @ehuntdsva for any questions, comments, or feedback.
 
