@@ -4,13 +4,13 @@ modified-date: October 23, 2018
 #
 # Editable - Title and Description display on the page and in HTML meta tags
 #
-title: Digital Service Standard
+title: Digital Standards
 description: |
-  The <i>Digital Service Standard</i> is the set of quality standards that help VA teams deliver excellent digital services to Veterans and the people who support them.
+  The <i>Digital Standards</i> are the set of quality standards that help VA teams deliver excellent digital services to Veterans and the people who support them.
 #
 # Image displays in page header
 header-image: /assets/img/image-digital-standard.png
-header-image-alt: Digital Standard icon
+header-image-alt: Digital Standards icon
 #
 # Editable - Internal jump-menu titles
 # Match titles here with H3s (###) below
