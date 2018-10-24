@@ -142,7 +142,7 @@ All research participants must sign a <a href="https://github.com/department-of-
 
 ### Participant thank-yous
 
-The DSVA team thanks research participants for their time with $25 Amazon digital giftcards (or direct payment through PayPal). We encourage your team to do the same.
+The DSVA team thanks participants for the time they spend in our research studies. We thank participants for one-hour research sessions with $50 Amazon digital giftcards or payment to Paypal account or via paper check. We encourage your team to do the same.
 
 * **Note**: don't refer to participant thank-yous as "payments" or as "paying participants."
 
