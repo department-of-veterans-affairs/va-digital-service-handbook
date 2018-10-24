@@ -10,7 +10,7 @@ Contact @ehuntdsva for any questions, comments, or feedback.
 * **DSVA team**: See [the repo Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for
   * How this Jekyll site is organized
   * How to use Markdown for writing/editing content
-  * How to update ```last-updated``` dates for all pages
+  * How to update the ```modified-date``` that displays on site pages.
 * See [CONTRIBUTING](CONTRIBUTING.md) for how to contribute content.
 
 
