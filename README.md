@@ -5,17 +5,16 @@ Helping Veterans Affairs (VA) teams design, build, and launch great digital serv
 Contact @ehuntdsva for any questions, comments, or feedback.
 
 
-## Roadmap
-
-Add link here..
-
-
 ## Contributing
 
-See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
+* **DSVA team**: See [the repo Wiki](https://github.com/department-of-veterans-affairs/va-digital-service-handbook/wiki) for
+  * How this Jekyll site is organized
+  * How to use Markdown for writing/editing content
+  * How to update the ```modified-date``` that displays on site pages.
+* See [CONTRIBUTING](CONTRIBUTING.md) for how to contribute content.
 
 
-#### Development
+## Development
 
 This is a Jekyll-built static site.
 
