@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable - Title and Description display on page and in meta
 title: Technical discovery
 description: Complete a technical review during the <i>Research and Discovery</i> phase and do ongoing technical discovery throughout the <i>Digital Delivery</i> lifecycle.
 #

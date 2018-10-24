@@ -2,10 +2,7 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to use Markdown in the editable content below:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Resources
 description: Guidance, tips, and examples of specific activities you can use throughout the <i>Digital Delivery</i> lifecycle.

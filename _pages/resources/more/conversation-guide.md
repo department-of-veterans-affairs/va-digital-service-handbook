@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable- Title and Description display on page and in meta
 title: Conversation guide
 description: Create a conversation guide so you can focus your research sessions on getting answers to the questions you identified for your research sprint.
 #

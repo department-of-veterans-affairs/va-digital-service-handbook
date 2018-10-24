@@ -2,10 +2,7 @@
 #
 modified-date: September 19, 2018
 #
-# See the Github wiki for how to use Markdown in the editable content below:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Research + Discovery introduction
 description: The <i>Research + Discovery</i> phase is not about solutions. It’s about uncovering problems. Before you start designing or building a service, you need to find out who the potential users are and what problems your service could solve for them.

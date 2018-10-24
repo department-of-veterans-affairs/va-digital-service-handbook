@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable - Title and Description display on page and in meta
 title: Product outline
 description: Use a product outline to describe your problem statement and hypotheses and keep track of how your service evolves after the <i>Research and Discovery</i> phase.
 #

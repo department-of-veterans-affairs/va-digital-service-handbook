@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable - Title and Description display on page and in meta
 title: MVP scope
 description: Focus your work on the minimum set of features that will provide value by meeting basic user needs.
 #

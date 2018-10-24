@@ -2,9 +2,7 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: User Research guide
 description: User research isn't just something you do during the discovery phase. You'll do it throughout the <i>Digital Delivery</i> lifecycle, checking in with your users to answer questions you have about how to improve your service.

@@ -2,9 +2,6 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to use Markdown in the editable content below:
-# link here
-#
 # Title displays on the page and in HTML meta tags
 title: Welcome
 #

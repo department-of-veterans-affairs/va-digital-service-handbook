@@ -2,10 +2,7 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Agile delivery guide
 description: Information and resources about using agile methodologies as you work on the Veteran-facing Services Platform.

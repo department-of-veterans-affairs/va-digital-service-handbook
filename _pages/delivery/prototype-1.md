@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to use Markdown in the editable content below:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Prototype introduction
 description: The <i>Prototype</i> phase is about prototyping and testing hypotheses with users so you can decide how to meet the user needs you identified in <i>Research and Discovery</i>. Use this phase as your chance to test many different approaches with real users before building your service.

@@ -2,10 +2,7 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Build and Test activities
 description: During the <i>Build and Test</i> phase, focus on building features in small batches and testing those with real users.

@@ -4,10 +4,7 @@ modified-date: September 4, 2018
 #
 # from https://www.gov.uk/service-manual/user-research/capturing-research-questions
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable - Title and Description display on page and in meta
 title: Research questions
 description: Run a team workshop at the beginning of each development phase to prioritize your team's research questions and the assumptions you need to test.
 #

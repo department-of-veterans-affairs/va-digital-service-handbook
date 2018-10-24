@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable - Title and Description display on page and in meta
 title: Prototyping tips
 description: Prototyping is not about producing code you might use in your MVP. Instead creating a prototype is about creating just enough to test specific hypotheses.
 #

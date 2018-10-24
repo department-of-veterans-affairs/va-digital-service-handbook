@@ -2,10 +2,7 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to use Markdown in the editable content below:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Digital Delivery Guide
 description: The <i>Digital Delivery Guide</i> helps VA teams meet the <a title="Digital Standards" href="/va-digital-service-handbook/digital-standards">Digital Standards</a> by engaging with users and using best practices for agile delivery.

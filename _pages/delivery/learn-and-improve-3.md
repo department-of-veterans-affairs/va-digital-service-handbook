@@ -1,10 +1,8 @@
 ---
 #
 modified-date: September 4, 2018
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
 #
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Learn and Improve checklist
 description: If you need to retire your service, be sure your team has a plan to inform users, including what happens to their data and how they can meet the needs your service previously met for them.

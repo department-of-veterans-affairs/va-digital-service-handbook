@@ -1,10 +1,8 @@
 ---
 #
 modified-date: September 4, 2018
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
 #
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Learn and Improve activities
 description: During the <i>Learn and Improve</i> phase, focus on learning about the evolving needs of your users. Then design, build, test, and deploy those features.

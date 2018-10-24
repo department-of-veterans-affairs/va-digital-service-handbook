@@ -2,10 +2,7 @@
 #
 modified-date: October 23, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on page and in meta
+# Editable - Title and Description display on page and in meta
 title: Checkpoint meeting
 description: Learn what the Checkpoint meeting is, how to schedule it, how to prepare, and what to expect.
 #

@@ -4,7 +4,7 @@ modified-date: September 20, 2018
 #
 # You can use Markdown in the editable content below the three dashes (---)
 #
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Page not found
 description: Page not found in the VA Digital Service Handbook.

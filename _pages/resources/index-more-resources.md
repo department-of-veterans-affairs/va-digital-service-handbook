@@ -6,7 +6,7 @@ modified-date: October 4, 2018
 #
 # Supporting documents (pdfs, docx, etc) should go in /resources/docs.
 #
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: More resources
 description: The <i>Digital Delivery Guide</i> refers to the following resources. They're collected here for easy reference.

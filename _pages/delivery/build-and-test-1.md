@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Build and Test introduction
 description: The <i>Build and Test</i> phase is about incrementally building (and testing) the user stories and features you've identified for the MVP. Your goal is to launch the first working version of your service at the end of this phase.  

@@ -2,10 +2,7 @@
 #
 modified-date: September 4, 2018
 #
-# See the Github wiki for how to edit content on this page and markdown styles you can use:
-# link here
-#
-# Title and Description display on the page and in HTML meta tags
+# Editable - Title and Description display on the page and in HTML meta tags
 #
 title: Build and Test checklist
 description: The <i>Build and Test</i> phase ends with a Checkpoint meeting to confirm your team is ready to launch the MVP (and move on to the <i>Learn and Improve</i> phase).
