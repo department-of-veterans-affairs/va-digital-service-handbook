@@ -52,7 +52,7 @@ permalink: /delivery/research-and-discovery/activities
 
 * Identify policy, technical, or other barriers that could make it difficult to meet user needs.
 
-* Review the <a title="Go to developer documentation" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/getting-started" target="_blank">**developer documentation**</a> and conduct **[technical discovery]({{site.baseurl}}/resources/more/technical-discovery)**.
+* Review the <a title="Go to developer documentation" href="https://github.com/department-of-veterans-affairs/vets-external-teams/tree/master/DeveloperDocs" target="_blank">**developer documentation**</a> and conduct **[technical discovery]({{site.baseurl}}/resources/more/technical-discovery)**.
 
 * **[Document findings]({{site.baseurl}}/resources/more/research-readout)** from your user research and technical exploration
 
