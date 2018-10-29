@@ -1,6 +1,6 @@
 ---
 #
-modified-date: October 23, 2018
+modified-date: October 29, 2018
 #
 # Editable - Title and Description display on the page and in HTML meta tags
 #
@@ -30,7 +30,7 @@ jump-menu:
   - Encourage people to use your service
 #
 # Editable - displays at end of each standard
-seemore: See the <a title="Digital Delivery Guide" href="/va-digital-service-handbook/delivery">Digital Delivery Guide</a> for how to meet this standard during each phase of your project's lifecycle.
+seemore: See the <a title="Digital Delivery Guide" href="/va-digital-service-handbook/delivery/index.html">Digital Delivery Guide</a> for how to meet this standard during each phase of your project's lifecycle.
 #
 # If resources = yes, content from "data/[resources-file]" displays at bottom of page
 resources: yes
