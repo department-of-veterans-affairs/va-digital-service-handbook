@@ -195,8 +195,8 @@ Follow best practices.
   1. Create a message in your team's Slack channel (e.g., *#claimsmodern*) and upload the file.
   1. Copy the link to the Slack message (click the "three dots" icon and choose "Copy link").
   1. Create a new Github page called "Participant Recordings" in your team's Github *Product/Research* folder. <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Declare%20Dependent%20686/Design/Usability%20Research%20April%202018/686%20usability%20recordings.md" target="_blank">See an example</a> ({{site.vets-team}}).
-    * List each participant on that page.
-    * Link each participant to the link you copied for each file uploaded to Slack.
+      * List each participant on that page.
+      * Link each participant to the link you copied for each file uploaded to Slack.
 
 #### 4. Document your research
 
