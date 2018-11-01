@@ -1,6 +1,6 @@
 ---
 #
-modified-date: October 23, 2018
+modified-date: November 1, 2018
 #
 # Editable - Title and Description display on page and in meta
 title: User research activities
@@ -180,33 +180,36 @@ Follow best practices.
 * <a title="Go to article" href="https://uxdesign.cc/synthesis-how-to-make-sense-of-your-design-research-d67ad79b684b" target="_blank">Example analysis/synthesis activity</a>
 
 #### 2. Prepare a research readout
+
 * Summarize what you did and what you learned in a research readout.
   * See an <a title="" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/MHV-upgrade-research-readout_v1.1.pdf" target="_blank">example research readout</a> ({{ site.vets-team }}).
   * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
   * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
 * Arrange a time with your team and your stakeholders to go over the findings in your research readout.
 
-#### 3. Document your research
+#### 3. Document participant/session recordings
 
-* Document the following in your team's Github *Product/Research* folder:
+  1. **Scrub all PII (names, addresses, emails, etc.) from participant video and audio recordings.**
+      * Due to the nature of the research questions, some recordings contain a lot of PII.
+      * Use your best judgement here. If there's so much PII that the recording loses meaning without it, skip the rest of this process.
+  1. Create a message in your team's Slack channel (e.g., *#claimsmodern*) and upload the file.
+  1. Copy the link to the Slack message (click the "three dots" icon and choose "Copy link").
+  1. Create a new Github page called "Participant Recordings" in your team's Github *Product/Research* folder. <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Declare%20Dependent%20686/Design/Usability%20Research%20April%202018/686%20usability%20recordings.md" target="_blank">See an example</a> ({{site.vets-team}}).
+    * List each participant on that page.
+    * Link each participant to the link you copied for each file uploaded to Slack.
 
-  * Research sprint plan
-  * Session notes - any notes taken by the Notetaker and Observers (scrub any PII before posting)
-  * Notes, photos, etc. from the team's synthesis activities
-  * Your research readout
+#### 4. Document your research
 
-* Document participant recordings
+  1. **Scrub all PII (names, addresses, emails, etc.) from all session notes, synthesis materials, etc before posting.**
+  
+  1. Document the following in your team's Github *Product/Research* folder:
 
-  * **Scrub all PII (names, addresses, emails, etc.) from participant video and audio recordings.**
-    * Due to the nature of the research questions, some recordings contain a lot of PII.
-    * Use your best judgement here. If there's so much PII that the recording loses meaning without it, skip the rest of this process.
-  * After scrubbing PII, do the following:
-     1. Create a message in your team's Slack channel (e.g., *#claimsmodern*) and upload the file.
-     1. Copy the link to the Slack message (click the "three dots" icon and choose "Copy link").
-     1. Create a new Github page called "Participant Recordings" in your team's Github *Product/Research* folder. <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Declare%20Dependent%20686/Design/Usability%20Research%20April%202018/686%20usability%20recordings.md" target="_blank">See an example</a> ({{site.vets-team}}).
-       * List each participant on that page.
-       * Link each participant to the link you copied for each file uploaded to Slack.
-     1. Then create a new entry on the <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Research/Research%20History.md" target="_blank">Research History page</a> by following the instructions at the top of that page ({{site.vets-team}}).
+      * Research sprint plan
+      * Create a "Session Notes" folder to contain session/participant notes
+        * Create one file per participant/session that contains consolidated notes from the Notetaker and Observers
+      * Create a "Synthesis" folder to contain any notes, photos, etc. from the team's synthesis activities
+      * Your research readout
+  1. Then create a new entry on the <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Research/Research%20History.md" target="_blank">Research History page</a> by following the instructions at the top of that page ({{site.vets-team}}).
 
 <a href="#">Return to top</a>
 
