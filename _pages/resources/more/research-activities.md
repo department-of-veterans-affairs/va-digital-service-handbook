@@ -181,11 +181,11 @@ Follow best practices.
 
 #### 2. Prepare a research readout
 
-* Summarize what you did and what you learned in a research readout.
-  * See an <a title="" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/MHV-upgrade-research-readout_v1.1.pdf" target="_blank">example research readout</a> ({{ site.vets-team }}).
-  * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
-  * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
-* Arrange a time with your team and your stakeholders to go over the findings in your research readout.
+  1. Summarize what you did and what you learned in a research readout.
+      * See an <a title="" href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/MHV%20Account%20Creation/MHV%20Upgrade/Research/MHV-upgrade-research-readout_v1.1.pdf" target="_blank">example research readout</a> ({{ site.vets-team }}).
+      * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.key" target="_blank">Research readout template - Keynote</a>
+      * <a href="https://github.com/department-of-veterans-affairs/vets-external-teams/blob/master/Templates/research-readout-generic.pptx" target="_blank">Research readout template - Powerpoint</a>
+  1. Arrange a time with your team and your stakeholders to go over the findings in your research readout.
 
 #### 3. Document participant/session recordings
 
@@ -201,9 +201,7 @@ Follow best practices.
 #### 4. Document your research
 
   1. **Scrub all PII (names, addresses, emails, etc.) from all session notes, synthesis materials, etc before posting.**
-  
   1. Document the following in your team's Github *Product/Research* folder:
-
       * Research sprint plan
       * Create a "Session Notes" folder to contain session/participant notes
         * Create one file per participant/session that contains consolidated notes from the Notetaker and Observers
