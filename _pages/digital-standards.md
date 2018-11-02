@@ -98,11 +98,11 @@ Your team should include the following skillsets
 
 ### Work in the open
 
-When you build and launch a service (or a feature) on the Veteran-facing Services Platform, the front-end code will be visible to anyone visiting the <a title="Go to Github repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">Github repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built.
+When you build and launch a service (or a feature) on the Veteran-facing Services Platform, the front-end code will be visible to anyone visiting the <a title="Go to GitHub repo" target="_blank" href="https://github.com/department-of-veterans-affairs/vets-website">GitHub repository</a>. This helps other teams inside VA (or other government agencies) who may want to reuse the software you've built.
 
-When you first begin work on your service for the Veteran-facing Services Platform, you'll be given access to the "Product" repository on Github (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository.
+When you first begin work on your service for the Veteran-facing Services Platform, you'll be given access to the "Product" repository on GitHub (visible to people within the VA organization). We encourage you to publish as much of your product, research, and design work as possible in this repository.
 
-#### By working in the open on Github, you can
+#### By working in the open on GitHub, you can
 * See what other Veteran-facing Services Platform teams are working on
 * Ask other Veteran-facing Services Platform teams for comments or feedback on your designs or code
 * Accept code contributions from people on other Veteran-facing Services Platform teams
@@ -112,9 +112,9 @@ When you first begin work on your service for the Veteran-facing Services Platfo
 
 At a minimum,
 
-* Publish code to the Veteran-facing Services Platform Github repository
-* Use Github Issues (or another agile project management tool) to track team tasks so they're visible to the whole team
-* Publish your team's product, research, and design materials in the Github "Product" repository
+* Publish code to the Veteran-facing Services Platform GitHub repository
+* Use GitHub Issues (or another agile project management tool) to track team tasks so they're visible to the whole team
+* Publish your team's product, research, and design materials in the GitHub "Product" repository
 
 > {{ page.seemore }}
 
