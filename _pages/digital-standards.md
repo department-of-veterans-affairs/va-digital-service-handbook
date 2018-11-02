@@ -48,7 +48,7 @@ permalink: /digital-standards
 
 ### Understand people and their needs
 
-Whether your users are Veterans or VA employees, you must include real people in your design process from the beginning &mdash; and throughout the lifecycle of your service. Understand the needs of the people who will use your service. Do research to develop a deep understanding of who those people are, how they behave, and what that means for the design of your service.
+Whether your users are private citizens or government employees, you must include real people in your design process from the beginning &mdash; and throughout the lifecycle of your service. Understand the needs of the people who will use your service. Do research to develop a deep understanding of who those people are, how they behave, and what that means for the design of your service.
 
 #### Key questions to answer
 
@@ -125,7 +125,7 @@ At a minimum,
 
 Although your service is designed as a digital experience, it probably exists in the context of a larger goal your users want to achieve. For example, Veterans applying for disability compensation first need to obtain certain documents that may require telephone calls or filling out paper forms.
 
-Understand the complete end-to-end journey that users take to complete their goal, including the actions they take online, on a phone, or in person. Every encounter &mdash; whether it’s online or offline &mdash; is part of the "VA user experience" and should move users closer to their goals.
+Understand the complete end-to-end journey that users take to complete their goal, including the actions they take online, on a phone, or in person. Every encounter &mdash; whether it’s online or offline &mdash; is part of the *user experience* and should move users closer to their goals.
 
 #### How to meet this standard
 
@@ -148,7 +148,7 @@ Your understanding of the end-to-end experience will evolve over time as you des
 
 Your service should be so simple that your users &mdash; including those with accessibility needs or who lack digital experience &mdash; can succeed on their very first attempt without the need for any assistance.
 
-If your service is complex or challenging to use, your users will need to contact VA for help via phone or an in-person visit. Or they may stop using your service altogether. This leads to user frustration and lack of confidence in VA, as well as higher operational costs.
+If your service is complex or challenging to use, your users will need to contact your agency for help via phone or an in-person visit. Or they may stop using your service altogether. This leads to user frustration and lack of confidence in your agency, as well as higher operational costs.
 
 #### How to meet this standard
 
@@ -171,7 +171,7 @@ At a minimum,
 
 ### Make the user experience consistent
 
-The user experience of your service must be consistent with other services on the Veteran-facing Services Platform. Using the existing Veteran-facing Services Platform interaction design patterns, visual style, and editorial style means
+The user experience of your service must be consistent with other services your agency provides. Using existing interaction design patterns, visual style, and editorial style means
 
 * You can save time by reusing existing patterns and code (which have been refined over time based on user research and data)
 * Your users will be more confident they can use your service because of its similarity to the other Veteran-facing Services Platform tools they already use
@@ -235,7 +235,7 @@ At a minimum,
 * Identify the data the service will collect, use, store, create, and/or update
 * Describe how the data is being transmitted and stored
 * Explain how long the data is kept, how it will be used, and how it may be shared
-* Put in place appropriate VA legal, privacy, and security measures
+* Put in place appropriate legal, privacy, and security measures
 <!--* <span class="todo">TODO</span> - More from AW-->
 
 > {{ page.seemore }}
@@ -245,7 +245,7 @@ At a minimum,
 
 ### Be agile and user-centered
 
-Services on the Veteran-facing Services Platform are built and released using agile delivery practices. Agile practices allow teams to break their work into small chunks (iterations) and release these every day (sometimes multiple times per day).
+Build and release your service using agile delivery practices. Agile practices allow teams to break their work into small chunks (iterations) and release these every day (sometimes multiple times per day).
 
 This means your service gets into the hands of your users &mdash; and you can collect their feedback &mdash; much faster than using waterfall delivery methods. For example, you could release a new feature, collect feedback from users, make improvements, and release that feature again in just a few weeks (or days).
 
@@ -312,16 +312,16 @@ At a minimum,
 
 ### Encourage people to use your service
 
-Encourage people to choose your digital service over non-digital VA touch points. This will
+Encourage people to choose your digital service over non-digital touch points. This will
 * Save money by reducing the number of people who use non-digital touch points such as the Help Desk
 * Allow non-digital channels to focus their attention on people who are unable to use digital services on their own
-* Help Users develop their digital skills and understand VA as a modern government agency
+* Help Users develop their digital skills and understand your agency as a modern government agency
 
 #### How to meet this standard
 
 At a minimum,
 
-* Understand how different VA touch points meet the needs of users trying to complete a task that is part of your service
+* Understand how different touch points meet the needs of users trying to complete a task that is part of your service
 * Design your service so that it has clear advantages over other touch points, for example, saves time over submitting a paper form
 * Have a plan to increase the number of people who use your digital service
 * Identify the organizations and groups that help Veterans complete VA-related tasks, and ask them to support your service
