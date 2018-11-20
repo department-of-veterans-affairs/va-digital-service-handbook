@@ -39,7 +39,4 @@ All content is available under the [Creative Commons Zero v1.0 Universal license
 
 <hr>
 
-<a name="fn1"></a>The *Veteran-facing Services Platform* is the set of technologies (and processes) that run the current [Vets.gov](https://www.vets.gov/) website. VA teams who want to release a digital service for veterans using the Veteran-facing Services Platform should use this [Handbook](http://department-of-veterans-affairs.github.io/va-digital-service-handbook/) to learn how to do that.
-
-* In the short-term, veteran digital services built using the Veteran-facing Services Platform will be accessible through the Vets.gov domain.
-* In the future, veteran digital services built using the Veteran-facing Services Platform will be accessible through the VA.gov domain.
+<a name="fn1"></a>The *Veteran-facing Services Platform* is the set of technologies (and processes) that veteran-facing services on the [VA.gov](https://www.va.gov) website. VA teams who want to release a digital service for veterans using the Veteran-facing Services Platform should use this [Handbook](http://department-of-veterans-affairs.github.io/va-digital-service-handbook/) to learn how to do that.
