@@ -1,6 +1,6 @@
 ---
 #
-modified-date: October 23, 2018
+modified-date: December 20, 2018
 #
 # Editable - Title and Description display on the page and in HTML meta tags
 #
@@ -13,6 +13,7 @@ description: Information and resources about using agile methodologies as you wo
 sections:
   - Expectations
   - Managing your agile workflow
+  - VA VIP deliverables
   - Getting help
 #
 # Don't edit items below - they control the page layout
@@ -58,16 +59,18 @@ All teams manage their agile workflow in 2-week sprints using Github and a Githu
 
 * See <a href="https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Product%20Management/zenhub_product_management.pdf" target="_blank">how we use Zenhub for agile workflow</a> ({{site.vets-team}}).
 
-<!--
-potential topics:
-- alignment with VIP
-- use of Github in VIP
-- other relationships between dsva and vip processes
-- Links to basic agile references
-- other improvements in the new memo
-- cd1 and cd2
-- team structure - and use them agiley too! - flex in relation to the work that needs to be done
--->
+
+<hr>
+
+### VA VIP deliverables
+
+Your contract may require you to submit specific VIP deliverables to VA. For some VIP deliverables, you may need information from the DSVA team and/or copies of our VA documents. Please reach out to your DSVA Contact if you have any questions about these documents.
+
+For reference, we've colllected some example VIP deliverables created by other teams who have worked on the Veteran-facing Services Platform.
+
+* [Project 1 examples](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Products/Disability%20Compensation/BAH-526/Deliverables)
+* [Project 2 examples](https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Products/Facilities_Locator/community_care/VA-VIP-deliverables/README.md)
+* If you need a copy of the DSVA Configuration Management Plan or the DSVA Production Operations Manual, please ask your DSVA Contact.
 
 
 <hr>
