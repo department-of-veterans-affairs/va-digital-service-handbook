@@ -1,6 +1,6 @@
 ---
 #
-modified-date: October 29, 2018
+modified-date: December 20, 2018
 #
 # Editable - Title and Description display on the page and in HTML meta tags
 #
@@ -61,14 +61,12 @@ Whether your users are private citizens or government employees, you must includ
 
 You'll engage users for research and feedback throughout the *Digital Delivery* lifecycle. At a minimum,
 
-* Explain the user needs your service addresses and how you found those needs during Discovery
-* Give examples of user goals, user personas, and user profiles for the service
+* Explain the user needs your service addresses and how you found those needs during Research and Discovery
+* Give examples of user goals, user personas, or user profiles for the service
 * List the user stories for the service
 * Explain how you tested the service with real users and what you learned &mdash; identify the parts users found difficult and explain how you've changed the service to make those parts easier for users and how you tested and researched to confirm this
 * Explain how you will continuously monitor and improve the service, including how often you plan to research and test the service and your plans for incorporating changes to address user problems
 
-
-> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -81,17 +79,7 @@ Build your team around a skilled Product Manager empowered to make decisions bas
 
 #### How to meet this standard
 
-Your team should include the following skillsets
-
-* Product management &mdash; set strategy and define features; manage stakeholders
-* User research &mdash; conduct user research and analysis; usability testing
-* Design and content strategy &mdash; including knowledge of accessibility (or access to accessibility experts)
-* Technical &mdash; architecture; development; quality assurance; testing
-* Policy &mdash; relevant subject-matter expertise (and the desire to improve policy)
-* Performance evaluation &mdash; continuous measurement and analysis
-* Project management &mdash; manage agile delivery; manage the team's work with policy, legal, finance, and communications teams
-
-> {{ page.seemore }}  
+Your team should include [these roles]({{site.baseurl}}/resources/more/team-structure#team-roles).
 
 <a href="#">Return to top</a>
 
@@ -116,8 +104,6 @@ At a minimum,
 * Use GitHub Issues (or another agile project management tool) to track team tasks so they're visible to the whole team
 * Publish your team's product, research, and design materials in the GitHub "Product" repository
 
-> {{ page.seemore }}
-
 <a href="#">Return to top</a>
 
 
@@ -138,8 +124,6 @@ Your understanding of the end-to-end experience will evolve over time as you des
 * Explain how often you'll do research and testing for each stage of the *Digital Delivery* lifecycle and how the results will be used
 * Describe the results of research and usability testing and how the results will be used to improve the service
 * Explain any problems found during testing, as well as your proposed solutions
-
-> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -164,8 +148,6 @@ At a minimum,
 * Make design and content decisions based on user research, testing, and analytics
 * Use performance analytics to identify areas where users are unable to complete their tasks and prioritize fixes for these
 
-> {{ page.seemore }}
-
 <a href="#">Return to top</a>
 
 
@@ -183,15 +165,6 @@ At a minimum,
 * Reuse components from the Veteran-facing Services Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a>
 * Follow the Veteran-facing Services Platform [Content guide]({{site.baseurl}}/resources/content) for writing copy for your service
 * Make sure your service is responsive and works on mobile devices
-
-<!--
-* Work with your [DSVA contact](service-design/discovery/linkto) to
-  * Include your service in the Veteran-facing Services Platform navigation structure
-  * Name your URLs appropriately (for best SEO and readability)
-  * Set up Google Analytics for your service
--->
-
-> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -219,8 +192,6 @@ At a minimum,
 * Use the Veteran-facing Services Platform <a title="Go to Design Guide Colors" href="https://department-of-veterans-affairs.github.io/design-system/components/detail/colors.html" target="_blank">color palette and typography</a> (which have already been tested for Section 508 compliance)
 * Test your service using the simplified process for VA Section 508 compliance (which involves automated tools for testing Section 508 compliance, in addition to periodic manual testing)
 
-> {{ page.seemore }}
-
 <a href="#">Return to top</a>
 
 
@@ -236,9 +207,6 @@ At a minimum,
 * Describe how the data is being transmitted and stored
 * Explain how long the data is kept, how it will be used, and how it may be shared
 * Put in place appropriate legal, privacy, and security measures
-<!--* <span class="todo">TODO</span> - More from AW-->
-
-> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -261,8 +229,6 @@ At a minimum,
 * Have a quality assurance testing and rollback plan that supports frequent iterations to the service
 * Apply the same iterative approach to evolving *the way your team works together*
 
-> {{ page.seemore }}
-
 <a href="#">Return to top</a>
 
 
@@ -282,8 +248,6 @@ At a minimum,
 * Follow the process for managing failures (bugs, outages) and how to notify users
 * Follow the process for data storage and recovery in case of data loss
 * Document how your service was built and how to maintain it, and keep the documentation up-to-date
-
-> {{ page.seemore }}
 
 <a href="#">Return to top</a>
 
@@ -305,8 +269,6 @@ At a minimum,
 * Explain what you’ve built in each phase of the *Digital Delivery* lifecycle and why you built it
 * Demonstrate your team has the ability to deploy software frequently with minimal disruption to users
 
-> {{ page.seemore }}
-
 <a href="#">Return to top</a>
 
 
@@ -325,5 +287,3 @@ At a minimum,
 * Design your service so that it has clear advantages over other touch points, for example, saves time over submitting a paper form
 * Have a plan to increase the number of people who use your digital service
 * Identify the organizations and groups that help Veterans complete VA-related tasks, and ask them to support your service
-
-> {{ page.seemore }}
