@@ -21,7 +21,7 @@ timeframe: |
   * Different services will spend different amounts of time in the *Build and Test* phase, depending on what the team plans to build as the MVP. In general, plan to spend
     * 6-8 weeks for a new feature
     * 8-12 weeks for a new service
-    * **Note**: If your planned MVP will take longer than 12 weeks to build and test, you should reconsider the [scope of your MVP](/va-digital-service-handbook/resources/more/mvp-scope).
+    * **Note**: If your planned MVP will take longer than 12 weeks to build and test, reconsider the scope of your MVP.
 #
 # Don't edit items below - they control the page layout
 #
