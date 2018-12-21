@@ -21,7 +21,8 @@ permalink: /contact
 
 ### Contact us by
 
-* Emailing **{{ site.contact-handbook.email }}**
+<!--TODO - add new contact email config, then uncomment
+	* Emailing **{{ site.contact-handbook.email }}**-->
 * Posting in a Slack channel
   * Your **team channel** for general questions
   * The **#{{ site.slack.support }}** channel for developer questions
