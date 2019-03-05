@@ -23,10 +23,10 @@ section-2-copy: The <a title="Digital Delivery Guide" href="/va-digital-service-
 #
 section-3-image: assets/img/home-section-3.png
 section-3-title: Veteran Affairs<br/>APIs
-section-3-link: https://department-of-veterans-affairs.github.io/vets-contrib
+section-3-link: https://developer.va.gov/
 section-3-alt: Veteran Affairs APIs
 section-3-target: yes
-section-3-copy: <a title="Veteran Affairs APIs" href="https://department-of-veterans-affairs.github.io/vets-contrib" target="_blank">Veteran Affairs APIs</a> empower our partners to build innovative, Veteran&#8209;centered, cutting edge solutions they can use to manage their care, services, and benefits.
+section-3-copy: <a title="Veteran Affairs APIs" href="https://developer.va.gov/" target="_blank">Veteran Affairs APIs</a> empower our partners to build innovative, Veteran&#8209;centered, cutting edge solutions they can use to manage their care, services, and benefits.
 #
 # Editable - DESCRIPTION CONTENT
 #
