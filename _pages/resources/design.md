@@ -59,7 +59,7 @@ All services on the Veteran-facing Services Platform must work well in desktop, 
 
 **New design patterns**
 
-As we've built out the Veteran-facing Services Platform, we've focused the <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> on the immediate design tasks. This means we have not designed for every possible VA scenario.
+As we've built out the Veteran-facing Services Platform, we've focused the <a  href="https://design.va.gov/patterns/" target="_blank">design patterns</a> on the immediate design tasks. This means we have not designed for every possible VA scenario.
 
 In your work, you may find a need for a new design pattern. If that happens, reach out to your DSVA contact, and we'll work together to design it.
 
@@ -209,7 +209,7 @@ When you're designing mockups or prototypes, be sure they include well-written c
 
 #### Design Patterns
 
-The Veteran-facing Services Platform <a title="Go to design patterns" href="https://department-of-veterans-affairs.github.io/design-system/" target="_blank">design patterns</a> make it much easier for designers and developers to quickly prototype pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
+The Veteran-facing Services Platform <a href="https://design.va.gov/patterns/" target="_blank">design patterns</a> make it much easier for designers and developers to quickly prototype pages and forms. The design patterns are the source of truth for the latest templates, interaction design patterns, and visual design.
 
 #### Design files
 

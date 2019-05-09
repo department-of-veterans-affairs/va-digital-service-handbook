@@ -162,7 +162,7 @@ The user experience of your service must be consistent with other services your 
 
 At a minimum,
 
-* Reuse components from the Veteran-facing Services Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a>
+* Reuse components from <a href="https://design.va.gov" target="_blank">Formation</a>, VA.gov’s design system
 * Follow the Veteran-facing Services Platform [Content guide]({{site.baseurl}}/resources/content) for writing copy for your service
 * Make sure your service is responsive and works on mobile devices
 
@@ -188,8 +188,8 @@ Before you design or build anything, think about how these users will access and
 At a minimum,
 
 * Seek a wide variety of users for research and testing, including people with disabilities, other impairments, and those with limited digital experience
-* Reuse components from the Veteran-facing Services Platform <a title="Go to Design Patterns" href="https://department-of-veterans-affairs.github.io/design-system/index.html" target="_blank">Design Patterns</a> (which have already been tested for Section 508 compliance)
-* Use the Veteran-facing Services Platform <a title="Go to Design Guide Colors" href="https://department-of-veterans-affairs.github.io/design-system/components/detail/colors.html" target="_blank">color palette and typography</a> (which have already been tested for Section 508 compliance)
+* Reuse components from <a href="https://design.va.gov" target="_blank">Formation</a>, VA.gov’s design system (which have already been tested for Section 508 compliance)
+* Use Formation’s <a href="https://design.va.gov/design/color-palette" target="_blank">color palette</a> and <a href="https://design.va.gov/design/typography" target="_blank">typography</a> (which have already been tested for Section 508 compliance)
 * Test your service using the simplified process for VA Section 508 compliance (which involves automated tools for testing Section 508 compliance, in addition to periodic manual testing)
 
 <a href="#">Return to top</a>
