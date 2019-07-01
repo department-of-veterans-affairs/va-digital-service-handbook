@@ -36,7 +36,6 @@ Use an existing <a title="Go to Vets-API" href="https://github.com/department-of
 Consider the possibility of creating a new API, if existing Vets-APIs would deliver an impaired experience (either for end-users or for the VA business).
 
 * **Tip**: Talk to a DSVA engineer if you're considering a new API.
-* See the <a title="" href="https://department-of-veterans-affairs.github.io/va-digital-services-platform-docs/docs/vets-developer-docs/vets-api/vets-api-readme.html" target="_blank">documentation for Vets-APIs</a>.
 
 <a href="#">Return to top</a>
 
