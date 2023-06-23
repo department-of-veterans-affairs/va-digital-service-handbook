@@ -13,6 +13,6 @@
   },
   "homepage": "https://department-of-veterans-affairs.github.io/va-digital-service-handbook",
   "dependencies": {
-    "uswds": "^1.6.6"
+    "uswds": "^1.6.14"
   }
 }
